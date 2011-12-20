@@ -49,5 +49,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 	PRODUCT_NAME=yakju \
 	BUILD_ID=IML74K \
 	BUILD_DISPLAY_ID=IML74K \
-	BUILD_FINGERPRINT="google/yakju/maguro:4.0.2/ICL53F/235179:user/release-keys" \
-	PRIVATE_BUILD_DESC="yakju-user 4.0.2 ICL53F 235179 release-keys"
+	BUILD_FINGERPRINT="google/yakju/maguro:4.0.1/ITL41F/228551:user/release-keys" \
+	PRIVATE_BUILD_DESC="yakju-user 4.0.1 ITL41F 228551 release-keys"
