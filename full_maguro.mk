@@ -29,7 +29,7 @@ PRODUCT_PACKAGES := \
     Camera
     
 # Stk
-PRODUCT_PACKAGES := \
+PRODUCT_PACKAGES += \
     Stk
     
 # Inherit from those products. Most specific first.
