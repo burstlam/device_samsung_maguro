@@ -28,10 +28,6 @@ PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.
 PRODUCT_PACKAGES := \
     Camera
     
-# Stk
-PRODUCT_PACKAGES += \
-    Stk
-    
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # This is where we'd set a backup provider if we had one
@@ -39,31 +35,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from maguro device
 $(call inherit-product, device/samsung/maguro/device.mk)
 
-# Inherit common product files.
-$(call inherit-product, vendor/aokp/products/common_phone.mk)
-
-# Tuna overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/tuna
-PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/maguro
-
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := aokp_maguro
-PRODUCT_BRAND := google
+PRODUCT_NAME := full_maguro
 PRODUCT_DEVICE := maguro
+PRODUCT_BRAND := google
 PRODUCT_MODEL := Galaxy Nexus
-PRODUCT_MANUFACTURER := samsung
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-	PRODUCT_NAME=yakju \
-	BUILD_ID=IML74K \
-	BUILD_DISPLAY_ID=IML74K \
-	BUILD_FINGERPRINT="google/yakju/maguro:4.0.1/ITL41F/228551:user/release-keys" \
-	PRIVATE_BUILD_DESC="yakju-user 4.0.1 ITL41F 228551 release-keys"
-	
-# Inherit common build.prop overrides
--include vendor/aokp/products/common_versions.mk
-
-# Copy maguro specific prebuilt files
-PRODUCT_COPY_FILES +=  \
-    vendor/aokp/prebuilt/tuna/Thinkfree.apk:system/app/Thinkfree.apk \
-    vendor/aokp/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip
+PRODUCT_MANUFACTURER := Samsung
