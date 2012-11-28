@@ -37,5 +37,11 @@ PRODUCT_COPY_FILES += \
     device/samsung/maguro/prebuilt/etc/init.d/98bktweaks:system/etc/init.d/98bktweaks \
     device/samsung/maguro/prebuilt/etc/sysctl.conf:system/etc/sysctl.conf \
 
+# Terminal
+PRODUCT_COPY_FILES += \
+    device/samsung/maguro/prebuilt/app/Term.apk:system/app/Term.apk \
+    device/samsung/maguro/prebuilt/lib/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
+
+
 $(call inherit-product, device/samsung/tuna/device.mk)
 $(call inherit-product-if-exists, vendor/samsung/maguro/device-vendor.mk)
