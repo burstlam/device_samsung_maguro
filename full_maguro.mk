@@ -34,6 +34,7 @@ $(call inherit-product, device/samsung/maguro/device.mk)
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_maguro
 PRODUCT_DEVICE := maguro
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := Full AOSP on Maguro
+PRODUCT_BRAND := Google
+PRODUCT_MODEL := Galaxy Nexus GSM
+PRODUCT_LOCALES := zh_CN zh_TW en_US
 PRODUCT_RESTRICT_VENDOR_FILES := true
