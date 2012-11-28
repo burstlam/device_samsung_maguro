@@ -31,10 +31,11 @@ PRODUCT_PACKAGES += \
     CMFileManager \
 	BurstItOutWallpapers
 
-# init.d
+# init.d and sysctl
 PRODUCT_COPY_FILES += \
     device/samsung/maguro/prebuilt/etc/init.d/02efs:system/etc/init.d/02efs \
     device/samsung/maguro/prebuilt/etc/init.d/98bktweaks:system/etc/init.d/98bktweaks \
+    device/samsung/maguro/prebuilt/etc/sysctl.conf:system/etc/sysctl.conf \
 
 $(call inherit-product, device/samsung/tuna/device.mk)
 $(call inherit-product-if-exists, vendor/samsung/maguro/device-vendor.mk)
