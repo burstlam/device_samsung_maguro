@@ -42,6 +42,16 @@ PRODUCT_COPY_FILES += \
     device/samsung/maguro/prebuilt/app/Term.apk:system/app/Term.apk \
     device/samsung/maguro/prebuilt/lib/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
 
+# PowerPen
+PRODUCT_COPY_FILES += \
+        device/samsung/maguro/prebuilt/app/PowerPen.apk:system/app/PowerPen.apk \
+        device/samsung/maguro/prebuilt/lib/libCangjie.so:system/lib/libCangjie.so \
+        device/samsung/maguro/prebuilt/lib/libppaswsdk.so:system/lib/libppaswsdk.so \
+        device/samsung/maguro/prebuilt/lib/libppdatabase.so:system/lib/libppdatabase.so \
+        device/samsung/maguro/prebuilt/lib/libpphomophone.so:system/lib/libpphomophone.so \
+        device/samsung/maguro/prebuilt/lib/libpphwrsdk.so:system/lib/libpphwrsdk.so \
+        device/samsung/maguro/prebuilt/lib/libpppinyin.so:system/lib/libpppinyin.so \
+        device/samsung/maguro/prebuilt/lib/libppzhuyin.so:system/lib/libppzhuyin.so
 
 $(call inherit-product, device/samsung/tuna/device.mk)
 $(call inherit-product-if-exists, vendor/samsung/maguro/device-vendor.mk)
