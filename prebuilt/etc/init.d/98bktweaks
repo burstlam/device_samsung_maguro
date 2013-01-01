@@ -26,7 +26,7 @@ inputBoost=1
 # scheChoice=sio
 
 # 內核亮屏反應調速優化
-doSon=0
+doSon=off
 
 # 內核溫度保險閥值
 # CPU 溫度控制 （數值＝攝氏溫度*1000）
@@ -42,7 +42,7 @@ srIva=830000
 srCore=830000
 
 # UNDERVOLT CPU 降壓(0為關閉 1為開啟)
-doUv=1
+doUv=0
 
 # uV***為速度,右方為操作電壓(mv)
 # 基於安全和穩定的考量, 我的內核操作頻率支援350至1350MHZ
@@ -54,13 +54,13 @@ doUv=1
 # uV1200=1300-1350
 # uV1350=1325-1375
 
-uV180=750
-uV350=800
+uV180=775
+uV350=850
 uV700=925
-uV920=1040
-uV1200=1180
-uV1350=1220
-uV1520=1300
+uV920=1025
+uV1200=1125
+uV1350=1175
+uV1520=1250
 uV1650=1400
 
 # 顏色調整 [A] 
@@ -92,27 +92,27 @@ uV1650=1400
 # vibValue=1450
 
 # SD卡讀取提速
-doSdcard=1
+doSdcard=off
 # 系統Data檔案掛載提速
-doSystem=1
+doSystem=on
 # AC模式充電提速
-doCharge=0
+doCharge=off
 
 # Wifi 關屏提速
-# doWifi=0
+# doWifi=off
 # 耳機高效模式, 注意, 播放音樂可能會造成耗電
 doHq=0
 # 音量提升 數值由 0至3 (0=系統默認,3為最大提升值)
 doBoost=0
 
 # 進取內存管理
-# doMin=0
+# doMin=off
 
 # 關閉系統記錄功能
-doLog=1
+doLog=on
 
 # TouchWake 功能
-doTouch=0
+doTouch=on
 
 initPath=/system/etc/init.d/98bktweaks
 busybox=/system/xbin/busybox
@@ -120,14 +120,14 @@ busybox=/system/xbin/busybox
 busybox mount -o remount,rw /system
 
 # 系統檔案提速
-if busybox [ $doSystem = 1 ]; then
+if busybox [ "$doSystem" = ".on" ]; then
 	busybox mount -o remount,noatime,barrier=0,nobh /system
 	busybox mount -o remount,noatime,barrier=0,nobh /data
 	busybox mount -o remount,noatime,barrier=0,nobh /cache
 fi
 
 # SD卡讀取提速 [sd card speed boost]
-if busybox [ $doSdcard = 1 ]; then
+if busybox [ "$doSdcard" = ".on" ]; then
 	if [ -e /sys/devices/virtual/bdi/179:0/read_ahead_kb ]; then
 	echo "1024" > /sys/devices/virtual/bdi/179:0/read_ahead_kb
 	fi
@@ -205,7 +205,7 @@ echo "$srCore" > /sys/kernel/debug/smartreflex/sr_core/vmin
 
 
 # 內核亮屏調速優化
-if busybox [ $doSon = 1 ]; then
+if busybox [ "$doSon" = ".on" ]; then
     echo "0" > /proc/sys/kernel/sched_child_runs_first
     echo "1000000" > /proc/sys/kernel/sched_latency_ns
     echo "100000" > /proc/sys/kernel/sched_min_granularity_ns
@@ -239,7 +239,7 @@ elif busybox [ $doBoost = 1 ]; then
 fi
 
 # 耳機高效模式, 注意, 播放音樂可能會造成耗電
-if busybox [ $doHq = 1 ]; then
+if busybox [ "$doHq" = "1" ]; then
 	echo "1" > /sys/class/misc/soundcontrol/highperf_enabled
 fi
 
@@ -250,7 +250,7 @@ fi
 # echo "0" >/sys/kernel/mm/ksm/run
 
 # 進取內存管理
-#if busybox [ $doMin = 1 ]; then
+#if busybox [ "$doMin" = ".on" ]; then
 #	echo "#!system/bin/sh" > /data/local/tmp/99min
 #	echo " " >> /data/local/tmp/99min
 #	echo "sleep 30" >> /data/local/tmp/99min
@@ -260,25 +260,25 @@ fi
 #fi
 
 # Wifi 關屏提升效能 （會提升耗電量）
-# if busybox [ $doWifi = 1 ]; then
+# if busybox [ "$doWifi" = ".on" ]; then
 #	echo "1" > /sys/module/bcmdhd/parameters/wifi_pm
 # fi
 
 # AC模式充電提速
-if busybox [ $doCharge = 1 ]; then
+if busybox [ "$doCharge" = ".on" ]; then
 echo "1" > /sys/kernel/fast_charge/force_fast_charge
 fi
 
 # 關閉系統記錄功能
 busybox mount -o remount,rw /system
-if busybox [ $doLog = 1 ]; then
+if busybox [ "$doLog" = ".on" ]; then
 	rm /dev/log/main
 fi
 
 # Touch Wake: (觸屏喚醒：0＝默認關閉)
 # 增加系統的延遲值, 在自動關屏後段短時間內可以點擊屏幕再次返回桌面. 注意, 可能需要使用第三方軟件把鎖屏功能關閉.
 # 多少會增加一些耗電， 用電源鍵關屏的條件下無效
-if busybox [ $doTouch = 1 ]; then 
+if busybox [ "$doTouch" = ".on" ]; then 
 echo "1" > /sys/class/misc/touchwake/enabled
 fi
 延時值 45秒 （秒數*1000）
