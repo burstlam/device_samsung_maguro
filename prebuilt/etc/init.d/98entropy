@@ -1,0 +1,5 @@
+#!/system/bin/sh
+# Entropy tweak
+PSIZE=$(cat /proc/sys/kernel/random/poolsize)
+PSIZE=$((PSIZE/3))
+echo $PSIZE > /proc/sys/kernel/random/read_wakeup_threshold;

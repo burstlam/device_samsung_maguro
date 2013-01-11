@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	
+	<!-- Translation for AOKP -->
+
+    <string name="quick_links_title">高级设置</string>
+    <string name="rom_control_title">ROMControl 设置</string>
+    <string name="themes_title">主题设置</string>
+    <string name="advanced_settings_title">设备设置</string>
+    <string name="launcher_settings_title">Trebuchet 设置</string>
+
+    <string name="volume_adjust_sounds_enable_title">音量键效果音</string>
+    <string name="volume_adjust_sounds_enable_summary">按下硬件键播出效果音</string>
+
+    <!-- Volume description for ringtone volume
+    <string name="volume_ring_only_description">只改变铃声音量</string>
+    <string name="link_volume_ringtones">所有音效音量同步改变</string>
+    <string name="link_volume_mutes">所有音效同步静音</string> -->
+
+	<!-- Safe headset volume restore checkbox
+    <string name="safe_headset_restore_title">耳机安全音量</string>
+    <string name="safe_headset_restore_summary">防止耳机初次插入时音量过大</string>
+ -->
+
+    <string name="mod_version">AOKP 版本</string>
+    <string name="mod_version_default">未知</string>
+
+	<!-- Anonymous Statistics #CM -->
+    <!-- GPS Source selection
+    <string name="location_gps_source_title">GPS来源</string>
+    <string name="location_gps_source_summary">选择使用外置蓝牙连结或内置GPS天线提供定位服务</string>
+    <string name="location_gps_source_notification_title">警告</string>
+    <string name="location_gps_source_notification">GPS来源已转换! GPS已停止. 启用定位服务前请重新启用GPS芯片！</string> -->
+
+    <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
+    <string name="anonymous_statistics_title">AOKP 统计</string>
+    <string name="anonymous_statistics_summary">发送匿名的统计报告帮助 AOKP 更好发展</string>
+    <string name="anonymous_statistics_warning_title">关于</string>
+    <string name="anonymous_statistics_warning">AOKP 数据统计允许将非个人数据提交给开发者用于统计使用设备的数量。提交的数据包括设备唯一ID，这不会损害您的隐私和个人数据。数据将在设备启动引导时提交，每周提交一次。\n\n提交的数据示例请查看预览数据。</string>
+    <string name="enable_reporting_title">启用报告</string>
+    <string name="preview_data_title">预览数据</string>
+    <string name="view_stats_title">查看统计信息</string>
+    <string name="anonymous_learn_more">更多信息</string>
+
+    <!-- Anonymous Statistics - Notification -->
+    <string name="anonymous_notification_desc">启用/禁用 AOKP 统计</string>
+
+    <!-- Anonymous Statistics - Preview -->
+    <string name="preview_id_title">设备唯一 ID</string>
+    <string name="preview_device_title">设备</string>
+    <string name="preview_version_title">版本</string>
+    <string name="preview_country_title">国家或地区</string>
+    <string name="preview_carrier_title">运营商</string>
+
+        <!-- Quiet hours #CM -->
+    <string name="quiet_hours_title">静音时段</string>
+    <string name="quiet_hours_summary">设置手机进入免打扰模式</string>
+    <string name="quiet_hours_enabled_title">启用静音时段</string>
+    <string name="quiet_hours_title">静音时段</string>
+    <string name="quiet_hours_summary">设置设备自动进入静音状态的时间段</string>
+    <string name="quiet_hours_enabled_title">启用静音时段</string>
+    <string name="quiet_hours_start">静音时段开始</string>
+    <string name="quiet_hours_start_summary">设置何时开始进入静音状态</string>
+    <string name="quiet_hours_end">静音时段结束</string>
+    <string name="quiet_hours_end_summary">设置何时退出静音状态</string>
+    <string name="quiet_hours_notifications_title">屏蔽通知音效</string>
+    <string name="quiet_hours_ringer_title">屏蔽来电铃声</string>
+    <string name="quiet_hours_still_title">关闭震动</string>
+    <string name="quiet_hours_dim_title">关闭通知灯</string>
+    <string name="quiet_hours_active_from">静音时间从</string>
+    <string name="quiet_hours_active_to">到</string>
+
+    <!-- time range preference -->
+    <string name="start_time_title">开始</string>
+    <string name="end_time_title">结束</string>
+
+    <!-- Hostname setting -->
+    <string name="device_hostname">设备名称</string>
+
+    <!-- Backlight #CM
+
+    <string name="backlight_title">自动亮度调节</string>
+    <string name="backlight_summary">调整亮度水平和传感器运算</string>
+    <string name="light_filter_title">光线传感器运算</string>
+    <string name="light_filter_enabled_title">启用</string>
+    <string name="light_filter_enabled_summary">对光线传感器取得的数据做移动平均运算，以减少频繁调节亮度引起的屏幕闪烁。</string>
+    <string name="light_filter_window_title">移动平均取值长度</string>
+    <string name="light_filter_window_summary">对该时间段内的光线传感器数据取平均值。</string>
+    <string name="light_filter_reset_title">重置临界值</string>
+    <string name="light_filter_reset_summary">如果光线传感器数据样本相对于当前平均值的变化量超过该临界值，则重置移动平均值的运算，以便光线剧烈变化的情况下可迅速反应。</string>
+    <string name="light_filter_interval_title">传感器抽样间隔</string>
+    <string name="light_filter_interval_summary">间隔越短准确度越高，但也会消耗更多的 CPU 。</string>
+    <string name="light_levels_title">亮度水平</string>
+    <string name="light_levels_enabled_title">使用自定设置</string>
+    <string name="light_levels_dim_title">屏幕变暗值</string>
+    <string name="light_levels_dim_summary">当使屏幕变暗时所使用的亮度水平值</string>
+    <string name="light_levels_editor_title">编辑其它值...</string>
+    <string name="light_decrease_enabled_title">允许降低亮度</string>
+    <string name="light_decrease_enabled_summary">打开该选项允许降低亮度，使用迟滞选项减少频繁调节亮度引起的屏幕闪烁。</string>
+    <string name="light_decrease_hysteresis_title">降低亮度迟滞</string>
+    <string name="light_decrease_hysteresis_summary">传感器数据降低一定水平后再降低屏幕亮度。</string> -->
+
+    <!-- Light sensor levels #CM
+    <string name="ll_title">光线传感器取值</string>
+    <string name="ll_header_upper">上限</string>
+    <string name="ll_header_lower">下限</string>
+    <string name="ll_header_lcd">屏幕</string>
+    <string name="ll_header_btn">按钮</string>
+    <string name="ll_header_kb">键盘</string>
+    <string name="ll_lux">传感器 (运算后 / 初始):</string>
+    <string name="ll_lcd">屏幕：</string>
+    <string name="ll_btn">按钮：</string>
+    <string name="ll_kb">键盘：</string>
+    <string name="ll_disabled">关闭</string>
+    <string name="ll_default">读入缺省值</string>
+    <string name="ll_save">存储并应用</string>
+    <string name="ll_reload">恢复当前值</string>
+    <string name="ll_bad_levels">取值必须逐渐增大</string>
+    <string name="ll_num_levels">设置亮度级别数量</string> -->
+
+<!--
+    <string name="accessibility_home_button_answers_call_title">使用主页键接听来电</string> -->
+    <string name="wifi_setting_countrycode_title">设置Wi-Fi 国家/地区代码</string>
+    <string name="wifi_setting_countrycode_summary">Wi-Fi所属地域置标</string>
+    <string name="wifi_setting_countrycode_error">不能设置代码.</string>
+
+    <!-- Stylus Icon
+    <string name="stylus_icon_enabled_title">绘图用手写笔指针图标</string>
+    <string name="stylus_icon_enabled_summary">使用绘图用手写笔时,在悬停或绘写时显示指针图标</string> -->
+
+    <!-- USB Mass Storage
+    <string name="usb_mass_storage_title">大容量储存</string>
+    <string name="usb_mass_storage_summary">使用大容量储存状置模式</string>
+
+    <string name="unlock_set_unlock_circles_title">圆环解锁</string>
+    <string name="unlock_set_unlock_mode_circles">圆环</string> -->
+
+    <string name="hardware_info">硬件信息</string>
+    <string name="device_rear_camera">后置镜头</string>
+    <string name="device_front_camera">前缀镜头</string>
+    <string name="device_screen_resolution">屏幕解像度</string>
+    <string name="gpu_info">显示芯片</string>
+    <string name="cpu_info">处理器</string>
+    <string name="mem_info">内存</string>
+    <string name="firmware_version">Android版本</string>
+    <string name="model_number">型号</string>
+    <string name="baseband_version">基带版本</string>
+    <string name="kernel_version">内核版本</string>
+    <string name="build_number">版本号</string>
+
+    <!-- increasing ring volume-->
+    <string name="increasing_ring_title">渐进铃声</string>
+    <string name="checkbox_increasing_ring">启用</string>
+    <string name="increasing_ring_min_volume_title">初始化音量</string>
+    <string name="increasing_ring_volume_notice">注意:\n若初始化设置大过系统铃声音量设置，则会使用较小的为初始化值.</string>
+    <string name="increasing_ring_interval_title">渐进间隔</string>
+    <string name="increasing_ring_interval_eachring">每一下铃声</string>
+    <string name="increasing_ring_interval_half_second">0.5 秒</string>
+    <string name="increasing_ring_interval_1second">1 秒</string>
+    <string name="increasing_ring_interval_2seconds">2 秒</string>
+    <string name="increasing_ring_interval_3seconds">3 秒</string>
+    <string name="increasing_ring_interval_5seconds">5 秒</string>
+    <string name="increasing_ring_interval_10seconds">10 秒</string>
+
+    <string name="vibration_title">来电振动提示</string>
+
+    <!-- Setting checkbox title for root access -->
+    <string name="root_access">Root 授权</string>
+    <string name="root_access_warning_title">允许 Root 授权请求?</string>
+    <string name="root_access_warning_message">允许程序得到超级用户权限是有风险的！这可能会影响您的系统的安全！</string>
+    <string name="root_access_none">禁用</string>
+    <string name="root_access_apps">限于应用程序</string>
+    <string name="root_access_adb">限于 ADB</string>
+    <string name="root_access_all">应用程序与 ADB</string>
+
+    <string name="nfc_polling_mode_title">NFC 侦测模式</string>
+    <string name="nfc_polling_mode_screen_off">屏幕关闭</string>
+    <string name="nfc_polling_mode_screen_locked">屏幕开启，锁屏</string>
+    <string name="nfc_polling_mode_screen_unlocked">屏幕开启，解锁 (默认)</string>
+
+    <!-- Volume description for ringtone volume -->
+    <string name="link_volume_ringtones">所有音效音量同步改变</string>
+    <string name="link_volume_mutes">所有音效同步静音</string>
+<!--    <string name="safe_headset_volume_title">耳机安全音量提示</string> -->
+
+    <string name="adb_notify">USB侦错模式通知</string>
+    <string name="adb_notify_summary">在通知栏提示显示USB侦错模式使用信息</string>
+
+    <string name="adb_over_network">侦错模式(网络)</string>
+    <string name="adb_over_network_summary">支持网络界面(Wi-Fi, Usb内联)下以 TCP/IP 侦错 . 这设置会在手机重启后自动取消</string>
+    <string name="adb_over_network_warning">警告: 打开此模式你的手机有可能被黑客或手机病毒入侵(包括GSM网络) !\n\n仅记在可信任的网络中才启用.\n\n你是否真的决定启用这设置 ?</string>
+    <string name="adb_notify">USB侦错模式通知</string>
+    <string name="adb_notify_summary">连接USB侦错模式时显示提示</string>
+
+    <!--bluetooth update
+    <string name="bluetooth_mas_request">"讯息存取请求"</string>
+    <string name="bluetooth_mas_acceptance_dialog_text">%1$s 尝试存取讯息服务. 准许%2$s访问?</string>
+    <string name="bluetooth_mas_remember_choice">不要再问</string> -->
+
+	<string name="wifi_auto_connect">自动连接</string>
+
+    <!-- Safe headset volume restore checkbox -->
+    <string name="safe_headset_restore_title">耳机音量安全保护</string>
+    <string name="safe_headset_restore_summary">避免首次插入时声量过大损坏耳机和伤害听觉</string>
+
+    <!-- Performance settings-->
+    <string name="performance_settings_title">性能</string>
+    <string name="performance_settings_warning_title">请谨慎前进！</string>
+    <string name="performance_settings_warning">这些设置完全是用于测试与实验。这里的改变将直接影响系统性能, 并可能导致系统不稳定, 数据丢失, 与硬件损伤。\n\n如果您更改了这里的设置, 我们请求您不要向我们提交 Bug 报告。</string>
+    <string name="processor_title">处理器</string>
+    <string name="processor_summary">更改 CPU 调节器以及时钟速度</string>
+    <string name="cpu_cur_freq_title">当前 CPU 频率</string>
+    <string name="cpu_governors_title">CPU 调节器</string>
+    <string name="cpu_min_freq_title">最低 CPU 频率</string>
+    <string name="cpu_min_freq_summary">%s</string>
+    <string name="cpu_max_freq_title">最高 CPU 频率</string>
+    <string name="cpu_max_freq_summary">%s</string>
+    <string name="cpu_set_on_boot">启动时设置</string>
+    <string name="cpu_set_on_boot_summary">在启动时恢复当前的 CPU 设置</string>
+    <string name="io_scheds_title">I/O 调度器</string>
+    <string name="io_scheds_summary">更改 I/O 调度器</string>
+    <string name="io_sched_title">I/O 调度器</string>
+    <string name="io_sched_summary">%S</string>
+    <string name="io_sched_set_on_boot">启动时设置</string>
+    <string name="io_sched_set_on_boot_summary">在启动时恢复当前的 I/O 调度器设置</string>
+    <string name="memory_management_title">内存管理</string>
+    <string name="memory_management_summary">自定义内存使用以改变系统性能</string>
+    <string name="pref_zram_title">zRam</string>
+    <string name="pref_zram_summary">压缩内存以增加虚拟容量 (需要重启)</string>
+    <string name="pref_ksm_title">KSM</string>
+    <string name="pref_ksm_summary">KSM降低系统对内存的要求并提高性能</string>
+    <string name="pref_zram_size_disable">关闭</string>
+    <string name="pref_zram_size_10">10%</string>
+    <string name="pref_zram_size_18">18% (默认)</string>
+    <string name="pref_zram_size_26">26%</string>
+    <string name="pref_purgeable_assets_title">允许内存资源的清除</string>
+    <string name="pref_purgeable_assets_summary">位图内存资源的清除可以在系统需要时提供更多的内存. (需要重启)</string>
+    <string name="pref_use_dithering_title">表面改进</string>
+    <string name="dithering_no_dither">禁用图像抖动处理</string>
+    <string name="dithering_color_banding">修复色帶 (默认)</string>
+    <string name="dithering_blur_effect">修复色帶与模糊效果</string>
+    <string name="pref_use_16bpp_alpha_title">使用16位透明度</string>
+    <string name="pref_use_16bpp_alpha_summary">更好的图形性能, 但会降低图像质量以及影响视觉效果. (需要重启)</string>
+
+    <!-- Performance | Voltage Control -->
+
+    <string name="cpu_voltage">电压设置</string>
+    <string name="cpu_voltage_summary">设置不同频率下工作电压</string>
+    <string name="ps_volt_mhz_voltage">" MHz 电压"</string>
+    <string name="ps_volt_save">"储存"</string>
+    <string name="ps_volt_current_voltage">"目前电压: "</string>
+    <string name="ps_volt_setting_to_apply">"套用设定: "</string>
+    <string name="pt_volt_control">电压设置</string>
+    <string name="ps_volt_control">设置不同频率下工作电压</string>
+    <string name="not_supported">你的内核不支持电压调校</string>
+    <string name="apply_values">套用更新</string>
+    <string name="freq">频率</string>
+    <string name="current">目前 mV</string>
+    <string name="saved">己储存 mV</string>
+    <string name="sob">开机套用</string>
+
+    <!-- Lock screen vibrate settings -->
+    <string name="lockscreen_vibrate_enabled_title">振动反馈</string>
+    <string name="lockscreen_vibrate_enabled_head">解锁时将产生振动反馈</string>
+
+    <!-- Screen security - Screen security -->
+    <string name="screen_security_category">屏幕安全性</string>
+    <string name="screen_security_title">锁定屏幕</string>
+    <string name="screen_security_summary">查看或改变锁屏安全性, 延迟以及超时设置</string>
+    <string name="additional_options_title">其他选项</string>
+    <string name="unlock_menu_unlock_title">菜单键解锁</string>
+    <string name="unlock_menu_unlock_summary">按下菜单键即可解锁设备</string>
+    <string name="unlock_home_unlock_title">Home 键解锁</string>
+    <string name="unlock_home_unlock_summary">按下 Home 键即可解锁设备</string>
+    <string name="unlock_quick_unlock_control_title">快速解锁</string>
+    <string name="unlock_quick_unlock_control_summary">输入数字 PIN 或密码后无需按确定按钮即可解锁, 按删除键重新输入。</string>
+
+    <!-- Slide lock delay -->
+    <string name="delay_and_timeout_title">锁屏延迟</string>
+    <string name="slide_lock_delay_title">延迟屏幕锁定</string>
+    <string name="slide_lock_timeout_delay_title">屏幕超时后的延迟</string>
+    <string name="slide_lock_screenoff_delay_title">屏幕关闭后的延迟</string>
+    <string name="slide_lock_delay_none">无延迟</string>
+    <string name="slide_lock_delay_1s">1 秒</string>
+    <string name="slide_lock_delay_5s">5 秒</string>
+    <string name="slide_lock_delay_10s">10 秒</string>
+    <string name="slide_lock_delay_15s">15 秒</string>
+    <string name="slide_lock_delay_30s">30 秒</string>
+    <string name="slide_lock_delay_1m">1 分钟</string>
+    <string name="slide_lock_delay_5m">5 分钟</string>
+    <string name="slide_lock_delay_10m">10 分钟</string>
+    <string name="slide_lock_delay_30m">30 分钟</string>
+
+    <!--- Sms security limit -->
+    <string name="app_security_title">程序安全</string>
+    <string name="sms_security_check_limit_title">短信限制</string>
+    <string name="sms_security_check_limit_summary">当某个程序频繁性的发送短信时显示一个警告窗口. 目前限制: 15 分钟内发送 %d 条信息</string>
+    <string name="sms_security_check_limit_default">30 (默认)</string>
+
+    <!-- Category title for headset specific Settings. -->
+    <string name="headset_category_title">耳机</string>
+    <string name="headset_connect_player_title">连接耳机即打开音乐播放器</string>
+
+</resources>

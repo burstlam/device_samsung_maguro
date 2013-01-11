@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">AOKP桌布</string>
+    <string name="title_activity_wallpaper">Swag桌布</string>
+    <string name="back">上一頁</string>
+    <string name="next">下一頁</string>
+    <string name="page">頁: </string>
+    <string name="set_wallpaper">設為桌布</string>
+    <string name="save_wallpaper">存到手機中</string>
+    <string name="downloading">下載中…</string>
+    <string name="wait">請等候</string>
+    <string name="set">已設定桌布!</string>
+    <string name="saved">將桌布儲存到：</string>
+    <string name="jump">跳至指定頁數</string>
+    <string name="jump2">跳頁至:</string>
+    <string name="about">關於</string>
+    <string name="wars">桌布大賽</string>
+    <string name="vote">投票!</string>
+    <string name="wallpaper">桌布</string>
+    <string name="setting_wallpaper">桌布設定中…</string>
+    <string name="category_name">分類</string>
+    <string name="choose_category">選擇分類</string>
+
+</resources>

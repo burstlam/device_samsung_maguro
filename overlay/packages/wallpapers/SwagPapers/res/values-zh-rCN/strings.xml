@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">AOKP壁纸</string>
+    <string name="title_activity_wallpaper">Swag壁纸</string>
+    <string name="back">上一页</string>
+    <string name="next">下一页</string>
+    <string name="page">页: </string>
+    <string name="set_wallpaper">设为壁纸</string>
+    <string name="save_wallpaper">存到手机中</string>
+    <string name="downloading">下载中…</string>
+    <string name="wait">请等候</string>
+    <string name="set">已设置壁纸!</string>
+    <string name="saved">将壁纸存储到：</string>
+    <string name="jump">跳至指定页数</string>
+    <string name="jump2">跳页至:</string>
+    <string name="about">关于</string>
+    <string name="wars">壁纸大赛</string>
+    <string name="vote">投票!</string>
+    <string name="wallpaper">壁纸</string>
+    <string name="setting_wallpaper">壁纸设置中…</string>
+    <string name="category_name">分类</string>
+    <string name="choose_category">选择分类</string>
+
+</resources>
