@@ -35,7 +35,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/samsung/maguro/prebuilt/etc/init.d/02efs:system/etc/init.d/02efs \
     device/samsung/maguro/prebuilt/etc/init.d/98bktweaks:system/etc/init.d/98bktweaks \
-    device/samsung/maguro/prebuilt/etc/sysctl.conf:system/etc/sysctl.conf \
+#    device/samsung/maguro/prebuilt/etc/sysctl.conf:system/etc/sysctl.conf \
 
 # Terminal
 PRODUCT_COPY_FILES += \
