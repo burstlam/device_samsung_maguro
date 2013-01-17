@@ -20,18 +20,17 @@
     <!-- More Settings screen, power button title -->
     <string name="pref_camera_power_shutter_title">电源键快门</string>
 
-    <!-- Other settings
-    <string name="pref_camera_focus_title">触屏对焦持续时间</string>
-    <string name="pref_camera_focus_summary">选择触屏对焦持续时间</string>
-   <string name="pref_camera_focusmode_entry_continuouspicture">连续拍摄</string> -->
+    <!-- Other settings-->
+    <string name="pref_camera_focustime_title">触屏对焦持续时间</string>
+    <string name="pref_camera_focustime_summary">选择触屏对焦持续时间</string>
 
-    <!-- Settings screen, Timer mode entries
-    <string name="pref_camera_focus_entry_10">10秒</string>
-    <string name="pref_camera_focus_entry_15">15秒</string>
-    <string name="pref_camera_focus_entry_20">20秒</string>
-    <string name="pref_camera_focus_entry_30">30秒</string>
-    <string name="pref_camera_focus_entry_40">40秒</string>
-    <string name="pref_camera_focus_entry_infinit">无限</string> -->
+    <!-- Settings screen, Timer mode entries -->
+    <string name="pref_camera_focustime_entry_10">10秒</string>
+    <string name="pref_camera_focustime_entry_15">15秒</string>
+    <string name="pref_camera_focustime_entry_20">20秒</string>
+    <string name="pref_camera_focustime_entry_30">30秒</string>
+    <string name="pref_camera_focustime_entry_40">40秒</string>
+    <string name="pref_camera_focustime_entry_infinit">无限</string>
 
     <!-- Settings screen, Anti Banding title
     <string name="pref_camera_antibanding_title">防屏幕干扰带纹</string> -->

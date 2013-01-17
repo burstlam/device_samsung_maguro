@@ -20,17 +20,17 @@
     <!-- More Settings screen, power button title -->
     <string name="pref_camera_power_shutter_title">電源鍵快門</string>
 
-    <!-- Other settings
-    <string name="pref_camera_focus_title">觸屏對焦持續時間</string>
-    <string name="pref_camera_focus_summary">選擇觸屏對焦持續時間</string> -->
+    <!-- Other settings -->
+    <string name="pref_camera_focustime_title">觸屏對焦持續時間</string>
+    <string name="pref_camera_focustime_summary">選擇觸屏對焦持續時間</string>
 
-    <!-- Settings screen, Timer mode entries
-    <string name="pref_camera_focus_entry_10">10秒</string>
-    <string name="pref_camera_focus_entry_15">15秒</string>
-    <string name="pref_camera_focus_entry_20">20秒</string>
-    <string name="pref_camera_focus_entry_30">30秒</string>
-    <string name="pref_camera_focus_entry_40">40秒</string>
-    <string name="pref_camera_focus_entry_infinit">無限</string> -->
+    <!-- Settings screen, Timer mode entries -->
+    <string name="pref_camera_focustime_entry_10">10秒</string>
+    <string name="pref_camera_focustime_entry_15">15秒</string>
+    <string name="pref_camera_focustime_entry_20">20秒</string>
+    <string name="pref_camera_focustime_entry_30">30秒</string>
+    <string name="pref_camera_focustime_entry_40">40秒</string>
+    <string name="pref_camera_focustime_entry_infinit">無限</string>
 
     <!-- Settings screen, Anti Banding title
     <string name="pref_camera_antibanding_title">防屏幕干擾帶紋</string> -->
@@ -80,7 +80,7 @@
     <string name="pref_camera_jpeg_entry_medium">中</string>
     <string name="pref_camera_jpeg_entry_low">低</string>
 
-    <!-- <string name="pref_camera_focusmode_entry_continuouspicture">連續拍攝</string> -->
+    <!-- <string name="pref_camera_focustimemode_entry_continuouspicture">連續拍攝</string> -->
 
 
     <!-- Settings screen, Select Color effect title -->
@@ -103,16 +103,16 @@
     <string name="pref_camera_coloreffect_entry_bluetint">藍色調</string>
     <string name="pref_camera_coloreffect_entry_greentint">綠色調</string>
 
-    <!-- Settings screen, Focus mode dialog radio button choices -->
-    <string name="pref_camera_focusmode_entry_auto">自動</string>   
-    <string name="pref_camera_focusmode_entry_continuouspicture">連續拍攝</string>
-    <string name="pref_camera_focusmode_entry_extended">延長</string>
-    <string name="pref_camera_focusmode_entry_facedetect">人臉辨識</string>
-    <string name="pref_camera_focusmode_entry_facepriority">人臉優先</string>
-    <string name="pref_camera_focusmode_entry_fixed">固定</string>
-    <string name="pref_camera_focusmode_entry_infinity">無限遠</string>
-    <string name="pref_camera_focusmode_entry_macro">微距</string>
-    <string name="pref_camera_focusmode_entry_portrait">人像</string>
+    <!-- Settings screen, focustime mode dialog radio button choices -->
+    <string name="pref_camera_focustimemode_entry_auto">自動</string>   
+    <string name="pref_camera_focustimemode_entry_continuouspicture">連續拍攝</string>
+    <string name="pref_camera_focustimemode_entry_extended">延長</string>
+    <string name="pref_camera_focustimemode_entry_facedetect">臉部辨識</string>
+    <string name="pref_camera_focustimemode_entry_facepriority">臉部優先</string>
+    <string name="pref_camera_focustimemode_entry_fixed">定焦</string>
+    <string name="pref_camera_focustimemode_entry_infinity">無限遠</string>
+    <string name="pref_camera_focustimemode_entry_macro">微距</string>
+    <string name="pref_camera_focustimemode_entry_portrait">人像</string>
 
     <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_auto">自動</string>

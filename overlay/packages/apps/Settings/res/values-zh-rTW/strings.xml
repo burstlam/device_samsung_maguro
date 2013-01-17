@@ -137,6 +137,7 @@
     <string name="device_screen_resolution">屏幕解像度</string>
     <string name="gpu_info">顯示芯片</string>
     <string name="cpu_info">處理器</string>
+    <string name="chipset_info">晶片組</string>
     <string name="mem_info">內存</string>
     <string name="firmware_version">Android版本</string>
     <string name="model_number">型號</string>
@@ -208,9 +209,9 @@
     <!--bluetooth update
     <string name="bluetooth_mas_request">"訊息存取請求"</string>
     <string name="bluetooth_mas_acceptance_dialog_text">%1$s 嘗試存取訊息服務. 准許%2$s訪問?</string>
-    <string name="bluetooth_mas_remember_choice">不要再問</string> -->
+    <string name="bluetooth_mas_remember_choice">不要再問</string>
 
-	<string name="wifi_auto_connect">自動連接</string>
+	<string name="wifi_auto_connect">自動連接</string> -->
 
     <!-- Safe headset volume restore checkbox -->
     <string name="safe_headset_restore_title">耳機音量安全保護</string>
@@ -313,6 +314,7 @@
     <!-- Category title for headset specific Settings. -->
     <string name="headset_category_title">耳機</string>
     <string name="headset_connect_player_title">連接耳機即打開音樂播放器</string>
-
+    <string name="volume_music_controls_title">播放器音量鍵跳軌功能</string>
+    <string name="volume_music_controls_summary">播放器中長按音量鍵會向前／後跳軌，播放器使用時音量鍵喚醒功能將失效.</string>
 
 </resources>

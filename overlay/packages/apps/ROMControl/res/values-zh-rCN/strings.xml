@@ -256,6 +256,7 @@
     <string name="toggle_brightness">亮度</string>
     <string name="toggle_screen">一键关屏</string>
     <string name="toggle_ram">内存简报</string>
+    <string name="toggle_sound_state">铃声/振动/静音</string>
 
     <!-- Statusbar | Battery 状态栏|电量 -->
     <string name="battery_icon">电量图标风格</string>
@@ -937,7 +938,14 @@
     <string name="navbar_defaultbg_plus_color">系统默认值+自设(美化主题支持)</string>
     <string name="navbar_defaultbg">重置成系统默认值</string>
     <string name="navbar_bg_color">导航栏背景颜色</string> -->
-	
+
+    <string name="navigation_bar_color_title">导航栏自定义颜色</string>
+	<string name="navigation_bar_tint_title">按键自定义颜色</string>
+    <string name="navbar_hide">自动隐含导航栏</string>
+    <string name="navbar_hide_enable_title">启用隐含导航栏</string>
+    <string name="title_navbar_timeout">超时设置</string>
+    <string name="summary_navbar_timeout">自动隐藏导航栏超时值</string>
+
     <!-- Hardware keys
     <string name="additional_options_title">其它设置</string>
     <string name="hardware_keys_title">硬件键</string>
@@ -1016,6 +1024,17 @@
     <string name="fast_toggle_off">关闭（使用原生系统图示捷径开关）</string>
     <string name="fast_toggle_left">左</string>
     <string name="fast_toggle_right">右</string>
+
+    <string name="lockscreen_use_widget_container_carousel_title">使用旋转动画</string>
+    <string name="lockscreen_use_widget_container_carousel_summary">替换小工具页面时使用旋转动画.</string>
+<!--    <string name="lockscreen_longpress_challenge_title">长按解锁图案动作</string>
+    <string name="lockscreen_longpress_challenge_summary">长按解锁图案可直接解锁(没有设置任何安全措施).</string> -->
+
+	<string name="user_mode_ui">UI 模式 (需要重启手机)</string>
+    <string name="user_mode_ui_summary">选择状态栏及导航栏风格</string>
+    <string name="phone_mode_ui">手机模式 - 横屏时导航栏在右方</string>
+    <string name="tablet_mode_ui">平板模式 - 状态栏及导航栏合并在下方</string>
+    <string name="phablet_mode_ui">小平板模式 - 横屏时导航栏在下方</string>
 
     <!-- Performance
     <string name="memory_management_title">内存管理</string>

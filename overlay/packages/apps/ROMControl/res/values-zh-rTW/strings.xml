@@ -243,7 +243,7 @@
     <string name="toggle_brightness">亮度</string>
     <string name="toggle_screen">一鍵關屏</string>
     <string name="toggle_ram">內存簡報</string>
-
+    <string name="toggle_sound_state">鈴聲/振動/靜音</string>
 
     <!-- Statusbar | Battery -->
     <string name="battery_icon">電池圖示樣式</string>
@@ -1015,7 +1015,6 @@
     <string name="fast_toggle_left">左</string>
     <string name="fast_toggle_right">右</string>
 
-
     <!-- Performance
     <string name="memory_management_title">記憶體管理</string>
     <string name="memory_management_summary">自訂記憶體使用以改變系統效能</string>
@@ -1029,5 +1028,24 @@
     <string name="pref_ksm_summary">KSM降低系統對記憶體的要求并提高效能</string>
     <string name="pref_purgeable_assets_title">允許記憶體資源的清除</string>
     <string name="pref_purgeable_assets_summary">點陣圖記憶體資源的清除可以在系統需要時提供更多的記憶體. (需要重啟)</string> -->
+
+    <string name="lockscreen_use_widget_container_carousel_title">使用旋轉動畫</string>
+    <string name="lockscreen_use_widget_container_carousel_summary">替換小工具頁面時使用旋轉動畫.</string>
+<!--    <string name="lockscreen_longpress_challenge_title">長按解鎖圖案動作</string>
+    <string name="lockscreen_longpress_challenge_summary">長按解鎖圖案可直接解鎖(沒有設定任何安全措施).</string>-->
+
+	<string name="user_mode_ui">UI 模式 (需要重啟手機)</string>
+    <string name="user_mode_ui_summary">選擇狀態欄及導航欄風格</string>
+    <string name="phone_mode_ui">手機模式 - 橫屏時導航欄在右方</string>
+    <string name="tablet_mode_ui">平板模式 - 狀態欄及導航欄合併在下方</string>
+    <string name="phablet_mode_ui">小平板模式 - 橫屏時導航欄在下方</string>
+
+    <string name="navigation_bar_color_title">導航欄自定義顏色</string>
+	<string name="navigation_bar_tint_title">按鍵自定義顏色</string>
+
+    <string name="navbar_hide">自動隱藏式導航欄</string>
+    <string name="navbar_hide_enable_title">啟用隱藏式導航欄</string>
+    <string name="title_navbar_timeout">逾時設置</string>
+    <string name="summary_navbar_timeout">自動隱藏導航欄逾時值</string>
 
 </resources>

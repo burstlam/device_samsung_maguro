@@ -51,4 +51,26 @@
 
 	<string name="landscape_mode_title">橫向通話介面</string>
     <string name="landscape_mode_summary">啟用橫向通話介面（需要感應器）</string>
+
+<!--    <string name="callUnanswered_forwarded">Call Unanswered and Forwarded</string>
+    <string name="card_title_waiting_call">Waiting call</string>
+    <string name="call_notif_unconditionalCF">Unconditional call forwarding active</string>
+    <string name="call_notif_conditionalCF">Conditional call forwarding active</string>
+    <string name="call_notif_MOcall_forwarding">Outgoing call is forwarded</string>
+    <string name="call_notif_calliswaiting">Remote party is busy, call is waiting</string>
+    <string name="call_notif_cugcall">Call in closed user group</string>
+    <string name="call_notif_outgoing_barred">Outgoing calls barred</string>
+    <string name="call_notif_incoming_barred">Incoming calls barred at remote party</string>
+    <string name="call_notif_clir_suppression_rejected">Own number suppression rejected by network</string>
+    <string name="call_notif_call_deflected">Call forwarded by remote party</string>
+    <string name="call_notif_MTcall_forwarding">Incoming call is forwarded</string>
+    <string name="call_notif_multipartycall">Multi-party call</string>
+    <string name="call_notif_callonhold_released">Call released remotely</string>
+    <string name="call_notif_forwardcheckreceived">Call was forwarded</string>
+    <string name="call_notif_callconnectingect">Call connecting through explicit call transfer</string>
+    <string name="call_notif_callconnectedect">Call connected through explicit call transfer</string>
+    <string name="incall_call_type_label_forwarded">Forwarded call</string>
+    <string name="show_ssn_label">Event notification</string>
+    <string name="show_ssn_summary">Show a notification for various network events related to call handling</string> -->
+    
 </resources>
