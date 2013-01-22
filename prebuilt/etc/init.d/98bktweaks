@@ -7,7 +7,7 @@
 kernelVersion=2
 
 # CPU最低操作頻率
-minFreq=350000
+minFreq=230000
 # CPU最高操作頻率
 # maxFreq=1200000
 # CPU頻率模式
@@ -54,7 +54,8 @@ doUv=0
 # uV1200=1300-1350
 # uV1350=1325-1375
 
-uV180=775
+uV180=820
+uV230=820
 uV350=850
 uV700=925
 uV920=1025
@@ -182,7 +183,7 @@ fi
 
 
 # CPU最低操作頻率 Minimum frequency at boot
-echo "$minFreq" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq 2> /dev/null
+# echo "$minFreq" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq 2> /dev/null
 
 
 # CPU最高操作頻率 Maximum frequency at boot
@@ -194,7 +195,7 @@ echo "$tTemp" > /sys/class/misc/tempcontrol/templimit
 # 開機時設置CPU降壓 Undervolt at boot
 if busybox [ $kernelVersion -eq 2 ]; then
 	if [ $doUv -eq 1 ]; then
-		echo "$uV1650 $uV1520 $uV1350 $uV1200 $uV920 $uV700 $uV350" > /sys/devices/system/cpu/cpu0/cpufreq/UV_mV_table 2> /dev/null
+		echo "$uV1650 $uV1520 $uV1350 $uV1200 $uV920 $uV700 $uV350 $uV230" > /sys/devices/system/cpu/cpu0/cpufreq/UV_mV_table 2> /dev/null
 	fi
 fi
 
