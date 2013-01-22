@@ -52,4 +52,26 @@
 
 	<string name="landscape_mode_title">横向通话介面</string>
     <string name="landscape_mode_summary">启用横向通话介面（需要感应器）</string>
+
+    <string name="callUnanswered_forwarded">未接来电或已转接号码</string>
+    <string name="card_title_waiting_call">等候中的来电</string>
+    <string name="call_notif_unconditionalCF">无条件转接已生效</string>
+    <string name="call_notif_conditionalCF">有条件转接已生效</string>
+    <string name="call_notif_MOcall_forwarding">去电已被转接</string>
+    <string name="call_notif_calliswaiting">对方线路繁忙,请等待</string>
+    <string name="call_notif_cugcall">用户组已关闭</string>
+    <string name="call_notif_outgoing_barred">禁止拨出号码</string>
+    <string name="call_notif_incoming_barred">禁止所有来电</string>
+    <string name="call_notif_clir_suppression_rejected">网络供应商已拒绝你的号码继续使用网络服务</string>
+    <string name="call_notif_call_deflected">对方已转接你的号码</string>
+    <string name="call_notif_MTcall_forwarding">来电已转接</string>
+    <string name="call_notif_multipartycall">多方通话</string>
+    <string name="call_notif_callonhold_released">通话已从暂停恢复,对方将再接听你的电话</string>
+    <string name="call_notif_forwardcheckreceived">拨号已被转接</string>
+    <string name="call_notif_callconnectingect">电话正转接到对方指定号码中</string>
+    <string name="call_notif_callconnectedect">电话转接后已被接通</string>
+    <string name="incall_call_type_label_forwarded">转接来电</string>
+    <string name="show_ssn_label">显示通知内容</string>
+    <string name="show_ssn_summary">显示与拨号处理的相关提示</string>
+
 </resources>

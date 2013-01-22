@@ -32,4 +32,25 @@
     <string name="dialer_ui_orientation_summary">基于传感器旋转拨号器</string>
     <string name="t9_loading">载入中\u2026</string>
 
+    <string name="callStatsDetailTitle">详细通话统计</string>
+    <string name="call_stats">通话统计</string>
+    <string name="call_stats_refresh">更新</string>
+    <string name="activity_title_call_stats">通话统计</string>
+
+    <string name="call_stats_nav_all">全部</string>
+    <string name="call_stats_nav_incoming">来电</string>
+    <string name="call_stats_nav_outgoing">打出</string>
+    <string name="call_stats_nav_missed">未接</string>
+    <string name="call_stats_header_total">全部:</string>
+    <string name="call_stats_filter_from">开始日期</string>
+    <string name="call_stats_filter_to">结束日期</string>
+    <string name="call_stats_date_filter">日期过滤</string>
+    <string name="call_stats_filter_picker_title">过滤泛围</string>
+    <string name="call_stats_filter_picker_done">套用过滤</string>
+    <string name="call_stats_filter_picker_reset">重置</string>
+    <string name="call_stats_filter_error">过滤泛围设置错误,请重新设置.</string>
+    <plurals name="call">
+        <item quantity="one">1 通通话</item>
+        <item quantity="other">%d 通通话</item>
+    </plurals>
 </resources>

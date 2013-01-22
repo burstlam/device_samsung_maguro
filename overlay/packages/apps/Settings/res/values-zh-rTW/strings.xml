@@ -23,7 +23,8 @@
     <string name="rom_control_title">ROMControl 設定</string>
     <string name="themes_title">主題設定</string>
     <string name="advanced_settings_title">裝置設定</string>
-    <string name="launcher_settings_title">Trebuchet 設定</string>
+    <string name="launcher_settings_title">桌面設定</string>
+    <string name="performance_title">效能設定</string>
 
     <string name="volume_adjust_sounds_enable_title">音量鍵效果音</string>
     <string name="volume_adjust_sounds_enable_summary">按下硬體鍵播出效果音</string>
@@ -150,6 +151,8 @@
     <string name="wifi_setting_countrycode_summary">標示Wi-Fi所屬地域</string>
     <string name="wifi_setting_countrycode_error">無法設定代碼.</string>
 
+    <string name="percentage_accurate"><xliff:g id="準確數值" example="30">%s</xliff:g>%%</string>
+
     <!-- Stylus Icon
     <string name="accessibility_home_button_answers_call_title">使用主頁鍵接聽來電</string>
     <string name="stylus_icon_enabled_title">繪圖用手寫筆指針圖標</string>
@@ -206,18 +209,18 @@
     <string name="adb_notify">USB偵錯模式通知</string>
     <string name="adb_notify_summary">連接USB偵錯模式時顯示提示</string>
 
-    <!--bluetooth update
+    <!--bluetooth update-->
     <string name="bluetooth_mas_request">"訊息存取請求"</string>
     <string name="bluetooth_mas_acceptance_dialog_text">%1$s 嘗試存取訊息服務. 准許%2$s訪問?</string>
     <string name="bluetooth_mas_remember_choice">不要再問</string>
 
-	<string name="wifi_auto_connect">自動連接</string> -->
+	<!--<string name="wifi_auto_connect">自動連接</string> -->
 
     <!-- Safe headset volume restore checkbox -->
     <string name="safe_headset_restore_title">耳機音量安全保護</string>
     <string name="safe_headset_restore_summary">避免首次插入時聲量過大損壞耳機和傷害聽覺</string>
 
-    <!-- Performance settings-->
+    <!-- Performance settings
     <string name="performance_settings_title">效能</string>
     <string name="performance_settings_warning_title">請謹慎前進！</string>
     <string name="performance_settings_warning">這些設定完全是用於測試與實驗。這裡的改變將直接影響系統效能, 并可能導致系統不穩定, 資料丟失, 與硬體損傷。\n\n如果您變更了這裡的設定, 我們要求您不要向我們提交 Bug 報告。</string>
@@ -254,9 +257,9 @@
     <string name="dithering_color_banding">修復色帶 (預設)</string>
     <string name="dithering_blur_effect">修復色帶與模糊效果</string>
     <string name="pref_use_16bpp_alpha_title">使用16位透通度</string>
-    <string name="pref_use_16bpp_alpha_summary">更好的圖形效能, 但會降低影像品質以及影響視覺效果. (需要重啟)</string>
+    <string name="pref_use_16bpp_alpha_summary">更好的圖形效能, 但會降低影像品質以及影響視覺效果. (需要重啟)</string>-->
 
-    <!-- Performance | Voltage Control -->
+    <!-- Performance | Voltage Control
 
     <string name="cpu_voltage">電壓設置</string>
     <string name="cpu_voltage_summary">設置不同頻率下工作電壓</string>
@@ -271,7 +274,7 @@
     <string name="freq">頻率</string>
     <string name="current">目前 mV</string>
     <string name="saved">己儲存 mV</string>
-    <string name="sob">開機套用</string>
+    <string name="sob">開機套用</string> -->
 
     <!-- Lock screen vibrate settings -->
     <string name="lockscreen_vibrate_enabled_title">振動回饋</string>
@@ -316,5 +319,8 @@
     <string name="headset_connect_player_title">連接耳機即打開音樂播放器</string>
     <string name="volume_music_controls_title">播放器音量鍵跳軌功能</string>
     <string name="volume_music_controls_summary">播放器中長按音量鍵會向前／後跳軌，播放器使用時音量鍵喚醒功能將失效.</string>
+
+    <string name="notification_convert_sound_to_vibration_title">通知音效轉成振動</string>
+    <string name="notification_convert_sound_to_vibration_summary">振動模式啟用時把通知音效轉成振動提示</string>
 
 </resources>

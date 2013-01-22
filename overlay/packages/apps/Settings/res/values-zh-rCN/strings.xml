@@ -23,7 +23,8 @@
     <string name="rom_control_title">ROMControl 设置</string>
     <string name="themes_title">主题设置</string>
     <string name="advanced_settings_title">设备设置</string>
-    <string name="launcher_settings_title">Trebuchet 设置</string>
+    <string name="launcher_settings_title">桌面设定</string>
+    <string name="performance_title">效能设定</string>
 
     <string name="volume_adjust_sounds_enable_title">音量键效果音</string>
     <string name="volume_adjust_sounds_enable_summary">按下硬件键播出效果音</string>
@@ -209,18 +210,23 @@
     <string name="adb_notify">USB侦错模式通知</string>
     <string name="adb_notify_summary">连接USB侦错模式时显示提示</string>
 
-    <!--bluetooth update
+    <string name="notification_convert_sound_to_vibration_title">通知音效转成振动</string>
+    <string name="notification_convert_sound_to_vibration_summary">振动模式启用时把通知音效转成振动提示</string>
+
+    <string name="percentage_accurate"><xliff:g id="准确数值" example="30">%s</xliff:g>%%</string>
+
+    <!--bluetooth update -->
     <string name="bluetooth_mas_request">"讯息存取请求"</string>
     <string name="bluetooth_mas_acceptance_dialog_text">%1$s 尝试存取讯息服务. 准许%2$s访问?</string>
     <string name="bluetooth_mas_remember_choice">不要再问</string>
 
-	<string name="wifi_auto_connect">自动连接</string> -->
+	<!-- <string name="wifi_auto_connect">自动连接</string> -->
 
     <!-- Safe headset volume restore checkbox -->
     <string name="safe_headset_restore_title">耳机音量安全保护</string>
     <string name="safe_headset_restore_summary">避免首次插入时声量过大损坏耳机和伤害听觉</string>
 
-    <!-- Performance settings-->
+    <!-- Performance settings
     <string name="performance_settings_title">性能</string>
     <string name="performance_settings_warning_title">请谨慎前进！</string>
     <string name="performance_settings_warning">这些设置完全是用于测试与实验。这里的改变将直接影响系统性能, 并可能导致系统不稳定, 数据丢失, 与硬件损伤。\n\n如果您更改了这里的设置, 我们请求您不要向我们提交 Bug 报告。</string>
@@ -257,9 +263,9 @@
     <string name="dithering_color_banding">修复色帶 (默认)</string>
     <string name="dithering_blur_effect">修复色帶与模糊效果</string>
     <string name="pref_use_16bpp_alpha_title">使用16位透明度</string>
-    <string name="pref_use_16bpp_alpha_summary">更好的图形性能, 但会降低图像质量以及影响视觉效果. (需要重启)</string>
+    <string name="pref_use_16bpp_alpha_summary">更好的图形性能, 但会降低图像质量以及影响视觉效果. (需要重启)</string>-->
 
-    <!-- Performance | Voltage Control -->
+    <!-- Performance | Voltage Control
 
     <string name="cpu_voltage">电压设置</string>
     <string name="cpu_voltage_summary">设置不同频率下工作电压</string>
@@ -274,7 +280,7 @@
     <string name="freq">频率</string>
     <string name="current">目前 mV</string>
     <string name="saved">己储存 mV</string>
-    <string name="sob">开机套用</string>
+    <string name="sob">开机套用</string> -->
 
     <!-- Lock screen vibrate settings -->
     <string name="lockscreen_vibrate_enabled_title">振动反馈</string>
