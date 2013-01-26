@@ -14,8 +14,8 @@ ro.telephony.call_ring.multiple=0
 
 #ZRAM
 #ro.compcache.default=1
-persist.service.zram=1,18
-#ro.zram.default=18
+persist.service.zram=1
+ro.zram.default=18
 
 persist.service.adb.enable=1
 
