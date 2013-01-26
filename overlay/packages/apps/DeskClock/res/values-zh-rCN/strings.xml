@@ -59,4 +59,8 @@
 
     <!-- Setting summary for showing/hiding the alarm statusbar icon -->
     <string name="show_status_bar_icon_summary">选择是否在状态栏上显示闹钟图示</string>
+
+    <string name="stopwatch_settings">计时器</string>
+    <string name="keep_display_on_stopwatch">保持屏幕打开</string>
+    <string name="keep_display_on_stopwatch_summary">计时器运作时候保持屏幕在打开状态</string>
 </resources>

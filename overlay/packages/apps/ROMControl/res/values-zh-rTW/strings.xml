@@ -244,7 +244,6 @@
     <string name="toggle_battery">電量</string>
     <string name="toggle_brightness">亮度</string>
     <string name="toggle_screen">一鍵關屏</string>
-    <string name="toggle_ram">內存簡報</string>
     <string name="toggle_sound_state">鈴聲/振動/靜音</string>
 
     <!-- Statusbar | Battery -->
@@ -303,6 +302,7 @@
     <string name="navbar_action_home">主螢幕</string>
     <string name="navbar_action_back">返回</string>
     <string name="navbar_action_recents">近期工作</string>
+    <string name="navbar_action_recent_apps">最近使用程序</string>
     <string name="navbar_action_search">搜索</string>
     <string name="navbar_action_screenshot">屏幕截圖</string>
     <string name="navbar_action_menu">功能表</string>
@@ -774,6 +774,7 @@
     <string name="kill_app">清除程序</string>
     <string name="power">電源鍵</string>
     <string name="notifications">通知欄</string>
+    <string name="recent_apps">最近使用程序</string>
     <string name="custom_app">自定義程序</string>
     <string name="blank">空白</string>
     <string name="none">無</string>
@@ -1034,7 +1035,24 @@
     <string name="lockscreen_use_widget_container_carousel_title">使用旋轉動畫</string>
     <string name="lockscreen_use_widget_container_carousel_summary">替換小工具頁面時使用旋轉動畫.</string>
 <!--    <string name="lockscreen_longpress_challenge_title">長按解鎖圖案動作</string>
-    <string name="lockscreen_longpress_challenge_summary">長按解鎖圖案可直接解鎖(沒有設定任何安全措施).</string>-->
+    <string name="lockscreen_longpress_challenge_summary">鎖屏小工具最大化時,長按解鎖圖案可直接解鎖.</string> -->
+
+    <!-- ParanoidAndroid: Lockscreen Shortcuts -->
+    <string name="ls_shortcuts_title">鎖屏捷徑</string>
+    <string name="icon_picker_type">選擇圖示包:</string>
+    <string name="icon_default">默認</string>
+    <string name="icon_presets">系統預設</string>
+    <string name="icon_custom">自定義</string>
+    <string name="dialog_delete_title">刪除</string>
+    <string name="dialog_delete_message">確定移除選定項目?</string>
+    <string name="lock_screen_shortcuts_title">鎖屏捷徑</string>
+    <string name="lock_screen_shortcuts_reset_message">重置全部鎖屏捷徑?</string>
+    <string name="lock_screen_shortcuts_summary">檢視或更改鎖屏捷徑</string>
+    <string name="lock_screen_shortcuts_add">@string/profile_add_app</string>
+    <string name="lock_screen_shortcuts_reset">重置</string>
+    <string name="lock_screen_shortcuts_limit">最多可設定6個捷徑!</string>
+    <!-- Add application dialog box title -->
+    <string name="choose_app">選擇程序</string>
 
 	<string name="user_mode_ui">UI 模式 (需要重啟手機)</string>
     <string name="user_mode_ui_summary">選擇狀態欄及導航欄風格</string>

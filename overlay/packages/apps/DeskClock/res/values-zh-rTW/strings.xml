@@ -56,4 +56,8 @@
     <!-- Setting summary for showing/hiding the alarm statusbar icon -->
     <string name="show_status_bar_icon_summary">選擇是否在狀態欄上顯示鬧鐘圖示</string>
 
+    <string name="stopwatch_settings">計時器</string>
+    <string name="keep_display_on_stopwatch">保持螢幕開啟</string>
+    <string name="keep_display_on_stopwatch_summary">計時器運作時候保持螢幕在開啟狀態</string>
+
 </resources>
