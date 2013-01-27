@@ -985,12 +985,23 @@
     <string name="navbar_button_colors">风格</string>
     <string name="navigation_bar_menu_arrow_keys_title">光标方向键</string>
     <string name="navigation_bar_menu_arrow_keys_summary">输入中在导航栏中显示光标方向键</string>
-    <string name="navigation_bar_alpha_title">导航栏/状态栏透明度</string>
+    <string name="navigation_bar_alpha_title">导航栏透明度</string>
     <string name="interface_softkeys_pref_default_title">点击选择行为</string>
 
-    <!--LockScreen -->
-    <string name="pref_lockscreen_transparent">锁屏透明</string>
-<!--
+    <!-- Status bar background style -->
+    <string name="status_bar_transparency_title">状态栏透明度</string>
+    <string name="status_bar_color_title">状态栏颜色</string>
+    <string name="status_bar_background_style">背景风格</string>
+    <string name="status_bar_alpha_mode_dialog_text_title">显示状态栏透明度</string>
+    <string name="status_bar_alpha_mode_text_title">透明模式</string>
+    <string name="status_bar_alpha_mode_home">只应用于启动器</string>
+    <string name="status_bar_alpha_mode_default">只应用于启动器及锁屏</string>
+    <string name="status_bar_alpha_mode_always">应用于全部场景</string>
+    <string name="status_bar_style_reset">重置</string>
+
+    <!--LockScreen
+    <string name="pref_lockscreen_transparent">锁屏透明</string> -->
+
     <string name="lockscreen_custom_background_title">锁屏背景</string>
     <string name="lockscreen_custom_background_dialog_title">选择颜色</string>
     <string name="lockscreen_background_result_successful">背景已更改</string>
@@ -998,7 +1009,7 @@
     <string name="lockscreen_background_color_fill">实色填充</string>
     <string name="lockscreen_background_custom_image">自定义图片</string>
     <string name="lockscreen_background_default_wallpaper">默认壁纸</string>
-    <string name="lockscreen_alpha_title">背景透明</string>
+<!--    <string name="lockscreen_alpha_title">背景透明</string>
     <string name="lockscreen_background_full_transparent">完全透明</string> -->
 
 	<string name="lock_widgets_short">锁屏小工具</string>

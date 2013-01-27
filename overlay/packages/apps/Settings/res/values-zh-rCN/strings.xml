@@ -182,14 +182,14 @@
 
     <string name="vibration_title">来电振动提示</string>
 
-    <!-- Setting checkbox title for root access -->
+    <!-- Setting checkbox title for root access
     <string name="root_access">Root 授权</string>
     <string name="root_access_warning_title">允许 Root 授权请求?</string>
     <string name="root_access_warning_message">允许程序得到超级用户权限是有风险的！这可能会影响您的系统的安全！</string>
     <string name="root_access_none">禁用</string>
     <string name="root_access_apps">限于应用程序</string>
     <string name="root_access_adb">限于 ADB</string>
-    <string name="root_access_all">应用程序与 ADB</string>
+    <string name="root_access_all">应用程序与 ADB</string>-->
 
     <string name="nfc_polling_mode_title">NFC 侦测模式</string>
     <string name="nfc_polling_mode_screen_off">屏幕关闭</string>

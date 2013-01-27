@@ -17,7 +17,7 @@ ro.telephony.call_ring.multiple=0
 persist.service.zram=1
 ro.zram.default=18
 
-persist.service.adb.enable=1
+#persist.service.adb.enable=1
 
 #Power Saving
 ro.ril.disable.power.collapse=1
