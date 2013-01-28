@@ -964,6 +964,7 @@
 <!--    <string name="power_button_torch_title">手電筒快捷開關</string>
     <string name="power_button_torch_summary">關屏下長按電源鍵打開手電筒，放手立即關閉.</string> -->
 
+    <string name="notif_alpha_title">通知欄訊息條透明度</string>
 
     <!-- NavBar & Statusbar-->
     <string name="brightness_slider_title">狀態欄亮度控制</string>
@@ -977,16 +978,36 @@
     <string name="navigation_bar_alpha_title">導航欄透明度</string>
     <string name="interface_softkeys_pref_default_title">點擊選擇行為</string>
 
+    <!-- notification background 
+    <string name="notification_wallpaper_title">通知欄壁紙</string>
+    <string name="notification_wallpaper_landscape_title">橫屏通知欄壁紙</string>
+    <string name="notification_background_color_fill">實色填充</string>
+    <string name="notification_background_custom_image">自定義圖像</string>
+    <string name="notification_background_default_wallpaper">默認壁紙</string>
+    <string name="notification_drawer_custom_background_dialog_title">選擇顏色</string>
+    <string name="notif_wallpaper_alpha_title">通知欄壁紙透明度</string>-->
+
     <!-- Status bar background style -->
     <string name="status_bar_transparency_title">狀態欄透明度</string>
     <string name="status_bar_color_title">狀態欄顏色</string>
-    <string name="status_bar_background_style">背景風格</string>
+    <string name="status_bar_background_style">狀態欄顏色/透明度設定</string>
     <string name="status_bar_alpha_mode_dialog_text_title">顯示狀態欄透明度</string>
     <string name="status_bar_alpha_mode_text_title">透明模式</string>
     <string name="status_bar_alpha_mode_home">只應用於啟動器</string>
     <string name="status_bar_alpha_mode_default">只應用於啟動器及鎖屏</string>
     <string name="status_bar_alpha_mode_always">應用於全部場景</string>
     <string name="status_bar_style_reset">重置</string>
+
+    <!-- Navigation bar background style -->
+    <string name="nav_bar_transparency_title">導航欄透明</string>
+    <string name="nav_bar_color_title">導航欄顏色</string>
+    <string name="nav_bar_background_style">導航欄背景顏色</string>
+    <string name="nav_bar_alpha_mode_dialog_text_title">顯示導航欄透明度及顏色</string>
+    <string name="nav_bar_alpha_mode_text_title">透明模式</string>
+    <string name="nav_bar_alpha_mode_home">只應用於啟動器</string>
+    <string name="nav_bar_alpha_mode_default">只應用於啟動器及鎖屏</string>
+    <string name="nav_bar_alpha_mode_always">應用於全部場景</string>
+    <string name="nav_bar_style_reset">重置</string>
 
     <!--LockScreen
     <string name="pref_lockscreen_transparent">鎖屏透明</string>-->
@@ -1045,8 +1066,8 @@
 
     <string name="lockscreen_use_widget_container_carousel_title">使用旋轉動畫</string>
     <string name="lockscreen_use_widget_container_carousel_summary">替換小工具頁面時使用旋轉動畫.</string>
-<!--    <string name="lockscreen_longpress_challenge_title">長按解鎖圖案動作</string>
-    <string name="lockscreen_longpress_challenge_summary">鎖屏小工具最大化時,長按解鎖圖案可直接解鎖.</string> -->
+    <string name="lockscreen_longpress_challenge_title">長按解鎖圖案動作</string>
+    <string name="lockscreen_longpress_challenge_summary">鎖屏小工具最大化時,長按解鎖圖案可直接解鎖.</string>
 
     <!-- ParanoidAndroid: Lockscreen Shortcuts -->
     <string name="ls_shortcuts_title">鎖屏捷徑</string>

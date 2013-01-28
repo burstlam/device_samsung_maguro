@@ -976,10 +976,12 @@
 <!--    <string name="power_button_torch_title">手电筒快捷开关</string>
     <string name="power_button_torch_summary">关屏下长按电源键打开手电筒，放手立即关闭.</string> -->
 
+    <string name="notif_alpha_title">通知栏讯息条透明度</string>
+
     <!-- NavBar & Statusbar-->
     <string name="brightness_slider_title">状态栏亮度控制</string>
     <string name="brightness_slider_summary">在状态栏上滑动对准屏幕亮度</string>
-	<string name="notif_background_default">默认后台</string>
+	<string name="notif_background_default">默认壁纸</string>
     <string name="notif_background_color_fill">实色填充</string>
     <string name="notif_background_custom_image">自定义图像</string>
     <string name="navbar_button_colors">风格</string>
@@ -988,16 +990,36 @@
     <string name="navigation_bar_alpha_title">导航栏透明度</string>
     <string name="interface_softkeys_pref_default_title">点击选择行为</string>
 
+    <!-- notification background 
+    <string name="notification_wallpaper_title">通知栏壁纸</string>
+    <string name="notification_wallpaper_landscape_title">横屏通知栏壁纸</string>
+    <string name="notification_background_color_fill">实色填充</string>
+    <string name="notification_background_custom_image">自定义图像</string>
+    <string name="notification_background_default_wallpaper">默认壁纸</string>
+    <string name="notification_drawer_custom_background_dialog_title">选择颜色</string>
+    <string name="notif_wallpaper_alpha_title">通知栏壁纸透明度</string> -->
+
     <!-- Status bar background style -->
     <string name="status_bar_transparency_title">状态栏透明度</string>
     <string name="status_bar_color_title">状态栏颜色</string>
-    <string name="status_bar_background_style">背景风格</string>
+    <string name="status_bar_background_style">状态栏颜色/透明度设定</string>
     <string name="status_bar_alpha_mode_dialog_text_title">显示状态栏透明度</string>
     <string name="status_bar_alpha_mode_text_title">透明模式</string>
     <string name="status_bar_alpha_mode_home">只应用于启动器</string>
     <string name="status_bar_alpha_mode_default">只应用于启动器及锁屏</string>
     <string name="status_bar_alpha_mode_always">应用于全部场景</string>
     <string name="status_bar_style_reset">重置</string>
+
+    <!-- Navigation bar background style -->
+    <string name="nav_bar_transparency_title">导航栏透明</string>
+    <string name="nav_bar_color_title">导航栏颜色</string>
+    <string name="nav_bar_background_style">导航栏背景颜色</string>
+    <string name="nav_bar_alpha_mode_dialog_text_title">显示导航栏透明度及颜色</string>
+    <string name="nav_bar_alpha_mode_text_title">透明模式</string>
+    <string name="nav_bar_alpha_mode_home">只应用于启动器</string>
+    <string name="nav_bar_alpha_mode_default">只应用于启动器及锁屏</string>
+    <string name="nav_bar_alpha_mode_always">应用于全部场景</string>
+    <string name="nav_bar_style_reset">重置</string>
 
     <!--LockScreen
     <string name="pref_lockscreen_transparent">锁屏透明</string> -->
@@ -1044,8 +1066,8 @@
 
     <string name="lockscreen_use_widget_container_carousel_title">使用旋转动画</string>
     <string name="lockscreen_use_widget_container_carousel_summary">替换小工具页面时使用旋转动画.</string>
-<!--    <string name="lockscreen_longpress_challenge_title">长按解锁图案动作</string>
-    <string name="lockscreen_longpress_challenge_summary">锁屏小工具最大化时,长按解锁图案可直接解锁.</string> -->
+    <string name="lockscreen_longpress_challenge_title">长按解锁图案动作</string>
+    <string name="lockscreen_longpress_challenge_summary">锁屏小工具最大化时,长按解锁图案可直接解锁.</string>
 
     <!-- ParanoidAndroid: Lockscreen Shortcuts -->
     <string name="ls_shortcuts_title">锁屏捷径</string>
