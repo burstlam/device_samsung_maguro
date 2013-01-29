@@ -248,7 +248,7 @@ fi
 # echo "$vibValue" > /sys/class/misc/vibratorcontrol/vibrator_strength
 
 # KSM管理
-# echo "0" >/sys/kernel/mm/ksm/run
+echo "1" >/sys/kernel/mm/ksm/run
 
 # 進取內存管理
 #if busybox [ "$doMin" = ".on" ]; then
