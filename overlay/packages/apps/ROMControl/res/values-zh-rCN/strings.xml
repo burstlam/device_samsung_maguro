@@ -739,7 +739,7 @@
     <string name="dont_show">隐藏</string>
     <string name="small_am_pm">小号</string>
     <string name="regular_am_pm">正常字体</string>
-    <string name="protekk_oclock">ProTekk风格</string>
+<!--    <string name="protekk_oclock">ProTekk风格</string>-->
     <string name="small_weekday">小号</string>
     <string name="regular_weekday">正常字体</string>
 
@@ -899,56 +899,6 @@
     <string name="toggles_enable_haptic_feedback_title">使用触感反馈</string>
     <string name="toggles_enable_haptic_feedback_summary">使用快捷开关时打开触感反馈</string>
 
-    <!-- statusbar color -->
-    <!--    <string name="status_bar_color_title">状态栏颜色</string>
-    <string name="use_lockscreen_themes_title">锁屏应用美化主题效果</string>
-    <string name="use_lockscreen_themes_summary">若美化主题支持的话同样应用到锁屏中.（重启始能生效） 警告: 可能会出现各种未能预见的问题 </string>
-    <string name="navigation_bar_transparency_title">导航栏透明度</string>
-    <string name="navigation_bar_transparency_summary">调整导航栏透明度</string>
- -->
-
-<!--
-    <string name="status_bar_transparency_summary">调整状态栏透明度</string>
-
-    <string name="circles_lock_cat_title">圆环解锁样式</string>
-    <string name="circles_lock_bg_color_title">背景颜色</string>
-    <string name="circles_lock_ring_color_title">主环颜色</string>
-    <string name="circles_lock_ring_alpha_title">主环颜色透明度</string>
-    <string name="circles_lock_halo_color_title">光环颜色</string>
-    <string name="circles_lock_halo_alpha_title">光环颜色透明度</string>
-    <string name="circles_lock_wave_color_title">波纹颜色</string>
-    <string name="circles_lock_wave_alpha_title">波纹颜色透明度</string> -->
-
-    <!-- Scroller options
-    <string name="scroller_options">滚动条设置</string>
-    <string name="scroll">滚动条</string>
-    <string name="scroll_title">滚动条设定</string>
-    <string name="scroll_summary">调校滚动条反应</string>
-    <string name="scroll_friction_title">改变反作用力</string>
-    <string name="custom_fling_velocity_title">调校滚动速度</string>
--->
-
-<!--
-    <string name="status_bar_transparency_title">状态栏透明度</string>
-    <string name="navigation_bar_transparency_title">导航栏透明度</string>
-    <string name="status_bar_color">状态栏颜色/透明度</string>
-	<string name="statusbar_background_color">状态栏颜色/透明度</string>
-    <string name="statusbar_bg">状态栏背景颜色</string>
-    <string name="statusbar_background_style">状态栏背景式样</string>
-    <string name="navbar_bg">导航栏背景</string>
-    <string name="navbar_background_style">导航栏背景样式</string>
-    <string name="navbar_color">自定义颜色+透明度</string>
-    <string name="navbar_defaultbg_plus_color">系统默认值+自设(美化主题支持)</string>
-    <string name="navbar_defaultbg">重置成系统默认值</string>
-    <string name="navbar_bg_color">导航栏背景颜色</string> -->
-
-    <string name="navigation_bar_color_title">导航栏自定义颜色</string>
-	<string name="navigation_bar_tint_title">按键自定义颜色</string>
-    <string name="navbar_hide">自动隐含导航栏</string>
-    <string name="navbar_hide_enable_title">启用隐含导航栏</string>
-    <string name="title_navbar_timeout">超时设置</string>
-    <string name="summary_navbar_timeout">自动隐藏导航栏超时值</string>
-
     <!-- Hardware keys
     <string name="additional_options_title">其它设置</string>
     <string name="hardware_keys_title">硬件键</string>
@@ -976,19 +926,6 @@
 <!--    <string name="power_button_torch_title">手电筒快捷开关</string>
     <string name="power_button_torch_summary">关屏下长按电源键打开手电筒，放手立即关闭.</string> -->
 
-    <string name="notif_alpha_title">通知栏讯息条透明度</string>
-
-    <!-- NavBar & Statusbar-->
-    <string name="brightness_slider_title">状态栏亮度控制</string>
-    <string name="brightness_slider_summary">在状态栏上滑动对准屏幕亮度</string>
-	<string name="notif_background_default">默认壁纸</string>
-    <string name="notif_background_color_fill">实色填充</string>
-    <string name="notif_background_custom_image">自定义图像</string>
-    <string name="navbar_button_colors">风格</string>
-    <string name="navigation_bar_menu_arrow_keys_title">光标方向键</string>
-    <string name="navigation_bar_menu_arrow_keys_summary">输入中在导航栏中显示光标方向键</string>
-    <string name="navigation_bar_alpha_title">导航栏透明度</string>
-    <string name="interface_softkeys_pref_default_title">点击选择行为</string>
 
     <!-- notification background 
     <string name="notification_wallpaper_title">通知栏壁纸</string>
@@ -998,6 +935,25 @@
     <string name="notification_background_default_wallpaper">默认壁纸</string>
     <string name="notification_drawer_custom_background_dialog_title">选择颜色</string>
     <string name="notif_wallpaper_alpha_title">通知栏壁纸透明度</string> -->
+
+    <!-- UI Interface-->
+    <string name="notif_alpha_title">通知栏讯息条透明度</string>
+	<string name="notif_background_default">默认壁纸</string>
+    <string name="notif_background_color_fill">实色填充</string>
+    <string name="notif_background_custom_image">自定义图像</string>
+	<string name="user_mode_ui">UI 模式 (需要重启手机)</string>
+    <string name="user_mode_ui_summary">选择状态栏及导航栏风格</string>
+    <string name="phone_mode_ui">手机模式 - 横屏时导航栏在右方</string>
+    <string name="tablet_mode_ui">平板模式 - 状态栏及导航栏合并在下方</string>
+    <string name="phablet_mode_ui">小平板模式 - 横屏时导航栏在下方</string>
+    <string name="wakeup_when_plugged_unplugged_title">连接充电器时唤醒机器</string>
+    <string name="wakeup_when_plugged_unplugged_summary">连接/拔除充电器时是否唤醒机器.</string>
+
+    <!-- Statusbar -->
+    <string name="brightness_slider_title">状态栏亮度控制</string>
+    <string name="brightness_slider_summary">在状态栏上滑动对准屏幕亮度</string>
+    <string name="status_bar_max_notifications_title">状态栏通知图示最大数</string>
+    <string name="status_bar_max_notifications_summary">此修改只对竖屏的平板模式有效</string>
 
     <!-- Status bar background style -->
     <string name="status_bar_transparency_title">状态栏透明度</string>
@@ -1010,6 +966,19 @@
     <string name="status_bar_alpha_mode_always">应用于全部场景</string>
     <string name="status_bar_style_reset">重置</string>
 
+    <!-- Navigation bar -->
+    <string name="navbar_button_colors">风格</string>
+    <string name="navigation_bar_menu_arrow_keys_title">光标方向键</string>
+    <string name="navigation_bar_menu_arrow_keys_summary">输入中在导航栏中显示光标方向键</string>
+    <string name="navigation_bar_alpha_title">导航栏透明度</string>
+    <string name="interface_softkeys_pref_default_title">点击选择行为</string>
+    <string name="navigation_bar_color_title">导航栏自定义颜色</string>
+	<string name="navigation_bar_tint_title">按键自定义颜色</string>
+    <string name="navbar_hide">自动隐藏导航栏</string>
+    <string name="navbar_hide_enable_title">启用隐藏导航栏</string>
+    <string name="title_navbar_timeout">超时设置</string>
+    <string name="summary_navbar_timeout">自动隐藏导航栏超时值</string>
+
     <!-- Navigation bar background style -->
     <string name="nav_bar_transparency_title">导航栏透明</string>
     <string name="nav_bar_color_title">导航栏颜色</string>
@@ -1021,19 +990,17 @@
     <string name="nav_bar_alpha_mode_always">应用于全部场景</string>
     <string name="nav_bar_style_reset">重置</string>
 
-    <!--LockScreen
-    <string name="pref_lockscreen_transparent">锁屏透明</string> -->
+    <!-- Toggles -->
+	<string name="toggle_favorite_contact">常用联络人</string>
+	<string name="toggle_favcontact_title">常用联络人</string>
+	<string name="toggle_favcontact_summary">选择您的常用联络人</string>
+    <string name="toggle_enable_fasttoggle_title">下拉通知栏开关手势</string>
+    <string name="toggle_enable_fasttoggle_summary">指定由左/右上方开始下拉动作即打开快捷开关</string>
+    <string name="fast_toggle_off">关闭（使用原生系统图示捷径开关）</string>
+    <string name="fast_toggle_left">左</string>
+    <string name="fast_toggle_right">右</string>
 
-    <string name="lockscreen_custom_background_title">锁屏背景</string>
-    <string name="lockscreen_custom_background_dialog_title">选择颜色</string>
-    <string name="lockscreen_background_result_successful">背景已更改</string>
-    <string name="lockscreen_background_result_not_successful">背景未更改</string>
-    <string name="lockscreen_background_color_fill">实色填充</string>
-    <string name="lockscreen_background_custom_image">自定义图片</string>
-    <string name="lockscreen_background_default_wallpaper">默认壁纸</string>
-<!--    <string name="lockscreen_alpha_title">背景透明</string>
-    <string name="lockscreen_background_full_transparent">完全透明</string> -->
-
+    <!--LockScreen-->
 	<string name="lock_widgets_short">锁屏小工具</string>
 	<string name="lockscreen_all_widgets_title">准许添加小工具到锁屏</string>
 	<string name="lockscreen_all_widgets_summary">警告，并非所有小工具都可在锁屏上使用.小工具开发者及AOKP团队对所有预期外的不良后果恕不会负责.请小心选择.</string>
@@ -1049,25 +1016,23 @@
     <string name="lockscreen_hide_initial_page_hints_summary">设置当屏幕开启时是否隐藏左右两边的小部件页面提示</string>
     <string name="lockscreen_maximize_widgets_title">锁屏安全介面</string>
     <string name="lockscreen_maximize_widgets_summary">选择亮屏时锁屏的安全锁(密码,图形及PIN)正常显示还是最小化</string>
-    <string name="profile_applist_title">程序</string>
-
-    <string name="status_bar_max_notifications_title">状态栏通知图示最大数</string>
-    <string name="status_bar_max_notifications_summary">此修改只对竖屏的平板模式有效</string>
-
-    <!-- Toggles -->
-	<string name="toggle_favorite_contact">常用联络人</string>
-	<string name="toggle_favcontact_title">常用联络人</string>
-	<string name="toggle_favcontact_summary">选择您的常用联络人</string>
-    <string name="toggle_enable_fasttoggle_title">下拉通知栏开关手势</string>
-    <string name="toggle_enable_fasttoggle_summary">指定由左/右上方开始下拉动作即打开快捷开关</string>
-    <string name="fast_toggle_off">关闭（使用原生系统图示捷径开关）</string>
-    <string name="fast_toggle_left">左</string>
-    <string name="fast_toggle_right">右</string>
-
     <string name="lockscreen_use_widget_container_carousel_title">使用旋转动画</string>
     <string name="lockscreen_use_widget_container_carousel_summary">替换小工具页面时使用旋转动画.</string>
     <string name="lockscreen_longpress_challenge_title">长按解锁图案动作</string>
     <string name="lockscreen_longpress_challenge_summary">锁屏小工具最大化时,长按解锁图案可直接解锁.</string>
+
+    <!-- Lock screen background-->
+    <string name="lockscreen_custom_background_title">锁屏背景</string>
+    <string name="lockscreen_custom_background_dialog_title">选择颜色</string>
+    <string name="lockscreen_background_result_successful">背景已更改</string>
+    <string name="lockscreen_background_result_not_successful">背景未更改</string>
+    <string name="lockscreen_background_color_fill">实色填充</string>
+    <string name="lockscreen_background_custom_image">自定义图片</string>
+    <string name="lockscreen_background_default_wallpaper">默认壁纸</string>
+<!--
+    <string name="pref_lockscreen_transparent">锁屏透明</string>
+    <string name="lockscreen_alpha_title">背景透明</string>
+    <string name="lockscreen_background_full_transparent">完全透明</string> -->
 
     <!-- ParanoidAndroid: Lockscreen Shortcuts -->
     <string name="ls_shortcuts_title">锁屏捷径</string>
@@ -1085,12 +1050,7 @@
     <string name="lock_screen_shortcuts_limit">最多可设定6个捷径!</string>
     <!-- Add application dialog box title -->
     <string name="choose_app">选择程序</string>
-
-	<string name="user_mode_ui">UI 模式 (需要重启手机)</string>
-    <string name="user_mode_ui_summary">选择状态栏及导航栏风格</string>
-    <string name="phone_mode_ui">手机模式 - 横屏时导航栏在右方</string>
-    <string name="tablet_mode_ui">平板模式 - 状态栏及导航栏合并在下方</string>
-    <string name="phablet_mode_ui">小平板模式 - 横屏时导航栏在下方</string>
+    <string name="profile_applist_title">程序</string>
 
     <!-- Performance
     <string name="memory_management_title">内存管理</string>

@@ -735,7 +735,7 @@
     <string name="dont_show">隱藏</string>
     <string name="small_am_pm">縮小字體</string>
     <string name="regular_am_pm">正常字體</string>
-    <string name="protekk_oclock">ProTekk風格</string>
+<!--    <string name="protekk_oclock">ProTekk風格</string>-->
     <string name="small_weekday">縮小字體</string>
     <string name="regular_weekday">正常字體</string>
 
@@ -894,51 +894,6 @@
     <string name="toggles_enable_haptic_feedback_title">使用觸動回饋</string>
     <string name="toggles_enable_haptic_feedback_summary">使用快捷開關時打開觸動回饋</string>
 
-    <!-- statusbar color -->
-    <!--     <string name="status_bar_color_title">狀態欄顏色</string>
-
-    <string name="use_lockscreen_themes_title">鎖屏應用美化主題效果</string>
-    <string name="use_lockscreen_themes_summary">若美化主題支援的話同樣應用到鎖屏中.（重啟始能生效） 警告: 可能會出現各種未能預見的問題 </string>
-    <string name="navigation_bar_transparency_summary">調整導航欄透明度</string>
-
-    <string name="status_bar_transparency_summary">調整狀態欄透明度</string>
-
-    <string name="circles_lock_cat_title">圓環解鎖樣式</string>
-    <string name="circles_lock_bg_color_title">背景顏色</string>
-    <string name="circles_lock_ring_color_title">主環顏色</string>
-    <string name="circles_lock_ring_alpha_title">主環顏色透明度</string>
-    <string name="circles_lock_halo_color_title">光環顏色</string>
-    <string name="circles_lock_halo_alpha_title">光環顏色透明度</string>
-    <string name="circles_lock_wave_color_title">波紋顏色</string>
-    <string name="circles_lock_wave_alpha_title">波紋顏色透明度</string>  -->
-
-    <!-- Scroller options
-    <string name="scroller_options">滾動條設置</string>
-    <string name="scroll">滾動條</string>
-    <string name="scroll_title">滾動條設定</string>
-    <string name="scroll_summary">調校滾動條反應</string>
-    <string name="scroll_friction_title">改變反作用力</string>
-    <string name="custom_fling_velocity_title">調校滾動速度</string>
-  -->
-
-    <!-- Statusbar
-    <string name="status_bar_color">狀態欄顏色/透明度</string>
-    <string name="status_bar_transparency_title">狀態欄透明度</string>
-    <string name="navigation_bar_transparency_title">導航欄透明度</string>
-     -->
-
-
-<!--    <string name="statusbar_background_color">狀態欄顏色/透明度</string>
-    <string name="statusbar_bg">狀態欄背景顏色</string>
-    <string name="statusbar_background_style">狀態欄背景樣式</string>
-    <string name="navbar_bg">虛擬鍵背景</string>
-    <string name="navbar_bg_color">虛擬鍵背景顏色</string>
-    <string name="navbar_background_style">虛擬鍵背景樣式</string>
-    <string name="navbar_color">自定義顏色+透明度</string>
-    <string name="navbar_defaultbg_plus_color">系統默認值+自設(美化主題支持)</string>
-    <string name="navbar_defaultbg">重置成系統默認值</string>
- -->
-
     <!-- Hardware keys
     <string name="additional_options_title">其他設定</string>
     <string name="hardware_keys_title">硬體鍵</string>
@@ -964,20 +919,6 @@
 <!--    <string name="power_button_torch_title">手電筒快捷開關</string>
     <string name="power_button_torch_summary">關屏下長按電源鍵打開手電筒，放手立即關閉.</string> -->
 
-    <string name="notif_alpha_title">通知欄訊息條透明度</string>
-
-    <!-- NavBar & Statusbar-->
-    <string name="brightness_slider_title">狀態欄亮度控制</string>
-    <string name="brightness_slider_summary">在狀態欄上滑動調校屏幕亮度</string>
-	<string name="notif_background_default">默認背景</string>
-    <string name="notif_background_color_fill">實色填充</string>
-    <string name="notif_background_custom_image">自定義圖像</string>
-    <string name="navbar_button_colors">風格</string>
-    <string name="navigation_bar_menu_arrow_keys_title">光標方向鍵</string>
-    <string name="navigation_bar_menu_arrow_keys_summary">輸入中在導航欄中顯示光標方向鍵</string>
-    <string name="navigation_bar_alpha_title">導航欄透明度</string>
-    <string name="interface_softkeys_pref_default_title">點擊選擇行為</string>
-
     <!-- notification background 
     <string name="notification_wallpaper_title">通知欄壁紙</string>
     <string name="notification_wallpaper_landscape_title">橫屏通知欄壁紙</string>
@@ -986,6 +927,28 @@
     <string name="notification_background_default_wallpaper">默認壁紙</string>
     <string name="notification_drawer_custom_background_dialog_title">選擇顏色</string>
     <string name="notif_wallpaper_alpha_title">通知欄壁紙透明度</string>-->
+
+    <!-- Statusbar-->
+	<string name="notif_background_default">默認背景</string>
+    <string name="notif_background_color_fill">實色填充</string>
+    <string name="notif_background_custom_image">自定義圖像</string>
+
+    <!-- UI Interface -->
+	<string name="user_mode_ui">UI 模式 (需要重啟手機)</string>
+    <string name="user_mode_ui_summary">選擇狀態欄及導航欄風格</string>
+    <string name="phone_mode_ui">手機模式 - 橫屏時導航欄在右方</string>
+    <string name="tablet_mode_ui">平板模式 - 狀態欄及導航欄合併在下方</string>
+    <string name="phablet_mode_ui">小平板模式 - 橫屏時導航欄在下方</string>
+
+    <string name="wakeup_when_plugged_unplugged_title">連接充電器時喚醒機器</string>
+    <string name="wakeup_when_plugged_unplugged_summary">連接/拔除充電器時是否喚醒機器.</string>
+
+    <!-- Statusbar -->
+    <string name="brightness_slider_title">狀態欄亮度控制</string>
+    <string name="brightness_slider_summary">在狀態欄上滑動調校屏幕亮度</string>
+    <string name="status_bar_max_notifications_title">狀態欄通知圖示最大數</string>
+    <string name="status_bar_max_notifications_summary">此修改只對竪屏的平板模式有效</string>
+    <string name="notif_alpha_title">通知欄訊息條透明度</string>
 
     <!-- Status bar background style -->
     <string name="status_bar_transparency_title">狀態欄透明度</string>
@@ -998,6 +961,19 @@
     <string name="status_bar_alpha_mode_always">應用於全部場景</string>
     <string name="status_bar_style_reset">重置</string>
 
+    <!-- Navigation bar -->
+    <string name="navbar_button_colors">風格</string>
+    <string name="navigation_bar_menu_arrow_keys_title">光標方向鍵</string>
+    <string name="navigation_bar_menu_arrow_keys_summary">輸入中在導航欄中顯示光標方向鍵</string>
+    <string name="navigation_bar_alpha_title">導航欄透明度</string>
+    <string name="interface_softkeys_pref_default_title">點擊選擇行為</string>
+    <string name="navigation_bar_color_title">導航欄自定義顏色</string>
+	<string name="navigation_bar_tint_title">按鍵自定義顏色</string>
+    <string name="navbar_hide">自動隱藏式導航欄</string>
+    <string name="navbar_hide_enable_title">啟用隱藏式導航欄</string>
+    <string name="title_navbar_timeout">逾時設置</string>
+    <string name="summary_navbar_timeout">自動隱藏導航欄逾時值</string>
+
     <!-- Navigation bar background style -->
     <string name="nav_bar_transparency_title">導航欄透明</string>
     <string name="nav_bar_color_title">導航欄顏色</string>
@@ -1009,20 +985,17 @@
     <string name="nav_bar_alpha_mode_always">應用於全部場景</string>
     <string name="nav_bar_style_reset">重置</string>
 
-    <!--LockScreen
-    <string name="pref_lockscreen_transparent">鎖屏透明</string>-->
+    <!-- Toggles -->
+	<string name="toggle_favorite_contact">常用聯絡人</string>
+	<string name="toggle_favcontact_title">常用聯絡人</string>
+	<string name="toggle_favcontact_summary">選擇您的常用聯絡人</string>
+    <string name="toggle_enable_fasttoggle_title">下拉通知欄開關手勢</string>
+    <string name="toggle_enable_fasttoggle_summary">指定由左/右上方開始下拉動作即打開快捷開關</string>
+    <string name="fast_toggle_off">關閉（使用原生系統圖示捷徑開關）</string>
+    <string name="fast_toggle_left">左</string>
+    <string name="fast_toggle_right">右</string>
 
-    <!-- Lock screen background-->
-    <string name="lockscreen_custom_background_title">鎖屏背景</string>
-    <string name="lockscreen_custom_background_dialog_title">選擇顏色</string>
-    <string name="lockscreen_background_result_successful">背景已更改</string>
-    <string name="lockscreen_background_result_not_successful">背景未更改</string>
-    <string name="lockscreen_background_color_fill">實色填充</string>
-    <string name="lockscreen_background_custom_image">自定義圖片</string>
-    <string name="lockscreen_background_default_wallpaper">默認壁紙</string>
-<!--    <string name="lockscreen_background_full_transparent">完全透明</string>
-    <string name="lockscreen_alpha_title">背景透明</string>-->
-
+    <!--LockScreen-->
 	<string name="lock_widgets_short">鎖屏小工具</string>
 	<string name="lockscreen_all_widgets_title">准許添加小工具到鎖屏</string>
 	<string name="lockscreen_all_widgets_summary">警告，並非所有小工具都可在鎖屏上使用.小工具開發者及AOKP團隊對所有預期外的不良後果恕不會負責.請小心選擇.</string>
@@ -1038,36 +1011,24 @@
     <string name="lockscreen_hide_initial_page_hints_summary">隱藏亮屏時提示在左右已打開的小工具</string>
     <string name="lockscreen_maximize_widgets_title">鎖屏安全介面</string>
     <string name="lockscreen_maximize_widgets_summary">選擇亮屏時鎖屏的安全鎖(密碼,圖形及PIN)正常顯示還是最小化</string>
-    <string name="profile_applist_title">程式</string>
-
-    <!-- Toggles -->
-	<string name="toggle_favorite_contact">常用聯絡人</string>
-	<string name="toggle_favcontact_title">常用聯絡人</string>
-	<string name="toggle_favcontact_summary">選擇您的常用聯絡人</string>
-    <string name="toggle_enable_fasttoggle_title">下拉通知欄開關手勢</string>
-    <string name="toggle_enable_fasttoggle_summary">指定由左/右上方開始下拉動作即打開快捷開關</string>
-    <string name="fast_toggle_off">關閉（使用原生系統圖示捷徑開關）</string>
-    <string name="fast_toggle_left">左</string>
-    <string name="fast_toggle_right">右</string>
-
-    <!-- Performance
-    <string name="memory_management_title">記憶體管理</string>
-    <string name="memory_management_summary">自訂記憶體使用以改變系統效能</string>
-    <string name="pref_zram_title">zRam</string>
-    <string name="pref_zram_summary">壓縮記憶體以增加虛擬容量 (需要重啟)</string>
-    <string name="pref_zram_size_disable">關閉</string>
-    <string name="pref_zram_size_10">10%</string>
-    <string name="pref_zram_size_18">18% (默認)</string>
-    <string name="pref_zram_size_26">26%</string>
-    <string name="pref_ksm_title">KSM</string>
-    <string name="pref_ksm_summary">KSM降低系統對記憶體的要求并提高效能</string>
-    <string name="pref_purgeable_assets_title">允許記憶體資源的清除</string>
-    <string name="pref_purgeable_assets_summary">點陣圖記憶體資源的清除可以在系統需要時提供更多的記憶體. (需要重啟)</string> -->
-
     <string name="lockscreen_use_widget_container_carousel_title">使用旋轉動畫</string>
     <string name="lockscreen_use_widget_container_carousel_summary">替換小工具頁面時使用旋轉動畫.</string>
     <string name="lockscreen_longpress_challenge_title">長按解鎖圖案動作</string>
     <string name="lockscreen_longpress_challenge_summary">鎖屏小工具最大化時,長按解鎖圖案可直接解鎖.</string>
+
+    <!-- Lock screen background-->
+    <string name="lockscreen_custom_background_title">鎖屏背景</string>
+    <string name="lockscreen_custom_background_dialog_title">選擇顏色</string>
+    <string name="lockscreen_background_result_successful">背景已更改</string>
+    <string name="lockscreen_background_result_not_successful">背景未更改</string>
+    <string name="lockscreen_background_color_fill">實色填充</string>
+    <string name="lockscreen_background_custom_image">自定義圖片</string>
+    <string name="lockscreen_background_default_wallpaper">默認壁紙</string>
+
+<!--    
+    <string name="pref_lockscreen_transparent">鎖屏透明</string>
+    <string name="lockscreen_background_full_transparent">完全透明</string>
+    <string name="lockscreen_alpha_title">背景透明</string>-->
 
     <!-- ParanoidAndroid: Lockscreen Shortcuts -->
     <string name="ls_shortcuts_title">鎖屏捷徑</string>
@@ -1085,22 +1046,20 @@
     <string name="lock_screen_shortcuts_limit">最多可設定6個捷徑!</string>
     <!-- Add application dialog box title -->
     <string name="choose_app">選擇程序</string>
+    <string name="profile_applist_title">程式</string>
 
-	<string name="user_mode_ui">UI 模式 (需要重啟手機)</string>
-    <string name="user_mode_ui_summary">選擇狀態欄及導航欄風格</string>
-    <string name="phone_mode_ui">手機模式 - 橫屏時導航欄在右方</string>
-    <string name="tablet_mode_ui">平板模式 - 狀態欄及導航欄合併在下方</string>
-    <string name="phablet_mode_ui">小平板模式 - 橫屏時導航欄在下方</string>
-
-    <string name="status_bar_max_notifications_title">狀態欄通知圖示最大數</string>
-    <string name="status_bar_max_notifications_summary">此修改只對竪屏的平板模式有效</string>
-
-    <string name="navigation_bar_color_title">導航欄自定義顏色</string>
-	<string name="navigation_bar_tint_title">按鍵自定義顏色</string>
-
-    <string name="navbar_hide">自動隱藏式導航欄</string>
-    <string name="navbar_hide_enable_title">啟用隱藏式導航欄</string>
-    <string name="title_navbar_timeout">逾時設置</string>
-    <string name="summary_navbar_timeout">自動隱藏導航欄逾時值</string>
+    <!-- Performance
+    <string name="memory_management_title">記憶體管理</string>
+    <string name="memory_management_summary">自訂記憶體使用以改變系統效能</string>
+    <string name="pref_zram_title">zRam</string>
+    <string name="pref_zram_summary">壓縮記憶體以增加虛擬容量 (需要重啟)</string>
+    <string name="pref_zram_size_disable">關閉</string>
+    <string name="pref_zram_size_10">10%</string>
+    <string name="pref_zram_size_18">18% (默認)</string>
+    <string name="pref_zram_size_26">26%</string>
+    <string name="pref_ksm_title">KSM</string>
+    <string name="pref_ksm_summary">KSM降低系統對記憶體的要求并提高效能</string>
+    <string name="pref_purgeable_assets_title">允許記憶體資源的清除</string>
+    <string name="pref_purgeable_assets_summary">點陣圖記憶體資源的清除可以在系統需要時提供更多的記憶體. (需要重啟)</string> -->
 
 </resources>
