@@ -301,8 +301,8 @@
     <string name="navbar_longpress_title">按鍵 %1$s 長按時的行為</string>
     <string name="navbar_action_home">主螢幕</string>
     <string name="navbar_action_back">返回</string>
-    <string name="navbar_action_recents">近期工作</string>
-    <string name="navbar_action_recent_apps">最近使用程序</string>
+    <string name="navbar_action_recents">最近任務</string>
+    <string name="navbar_action_recent_apps">最近任務(2.3薑餅系統風格)</string>
     <string name="navbar_action_search">搜索</string>
     <string name="navbar_action_screenshot">屏幕截圖</string>
     <string name="navbar_action_menu">功能表</string>
@@ -774,7 +774,7 @@
     <string name="kill_app">清除程序</string>
     <string name="power">電源鍵</string>
     <string name="notifications">通知欄</string>
-    <string name="recent_apps">最近使用程序</string>
+    <string name="recent_apps">最近使用程序(2.3系統風格)</string>
     <string name="custom_app">自定義程序</string>
     <string name="blank">空白</string>
     <string name="none">無</string>

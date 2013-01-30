@@ -55,4 +55,7 @@
         <item quantity="one">1 通通話</item>
         <item quantity="other">%d 通通話</item>
     </plurals>
+
+    <string name="direct_call_title">感應器撥號</string>
+    <string name="direct_call_summary">輸入號碼後把電話放在耳朵旁邊即進行撥打動作</string>
 </resources>

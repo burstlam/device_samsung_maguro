@@ -314,8 +314,8 @@
     <string name="navbar_longpress_title">按键 %1$s 长按时的行为</string>
     <string name="navbar_action_home">主屏幕</string>
     <string name="navbar_action_back">返回</string>
-    <string name="navbar_action_recents">近期任务</string>
-    <string name="navbar_action_recent_apps">最近使用程序</string>
+    <string name="navbar_action_recents">最近任务</string>
+    <string name="navbar_action_recent_apps">最近任务(2.3姜饼系统风格)</string>
     <string name="navbar_action_search">搜索</string>
     <string name="navbar_action_screenshot">屏幕截图</string>
     <string name="navbar_action_menu">菜单</string>
@@ -780,7 +780,7 @@
     <string name="power">电源键</string>
     <string name="notifications">通知栏</string>
     <string name="custom_app">自定义程序</string>
-    <string name="recent_apps">最近使用程序</string>
+    <string name="recent_apps">最近使用程序(2.3系统风格)</string>
     <string name="blank">空白</string>
     <string name="none">无</string>
     <string name="take_screenshot">屏幕截图</string>
