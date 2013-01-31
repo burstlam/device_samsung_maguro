@@ -34,28 +34,46 @@
     <string name="menu_set_vib_ration">設置振動樣式</string>
     <string name="t9_loading">載入中\u2026</string>
 
+    <!-- Call Statistic -->
     <string name="callStatsDetailTitle">詳細通話統計</string>
     <string name="call_stats">通話統計</string>
     <string name="call_stats_refresh">更新</string>
     <string name="activity_title_call_stats">通話統計</string>
-
     <string name="call_stats_nav_all">全部</string>
     <string name="call_stats_nav_incoming">來電</string>
-    <string name="call_stats_nav_outgoing">打出</string>
+    <string name="call_stats_nav_outgoing">去電</string>
     <string name="call_stats_nav_missed">未接</string>
-    <string name="call_stats_header_total">全部:</string>
+    <string name="call_stats_incoming">來電: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_outgoing">去電: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_missed">未接</string>
+    <string name="call_stats_missed_percent">未接: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_header_total">全部: <xliff:g id="call_count">%s</xliff:g>, <xliff:g id="duration">%s</xliff:g></string>
+    <string name="call_stats_header_total_callsonly">全部: <xliff:g id="call_count">%s</xliff:g></string>
     <string name="call_stats_filter_from">開始日期</string>
     <string name="call_stats_filter_to">結束日期</string>
-    <string name="call_stats_date_filter">日期過濾</string>
-    <string name="call_stats_filter_picker_title">過濾泛圍</string>
-    <string name="call_stats_filter_picker_done">套用過濾</string>
-    <string name="call_stats_filter_picker_reset">重置</string>
-    <string name="call_stats_filter_error">過濾泛圍設定錯誤,請重新設定.</string>
+    <string name="call_stats_filter_picker_title">選擇統計參數</string>
+    <string name="call_stats_date_filter">通話日期</string>
+    <string name="call_stats_reset_filter">重置參數</string>
+    <string name="call_stats_sort_by_duration">通話時間</string>
+    <string name="call_stats_sort_by_count">通話數</string>
+
+    <plurals name="hour">
+        <item quantity="one">1 小時</item>
+        <item quantity="other">%d 小時s</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="one">1 分</item>
+        <item quantity="other">%d 分</item>
+    </plurals>
+    <plurals name="second">
+        <item quantity="one">1 秒</item>
+        <item quantity="other">%d 秒</item>
+    </plurals>
     <plurals name="call">
-        <item quantity="one">1 通通話</item>
-        <item quantity="other">%d 通通話</item>
+        <item quantity="one">1 通電話</item>
+        <item quantity="other">%d 通電話</item>
     </plurals>
 
     <string name="direct_call_title">感應器撥號</string>
-    <string name="direct_call_summary">輸入號碼後把電話放在耳朵旁邊即進行撥打動作</string>
+    <string name="direct_call_summary">輸入號碼後把電話放在耳邊即進行撥打動作</string>
 </resources>
