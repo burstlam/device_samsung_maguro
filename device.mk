@@ -33,6 +33,7 @@ PRODUCT_PACKAGES += \
 
 # init.d and sysctl
 PRODUCT_COPY_FILES += \
+    device/samsung/maguro/prebuilt/bin/zipalign:system/bin/zipalign \
     device/samsung/maguro/prebuilt/etc/init.d/02efs:system/etc/init.d/02efs \
     device/samsung/maguro/prebuilt/etc/init.d/03sqlitetweaks:system/etc/init.d/03sqlitetweaks \
     device/samsung/maguro/prebuilt/etc/init.d/04cleaning:system/etc/init.d/04cleaning \
