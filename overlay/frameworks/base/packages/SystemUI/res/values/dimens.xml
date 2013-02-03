@@ -18,6 +18,6 @@
 <resources>
 
     <!-- Constant for hidden navbar drag handle -->
-    <dimen name="drag_handle_height">20dp</dimen>
+    <dimen name="drag_handle_height">10dp</dimen>
 
 </resources>

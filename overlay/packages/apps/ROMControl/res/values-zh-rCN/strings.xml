@@ -982,6 +982,8 @@
     <string name="navbar_hide_enable_title">启用隐藏导航栏</string>
     <string name="title_navbar_timeout">超时设置</string>
     <string name="summary_navbar_timeout">自动隐藏导航栏超时值</string>
+    <string name="navbar_hide_visible_title">显示手势触发区域提示</string>
+    <string name="drag_handle_width_title">设置触发区域宽度</string>
 
     <!-- Navigation bar background style -->
     <string name="nav_bar_transparency_title">导航栏透明</string>
@@ -1063,21 +1065,21 @@
 
     <!-- Pie controls -->
     <string name="pie_controls_title">PIE 面版</string>
-    <string name="pie_controls_summary">提供导航栏虚拟键及信息面版</string>
+    <string name="pie_controls_summary">提供虚拟键及信息面版(推荐在全屏模式使用)</string>
     <string name="pie_gravity_title">Pie 位置 </string>
     <string name="pie_gravity_summary">选择PIE面版出现位置</string>
     <string name="pie_gravity_top">上</string>
     <string name="pie_gravity_bottom">下</string>
     <string name="pie_gravity_left">左</string>
     <string name="pie_gravity_right">右</string>
-    <string name="pie_mode_title">PIE动画</string>
-    <string name="pie_mode_summary">设定动画及显示信息内容速度</string>
-    <string name="pie_mode_bare">最快</string>
-    <string name="pie_mode_quick">快</string>
+    <string name="pie_mode_title">PIE布局及动画</string>
+    <string name="pie_mode_summary">设置动画速度及显示布局</string>
+    <string name="pie_mode_bare">简约:只显示按键</string>
+    <string name="pie_mode_quick">快速:全部内容但不显示动画</string>
     <string name="pie_mode_default">默认</string>
-    <string name="pie_mode_slow">慢</string>
-    <string name="pie_size_title">PIE面版大小</string>
-    <string name="pie_size_summary">设定控制面板大小</string>
+    <string name="pie_mode_slow">全部内容及动画细节</string>
+    <string name="pie_size_title">PIE面版尺寸</string>
+    <string name="pie_size_summary">设置控制面板尺寸</string>
     <string name="pie_size_small">小</string>
     <string name="pie_size_default">@string/pie_mode_default</string>
     <string name="pie_size_large">大</string>
@@ -1085,20 +1087,83 @@
 
     <!-- Pie Color Settings -->
     <string name="pie_color_title">PIE面版配色</string>
-    <string name="pie_color_style_title">PIE配色风格设定</string>
+    <string name="pie_color_style_title">PIE配色风格设置</string>
     <string name="pie_background_title">背景颜色</string>
     <string name="pie_select_title">选择颜色</string>
     <string name="pie_outlines_title">框线颜色</string>
     <string name="pie_status_clock_title">时钟颜色</string>
     <string name="pie_status_title">状态信色颜色</string>
-    <string name="pie_chevron_left_title">左外圈颜色</string>
-    <string name="pie_chevron_right_title">右外圈颜色</string>
-    <string name="all_color">自设定颜色</string>
+    <string name="pie_chevron_left_title">左外环颜色</string>
+    <string name="pie_chevron_right_title">右外环颜色</string>
+    <string name="all_color">自设置颜色</string>
     <string name="stock_color">系统默认配色</string>
     <string name="pie_juice_title">电量颜色</string>
 
+    <!-- The Loner -->
+    <string name="pie_notifications_title">启用外环目标</string>
+    <string name="pie_notifications_summary">滑动中启用通知信息及开关的交互功能.</string>
+
+    <!-- Pie Gap-->
+    <string name="pie_gap_title">PIE 间隔</string>
+    <string name="pie_gap_summary">调校各按键之间距离</string>
+    <string name="pie_gap_closed">关闭</string>
+    <string name="pie_gap_small">小 (默认)</string>
+    <string name="pie_gap_big">中</string>
+    <string name="pie_gap_huge">大</string>
+    <string name="pie_trigger_title">设定触发启动范围</string>
+    <string name="pie_trigger_summary">决定触发PIE面板的范围</string>
+    <string name="pie_trigger_small">小</string>
+    <string name="pie_trigger_big">中</string>
+    <string name="pie_trigger_huge">大</string>
+    <string name="pie_menu_title">永远显示菜单键</string>
+    <string name="pie_menu_summary">选择非使用时候是否显示菜单键</string>
+    <string name="pie_search_title">显示寻找键</string>
+    <string name="pie_search_summary">通过PIE面板接通Google Now</string>
+
     <string name="navbar_action_lastapp">上一个打开程序</string>
     <string name="lastapp">上一个打开程序</string>
+
+    <!-- DPI Per APP-->
+    <!--
+    <string name="dpi_settings_title">调整LCD屏幕解像度</string>
+    <string name="system_dpi_title">系统LCD屏幕解像度</string>
+    <string name="system_dpi_summary">当前LCD屏幕解像度:</string>
+    <string name="system_dpi_standar_title">标准解像度</string>
+    <string name="system_dpi_standar_summary">从列表选择合适解像度</string>
+    <string name="system_dpi_custom_title">自设数值</string>
+    <string name="system_dpi_custom_hint">由120至480</string>
+    <string name="system_dpi_custom_summary">设置自定屏幕解像度</string>
+    <string name="uimode_title">UI模式</string>-->
+
+    <string name="dpi_groups_title">自定义DPI分组</string>
+    <string name="dpi_groups_summary">为程序自定义DPI组合</string>
+    <string name="dpi_group_title">DPI 群组</string>
+    <string name="dpi_groups_apps">程序</string>
+    <string name="dpi_group_add_app">增加程序</string>
+    <string name="dpi_group_app_list">程序列表</string>
+    <string name="dpi_group_alert_add_app_title">选择程序</string>
+    <string name="dpi_groups_alert_remove_app">移除程序</string>
+    <string name="dpi_groups_remove_app">是否将 %s 从群组中移除?</string>
+    <string name="dpi_groups_backuprestore_title">备份及还原</string>
+    <string name="dpi_groups_auto_backup">自动备份</string>
+    <string name="dpi_groups_auto_backup_summary">每次更改配置后自动备份</string>
+    <string name="dpi_groups_backup_title">备份</string>
+    <string name="dpi_groups_backup_summary">为您的群组设定作备份</string>
+    <string name="dpi_groups_restore_title">还原</string>
+    <string name="dpi_groups_restore_summary">还原您的群组备份</string>
+    <string name="dpi_groups_backup_done">配置备份已经完成</string>
+    <string name="dpi_groups_restore_done">已用备份档案还原</string>
+    <string name="dpi_groups_restore_default_title">恢复默认配置备份</string>
+    <string name="dpi_groups_restore_default_summary">移除自定义配置使用系统默认设定</string>
+    <string name="dpi_groups_delete_title">删除DPI群组</string>
+    <string name="dpi_groups_delete_summary">您是否确认删除此群组?</string>
+    <string name="customdpigroup">新增群组</string>
+    <string name="customdpigroup_summary">新增DPI群组</string>
+    <string name="custom_dpi">目前 DPI值:</string>
+    <string name="customdpigroup_group_exists">错误!选择的群组已存在!</string>
+
+    <string name="toggle_navbar_hide">隐藏式导航栏</string>
+    <string name="navbar_ui">一般设定</string>
 
     <!-- Performance
     <string name="memory_management_title">内存管理</string>

@@ -976,6 +976,8 @@
     <string name="navbar_hide_enable_title">啟用隱藏式導航欄</string>
     <string name="title_navbar_timeout">逾時設置</string>
     <string name="summary_navbar_timeout">自動隱藏導航欄逾時值</string>
+    <string name="navbar_hide_visible_title">顯示手勢觸發區域提示</string>
+    <string name="drag_handle_width_title">設置觸發區域寬度</string>
 
     <!-- Navigation bar background style -->
     <string name="nav_bar_transparency_title">導航欄透明</string>
@@ -1057,25 +1059,29 @@
 
     <!-- Pie controls -->
     <string name="pie_controls_title">PIE 面版</string>
-    <string name="pie_controls_summary">提供導航欄虛擬鍵及信息面版</string>
+    <string name="pie_controls_summary">提供虛擬鍵及信息面版(推荐在全屏模式使用)</string>
     <string name="pie_gravity_title">Pie 位置 </string>
     <string name="pie_gravity_summary">選擇PIE面版出現位置</string>
     <string name="pie_gravity_top">上</string>
     <string name="pie_gravity_bottom">下</string>
     <string name="pie_gravity_left">左</string>
     <string name="pie_gravity_right">右</string>
-    <string name="pie_mode_title">PIE動畫</string>
-    <string name="pie_mode_summary">設定動畫及顯示信息內容速度</string>
-    <string name="pie_mode_bare">最快</string>
-    <string name="pie_mode_quick">快</string>
+    <string name="pie_mode_title">PIE佈局及動畫</string>
+    <string name="pie_mode_summary">設定動畫速度及顯示佈局</string>
+    <string name="pie_mode_bare">簡約:只顯示按鍵</string>
+    <string name="pie_mode_quick">快速:全部內容但不顯示動畫</string>
     <string name="pie_mode_default">默認</string>
-    <string name="pie_mode_slow">慢</string>
+    <string name="pie_mode_slow">全部內容及動畫細節</string>
     <string name="pie_size_title">PIE面版大小</string>
     <string name="pie_size_summary">設定控制面板大小</string>
     <string name="pie_size_small">小</string>
     <string name="pie_size_default">@string/pie_mode_default</string>
     <string name="pie_size_large">大</string>
     <string name="pie_size_gigantic">最大</string>
+
+    <!-- The Loner -->
+    <string name="pie_notifications_title">啟用外環目標</string>
+    <string name="pie_notifications_summary">滑動中啟用通知信息及開關的互動功能.</string>
 
     <!-- Pie Color Settings -->
     <string name="pie_color_title">PIE面版配色</string>
@@ -1085,14 +1091,74 @@
     <string name="pie_outlines_title">框線顏色</string>
     <string name="pie_status_clock_title">時鐘顏色</string>
     <string name="pie_status_title">狀態信色顏色</string>
-    <string name="pie_chevron_left_title">左外圈顏色</string>
-    <string name="pie_chevron_right_title">右外圈顏色</string>
+    <string name="pie_chevron_left_title">左外環顏色</string>
+    <string name="pie_chevron_right_title">右外環顏色</string>
     <string name="all_color">自設定顏色</string>
     <string name="stock_color">系統默認配色</string>
     <string name="pie_juice_title">電量顏色</string>
 
+    <!-- Pie Gap-->
+    <string name="pie_gap_title">PIE 間隔</string>
+    <string name="pie_gap_summary">調校各按鍵之間距離</string>
+    <string name="pie_gap_closed">關閉</string>
+    <string name="pie_gap_small">小 (默認)</string>
+    <string name="pie_gap_big">中</string>
+    <string name="pie_gap_huge">大</string>
+    <string name="pie_trigger_title">設定觸發啟動範圍</string>
+    <string name="pie_trigger_summary">決定觸發PIE面板的範圍</string>
+    <string name="pie_trigger_small">小</string>
+    <string name="pie_trigger_big">中</string>
+    <string name="pie_trigger_huge">大</string>
+    <string name="pie_menu_title">永遠顯示菜單鍵</string>
+    <string name="pie_menu_summary">選擇非使用時候是否顯示菜單鍵</string>
+    <string name="pie_search_title">顯示搜尋鍵</string>
+    <string name="pie_search_summary">通過PIE面板接通Google Now</string>
+
     <string name="navbar_action_lastapp">上一個打開程序</string>
     <string name="lastapp">上一個打開程序</string>
+
+    <!-- DPI Per APP-->
+<!--    
+    <string name="dpi_settings_title">調整LCD屏幕解像度</string>
+    <string name="system_dpi_title">系統LCD屏幕解像度</string>
+    <string name="system_dpi_summary">目前LCD屏幕解像度:</string>
+    <string name="system_dpi_standar_title">標準解像度</string>
+    <string name="system_dpi_standar_summary">從列表選擇合適解像度</string>
+    <string name="system_dpi_custom_title">自設數值</string>
+    <string name="system_dpi_custom_hint">由120至480</string>
+    <string name="system_dpi_custom_summary">設定自定屏幕解像度</string>
+    
+    <string name="uimode_title">UI模式</string>-->
+
+    <string name="dpi_groups_title">自定義DPI分組</string>
+    <string name="dpi_groups_summary">為程序自定義DPI組合</string>
+    <string name="dpi_group_title">DPI 群組</string>
+    <string name="dpi_groups_apps">程序</string>
+    <string name="dpi_group_add_app">增加程序</string>
+    <string name="dpi_group_app_list">程序列表</string>
+    <string name="dpi_group_alert_add_app_title">選擇程序</string>
+    <string name="dpi_groups_alert_remove_app">移除程序</string>
+    <string name="dpi_groups_remove_app">是否將 %s 從群組中移除?</string>
+    <string name="dpi_groups_backuprestore_title">備份及還原</string>
+    <string name="dpi_groups_auto_backup">自動備份</string>
+    <string name="dpi_groups_auto_backup_summary">每次更改配置後自動備份</string>
+    <string name="dpi_groups_backup_title">備份</string>
+    <string name="dpi_groups_backup_summary">為您的群組設定作備份</string>
+    <string name="dpi_groups_restore_title">還原</string>
+    <string name="dpi_groups_restore_summary">還原您的群組備份</string>
+    <string name="dpi_groups_backup_done">配置備份已經完成</string>
+    <string name="dpi_groups_restore_done">已用備份檔案還原</string>
+    <string name="dpi_groups_restore_default_title">恢復默認配置備份</string>
+    <string name="dpi_groups_restore_default_summary">移除自定義配置使用系統默認設定</string>
+    <string name="dpi_groups_delete_title">刪除DPI群組</string>
+    <string name="dpi_groups_delete_summary">您是否確認刪除此群組?</string>
+    <string name="customdpigroup">新增群組</string>
+    <string name="customdpigroup_summary">新增DPI群組</string>
+    <string name="custom_dpi">目前 DPI值:</string>
+    <string name="customdpigroup_group_exists">錯誤!選擇的群組已存在!</string>
+
+    <string name="toggle_navbar_hide">隱藏式導航欄</string>
+    <string name="navbar_ui">一般設定</string>
 
     <!-- Performance
     <string name="memory_management_title">記憶體管理</string>
