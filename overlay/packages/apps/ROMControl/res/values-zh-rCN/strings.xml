@@ -1165,6 +1165,15 @@
     <string name="toggle_navbar_hide">隐藏式导航栏</string>
     <string name="navbar_ui">一般设定</string>
 
+    <!--Expanded Desktop Enhancement: Status Bar Switch -->
+    <string name="expanded_desktop_status_bar_state">全屏模式状态栏调校</string>
+    <string name="summary_expanded_desktop">%1$s</string>
+    <string name="expanded_desktop_summary_status_bar">显示状态栏</string>
+    <string name="expanded_desktop_summary_no_status_bar">隐藏状态栏</string>
+    <string name="expanded_desktop_disabled">关闭</string>
+    <string name="expanded_desktop_staus_bar">显示状态栏</string>
+    <string name="expanded_desktop_no_staus_bar">隐藏状态栏</string>
+
     <!-- Performance
     <string name="memory_management_title">内存管理</string>
     <string name="memory_management_summary">自定义内存使用以改变系统性能</string>

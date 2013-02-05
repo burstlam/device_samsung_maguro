@@ -427,6 +427,15 @@
     <string name="qm_quick_reply">回覆</string>
 	<string name="qm_mark_read">已讀取</string>
 
+    <!-- Privacy mode -->
+    <string name="pref_title_notification_privacy_mode_enabled">私隱模式</string>
+    <string name="pref_summary_notification_privacy_mode_enabled">在狀態欄提示中隱藏發信人名稱並禁用彈出式對話窗口</string>
+    <string name="notification_single_title_privacy_mode">新信息</string>
+    <string name="notification_single_text_privacy_mode">1 條未讀信息</string>
+    <string name="notification_multiple_title_privacy_mode">新信息</string>
+    <string name="notification_multiple_text_privacy_mode"><xliff:g id="number" example="3">%1$s</xliff:g> 未讀信息</string>
+    <string name="notification_ticker_privacy_mode">您收到新信息</string>
+
     <string name="pref_display_title">顯示內容</string>
     <!-- Settings item for boolean option to show the full datetime -->
     <string name="pref_title_fulldate">完整日期</string>

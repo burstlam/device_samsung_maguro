@@ -57,6 +57,15 @@
     <string name="call_stats_sort_by_duration">通話時間</string>
     <string name="call_stats_sort_by_count">通話數</string>
 
+    <string name="date_quick_selection">快速選擇</string>
+    <string name="date_qs_currentmonth">本月</string>
+    <string name="date_qs_currentquarter">本季度</string>
+    <string name="date_qs_currentyear">本年度</string>
+    <string name="date_qs_lastweek">上週</string>
+    <string name="date_qs_lastmonth">上月</string>
+    <string name="date_qs_lastquarter">上季</string>
+    <string name="date_qs_lastyear">上年度</string>
+
     <plurals name="hour">
         <item quantity="one">1 小時</item>
         <item quantity="other">%d 小時s</item>
