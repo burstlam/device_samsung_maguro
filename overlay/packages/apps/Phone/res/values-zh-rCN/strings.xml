@@ -74,4 +74,27 @@
     <string name="show_ssn_label">显示通知内容</string>
     <string name="show_ssn_summary">显示与拨号处理的相关提示</string>
 
+    <!-- Setting title for the flip action setting. -->
+    <string name="flip_action_title">倒置动作</string>
+
+    <!-- Dialog title of the flip action setting. -->
+    <string name="flip_action_dialog_title">倒置手机将会:\u2026</string>
+
+    <!-- Setting summary for the flip action setting. -->
+    <string name="flip_action_summary">倒置手机将会 <xliff:g id="action">%s</xliff:g></string>
+
+    <!-- Entries listed in the setting for the flip action. -->
+    <string-array name="flip_action_setting_entries">
+        <item>没有任何动作</item>
+        <item>来电铃声静音</item>
+        <item>挂断电话</item>
+    </string-array>
+
+    <!-- Summary texts for flip action. Must be ordered by numerical
+         value (do nothing = 0, mute = 1, dismiss = 2) -->
+    <string-array name="flip_action_summary_entries">
+        <item>没有任何动作</item>
+        <item>来电铃声静音</item>
+        <item>挂断电话</item>
+    </string-array>
 </resources>

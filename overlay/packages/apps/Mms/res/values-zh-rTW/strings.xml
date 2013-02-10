@@ -465,4 +465,10 @@
     <string name="pref_title_mms_retrieval_during_roaming">漫遊自動擷取信息</string>
     <string name="pref_summary_mms_retrieval_during_roaming">漫遊中自動擷取信息</string>
 
+    <!-- Gray hint displayed in the search field in Contacts when empty -->
+    <string name="search_bar_hint">搜尋聯絡人</string>
+    <string name="btn_ok">確定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="select_all">全部</string>
+
 </resources>

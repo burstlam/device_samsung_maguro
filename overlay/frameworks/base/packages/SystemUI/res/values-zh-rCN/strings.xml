@@ -71,6 +71,10 @@
     <string name="quick_settings_sound_on">音效</string>
     <string name="quick_settings_navbar_hide_on_label">隐藏导航栏</string>
     <string name="quick_settings_navbar_hide_off_label">隐藏导航栏 OFF</string>
+    <string name="quick_settings_statusbar_on_label">隐藏状态栏</string>
+    <string name="quick_settings_statusbar_off_label">隐藏状态栏 OFF</string>
+    <string name="quick_settings_quiet_hours_on_label">免打扰模式</string>
+    <string name="quick_settings_quiet_hours_off_label">免打扰模式 OFF</string>
 
     <!--  RamBar -->
     <string name="memory">内存</string>
@@ -87,5 +91,8 @@
         进程及 <xliff:g id="numservices">%2$d</xliff:g> 服务</string>
     <string name="running_processes_item_description_p_p"><xliff:g id="numprocess">%1$d</xliff:g>
         等进程及 <xliff:g id="numservices">%2$d</xliff:g> 服务</string>
+
+    <string name="quick_settings_powermenu">电源键菜单</string>
+    <string name="quick_settings_profile_label">情景模式</string>
 
 </resources>

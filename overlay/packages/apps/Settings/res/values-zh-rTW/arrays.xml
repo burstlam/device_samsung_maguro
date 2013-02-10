@@ -36,4 +36,23 @@
         <item>新加坡</item>
     </string-array>
 
+    <!--  Profile Mode -->
+    <string-array name="profile_entries">
+        <item>啟用</item>
+        <item>禁用</item>
+        <item>不要覆蓋系統默認設定</item>
+    </string-array>
+
+    <string-array name="profile_connection_entries">
+        <item>禁用</item>
+        <item>啟用</item>
+    </string-array>
+
+    <!-- Silent mode options. -->
+    <string-array name="silent_mode_entries">
+        <item>關閉</item>
+        <item>振動</item>
+        <item>靜音</item>
+    </string-array>
+
 </resources>

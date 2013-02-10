@@ -26,6 +26,11 @@
         <item>TORCH</item>
         <item>2G</item>
         <item>SCREEN</item>
+        <item>STATUSBAR</item>
+        <item>NAVBARHIDE</item>
+        <item>POWERMENU</item>
+        <item>PROFILE</item>
+        <item>QUIETHOURS</item>
     </string-array>
     <string-array name="available_toggles_values" translatable="false">
         <item>@string/toggle_user</item>
@@ -53,6 +58,11 @@
         <item>@string/toggle_torch</item>
         <item>@string/toggle_2g</item>
         <item>@string/toggle_screen</item>
+        <item>@string/toggle_statusbar</item>
+        <item>@string/toggle_navbar_hide</item>
+        <item>@string/toggle_powermenu</item>
+        <item>@string/toggle_profile</item>
+        <item>@string/toggle_quiethours</item>
     </string-array>
 
   <string-array name="navigation_bar_qty_entries">
@@ -74,4 +84,13 @@
     <item>6</item>
     <item>7</item>
   </string-array>
+
+    <!-- LED brightness values -->
+    <integer-array name="led_brightness_values" translatable="false">
+        <item>10</item>
+        <item>31</item>
+        <item>60</item>
+        <item>90</item>
+        <item>127</item>
+    </integer-array>
 </resources>

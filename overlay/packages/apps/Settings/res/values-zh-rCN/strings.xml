@@ -29,6 +29,9 @@
     <string name="volume_adjust_sounds_enable_title">音量键效果音</string>
     <string name="volume_adjust_sounds_enable_summary">按下硬件键播出效果音</string>
 
+    <string name="wifi_setting_priority_title">Wi-Fi 基站连接次序</string>
+    <string name="wifi_setting_priority_summary">指定Wi-Fi基站连接优先次序 </string>
+
     <!-- Volume description for ringtone volume
     <string name="volume_ring_only_description">只改变铃声音量</string>
     <string name="link_volume_ringtones">所有音效音量同步改变</string>
@@ -145,10 +148,10 @@
     <string name="stylus_icon_enabled_title">绘图用手写笔指针图标</string>
     <string name="stylus_icon_enabled_summary">使用绘图用手写笔时,在悬停或绘写时显示指针图标</string> -->
 
-    <!-- USB Mass Storage
+    <!-- USB Mass Storage-->
     <string name="usb_mass_storage_title">大容量储存</string>
     <string name="usb_mass_storage_summary">使用大容量储存状置模式</string>
-
+<!--
     <string name="unlock_set_unlock_circles_title">圆环解锁</string>
     <string name="unlock_set_unlock_mode_circles">圆环</string> -->
 
@@ -325,5 +328,128 @@
     <string name="headset_connect_player_title">连接耳机即打开音乐播放器</string>
     <string name="volume_music_controls_title">播放器音量键跳轨功能</string>
     <string name="volume_music_controls_summary">播放器中长按音量键会向前／后跳轨，播放器使用时音量键唤醒功能将失效.</string>
+
+    <!-- CM Profile Support -->
+    <!-- Profiles settings -->
+    <string name="profiles_settings_title">情景模式</string>
+    <string name="profiles_general_title">常规</string>
+    <string name="profiles_add">添加</string>
+    <string name="profile_menu_delete">删除</string>
+    <string name="profile_settings_title">情景</string>
+    <string name="profile_empty_list_profiles_off">如果您想配置并使用系统情景, 请先开启情景模式.</string>
+
+    <!-- Add Profile -->
+    <string name="add_profile_dialog_title">创建新的情景模式</string>
+    <string name="profile_name_title">名称</string>
+    <string name="profile_profile_name_prompt">为新的情景模式输入一个名称</string>
+    <string name="menu_new_profile">新情景模式</string>
+    <string name="menu_new_profile_summary">添加与配置一个新的情景模式</string>
+    <string name="new_profile_name">&lt;新情景模式&gt;</string>
+
+    <!-- Rename Dialog -->
+    <string name="rename_dialog_title">重命名</string>
+    <string name="rename_dialog_message">输入一个新名称</string>
+    <string name="duplicate_profile_name">此情景名称已被使用!</string>
+    <string name="duplicate_appgroup_name">此应用组名称已被使用!</string>
+
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">重置</string>
+    <string name="profile_reset_message">您确定要删除所有用户创建的情景与应用组并且还原为默认值?</string>
+
+    <!-- Delete confimation messages -->
+    <string name="profile_delete_confirm">您确定要删除此情景?</string>
+    <string name="profile_app_delete_confirm">您确定要移除此应用?</string>
+    <string name="profile_cannot_delete">当前使用中的情景不能被删除</string>
+
+    <!-- Profile Config screen PreferenceGroup titles -->
+    <string name="profile_connectionoverrides_title">连接覆盖</string>
+    <string name="profile_volumeoverrides_title">音量覆盖</string>
+    <string name="profile_vibratoroverrides_title">震动覆盖</string>
+    <string name="connection_state_disabled">禁用</string>
+    <string name="connection_state_enabled">启用</string>
+    <string name="volume_override_summary">设置为</string>
+    <string name="vibrator_state_disabled">禁用</string>
+    <string name="vibrator_state_enabled">启用</string>
+    <string name="vibrator_state_silent">仅限于震动模式</string>
+
+    <!-- Menu item for managing profiles -->
+    <string name="profile_profiles_manage">情景</string>
+    <string name="profile_profile_manage">管理情景</string>
+    <string name="profile_applist_manage">应用列表</string>
+    <string name="profile_appgroups_manage">应用组</string>
+    <string name="profile_appgroup_manage">管理应用组</string>
+
+    <!-- Profile settings screen, section header for settings related to notification profiles -->
+    <string name="profile_settings">情景设置</string>
+    <string name="profile_name">名称</string>
+
+    <!-- Profile Settings sound modes labels -->
+    <string name="sound_mode">提醒模式</string>
+    <string name="ringer_mode">铃声模式</string>
+    <string name="lights_mode">灯光模式</string>
+    <string name="vibrate_mode">震动模式</string>
+    <string name="choose_soundtone">选择提醒音</string>
+    <string name="choose_ringtone">选择铃声</string>
+    <string name="silent_mode_title">静音模式</string>
+
+    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+    <string name="soundtone_title">提醒音</string>
+
+    <!-- Title for application group setting screen -->
+    <string name="profile_appgroups_title">应用组</string>
+    <string name="profile_applist_title">应用</string>
+    <string name="profile_new_appgroup">新的应用组</string>
+    <string name="profile_delete_appgroup">删除该应用组</string>
+    <string name="profile_appgroup_name_prompt">为新的应用组输入一个名称</string>
+    <string name="profile_appgroup_name_title">名称</string>
+    <string name="profile_add_app">添加应用</string>
+    <string name="profile_delete_app">移除应用</string>
+
+    <!-- Add application dialog box title -->
+    <string name="profile_choose_app">选择应用</string>
+    <string name="profile_settings_header">情景设置</string>
+
+    <!-- Profiles - system settings -->
+    <string name="profile_system_settings_title">系统设置</string>
+    <string name="profile_lockmode_title">锁屏模式</string>
+    <string name="profile_lockmode_default">默认</string>
+    <string name="profile_lockmode_insecure">不安全</string>
+    <string name="profile_lockmode_disabled">禁用</string>
+    <string name="profile_lockmode_default_summary">使用系统默认值</string>
+    <string name="profile_lockmode_insecure_summary">使用不安全锁屏</string>
+    <string name="profile_lockmode_disabled_summary">锁屏已禁用</string>
+    <string name="profile_airplanemode_title">飞行模式</string>
+    <string name="profile_disable_screen_lock_summary">此情景激活时禁用锁屏安全设置</string>
+
+    <string name="vibrator_type_ringer">来电</string>
+    <string name="vibrator_type_notification">通知</string>
+
+    <!-- Connection override toggles (not all are used at this time ) -->
+    <string name="possibleButtons">可能的按钮</string>
+    <string name="toggleWifi">Wi-Fi</string>
+    <string name="toggleWifiAp">便携式 Wi-Fi 热点</string>
+    <string name="toggleBluetooth">蓝牙</string>
+    <string name="toggleGPS">GPS</string>
+    <string name="toggleData">移动数据</string>
+    <string name="toggleSync">数据同步</string>
+    <string name="toggle2g3g">2G/3G</string>
+    <string name="toggleSound">声音模式</string>
+    <string name="toggleBrightness">亮度</string>
+    <string name="toggleAutoRotate">屏幕旋转</string>
+    <string name="toggleScreenTimeout">屏幕超时</string>
+    <string name="toggleAirplane">飞行模式</string>
+    <string name="toggleFlashlight">手电筒</string>
+    <string name="toggleLockScreen">锁屏</string>
+    <string name="toggleWimax">WiMAX</string>
+
+    <string name="profile_write_nfc_tag">写到 NFC 标签</string>
+    <string name="profile_write_touch_tag">触摸标签以便写入</string>
+    <string name="profile_write_success">标签写入成功!</string>
+    <string name="profile_write_failed">标签写入失败!</string>
+    <string name="profile_selected">选择的情景: %1$s</string>
+    <string name="profile_nfc_text">将一个情景写入 NFC 标签能够允许您通过触摸标签的行为更改情景. 再次触摸将会返回到您之前选择的情景.</string>
+    <string name="profile_unknown_nfc_tag">未知情景</string>
+    <string name="profile_add_nfc_text">此 NFC 标签是与一个未知的情景相连的. 把此 NFC 标签连接到一个现有的情景将会允许您以后选择这个情景.</string>
+    <string name="profile_select">选择情景</string>
 
 </resources>
