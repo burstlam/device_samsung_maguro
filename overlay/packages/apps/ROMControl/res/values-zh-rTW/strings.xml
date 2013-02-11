@@ -1087,7 +1087,7 @@
     <!-- Pie controls -->
     <string name="pie_controls_title">PIE 面版</string>
     <string name="pie_controls_summary">提供虛擬鍵及信息面版(推荐在全屏模式使用)</string>
-    <string name="pie_gravity_title">Pie 位置 </string>
+    <string name="pie_gravity_title">Pie 觸發側 </string>
     <string name="pie_gravity_summary">選擇PIE面版出現位置</string>
     <string name="pie_gravity_top">上</string>
     <string name="pie_gravity_bottom">下</string>
@@ -1105,6 +1105,8 @@
     <string name="pie_size_default">@string/pie_mode_default</string>
     <string name="pie_size_large">大</string>
     <string name="pie_size_gigantic">最大</string>
+    <string name="pie_center_title">置中顯示</string>
+    <string name="pie_center_summary">反勾此選項,PIE面板可以在觸發側任意處出現</string>
 
     <!-- Pie Color Settings -->
     <string name="pie_color_title">PIE面版自定義顏色</string>

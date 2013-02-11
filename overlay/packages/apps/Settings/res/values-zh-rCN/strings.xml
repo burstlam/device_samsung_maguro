@@ -97,6 +97,25 @@
     <!-- Hostname setting -->
     <string name="device_hostname">设备名称</string>
 
+    <!-- Automatic brightness customization -->
+    <string name="light_sensor_current_value">光线感应器取值: <xliff:g id="light_level">%d</xliff:g> lux</string>
+    <string name="auto_brightness_dialog_title">自动亮度水平调节</string>
+    <string name="auto_brightness_level_format"><xliff:g id="start_level">%1$s</xliff:g> -\n<xliff:g id="end_level">%2$s</xliff:g> lux</string>
+    <string name="auto_brightness_brightness_format"><xliff:g id="percent">%s</xliff:g>%%</string>
+    <string name="auto_brightness_adjust_button">调节</string>
+    <string name="auto_brightness_reset_button">重置</string>
+    <string name="auto_brightness_remove_button">移除</string>
+    <string name="auto_brightness_add_line">新增</string>
+    <string name="auto_brightness_lux_dialog_title">亮度水平设置</string>
+    <string name="auto_brightness_split_dialog_title">中分亮度水平</string>
+    <string name="auto_brightness_start_lux">初始 (lux)</string>
+    <string name="auto_brightness_end_lux">结束 (lux)</string>
+    <string name="auto_brightness_split_lux_format">中分位置 (于 <xliff:g id="min">%1$d</xliff:g> 及 <xliff:g id="max">%2$d</xliff:g> lux 之间)</string>
+    <string name="auto_brightness_level_options">亮度水平</string>
+    <string name="auto_brightness_menu_edit_lux">编辑光线感应器取值</string>
+    <string name="auto_brightness_menu_split">中分</string>
+    <string name="auto_brightness_menu_remove">移除</string>
+
     <!-- Backlight #CM
 
     <string name="backlight_title">自动亮度调节</string>
