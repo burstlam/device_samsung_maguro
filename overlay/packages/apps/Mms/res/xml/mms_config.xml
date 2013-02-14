@@ -69,4 +69,6 @@
     <!-- User-Agent parameter used in MMS http request -->
     <string name="userAgent">GalaxyNexus</string>
 
+    <bool name="enableSplitSMS">false</bool>
+
 </mms_config>

@@ -72,7 +72,7 @@
     <string name="title_show_screenshot">显示屏幕截图开关</string>
     <string name="title_show_torch_toggle">显示手电筒开关</string>
     <string name="title_show_airplane_toggle">显示飞行模式开关</string>
-    <string name="title_show_navbar_hide">显示虚拟键开关</string>
+    <string name="title_show_navbar_hide">显示导航栏控制台开关</string>
     <string name="power_menu_expanded_desktop">全屏模式开关</string>
 
     <!-- Power Saving -->
@@ -202,7 +202,6 @@
     <string name="summary_settings_behavior_reverse">点击通知栏设置图标显示快捷开关，长按进入系统设置</string>
     <string name="title_toggles_autohide">自动隐藏快捷开关</string>
     <string name="summary_toggles_autohide">通知栏收起后快捷开关将隐藏</string>
-    <string name="brightness_location_title">亮度调整的位置</string>
     <string name="reset_toggles_title">重置开关</string>
     <string name="reset_toggles_summary">重置所有开关的设置及顺序</string>
     <string name="toggle_button_alpha_title">开关指示器透明度</string>
@@ -259,7 +258,7 @@
     <string name="toggle_screen">一键关屏</string>
     <string name="toggle_sound_state">铃声/振动/静音</string>
     <string name="toggle_powermenu">电源键菜单</string>
-    <string name="toggle_profile">情景模式(必须先设置相关内容)</string>
+    <string name="toggle_profile">情景模式</string>
     <string name="toggle_statusbar">状态栏</string>
     <string name="toggle_quiethours">免打扰模式</string>
 
@@ -752,10 +751,6 @@
     <string name="icon_only">只显示图示</string>
     <string name="text_only">只显示文字</string>
 
-    <!-- Brightness slider -->
-    <string name="on_top">置顶</string>
-    <string name="on_the_bottom">置底</string>
-
     <!-- Battery styles -->
     <string name="icon_with_percent">图示+数值</string>
     <string name="icon_with_percent_center">带置中数值图示</string>
@@ -1202,6 +1197,12 @@
     <!-- <string name="expanded_desktop_disabled">关闭</string> -->
     <string name="expanded_desktop_staus_bar">显示状态栏</string>
     <string name="expanded_desktop_no_staus_bar">隐藏状态栏</string>
+
+   <!-- CRT_ANIMATION-->
+   <string name="system_power_crt_screen_off_title">CRT 关屏动画</string>
+   <string name="system_power_crt_screen_off_summary">关屏时屏幕显示电子束动画效果</string>
+   <string name="system_power_crt_screen_on_title">CRT 亮屏动画</string>
+   <string name="system_power_crt_screen_on_summary">亮屏时屏幕显示电子束动画效果</string>
 
     <!-- Performance
     <string name="memory_management_title">内存管理</string>

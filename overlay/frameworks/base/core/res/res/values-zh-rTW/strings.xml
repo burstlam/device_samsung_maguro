@@ -43,7 +43,7 @@
     <string name="global_actions_expanded_desktop_mode_on_status">啟用</string>
     <string name="global_actions_expanded_desktop_mode_off_status">關閉</string>
 
-    <string name="global_actions_toggle_navbar_hide">虛擬鍵</string>
+    <string name="global_actions_toggle_navbar_hide">導航欄控制台</string>
 
 	<string name="global_action_torch">手電筒</string>
 

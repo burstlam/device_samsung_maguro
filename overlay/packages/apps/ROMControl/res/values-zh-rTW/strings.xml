@@ -58,7 +58,7 @@
     <string name="title_show_screenshot">顯示屏幕截圖開關</string>
     <string name="title_show_torch_toggle">顯示手電筒開關</string>
     <string name="title_show_airplane_toggle">顯示飛行模式開關</string>
-    <string name="title_show_navbar_hide">顯示虛擬鍵開關</string>
+    <string name="title_show_navbar_hide">顯示導航欄控制台開關</string>
     <string name="power_menu_expanded_desktop">全屏模式開關</string>
 
 
@@ -190,7 +190,6 @@
     <string name="summary_settings_behavior_reverse">輕按改變開關狀態, 長按則進入設定菜單</string>
     <string name="title_toggles_autohide">自動隱藏開關</string>
     <string name="summary_toggles_autohide">通知欄收起後快捷開關將自動隱藏.</string>
-    <string name="brightness_location_title">亮度調節位置</string>
     <string name="reset_toggles_title">重置開關</string>
     <string name="reset_toggles_summary">重置所有開關的設置及順序</string>
     <string name="toggle_button_alpha_title">開關指示器透明度</string>
@@ -199,7 +198,7 @@
     <string name="toggle_btn_background_title">開關背景透明度</string>
     <string name="toggle_text_color_title">開關文字顏色</string>
     <string name="toggle_powermenu">電源鍵菜單</string>
-    <string name="toggle_profile">情景模式(必須先設置相關內容)</string>
+    <string name="toggle_profile">情景模式</string>
     <string name="toggle_statusbar">狀態欄</string>
     <string name="toggle_quiethours">免打擾模式</string>
 
@@ -747,10 +746,6 @@
     <string name="icon_only">只顯示圖示</string>
     <string name="text_only">只顯示文字</string>
 
-    <!-- Brightness slider -->
-    <string name="on_top">置頂</string>
-    <string name="on_the_bottom">置底</string>
-
     <!-- Battery styles -->
     <string name="icon_with_percent">圖示+數值</string>
     <string name="icon_with_percent_center">帶置中數值圖示</string>
@@ -951,7 +946,7 @@
     <string name="notification_shade_dim_summary">下拉通知欄時候選擇是否顯示變暗視覺特效</string>
     <string name="notif_alpha_title">通知欄訊息條透明度</string>
 
-    <!-- Statusbar -->
+    <!-- Statusbar-->
     <string name="brightness_slider_title">狀態欄亮度控制</string>
     <string name="brightness_slider_summary">在狀態欄上滑動調校屏幕亮度</string>
     <string name="status_bar_max_notifications_title">狀態欄通知圖示最大數</string>
@@ -1196,6 +1191,12 @@
     <!-- <string name="expanded_desktop_disabled">關閉</string> -->
     <string name="expanded_desktop_staus_bar">顯示狀態欄</string>
     <string name="expanded_desktop_no_staus_bar">隱藏狀態欄</string>
+
+   <!-- CRT_ANIMATION-->
+   <string name="system_power_crt_screen_off_title">CRT 關屏動畫</string>
+   <string name="system_power_crt_screen_off_summary">關屏時屏幕顯示電子束動畫效果</string>
+   <string name="system_power_crt_screen_on_title">CRT 亮屏動畫</string>
+   <string name="system_power_crt_screen_on_summary">亮屏時屏幕顯示電子束動畫效果</string>
 
     <!-- Performance
     <string name="memory_management_title">記憶體管理</string>

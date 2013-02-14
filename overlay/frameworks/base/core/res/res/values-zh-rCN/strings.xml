@@ -43,7 +43,7 @@
 
     <string name="global_action_screenshot">屏幕截图</string>
 
-    <string name="global_actions_toggle_navbar_hide">虚拟键</string>
+    <string name="global_actions_toggle_navbar_hide">导航栏控制台</string>
 
 	<string name="global_action_torch">手电筒</string>
 
