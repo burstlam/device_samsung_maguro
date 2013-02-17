@@ -485,10 +485,57 @@
     <string name="lockscreen_target_summary">檢視及改變目標</string>
     <string name="number_of_targets_title">設定目標數目</string>
     <string name="number_of_targets_summary">您想設定的解鎖目標數目?</string>
+    <string name="lockscreen_eight_targets_title">啟用八個解鎖目標</string>
+    <string name="lockscreen_eight_targets_summary">允許鎖屏解鎖目標增加至八個.\n注意:啟用此選項將重置自定義目標並無法使用鎖屏捷徑</string>
+    <string name="lockscreen_shorcuts_longpress_title">長按自定義目標解鎖</string>
+    <string name="lockscreen_shorcuts_longpress_summary">長按目標圖示執行程序並解鎖</string>
     <string name="picker_activities">活動</string>
     <string name="select_custom_activity_title">選擇自定義活動</string>
     <string name="icon_picker_choose_icon_title">選擇圖示</string>
-    <string name="icon_picker_alarm">鬧鐘</string>
+    <string name="lockscreen_shortcuts_icon_picker_alarm">鬧鐘</string>
+    <string name="lockscreen_shortcuts_icon_picker_andy">Andy</string>
+    <string name="lockscreen_shortcuts_icon_picker_battery">電量</string>
+    <string name="lockscreen_shortcuts_icon_picker_browser">瀏覽器</string>
+    <string name="lockscreen_shortcuts_icon_picker_calendar">日曆</string>
+    <string name="lockscreen_shortcuts_icon_picker_camera">相機</string>
+    <string name="lockscreen_shortcuts_icon_picker_cloud">雲</string>
+    <string name="lockscreen_shortcuts_icon_picker_contact">聯絡人</string>
+    <string name="lockscreen_shortcuts_icon_picker_directdial">直撥號碼</string>
+    <string name="lockscreen_shortcuts_icon_picker_directmessage">直接傳送信息</string>
+    <string name="lockscreen_shortcuts_icon_picker_email">電郵</string>
+    <string name="lockscreen_shortcuts_icon_picker_email2">電郵 2</string>
+    <string name="lockscreen_shortcuts_icon_picker_facebook">Facebook</string>
+    <string name="lockscreen_shortcuts_icon_picker_favorite">常用聯絡人</string>
+    <string name="lockscreen_shortcuts_icon_picker_file_browser">文件瀏覽器</string>
+    <string name="lockscreen_shortcuts_icon_picker_file_browser2">文件瀏覽器2</string>
+    <string name="lockscreen_shortcuts_icon_picker_gallery">圖庫</string>
+    <string name="lockscreen_shortcuts_icon_picker_google_small">Google</string>
+    <string name="lockscreen_shortcuts_icon_picker_gplus">Google+</string>
+    <string name="lockscreen_shortcuts_icon_picker_gtalk">GTalk</string>
+    <string name="lockscreen_shortcuts_icon_picker_help">幫助</string>
+    <string name="lockscreen_shortcuts_icon_picker_joystick">搖桿</string>
+    <string name="lockscreen_shortcuts_icon_picker_key">密鑰/帳戶</string>
+    <string name="lockscreen_shortcuts_icon_picker_laptop">桌上電腦</string>
+    <string name="lockscreen_shortcuts_icon_picker_luggage">行程</string>
+    <string name="lockscreen_shortcuts_icon_picker_maps">地圖</string>
+    <string name="lockscreen_shortcuts_icon_picker_market">市場</string>
+    <string name="lockscreen_shortcuts_icon_picker_movie">電影</string>
+    <string name="lockscreen_shortcuts_icon_picker_music">音樂</string>
+    <string name="lockscreen_shortcuts_icon_picker_nav">導航</string>
+    <string name="lockscreen_shortcuts_icon_picker_phone">電話</string>
+    <string name="lockscreen_shortcuts_icon_picker_pintrest">Pintrest</string>
+    <string name="lockscreen_shortcuts_icon_picker_play">播放</string>
+    <string name="lockscreen_shortcuts_icon_picker_podcast">Podcast</string>
+    <string name="lockscreen_shortcuts_icon_picker_quicksettings">快速設定</string>
+    <string name="lockscreen_shortcuts_icon_picker_rss">RSS Feed</string>
+    <string name="lockscreen_shortcuts_icon_picker_sdcard">SD卡</string>
+    <string name="lockscreen_shortcuts_icon_picker_search">搜尋</string>
+    <string name="lockscreen_shortcuts_icon_picker_sms">信息</string>
+    <string name="lockscreen_shortcuts_icon_picker_terminal">終端</string>
+    <string name="lockscreen_shortcuts_icon_picker_twitter">Twitter</string>
+    <string name="lockscreen_shortcuts_icon_picker_unlock">解鎖</string>
+
+<!--    <string name="icon_picker_alarm">鬧鐘</string>
     <string name="icon_picker_browser">瀏覽器</string>
     <string name="icon_picker_calendar">日曆</string>
     <string name="icon_picker_camera">相機</string>
@@ -507,7 +554,9 @@
     <string name="icon_picker_search">搜尋</string>
     <string name="icon_picker_sms">信息</string>
     <string name="icon_picker_twitter">Twitter</string>
-    <string name="icon_picker_unlock">解鎖</string>
+    <string name="icon_picker_unlock">解鎖</string>-->
+
+
     <string name="icon_picker_title">選擇圖示來源</string>
     <string name="icon_picker_system_icons_title">系統圖示包</string>
     <string name="icon_picker_aokp_icons_title">AOKP圖示包</string>
@@ -947,8 +996,8 @@
     <string name="notif_alpha_title">通知欄訊息條透明度</string>
 
     <!-- Statusbar-->
-    <string name="brightness_slider_title">狀態欄亮度控制</string>
-    <string name="brightness_slider_summary">在狀態欄上滑動調校屏幕亮度</string>
+    <!-- <string name="brightness_slider_title">狀態欄亮度控制</string>
+    <string name="brightness_slider_summary">在狀態欄上滑動調校屏幕亮度</string> -->
     <string name="status_bar_max_notifications_title">狀態欄通知圖示最大數</string>
     <string name="status_bar_max_notifications_summary">此修改只對竪屏的平板模式有效</string>
     <string name="statusbar_hide_title">隱藏狀態欄</string>
@@ -1212,4 +1261,154 @@
     <string name="pref_purgeable_assets_title">允許記憶體資源的清除</string>
     <string name="pref_purgeable_assets_summary">點陣圖記憶體資源的清除可以在系統需要時提供更多的記憶體. (需要重啟)</string> -->
 
+    <!-- INTERFACE Settings -->
+    <!-- Notification Drawer -->
+    <string name="notification_drawer_title">通知欄電源鍵開關</string>
+
+    <!-- Power Widget -->
+    <string name="power_widget_title">電源小開關</string>
+    <string name="title_expanded_widget">電源鍵開關</string>
+    <string name="power_widget_behavior">行為</string>
+    <string name="title_expanded_hide_onchange">做出操作后關閉通知欄</string>
+    <string name="title_expanded_hide_scrollbar">隱藏滾動條</string>
+    <string name="title_widget_picker">新增設定按鈕</string>
+    <string name="summary_widget_picker">查看或改變目前顯示的按鈕</string>
+    <string name="title_widget_order">小工具按鈕順序</string>
+    <string name="summary_widget_order">查看或改變目前顯示按鈕的順序</string>
+    <string name="title_buttons">按鈕</string>
+    <string name="title_toggle_wifi">Wi-Fi</string>
+    <string name="title_toggle_bluetooth">藍牙</string>
+    <string name="title_toggle_gps">GPS</string>
+    <string name="title_toggle_sound">聲音模式</string>
+    <string name="title_toggle_brightness">亮度</string>
+    <string name="title_toggle_sync">同步</string>
+    <string name="title_toggle_wifiap">Wi-Fi 熱點</string>
+    <string name="title_toggle_screentimeout">屏幕超時</string>
+    <string name="title_toggle_mobiledata">移動數據</string>
+    <string name="title_toggle_lockscreen">鎖屏</string>
+    <string name="title_toggle_networkmode">網絡模式</string>
+    <string name="title_toggle_autorotate">屏幕旋轉</string>
+    <string name="title_toggle_airplane">飛行模式</string>
+    <string name="title_toggle_flashlight">手電筒</string>
+    <string name="title_toggle_sleep">睡眠模式</string>
+    <string name="title_toggle_media_play_pause">媒體: 切換播放/暫停</string>
+    <string name="title_toggle_media_previous">媒體: 跳到前一首</string>
+    <string name="title_toggle_media_next">媒體: 跳到下一首</string>
+    <string name="title_toggle_lte">LTE</string>
+    <string name="title_toggle_wimax">WiMax</string>
+    <string name="title_button_modes">按鈕模式</string>
+    <string name="pref_brightness_mode_title">亮度切換模式</string>
+    <string name="pref_brightness_mode_summary">查看或更改亮度按鈕的切換模式</string>
+    <string name="cm_brightness_mode_auto">自動</string>
+    <string name="cm_brightness_mode_dim">較暗</string>
+    <string name="pref_network_mode_title">網絡切換模式</string>
+    <string name="pref_screentimeout_mode_title">屏幕超時切換模式</string>
+    <string name="pref_ring_mode_title">聲音切換模式</string>
+    <string name="pref_ring_mode_summary">選擇聲音按鈕的切換方式</string>
+    <string name="cm_sound_mode_silent">靜音</string>
+    <string name="cm_sound_mode_vibrate">震動</string>
+    <string name="cm_sound_mode_sound">鈴聲</string>
+    <string name="cm_sound_mode_soundVibrate">鈴聲 &amp; 震動</string>
+    <string name="pref_flash_mode_title">手電筒</string>
+    <string name="expanded_haptic_feedback_title">觸動反饋</string>
+    <string name="haptic_feedback_default">依照系統默認設定</string>
+    <string name="haptic_feedback_on">開啟</string>
+    <string name="haptic_feedback_off">禁用</string>
+
+    <string name="power_widget_additional_options_cat">進階選項</string>
+    <string name="status_bar_toggle_brightness">狀態欄亮度控制</string>
+    <string name="status_bar_toggle_brightness_summary">在狀態欄上滑動調校屏幕亮度</string>
+    <string name="status_bar_toggle_info">系統正在使用自動亮度調節</string>
+    <string name="brightness_location_title">通知欄屏幕亮度調節板塊位置</string>
+    <string name="brightness_slider_top">小工具上面</string>
+    <string name="brightness_slider_bottom">小工具下面</string>
+    <string name="brightness_slider_none">不要顯示</string>
+
+    <!-- Connection override toggles (not all are used at this time ) -->
+    <string name="possibleButtons">可用按鍵</string>
+    <string name="toggleWifi">Wi-Fi</string>
+    <string name="toggleWifiAp">Wi-Fi 熱點</string>
+    <string name="toggleBluetooth">藍牙</string>
+    <string name="toggleGPS">GPS</string>
+    <string name="toggleData">移動數據</string>
+    <string name="toggleSync">數據同步</string>
+    <string name="toggle2g3g">2G/3G</string>
+    <string name="toggleSound">聲音切換模式</string>
+    <string name="toggleNotificationSound">通知音</string>
+    <string name="toggleBrightness">亮度</string>
+    <string name="toggleAutoRotate">屏幕旋轉</string>
+    <string name="toggleScreenTimeout">屏幕逾時</string>
+    <string name="toggleAirplane">飛航模式</string>
+    <string name="toggleFlashlight">手電筒</string>
+    <string name="toggleLockScreen">鎖屏</string>
+    <string name="toggleWimax">WiMAX</string>
+
+    <!-- Notification Shortcuts -->
+    <string name="notification_shortcuts_grouptitle">自定義捷徑</string>
+    <string name="notification_shortcuts_settings_title">通知欄自定義捷徑</string>
+    <string name="notification_shortcuts_settings_summary">通知欄底部顯示自定義捷徑</string>
+    <string name="notification_shortcuts_empty_title">空白</string>
+    <string name="notification_shortcuts_edit_title">設定捷徑</string>
+    <string name="notification_shortcuts_edit_msg">選擇或變更目前自定義捷徑</string>
+    <string name="notification_shortcuts_reset_title">清除捷徑</string>
+    <string name="notification_shortcuts_category_reset_title">重置</string>
+    <string name="notification_shortcuts_title">捷徑</string>
+    <string name="notification_shortcuts_icon_picker_stock_icons_title">系統圖示</string>
+    <string name="notification_shortcuts_quantity_title">捷徑數目</string>
+    <string name="notification_shortcuts_quantity_summary">選擇最大顯示數目</string>
+    <string name="default_notification_shortcut">6 (默認)</string>
+    <string name="notification_shortcuts_move_text">改變順序</string>
+    <string name="notification_shortcuts_move_up">上移一格</string>
+    <string name="notification_shortcuts_move_down">下移一格</string>
+    <string name="notification_shortcuts_color_title">捷徑顏色</string>
+    <string name="notification_shortcuts_color_summary">為默認圖示或程序著色</string>
+    <string name="notification_shortcuts_colorize_toggle_title">程序圖示著色</string>
+    <string name="notification_shortcuts_colorize_toggle_summary">用選定顏色為所有程序圖示著色</string>
+    <string name="notification_shortcuts_hide_carrier_title">隱藏營運商名字</string>
+    <string name="wifi_security_none">開放模式</string>
+
+
+    <!-- Notification Icons -->
+    <string name="notification_shortcuts_icon_picker_alarm">鬧鐘</string>
+    <string name="notification_shortcuts_icon_picker_andy">安卓機器人</string>
+    <string name="notification_shortcuts_icon_picker_battery">電池</string>
+    <string name="notification_shortcuts_icon_picker_browser">瀏覽器</string>
+    <string name="notification_shortcuts_icon_picker_calendar">日曆</string>
+    <string name="notification_shortcuts_icon_picker_camera">相機</string>
+    <string name="notification_shortcuts_icon_picker_cloud">雲</string>
+    <string name="notification_shortcuts_icon_picker_contact">聯絡人</string>
+    <string name="notification_shortcuts_icon_picker_directdial">直撥號碼</string>
+    <string name="notification_shortcuts_icon_picker_directmessage">直接傳送信息</string>
+    <string name="notification_shortcuts_icon_picker_email">電郵</string>
+    <string name="notification_shortcuts_icon_picker_email2">電郵 2</string>
+    <string name="notification_shortcuts_icon_picker_facebook">Facebook</string>
+    <string name="notification_shortcuts_icon_picker_favorite">書簽</string>
+    <string name="notification_shortcuts_icon_picker_file_browser">文件瀏覽器</string>
+    <string name="notification_shortcuts_icon_picker_file_browser2">文件瀏覽器2</string>
+    <string name="notification_shortcuts_icon_picker_gallery">圖庫</string>
+    <string name="notification_shortcuts_icon_picker_google_small">Google</string>
+    <string name="notification_shortcuts_icon_picker_gplus">Google+</string>
+    <string name="notification_shortcuts_icon_picker_gtalk">GTalk</string>
+    <string name="notification_shortcuts_icon_picker_help">幫助</string>
+    <string name="notification_shortcuts_icon_picker_joystick">搖桿</string>
+    <string name="notification_shortcuts_icon_picker_key">密鑰/帳戶</string>
+    <string name="notification_shortcuts_icon_picker_laptop">手提電腦</string>
+    <string name="notification_shortcuts_icon_picker_luggage">行程</string>
+    <string name="notification_shortcuts_icon_picker_maps">地圖</string>
+    <string name="notification_shortcuts_icon_picker_market">市場</string>
+    <string name="notification_shortcuts_icon_picker_movie">電影</string>
+    <string name="notification_shortcuts_icon_picker_music">音樂</string>
+    <string name="notification_shortcuts_icon_picker_nav">導航</string>
+    <string name="notification_shortcuts_icon_picker_phone">電話</string>
+    <string name="notification_shortcuts_icon_picker_pintrest">Pinterest</string>
+    <string name="notification_shortcuts_icon_picker_play">播放</string>
+    <string name="notification_shortcuts_icon_picker_podcast">Podcast</string>
+    <string name="notification_shortcuts_icon_picker_quicksettings">快速設置</string>
+    <string name="notification_shortcuts_icon_picker_rss">RSS</string>
+    <string name="notification_shortcuts_icon_picker_sdcard">SD卡</string>
+    <string name="notification_shortcuts_icon_picker_search">搜尋</string>
+    <string name="notification_shortcuts_icon_picker_sms">信息</string>
+    <string name="notification_shortcuts_icon_picker_terminal">終端</string>
+    <string name="notification_shortcuts_icon_picker_twitter">Twitter</string>
+    <string name="notification_shortcuts_icon_picker_unlock">解鎖</string>
 </resources>
