@@ -1044,19 +1044,18 @@
     <string name="lockscreen_camera_widget_title">启用相机小工具</string>
     <string name="lockscreen_camera_widget_summary">锁屏增加相机小工具</string>
 
-    <!-- Lock screen background
+    <!-- Lock screen background -->
     <string name="lockscreen_custom_background_title">锁屏背景</string>
     <string name="lockscreen_custom_background_dialog_title">选择颜色</string>
     <string name="lockscreen_background_result_successful">背景已更改</string>
     <string name="lockscreen_background_result_not_successful">背景未更改</string>
     <string name="lockscreen_background_color_fill">实色填充</string>
     <string name="lockscreen_background_custom_image">自定义图片</string>
-    <string name="lockscreen_background_default_wallpaper">默认壁纸</string>-->
+    <string name="lockscreen_background_default_wallpaper">默认壁纸</string>
+    <string name="lockscreen_wallpaper_alpha_title">背景透明</string>
+    <!-- <string name="lockscreen_background_full_transparent">完全透明-->
 
-    <string name="pref_lockscreen_transparent">锁屏透明</string>
-<!--
-    <string name="lockscreen_alpha_title">背景透明</string>
-    <string name="lockscreen_background_full_transparent">完全透明</string> -->
+<!--    <string name="pref_lockscreen_transparent">锁屏透明</string>-->
 
     <!-- ParanoidAndroid: Lockscreen Shortcuts -->
     <string name="ls_shortcuts_title">锁屏捷径</string>
@@ -1300,6 +1299,9 @@
     <string name="title_toggle_media_next">媒体: 跳到下一首</string>
     <string name="title_toggle_lte">LTE</string>
     <string name="title_toggle_wimax">WiMax</string>
+    <string name="title_toggle_notification_sound">通知音</string>
+    <string name="title_toggle_reboot">重启 (长按进入 Recovery)</string>
+    <string name="title_toggle_fcharge">快充模式</string>
     <string name="title_button_modes">按钮模式</string>
     <string name="pref_brightness_mode_title">亮度切换模式</string>
     <string name="pref_brightness_mode_summary">查看或更改亮度按钮的切换模式</string>

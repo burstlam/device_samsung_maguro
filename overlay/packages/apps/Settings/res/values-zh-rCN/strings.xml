@@ -104,10 +104,10 @@
     <string name="auto_brightness_brightness_format"><xliff:g id="percent">%s</xliff:g>%%</string>
     <string name="auto_brightness_adjust_button">调节</string>
     <string name="auto_brightness_reset_button">重置</string>
-<!--    <string name="auto_brightness_remove_button">移除</string>
-    <string name="auto_brightness_add_line">新增</string>-->
     <string name="auto_brightness_lux_dialog_title">亮度水平设置</string>
     <string name="auto_brightness_split_dialog_title">中分亮度水平</string>
+    <string name="auto_brightness_reset_dialog_title">还原系统默认值?</string>
+    <string name="auto_brightness_reset_confirmation">所有亮度水平将会重置成系统默认值.</string>
     <string name="auto_brightness_start_lux">初始 (lux)</string>
     <string name="auto_brightness_end_lux">结束 (lux)</string>
     <string name="auto_brightness_split_lux_format">中分位置 (于 <xliff:g id="min">%1$d</xliff:g> 及 <xliff:g id="max">%2$d</xliff:g> lux 之间)</string>
@@ -116,49 +116,6 @@
     <string name="auto_brightness_menu_split">中分</string>
     <string name="auto_brightness_menu_remove">移除</string>
 
-    <!-- Backlight #CM
-
-    <string name="backlight_title">自动亮度调节</string>
-    <string name="backlight_summary">调整亮度水平和传感器运算</string>
-    <string name="light_filter_title">光线传感器运算</string>
-    <string name="light_filter_enabled_title">启用</string>
-    <string name="light_filter_enabled_summary">对光线传感器取得的数据做移动平均运算，以减少频繁调节亮度引起的屏幕闪烁。</string>
-    <string name="light_filter_window_title">移动平均取值长度</string>
-    <string name="light_filter_window_summary">对该时间段内的光线传感器数据取平均值。</string>
-    <string name="light_filter_reset_title">重置临界值</string>
-    <string name="light_filter_reset_summary">如果光线传感器数据样本相对于当前平均值的变化量超过该临界值，则重置移动平均值的运算，以便光线剧烈变化的情况下可迅速反应。</string>
-    <string name="light_filter_interval_title">传感器抽样间隔</string>
-    <string name="light_filter_interval_summary">间隔越短准确度越高，但也会消耗更多的 CPU 。</string>
-    <string name="light_levels_title">亮度水平</string>
-    <string name="light_levels_enabled_title">使用自定设置</string>
-    <string name="light_levels_dim_title">屏幕变暗值</string>
-    <string name="light_levels_dim_summary">当使屏幕变暗时所使用的亮度水平值</string>
-    <string name="light_levels_editor_title">编辑其它值...</string>
-    <string name="light_decrease_enabled_title">允许降低亮度</string>
-    <string name="light_decrease_enabled_summary">打开该选项允许降低亮度，使用迟滞选项减少频繁调节亮度引起的屏幕闪烁。</string>
-    <string name="light_decrease_hysteresis_title">降低亮度迟滞</string>
-    <string name="light_decrease_hysteresis_summary">传感器数据降低一定水平后再降低屏幕亮度。</string> -->
-
-    <!-- Light sensor levels #CM
-    <string name="ll_title">光线传感器取值</string>
-    <string name="ll_header_upper">上限</string>
-    <string name="ll_header_lower">下限</string>
-    <string name="ll_header_lcd">屏幕</string>
-    <string name="ll_header_btn">按钮</string>
-    <string name="ll_header_kb">键盘</string>
-    <string name="ll_lux">传感器 (运算后 / 初始):</string>
-    <string name="ll_lcd">屏幕：</string>
-    <string name="ll_btn">按钮：</string>
-    <string name="ll_kb">键盘：</string>
-    <string name="ll_disabled">关闭</string>
-    <string name="ll_default">读入缺省值</string>
-    <string name="ll_save">存储并应用</string>
-    <string name="ll_reload">恢复当前值</string>
-    <string name="ll_bad_levels">取值必须逐渐增大</string>
-    <string name="ll_num_levels">设置亮度级别数量</string> -->
-
-<!--
-    <string name="accessibility_home_button_answers_call_title">使用主页键接听来电</string> -->
     <string name="wifi_setting_countrycode_title">设置Wi-Fi 国家/地区代码</string>
     <string name="wifi_setting_countrycode_summary">Wi-Fi所属地域置标</string>
     <string name="wifi_setting_countrycode_error">不能设置代码.</string>
@@ -170,10 +127,8 @@
     <!-- USB Mass Storage-->
     <string name="usb_mass_storage_title">大容量储存</string>
     <string name="usb_mass_storage_summary">使用大容量储存状置模式</string>
-<!--
-    <string name="unlock_set_unlock_circles_title">圆环解锁</string>
-    <string name="unlock_set_unlock_mode_circles">圆环</string> -->
 
+    <!-- Hardware Info -->
     <string name="hardware_info">硬件信息</string>
     <string name="device_rear_camera">后置镜头</string>
     <string name="device_front_camera">前缀镜头</string>
@@ -203,15 +158,6 @@
     <string name="increasing_ring_interval_10seconds">10 秒</string>
 
     <string name="vibration_title">来电振动提示</string>
-
-    <!-- Setting checkbox title for root access
-    <string name="root_access">Root 授权</string>
-    <string name="root_access_warning_title">允许 Root 授权请求?</string>
-    <string name="root_access_warning_message">允许程序得到超级用户权限是有风险的！这可能会影响您的系统的安全！</string>
-    <string name="root_access_none">禁用</string>
-    <string name="root_access_apps">限于应用程序</string>
-    <string name="root_access_adb">限于 ADB</string>
-    <string name="root_access_all">应用程序与 ADB</string>-->
 
     <string name="nfc_polling_mode_title">NFC 侦测模式</string>
     <string name="nfc_polling_mode_screen_off">屏幕关闭</string>
@@ -247,62 +193,6 @@
     <!-- Safe headset volume restore checkbox -->
     <string name="safe_headset_restore_title">耳机音量安全保护</string>
     <string name="safe_headset_restore_summary">避免首次插入时声量过大损坏耳机和伤害听觉</string>
-
-    <!-- Performance settings
-    <string name="performance_settings_title">性能</string>
-    <string name="performance_settings_warning_title">请谨慎前进！</string>
-    <string name="performance_settings_warning">这些设置完全是用于测试与实验。这里的改变将直接影响系统性能, 并可能导致系统不稳定, 数据丢失, 与硬件损伤。\n\n如果您更改了这里的设置, 我们请求您不要向我们提交 Bug 报告。</string>
-    <string name="processor_title">处理器</string>
-    <string name="processor_summary">更改 CPU 调节器以及时钟速度</string>
-    <string name="cpu_cur_freq_title">当前 CPU 频率</string>
-    <string name="cpu_governors_title">CPU 调节器</string>
-    <string name="cpu_min_freq_title">最低 CPU 频率</string>
-    <string name="cpu_min_freq_summary">%s</string>
-    <string name="cpu_max_freq_title">最高 CPU 频率</string>
-    <string name="cpu_max_freq_summary">%s</string>
-    <string name="cpu_set_on_boot">启动时设置</string>
-    <string name="cpu_set_on_boot_summary">在启动时恢复当前的 CPU 设置</string>
-    <string name="io_scheds_title">I/O 调度器</string>
-    <string name="io_scheds_summary">更改 I/O 调度器</string>
-    <string name="io_sched_title">I/O 调度器</string>
-    <string name="io_sched_summary">%S</string>
-    <string name="io_sched_set_on_boot">启动时设置</string>
-    <string name="io_sched_set_on_boot_summary">在启动时恢复当前的 I/O 调度器设置</string>
-    <string name="memory_management_title">内存管理</string>
-    <string name="memory_management_summary">自定义内存使用以改变系统性能</string>
-    <string name="pref_zram_title">zRam</string>
-    <string name="pref_zram_summary">压缩内存以增加虚拟容量 (需要重启)</string>
-    <string name="pref_ksm_title">KSM</string>
-    <string name="pref_ksm_summary">KSM降低系统对内存的要求并提高性能</string>
-    <string name="pref_zram_size_disable">关闭</string>
-    <string name="pref_zram_size_10">10%</string>
-    <string name="pref_zram_size_18">18% (默认)</string>
-    <string name="pref_zram_size_26">26%</string>
-    <string name="pref_purgeable_assets_title">允许内存资源的清除</string>
-    <string name="pref_purgeable_assets_summary">位图内存资源的清除可以在系统需要时提供更多的内存. (需要重启)</string>
-    <string name="pref_use_dithering_title">表面改进</string>
-    <string name="dithering_no_dither">禁用图像抖动处理</string>
-    <string name="dithering_color_banding">修复色帶 (默认)</string>
-    <string name="dithering_blur_effect">修复色帶与模糊效果</string>
-    <string name="pref_use_16bpp_alpha_title">使用16位透明度</string>
-    <string name="pref_use_16bpp_alpha_summary">更好的图形性能, 但会降低图像质量以及影响视觉效果. (需要重启)</string>-->
-
-    <!-- Performance | Voltage Control
-
-    <string name="cpu_voltage">电压设置</string>
-    <string name="cpu_voltage_summary">设置不同频率下工作电压</string>
-    <string name="ps_volt_mhz_voltage">" MHz 电压"</string>
-    <string name="ps_volt_save">"储存"</string>
-    <string name="ps_volt_current_voltage">"目前电压: "</string>
-    <string name="ps_volt_setting_to_apply">"套用设定: "</string>
-    <string name="pt_volt_control">电压设置</string>
-    <string name="ps_volt_control">设置不同频率下工作电压</string>
-    <string name="not_supported">你的内核不支持电压调校</string>
-    <string name="apply_values">套用更新</string>
-    <string name="freq">频率</string>
-    <string name="current">目前 mV</string>
-    <string name="saved">己储存 mV</string>
-    <string name="sob">开机套用</string> -->
 
     <!-- Lock screen vibrate settings -->
     <string name="lockscreen_vibrate_enabled_title">振动反馈</string>
