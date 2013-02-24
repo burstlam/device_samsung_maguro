@@ -51,11 +51,11 @@ PRODUCT_COPY_FILES += \
     device/samsung/maguro/prebuilt/lib/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
 
 # Modules
-PRODUCT_COPY_FILES += \
-    device/samsung/maguro/prebuilt/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
-    device/samsung/maguro/prebuilt/lib/modules/rpmsg_client_sample.ko:system/lib/modules/rpmsg_client_sample.ko \
-    device/samsung/maguro/prebuilt/lib/modules/rpmsg_server_sample.ko:system/lib/modules/rpmsg_server_sample.ko \
-    device/samsung/maguro/prebuilt/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko
+# PRODUCT_COPY_FILES += \
+#    device/samsung/maguro/prebuilt/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
+#    device/samsung/maguro/prebuilt/lib/modules/rpmsg_client_sample.ko:system/lib/modules/rpmsg_client_sample.ko \
+#    device/samsung/maguro/prebuilt/lib/modules/rpmsg_server_sample.ko:system/lib/modules/rpmsg_server_sample.ko \
+#    device/samsung/maguro/prebuilt/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko
 
 # PowerPen
 PRODUCT_COPY_FILES += \
