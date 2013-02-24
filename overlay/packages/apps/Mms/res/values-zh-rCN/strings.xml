@@ -468,4 +468,9 @@
     <string name="btn_ok">确定</string>
     <string name="btn_cancel">取消</string>
     <string name="select_all">全部</string>
+
+    <!-- Insert contact information -->
+    <string name="menu_insert_contact_info">新增联络人信息</string>
+    <string name="cannot_find_contact">不能将选择新增到联络人中</string>
+    <string name="insert_contact_info_positive_button">新增</string>
 </resources>

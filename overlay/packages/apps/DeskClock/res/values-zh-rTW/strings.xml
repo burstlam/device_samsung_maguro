@@ -60,4 +60,6 @@
     <string name="keep_display_on_stopwatch">保持螢幕開啟</string>
     <string name="keep_display_on_stopwatch_summary">計時器運作時候保持螢幕在開啟狀態</string>
 
+    <string name="alarm_increasing_volume">漸進鈴聲</string>
+
 </resources>

@@ -63,4 +63,6 @@
     <string name="stopwatch_settings">计时器</string>
     <string name="keep_display_on_stopwatch">保持屏幕打开</string>
     <string name="keep_display_on_stopwatch_summary">计时器运作时候保持屏幕在打开状态</string>
+
+    <string name="alarm_increasing_volume">渐进铃声</string>
 </resources>

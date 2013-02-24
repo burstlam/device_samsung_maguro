@@ -77,6 +77,11 @@
     <string name="quick_settings_statusbar_off_label">隱藏狀態欄</string>
     <string name="quick_settings_quiet_hours_on_label">免打擾模式</string>
     <string name="quick_settings_quiet_hours_off_label">免打擾模式 OFF</string>
+    <string name="quick_settings_recording">錄音中</string>
+    <string name="quick_settings_recordingcap">擷取記錄</string>
+    <string name="quick_settings_playing">播放中...</string>
+    <string name="quick_settings_quickrecord">一鍵錄音</string>
+    <string name="quick_settings_nofile">長按開始錄音</string>
 
     <!--  RamBar -->
     <string name="memory">RAM</string>

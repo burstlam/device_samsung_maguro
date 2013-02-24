@@ -12,7 +12,7 @@
     <string name="header_navbar">导航栏</string>
     <string name="toggles_layout">开关</string>
     <string name="general_ui">常规界面</string>
-    <string name="clock">时钟</string>
+    <string name="clock">日期及时钟</string>
     <string name="battery">电量</string>
     <string name="signal">信号</string>
     <string name="nav_bar">导航栏</string>
@@ -261,6 +261,7 @@
     <string name="toggle_profile">情景模式</string>
     <string name="toggle_statusbar">状态栏</string>
     <string name="toggle_quiethours">免打扰模式</string>
+    <string name="toggle_quickrecord">录音</string>
 
     <!-- Statusbar | Battery 状态栏|电量 -->
     <string name="battery_icon">电量图标风格</string>
@@ -319,7 +320,7 @@
     <string name="navbar_action_home">主屏幕</string>
     <string name="navbar_action_back">返回</string>
     <string name="navbar_action_recents">最近任务</string>
-    <string name="navbar_action_recent_apps">最近任务(2.3姜饼系统风格)</string>
+    <string name="navbar_action_recents_gb">最近任务(2.3姜饼系统风格)</string>
     <string name="navbar_action_search">搜索</string>
     <string name="navbar_action_screenshot">屏幕截图</string>
     <string name="navbar_action_menu">菜单</string>
@@ -363,7 +364,7 @@
 
     <!-- Nav Ring Targets -->
     <string name="navbar_ring_cat">导航栏捷径环</string>
-    <string name="interface_softkey_settings">设置软体键</string>
+<!--    <string name="interface_softkey_settings">设置软体键</string>
     <string name="interface_softkeys_pref_default_1_title">目标1点击行为</string>
     <string name="interface_softkeys_pref_long_1_title">目标1长按行为</string>
     <string name="interface_softkeys_pref_default_2_title">目标2点击行为</string>
@@ -392,10 +393,28 @@
     <string name="interface_navring_custom_pref_summary">点击执行 </string>
     <string name="interface_navring_pref_default_summary">点击选择捷径内容</string>
     <string name="interface_navring_assist_title">Google Now</string>
-    <string name="interface_navring">捷径环</string>
-    <string name="navbar_ring">自订捷径</string>
+    <string name="interface_navring">捷径环</string>-->
+    <string name="navbar_ring">导航栏捷径环</string>
     <string name="navring_enable_long">启用导航环长按行为</string>
-
+    <string name="navring_target_save">已存储捷径环设置</string>
+    <string name="navring_target_reset_message">您是否确认重置捷径环设置?</string>
+    <string name="navring_target_reset">捷径环设置已重置.</string>
+    <string name="choose_action_title">设置按键动作行为</string>
+    <string name="choose_action_short_title">选择点击行为</string>
+    <string name="choose_action_long_title">选长按行为</string>
+    <string name="action_long_save"> 设置为长按行为</string>
+    <string name="title_navring_amount">捷径环目标数目</string>
+    <string name="summary_navring_amount">选择导航环捷径环上的捷径数目</string>
+    <string name="interface_navring_settings_title">导航栏捷径环</string>
+    <string name="interface_navring_settings_summary">编辑导航栏捷径环行为</string>
+    <string name="navring_target_info">拖动光标到目标上再指定内容并配置动作</string>
+    <string name="navring_short">点击动作</string>
+    <string name="navring_long">长按动作</string>
+    <string name="navring_icon">自定义图示</string>
+    <string name="text_on">启用</string>
+    <string name="text_off">关闭</string>
+    <string name="navring_target_amount_text">目标数</string>
+    <string name="navring_target_longpress_text">长按动作</string>
 
     <!-- LED 灯光 -->
     <string name="led_on">LED 点亮</string>
@@ -770,7 +789,7 @@
     <string name="power">电源键</string>
     <string name="notifications">通知栏</string>
     <string name="custom_app">自定义程序</string>
-    <string name="recent_apps">最近使用程序(2.3系统风格)</string>
+    <string name="recents_gb">最近使用程序(2.3系统风格)</string>
     <string name="blank">空白</string>
     <string name="none">无</string>
     <string name="take_screenshot">屏幕截图</string>
@@ -938,6 +957,13 @@
     <string name="wakeup_when_plugged_unplugged_title">连接充电器时唤醒机器</string>
     <string name="wakeup_when_plugged_unplugged_summary">连接/拔除充电器时是否唤醒机器.</string>
 
+    <!-- Low Battery Warning -->
+   <string name="pref_low_battery_warning_policy_title">电量不足提示</string>
+   <string name="low_bat_warning_on">弹出提示及提示音</string>
+   <string name="low_bat_warning_popup_only">只有弹出提示</string>
+   <string name="low_bat_warning_sound_only">只有提示音</string>
+   <string name="low_bat_warning_off">关闭</string>
+
     <!-- Notification shade dimming -->
     <string name="notif_alpha_title">通知栏讯息条透明度</string>
     <string name="notification_shade_dim_title">下拉通知栏视觉特效</string>
@@ -1053,7 +1079,7 @@
     <string name="lockscreen_background_custom_image">自定义图片</string>
     <string name="lockscreen_background_default_wallpaper">默认壁纸</string>
     <string name="lockscreen_wallpaper_alpha_title">背景透明</string>
-    <!-- <string name="lockscreen_background_full_transparent">完全透明-->
+<!--    <string name="lockscreen_background_full_transparent">完全透明</string>-->
 
 <!--    <string name="pref_lockscreen_transparent">锁屏透明</string>-->
 
@@ -1155,6 +1181,8 @@
     <string name="pie_size_gigantic">最大</string>
     <string name="pie_center_title">置中显示</string>
     <string name="pie_center_summary">反勾此选项,PIE面板可以在触发侧任意处出现</string>
+    <string name="pie_stick_title">禁止PIE面板随屏幕自动旋转改变</string>
+    <string name="pie_stick_summary">启用后不管屏幕如何旋转,PIE面板解发及出现位置均不会改变</string>
 
     <!-- Pie Color Settings -->
     <string name="pie_color_title">PIE面版自定义颜色</string>
@@ -1415,4 +1443,19 @@
     <string name="notification_shortcuts_icon_picker_terminal">终端</string>
     <string name="notification_shortcuts_icon_picker_twitter">Twitter</string>
     <string name="notification_shortcuts_icon_picker_unlock">解锁</string>
+
+    <!-- Clock | Date | SlimsROM -->
+    <string name="clock_date_display">显示日期</string>
+    <string name="clock_date_display_summary">时钟前显示自定格式日期显示</string>
+    <string name="clock_date_style">外语系统语言日期显示式样</string>
+    <string name="clock_date_format">日期格式</string>
+    <string name="clock_date_string_edittext_title">输入字串(EE=星期? D=日  M=月 Y=年): 例如: MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">输入格式</string>
+    <string name="dont_show_default">不要显示 (默认)</string>
+    <string name="normal">正常</string>
+    <string name="small_date">缩小字体</string>
+    <string name="regular_date">正常字体</string>
+    <string name="lowercase">小楷</string>
+    <string name="uppercase">大楷</string>
+    <string name="custom_java_format">自定义Java字串</string>
 </resources>
