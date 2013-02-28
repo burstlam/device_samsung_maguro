@@ -475,4 +475,8 @@
     <string name="menu_insert_contact_info">新增聯絡人資訊</string>
     <string name="cannot_find_contact">無法將選擇新增到聯絡人中</string>
     <string name="insert_contact_info_positive_button">新增</string>
+
+    <!-- Enable quick emojis -->
+    <string name="pref_title_enable_quick_emojis">表情圖示快捷輸入鍵</string>
+    <string name="pref_summary_enable_quick_emojis">輸入欄旁邊新增表情圖示輸入鍵</string>
 </resources>
