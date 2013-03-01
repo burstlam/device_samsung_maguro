@@ -177,9 +177,9 @@
     <string name="toggle_style_title">快捷開關樣式</string>
     <string name="toggle_style_summary">選擇使用圖示或者文字作為開關顯示</string>
     <string name="toggles_layout_title">開關排版模式</string>
-    <string name="enabled_toggles_title">設置開關</string>
+<!--    <string name="enabled_toggles_title">設置開關</string>
     <string name="enabled_toggles_summary">選擇需要顯示的開關</string>
-    <string name="toggles_display_dialog">選擇需要使用的開關</string>
+    <string name="toggles_display_dialog">選擇需要使用的開關</string> -->
     <string name="toggles_per_row_title">每行開關數目</string>
     <string name="toggles_per_row_summary">設置下拉通知欄每行顯示的開關數目</string>
     <string name="toggles_display_close">關閉</string>
@@ -197,11 +197,14 @@
     <string name="toggle_btn_disabled_color_title">未啟用開關顏色</string>
     <string name="toggle_btn_background_title">開關背景透明度</string>
     <string name="toggle_text_color_title">開關文字顏色</string>
-    <string name="toggle_powermenu">電源鍵菜單</string>
-    <string name="toggle_profile">情景模式</string>
-    <string name="toggle_statusbar">狀態欄</string>
-    <string name="toggle_quiethours">免打擾模式</string>
-    <string name="toggle_quickrecord">錄音</string>
+    <string name="toggles_style_title">開關風格</string>
+    <string name="toggles_style_summary">傳統(通知欄小工具)或磁貼式</string>
+    <string name="toggle_dialog_arrange_title">設置開關</string>
+    <string name="toggle_dialog_add_toggles">選擇新增開關</string>
+    <string name="toggle_style_tile">磁貼式</string>
+    <string name="toggle_style_traditional">傳統</string>
+    <string name="toggle_swap_handle_side">使用右側拖動處理</string>
+    <string name="add_toggles">變更開關</string>
 
     <!-- Statusbar | Clock -->
     <string name="clock_title_enable">時鐘樣式</string>
@@ -247,8 +250,13 @@
     <string name="toggle_ime">輸入法</string>
     <string name="toggle_battery">電量</string>
     <string name="toggle_brightness">亮度</string>
-    <string name="toggle_screen">一鍵關屏</string>
+    <string name="toggle_sleep">一鍵關屏</string>
     <string name="toggle_sound_state">鈴聲/振動/靜音</string>
+    <string name="toggle_powermenu">電源鍵菜單</string>
+    <string name="toggle_profile">情景模式</string>
+    <string name="toggle_statusbar">狀態欄</string>
+    <string name="toggle_quiethours">免打擾模式</string>
+    <string name="toggle_quickrecord">錄音</string>
 
     <!-- Statusbar | Battery -->
     <string name="battery_icon">電池圖示樣式</string>

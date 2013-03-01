@@ -189,9 +189,9 @@
     <string name="toggle_style_title">开关风格</string>
     <string name="toggle_style_summary">显示开关的图标或文字</string>
     <string name="toggles_layout_title">开关布局</string>
-    <string name="enabled_toggles_title">设置开关</string>
+<!--    <string name="enabled_toggles_title">设置开关</string>
     <string name="enabled_toggles_summary">选择要显示的开关</string>
-    <string name="toggles_display_dialog">选择所需的开关</string>
+    <string name="toggles_display_dialog">选择所需的开关</string>-->
     <string name="toggles_display_close">关闭</string>
     <string name="toggles_per_row_title">每行开关数目</string>
     <string name="toggles_per_row_summary">设置下拉通知栏每行显示的开关数目</string>
@@ -209,6 +209,14 @@
     <string name="toggle_btn_disabled_color_title">未启用开关颜色</string>
     <string name="toggle_btn_background_title">开关背景透明度</string>
     <string name="toggle_text_color_title">开关文字颜色</string>
+    <string name="toggles_style_title">开关风格</string>
+    <string name="toggles_style_summary">传统(通知栏小工具)或磁贴式</string>
+    <string name="toggle_dialog_arrange_title">设置开关</string>
+    <string name="toggle_dialog_add_toggles">选择新增开关</string>
+    <string name="toggle_style_tile">磁贴式</string>
+    <string name="toggle_style_traditional">传统</string>
+    <string name="toggle_swap_handle_side">使用右侧拖动处理</string>
+    <string name="add_toggles">更改开关</string>
 
     <!-- Statusbar | Clock 状态栏|时钟 -->
     <string name="clock_title_enable">时钟风格</string>
@@ -255,7 +263,7 @@
     <string name="toggle_ime">输入法</string>
     <string name="toggle_battery">电量</string>
     <string name="toggle_brightness">亮度</string>
-    <string name="toggle_screen">一键关屏</string>
+    <string name="toggle_sleep">一键关屏</string>
     <string name="toggle_sound_state">铃声/振动/静音</string>
     <string name="toggle_powermenu">电源键菜单</string>
     <string name="toggle_profile">情景模式</string>

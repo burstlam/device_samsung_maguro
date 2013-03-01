@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Generic toggle overlay. Should be set per device in overlay -->
     <string-array name="available_toggles_entries" translatable="false">
         <item>USER</item>
-		<item>FAVCONTACT</item>
+        <item>FAVCONTACT</item>
         <item>BRIGHTNESS</item>
         <item>SETTINGS</item>
         <item>WIFI</item>
@@ -24,18 +25,19 @@
         <item>WIFITETHER</item>
         <item>USBTETHER</item>
         <item>TORCH</item>
-        <item>2G</item>
-        <item>SCREEN</item>
         <item>STATUSBAR</item>
+        <item>2G</item>
+        <item>LTE</item>
         <item>NAVBARHIDE</item>
+        <item>QUICKRECORD</item>
         <item>POWERMENU</item>
         <item>PROFILE</item>
         <item>QUIETHOURS</item>
-        <item>QUICKRECORD</item>
+        <item>SLEEP</item>
     </string-array>
     <string-array name="available_toggles_values" translatable="false">
         <item>@string/toggle_user</item>
-		<item>@string/toggle_favorite_contact</item>
+        <item>@string/toggle_favorite_contact</item>
         <item>@string/toggle_brightness</item>
         <item>@string/toggle_settings</item>
         <item>@string/toggle_wifi</item>
@@ -57,14 +59,15 @@
         <item>@string/toggle_wifi_tether</item>
         <item>@string/toggle_usb_tether</item>
         <item>@string/toggle_torch</item>
-        <item>@string/toggle_2g</item>
-        <item>@string/toggle_screen</item>
         <item>@string/toggle_statusbar</item>
+        <item>@string/toggle_2g</item>
+        <item>@string/toggle_lte</item>
         <item>@string/toggle_navbar_hide</item>
+        <item>@string/toggle_quickrecord</item>
         <item>@string/toggle_powermenu</item>
         <item>@string/toggle_profile</item>
         <item>@string/toggle_quiethours</item>
-        <item>@string/toggle_quickrecord</item>
+        <item>@string/toggle_sleep</item>
     </string-array>
 
   <string-array name="navigation_bar_qty_entries">
