@@ -1281,12 +1281,13 @@
     <string name="expanded_desktop_staus_bar">显示状态栏</string>
     <string name="expanded_desktop_no_staus_bar">隐藏状态栏</string>
 
-    <!-- CRT_ANIMATION-->
+  <!-- CRT_ANIMATION-->
     <string name="system_power_crt_screen_off_title">CRT 关屏动画</string>
     <string name="system_power_crt_screen_off_summary">关屏时屏幕显示电子束动画效果</string>
+    <string name="system_power_crt_mode_title">CRT 动画模式</string>
     <string name="system_power_crt_mode_dialog_title">显示CRT动画</string>
-    <string name="system_power_crt_mode_horizontal">直向水平关闭动画</string>
-    <string name="system_power_crt_mode_vertical">直向纵向关闭动画</string>
+    <string name="system_power_crt_mode_horizontal">竖屏水平动画</string>
+    <string name="system_power_crt_mode_vertical">竖屏纵向动画</string>
     <string name="system_power_crt_mode_both">依据屏幕方向</string>
 
     <!-- Performance
