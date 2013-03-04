@@ -957,7 +957,7 @@
 	<string name="notif_background_default">默认壁纸</string>
     <string name="notif_background_color_fill">实色填充</string>
     <string name="notif_background_custom_image">自定义图像</string>
-	<string name="user_mode_ui">UI 模式 (需要重启手机)</string>
+	<string name="user_mode_ui">UI 模式</string>
     <string name="user_mode_ui_summary">选择状态栏及导航栏风格</string>
     <string name="phone_mode_ui">手机模式 - 横屏时导航栏在右方</string>
     <string name="tablet_mode_ui">平板模式 - 状态栏及导航栏合并在下方</string>
@@ -976,6 +976,13 @@
     <string name="notif_alpha_title">通知栏讯息条透明度</string>
     <string name="notification_shade_dim_title">下拉通知栏视觉特效</string>
     <string name="notification_shade_dim_summary">下拉通知栏时候选择是否显示变暗视觉特效</string>
+
+    <!-- Notification behavior -->
+    <string name="notification_behaviour_title">通知栏内容扩展行为</string>
+    <string name="noti_beh_normal">正常</string>
+    <string name="noti_beh_never">永不</string>
+    <string name="noti_beh_always">永远</string>
+    <string name="noti_beh_old">传统</string>
 
     <!-- Statusbar -->
 <!--    <string name="brightness_slider_title">状态栏亮度控制</string>
@@ -1173,6 +1180,7 @@
     <string name="pie_gravity_title">Pie 触发侧 </string>
     <string name="pie_gravity_summary">选择PIE面版出现位置</string>
     <string name="pie_gravity_top">上</string>
+<!--    <string name="pie_gravity_both">左右两侧</string> -->
     <string name="pie_gravity_bottom">下</string>
     <string name="pie_gravity_left">左</string>
     <string name="pie_gravity_right">右</string>

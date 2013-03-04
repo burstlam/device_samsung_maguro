@@ -47,4 +47,5 @@
     <string name="toggle_STATUSBAR">隱藏狀態欄</string>
     <string name="toggle_QUIETHOURS">免打擾模式</string>
     <string name="toggle_SLEEP">一鍵關屏</string>
+    <string name="toggle_PIE">PIE</string>
 </resources>
