@@ -44,7 +44,8 @@ PRODUCT_COPY_FILES += \
    
 # GPS conf
 PRODUCT_COPY_FILES += \
-    device/samsung/maguro/prebuilt/etc/gps.conf:system/etc/gps.conf
+    device/samsung/maguro/prebuilt/etc/gps.conf:system/etc/gps.conf \
+    device/samsung/maguro/prebuilt/etc/spn-conf.xml:system/etc/spn-conf.xml
 
 # Terminal
 PRODUCT_COPY_FILES += \
