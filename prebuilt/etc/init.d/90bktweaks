@@ -95,7 +95,7 @@ uV1650=1400
 # SD卡讀取提速
 doSdcard=off
 # 系統Data檔案掛載提速
-doSystem=on
+doSystem=off
 # AC模式充電提速
 doCharge=off
 

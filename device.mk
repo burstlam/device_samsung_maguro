@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/maguro/prebuilt/etc/init.d/04cleaning:system/etc/init.d/04cleaning \
     device/samsung/maguro/prebuilt/etc/init.d/88zipalign:system/etc/init.d/88zipalign \
     device/samsung/maguro/prebuilt/etc/init.d/90bktweaks:system/etc/init.d/90bktweaks \
+    device/samsung/maguro/prebuilt/etc/init.d/98VMtweaks:system/etc/init.d/98VMtweaks \
     device/samsung/maguro/prebuilt/etc/init.d/97cleaning2:system/etc/init.d/97cleaning
    
 # GPS conf
