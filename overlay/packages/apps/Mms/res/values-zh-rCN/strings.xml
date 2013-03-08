@@ -477,4 +477,9 @@
     <!-- Enable quick emojis -->
     <string name="pref_title_enable_quick_emojis">表情图示快捷输入键</string>
     <string name="pref_summary_enable_quick_emojis">输入栏旁边新增表情图示输入键</string>
+
+    <!-- Breathing Notifications -->
+    <string name="mms_breath">SMS闪动提示</string>
+    <string name="mms_breath_summary">收到信息会在状态栏上显示闪动图示.</string>
+
 </resources>

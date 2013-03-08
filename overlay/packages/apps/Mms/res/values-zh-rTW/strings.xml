@@ -479,4 +479,8 @@
     <!-- Enable quick emojis -->
     <string name="pref_title_enable_quick_emojis">表情圖示快捷輸入鍵</string>
     <string name="pref_summary_enable_quick_emojis">輸入欄旁邊新增表情圖示輸入鍵</string>
+
+    <!-- Breathing Notifications -->
+    <string name="mms_breath">SMS閃動提示</string>
+    <string name="mms_breath_summary">收到信息會在狀態欄上顯示閃動圖示.</string>
 </resources>

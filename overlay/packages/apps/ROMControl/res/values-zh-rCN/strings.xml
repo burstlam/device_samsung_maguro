@@ -105,7 +105,7 @@
     <!-- General UI 常规界面 -->
     <string name="bootani_cat">开机动画</string>
     <string name="navbar_cat">导航栏</string>
-    <string name="notification_cat">通知</string>
+    <string name="notification_cat">通知栏</string>
     <string name="tabletUI_cat">平屏模式用户界面</string>
     <string name="enable_volume_options">启用音量面板</string>
     <string name="status_bar_notif_count_title">显示通知数量</string>
@@ -961,16 +961,19 @@
     <string name="user_mode_ui_summary">选择状态栏及导航栏风格</string>
     <string name="phone_mode_ui">手机模式 - 横屏时导航栏在右方</string>
     <string name="tablet_mode_ui">平板模式 - 状态栏及导航栏合并在下方</string>
-    <string name="phablet_mode_ui">小平板模式 - 横屏时导航栏在下方</string>
+    <string name="phablet_mode_ui">平板手机模式 - 横屏时导航栏在下方</string>
     <string name="wakeup_when_plugged_unplugged_title">连接充电器时唤醒机器</string>
     <string name="wakeup_when_plugged_unplugged_summary">连接/拔除充电器时是否唤醒机器.</string>
 
     <!-- Low Battery Warning -->
-   <string name="pref_low_battery_warning_policy_title">电量不足提示</string>
-   <string name="low_bat_warning_on">弹出提示及提示音</string>
-   <string name="low_bat_warning_popup_only">只有弹出提示</string>
-   <string name="low_bat_warning_sound_only">只有提示音</string>
-   <string name="low_bat_warning_off">关闭</string>
+    <string name="pref_low_battery_warning_policy_title">电量不足提示</string>
+    <string name="pref_low_battery_warning_policy_dialog_title">电量不足提示时使用:</string>
+    <string name="low_battery_warning_policy_popup_sound">弹出对话窗口及通知音</string>
+    <string name="low_battery_warning_policy_notif_sound">通知栏提示及通知音</string>
+    <string name="low_battery_warning_policy_popup">只有弹出对话窗口</string>
+    <string name="low_battery_warning_policy_notif">只有通知栏提示</string>
+    <string name="low_battery_warning_policy_sound">只有通知音</string>
+    <string name="low_battery_warning_policy_disabled">停用所有提示</string>
 
     <!-- Notification shade dimming -->
     <string name="notif_alpha_title">通知栏讯息条透明度</string>
@@ -995,7 +998,7 @@
     <!-- Status bar background style
     <string name="status_bar_transparency_title">状态栏透明度</string>
     <string name="status_bar_color_title">状态栏颜色</string>
-    <string name="status_bar_background_style">状态栏颜色/透明度设定</string>
+    <string name="status_bar_background_style">颜色/透明度设定</string>
     <string name="status_bar_alpha_mode_dialog_text_title">显示状态栏透明度</string>
     <string name="status_bar_alpha_mode_text_title">透明模式</string>
     <string name="status_bar_alpha_mode_home">只应用于启动器</string>
@@ -1003,8 +1006,9 @@
     <string name="status_bar_alpha_mode_always">应用于全部场景</string>
     <string name="status_bar_style_reset">重置</string> -->
 
-    <!-- Transparency Dialog -->
     <string name="save">储存</string>
+
+    <!-- Transparency Dialog -->
     <string name="transparency_dialog_title">透明度设定</string>
     <string name="transparency_dialog_linked_transparency">同步设定状态栏 &amp; 导航栏数值</string>
     <string name="transparency_dialog_transparency_sb_and_nv">状态栏及导航栏设定</string>
@@ -1047,6 +1051,7 @@
     <string name="nav_bar_alpha_mode_default">只应用于启动器及锁屏</string>
     <string name="nav_bar_alpha_mode_always">应用于全部场景</string>
     <string name="nav_bar_style_reset">重置</string> -->
+
     <string name="navigation_bar_colorall_title">自定义按键图示着色</string>
     <string name="navigation_bar_colorall_summary">依照自定义颜色设定为自定义图示着色</string>
 
@@ -1200,6 +1205,8 @@
     <string name="pie_center_summary">反勾此选项,PIE面板可以在触发侧任意处出现</string>
     <string name="pie_stick_title">禁用自动旋转</string>
     <string name="pie_stick_summary">不管屏幕如何旋转,PIE面板触发侧及出现位置均不会改变</string>
+    <string name="pie_restart_launcher_title">重新装入引导器</string>
+    <string name="pie_restart_launcher_summary">引导全屏模式时候桌面重新装入引导器. </string>
 
     <!-- Pie Color Settings -->
     <string name="pie_color_title">PIE面版自定义颜色</string>
@@ -1465,11 +1472,11 @@
     <string name="notification_shortcuts_icon_picker_unlock">解锁</string> -->
 
     <!-- Clock | Date | SlimsROM -->
-    <string name="clock_date_display">显示日期</string>
+    <string name="clock_date_display">显示星期</string>
     <string name="clock_date_display_summary">时钟前显示自定格式日期显示</string>
     <string name="clock_date_style">外语系统语言日期显示式样</string>
     <string name="clock_date_format">日期格式</string>
-    <string name="clock_date_string_edittext_title">输入字串(EE=星期? D=日  M=月 Y=年): 例如: MM/dd/yy</string>
+    <string name="clock_date_string_edittext_title">输入符串(EE=星期? D=日  M=月 Y=年, 外语系统可指定使用大小楷): 例如: MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">输入格式</string>
     <string name="dont_show_default">不要显示 (默认)</string>
     <string name="normal">正常</string>
@@ -1478,4 +1485,12 @@
     <string name="lowercase">小楷</string>
     <string name="uppercase">大楷</string>
     <string name="custom_java_format">自定义Java字串</string>
+
+    <!-- ScreenShot Timeout -->
+    <string name="toggle_screenshot_timeout_title">截屏键超时设置</string>
+    <string name="toggle_screenshot_timeout_summary">退出通知栏后多久为屏幕截图.(推荐-稍长)</string>
+    <string name="timeout_fast">快</string>
+    <string name="timeout_normal">一般</string>
+    <string name="timeout_slow">稍长</string>
+    <string name="timeout_eslow">最长</string>
 </resources>
