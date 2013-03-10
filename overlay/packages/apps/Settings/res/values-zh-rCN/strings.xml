@@ -361,4 +361,7 @@
     <string name="profile_add_nfc_text">此 NFC 标签是与一个未知的情景相连的. 把此 NFC 标签连接到一个现有的情景将会允许您以后选择这个情景.</string>
     <string name="profile_select">选择情景</string>
 
+    <!-- Launches Dev Tools -->
+    <string name="development_tools_title">开发者工具</string>
+
 </resources>

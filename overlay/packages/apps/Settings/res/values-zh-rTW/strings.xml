@@ -360,4 +360,7 @@
     <string name="profile_add_nfc_text">此 NFC 標簽是與一個未知的情景相連的. 把此 NFC 標簽連接到一個現有的情景將會允許您以后選擇這個情景.</string>
     <string name="profile_select">選擇情景</string>
 
+    <!-- Launches Dev Tools -->
+    <string name="development_tools_title">開發者工具</string>
+
 </resources>
