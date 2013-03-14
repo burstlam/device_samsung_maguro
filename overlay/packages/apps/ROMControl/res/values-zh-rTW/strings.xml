@@ -60,7 +60,7 @@
     <string name="title_show_airplane_toggle">顯示飛行模式開關</string>
     <string name="title_show_navbar_hide">顯示導航欄控制台開關</string>
     <string name="power_menu_expanded_desktop">全屏模式開關</string>
-
+	<string name="title_show_reboot_keyguard">鎖屏中顯示重啟開關</string>
 
     <!-- Power Saving -->
     <string name="title_pref_powersaving_pref_mode">啟用省電模式</string>
@@ -265,6 +265,8 @@
     <string name="battery_text_only_color">電量數值顏色</string>
     <string name="battery_cm_circle_ring_color">CM環形狀電量顏色</string>
     <string name="battery_cm_circle_ring_color_charge">CM環形狀電量充電顏色</string>
+	<string name="rb_battery">RootBox 環形狀電量</string>
+	<string name="rb_battery_square">RootBox 方形狀電量</string>
     <string name="battery_not_title">在下拉通知欄中顯示電池圖示</string>
     <string name="battery_not_summary">電池圖示將在下拉通知欄中“清除全部通知”圖示原所在位置顯示</string>
     <string name="battery_bar">電量條位置</string>
@@ -1008,6 +1010,11 @@
     <string name="notif_background_color_fill">實色填充</string>
     <string name="notif_background_custom_image">自定義圖像</string>
 
+    <!-- Status bar notification icon opacity -->
+    <string name="status_bar_icon_opacity">圖示通透值</string>
+    <string name="status_bar_icon_opacity_summary">設定狀態欄通知圖示的通透值</string> 
+    <string name="sb_icon_opacity_default">55%(默認)</string>
+
     <!-- UI Interface -->
 	<string name="user_mode_ui">UI 模式</string>
     <string name="user_mode_ui_summary">選擇狀態欄及導航欄風格</string>
@@ -1084,7 +1091,7 @@
     <string name="summary_navbar_timeout">自動隱藏導航欄逾時值</string>
     <!-- <string name="navbar_hide_visible_title">顯示觸發區域提示</string>-->
     <string name="drag_handle_width_title">設置手勢觸發區域寬度</string>
-    <string name="drag_handle_opacity_title">手勢觸發區域圖示不透明值</string>
+    <string name="drag_handle_opacity_title">手勢觸發區域圖示填滿值</string>
     <string name="navbarhide_never">不設逾時</string>
     <string name="navbarhide_1_5_second">1.5 秒</string>
     <string name="navbarhide_3_second">3 秒</string>
@@ -1150,7 +1157,7 @@
     <string name="lockscreen_background_color_fill">實色填充</string>
     <string name="lockscreen_background_custom_image">自定義圖片</string>
     <string name="lockscreen_background_default_wallpaper">默認壁紙</string>
-    <string name="lockscreen_wallpaper_alpha_title">背景透明</string>
+    <string name="lockscreen_wallpaper_alpha_title">自定義鎖屏背景透明度</string>
 <!-- <string name="lockscreen_background_full_transparent">完全透明</string>-->
 
     <string name="pref_lockscreen_transparent">鎖屏透明</string>
@@ -1484,12 +1491,12 @@
     <string name="uppercase">大楷</string>
     <string name="custom_java_format">自定義Java字串</string>
 
-    <!-- ScreenShot Timeout -->
+    <!-- ScreenShot Timeout
     <string name="toggle_screenshot_timeout_title">截屏鍵逾時設定</string>
     <string name="toggle_screenshot_timeout_summary">退出通知欄後多久為屏幕截圖.(推荐-稍長)</string>
     <string name="timeout_fast">快</string>
     <string name="timeout_normal">一般</string>
     <string name="timeout_slow">稍長</string>
-    <string name="timeout_eslow">最長</string>
+    <string name="timeout_eslow">最長</string> -->
 
 </resources>

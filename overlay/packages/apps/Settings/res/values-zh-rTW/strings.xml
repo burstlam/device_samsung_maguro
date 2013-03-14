@@ -363,4 +363,10 @@
     <!-- Launches Dev Tools -->
     <string name="development_tools_title">開發者工具</string>
 
+    <string name="lockpattern_settings_enable_error_path_title">顯示圖案錯誤</string>
+    <string name="lockpattern_settings_enable_dots_title">顯示點陣圖案</string>
+
+    <string name="wifi_mode">連接模式</string>
+    <string name="wifi_mode_ibss">Ad-Hoc網絡</string>
+    <string name="wifi_mode_ibss_short">Ad-Hoc</string>
 </resources>

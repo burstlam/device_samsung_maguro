@@ -19,4 +19,6 @@
 
 #define BTM_DEF_LOCAL_NAME   "Galaxy Nexus 2"
 
+#define A2DP_ENFORCE_MIN_FREQ "204000"
+
 #endif

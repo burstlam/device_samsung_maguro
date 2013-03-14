@@ -97,4 +97,7 @@
         <item>来电铃声静音</item>
         <item>挂断电话</item>
     </string-array>
+
+    <string name="calllog_after_call">通话结束后到统计页面</string>
+    <string name="calllog_after_call_summary">通话后显示通话统计记录</string>
 </resources>

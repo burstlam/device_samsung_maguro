@@ -96,5 +96,7 @@
         <item>來電鈴聲靜音</item>
         <item>掛斷電話</item>
     </string-array>
-    
+
+    <string name="calllog_after_call">通話結束後到統計頁面</string>
+    <string name="calllog_after_call_summary">通話後顯示通話統計記錄</string>
 </resources>
