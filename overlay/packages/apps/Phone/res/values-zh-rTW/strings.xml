@@ -99,4 +99,8 @@
 
     <string name="calllog_after_call">通話結束後到統計頁面</string>
     <string name="calllog_after_call_summary">通話後顯示通話統計記錄</string>
+
+    <!-- RootBox Missed Call Breath
+    <string name="missed_call_breath">閃爍提示圖示</string>
+    <string name="missed_call_breath_summary">未接來電會在狀態欄用閃爍圖示.</string> -->
 </resources>

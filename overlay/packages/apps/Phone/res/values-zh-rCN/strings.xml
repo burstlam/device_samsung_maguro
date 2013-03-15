@@ -100,4 +100,8 @@
 
     <string name="calllog_after_call">通话结束后到统计页面</string>
     <string name="calllog_after_call_summary">通话后显示通话统计记录</string>
+
+    <!-- RootBox Missed Call Breath
+    <string name="missed_call_breath">闪烁提示图示</string>
+    <string name="missed_call_breath_summary">未接来电会在状态栏用闪烁图示.</string> -->
 </resources>

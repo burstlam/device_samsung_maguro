@@ -25,6 +25,8 @@
     <string name="advanced_settings_title">设备设置</string>
     <string name="launcher_settings_title">桌面设定</string>
     <string name="performance_title">效能设定</string>
+    <!-- TRDS Settings -->
+    <string name="trds_settings_title">酷黑主题</string>
 
     <string name="volume_adjust_sounds_enable_title">音量键效果音</string>
     <string name="volume_adjust_sounds_enable_summary">按下硬件键播出效果音</string>
