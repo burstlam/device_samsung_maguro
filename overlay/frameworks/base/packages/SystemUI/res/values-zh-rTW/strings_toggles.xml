@@ -40,6 +40,7 @@
     <string name="toggle_LTE">LTE</string>
     <string name="toggle_FAVCONTACT">常用聯絡人</string>
     <string name="toggle_SOUNDSTATE">聲音模式</string>
+    <string name="toggle_VOLUME">音量</string> 
     <string name="toggle_NAVBARHIDE">隱藏導航欄</string>
     <string name="toggle_QUICKRECORD">一鍵錄音</string>
     <string name="toggle_POWERMENU">電源鍵菜單</string>

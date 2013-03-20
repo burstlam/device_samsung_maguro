@@ -67,10 +67,6 @@
     <string name="pref_title_strip_unicode">剥离Unicode</string>
     <string name="pref_summary_strip_unicode">替换160个字符中不支持的Unicode码</string>
 
-    <!-- Enable emojis -->
-    <string name="pref_title_enable_emojis">表情图示</string>
-    <string name="pref_summary_enable_emojis">套用Unicode表情图示</string>
-
     <!-- Full timestamps -->
     <string name="pref_title_mms_full_timestamp">完整时间戳</string>
     <string name="pref_summary_mms_full_timestamp">显示完整日期及时间</string>
@@ -186,7 +182,7 @@
     <!-- MMS THEME SETTINGS -->
     <string name="mms_themes">Mms 主题设定</string>
     <string name="themes_summary">改变信息软件外观</string>
-    <string name="themes_conv_list_title">设定对话视窗风格</string>
+    <string name="themes_conv_list_title">对话视窗风格</string>
     <string name="themes_conv_list_summary">改变对话视窗风格，设定文字内容颜色.</string>
     <string name="themes_msg_list_title">信息列风格</string>
     <string name="themes_msg_list_summary">改变信息列风格，设定文字内容颜色</string>
@@ -232,15 +228,15 @@
     <string name="read_count">已读取信息计数</string>
     <string name="read_smiley">已读取表情图示</string>
     <!-- bubbles -->
-    <string name="text_bubble_title">设定气泡风格</string>
+    <string name="text_bubble_title">设定气泡样式</string>
     <string name="bubble_fill_parent_title">气泡填满屏幕宽度</string>
     <string name="bubble">套用气泡</string>
     <string name="bubble_none">没有气泡</string>
     <string name="hc_bubble">气泡箭头向下</string>
     <string name="circle_bubble">气泡箭头两侧</string>
-    <string name="frame_arrow">箭头及框线</string>
-    <string name="frame_outer_only">只有框线</string>
-    <string name="frame">边框</string>
+    <string name="frame_arrow">信息框带箭头及框线</string>
+    <string name="frame_outer_only">信息框线连背景</string>
+    <string name="frame">仅信息框</string>
     <!-- Contact use -->
     <string name="show_contact_name">显示联络人名称</string>
     <!-- Sent colors -->
@@ -295,9 +291,12 @@
     <!-- Enable emojis -->
     <string name="pref_title_enable_emojis">表情图示支援</string>
     <string name="pref_summary_enable_emojis">启用表情图示支援（包含471个表情图示）</string>
+    <!-- Quick smiley title -->
+    <string name="quick_smiley_title">选择表情图示</string> 
     <string name="pref_title_quick_smiley_btn">表情图示快捷输入键</string>
     <string name="pref_summary_quick_smiley_btn">输入栏旁边新增表情图示输入键</string>
 
     <string name="font_size_default">16dp (默认)</string>
 
+    <string name="menu_mark_all_read">全部标示为已读取</string>
 </resources>

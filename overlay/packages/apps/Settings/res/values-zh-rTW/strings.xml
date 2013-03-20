@@ -371,4 +371,31 @@
     <string name="wifi_mode">連接模式</string>
     <string name="wifi_mode_ibss">Ad-Hoc網絡</string>
     <string name="wifi_mode_ibss_short">Ad-Hoc</string>
+
+    <!-- Display : Rotation  -->
+    <string name="display_rotation_title">屏幕旋轉方向</string>
+    <string name="display_rotation_disabled">禁用</string>
+    <string name="display_rotation_unit">⻆度</string>
+    <string name="display_rotation_category_title">旋轉模式</string>
+    <string name="display_rotation_0_title">0 度</string>
+    <string name="display_rotation_90_title">90 度</string>
+    <string name="display_rotation_180_title">180 度</string>
+    <string name="display_rotation_270_title">270 度</string>
+
+    <string name="keyboard_settings_additional_category">進階設定</string>
+    <string name="disable_fullscreen_keyboard_title">禁用全屏鍵盤</string>
+    <string name="disable_fullscreen_keyboard_summary">確保橫屏時鍵盤不會佔據整個屏幕</string>
+
+    <!-- Keyboard Rotation -->
+    <string name="keyboard_rotation_toggle_title">鍵盤自動旋轉</string>
+    <string name="keyboard_rotation_toggle_summary">強逼鍵盤彈出時跟隨屏幕旋轉</string>
+    <string name="keyboard_rotation_timeout_title">自動旋轉逾時值</string>
+    <string name="keyboard_rotation_timeout_summary">鍵盤隱藏<xliff:g id="rotate_timeout">%1$s</xliff:g>後關閉方向感應器</string>
+    <string name="keyboard_rotation_dialog">注意：此功能將無視系統屏幕自動旋轉是否啟用，在鍵盤單出後會暫時強制自動旋轉</string>
+    <string name="key_rotation_timeout_2s">2 秒</string>
+    <string name="key_rotation_timeout_5s">6 秒</string>
+    <string name="key_rotation_timeout_10s">10 秒</string>
+    <string name="key_rotation_timeout_20s">20 秒</string>
+    <string name="key_rotation_timeout_30s">30 秒</string>
+    <string name="key_rotation_timeout_60s">60 秒</string>
 </resources>

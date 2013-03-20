@@ -186,7 +186,7 @@
     <!-- MMS THEME SETTINGS -->
     <string name="mms_themes">Mms 主題設定</string>
     <string name="themes_summary">改變信息軟件外觀</string>
-    <string name="themes_conv_list_title">設定對話視窗風格</string>
+    <string name="themes_conv_list_title">對話視窗風格</string>
     <string name="themes_conv_list_summary">改變對話視窗風格，設定文字內容顏色.</string>
     <string name="themes_msg_list_title">信息列風格</string>
     <string name="themes_msg_list_summary">改變信息列風格，設定文字內容顏色</string>
@@ -232,15 +232,15 @@
     <string name="read_count">已讀取信息計數</string>
     <string name="read_smiley">已讀取表情圖示</string>
     <!-- bubbles -->
-    <string name="text_bubble_title">設定氣泡風格</string>
+    <string name="text_bubble_title">設定氣泡樣式</string>
     <string name="bubble_fill_parent_title">氣泡填滿屏幕寬度</string>
     <string name="bubble">套用氣泡</string>
     <string name="bubble_none">沒有氣泡</string>
     <string name="hc_bubble">氣泡箭頭向下</string>
     <string name="circle_bubble">氣泡箭頭兩側</string>
-    <string name="frame_arrow">箭頭及框線</string>
-    <string name="frame_outer_only">只有框線</string>
-    <string name="frame">邊框</string>
+    <string name="frame_arrow">信息框帶箭頭及框線</string>
+    <string name="frame_outer_only">信息框線連背景</string>
+    <string name="frame">僅信息框</string>
     <!-- Contact use -->
     <string name="show_contact_name">顯示聯絡人名稱</string>
     <!-- Sent colors -->
@@ -295,9 +295,13 @@
     <!-- Enable emojis -->
     <string name="pref_title_enable_emojis">表情圖示支援</string>
     <string name="pref_summary_enable_emojis">啟用表情圖示支援（包含471個表情圖示）</string>
+    <!-- Quick smiley title -->
+    <string name="quick_smiley_title">選擇表情圖示</string> 
     <string name="pref_title_quick_smiley_btn">表情圖示快捷輸入鍵</string>
     <string name="pref_summary_quick_smiley_btn">輸入欄旁邊新增表情圖示輸入鍵</string>
 
     <string name="font_size_default">16dp (默認)</string>
+
+    <string name="menu_mark_all_read">全部標示為已讀取</string>
 
 </resources>
