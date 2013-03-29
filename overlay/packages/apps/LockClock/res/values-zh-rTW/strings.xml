@@ -21,4 +21,9 @@
     <string name="holo_orange_dark">深橘</string>
     <string name="holo_blue_bright">翠藍</string>
 
+    <string name="calendar_upcoming_events_category">活動預告</string>
+    <string name="calendar_highlight_upcoming_events_title">高亮顯示活動</string>
+    <string name="calendar_highlight_upcoming_events_summary">高亮顯示當前日期、晚上8點以後以及第二天的活動</string>
+    <string name="calendar_highlight_upcoming_events_bold">粗體</string>
+
 </resources>

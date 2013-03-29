@@ -104,4 +104,7 @@
     <!-- RootBox Missed Call Breath
     <string name="missed_call_breath">闪烁提示图示</string>
     <string name="missed_call_breath_summary">未接来电会在状态栏用闪烁图示.</string> -->
+
+    <string name="rejected_as_missed">拒接来电视为未接</string>
+    <string name="rejected_as_missed_sum">在通话记录中将拒接来电标示为 \'未接\' 而非 \'来电\'</string>
 </resources>

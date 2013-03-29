@@ -104,7 +104,7 @@
     <string name="missed_call_breath">閃爍提示圖示</string>
     <string name="missed_call_breath_summary">未接來電會在狀態欄用閃爍圖示.</string> -->
 
-    <string name="rejected_as_missed">Rejected calls as missed</string>
-    <string name="rejected_as_missed_sum">Mark rejected calls as \'missed\' rather than \'incoming\' in the call log</string>
+    <string name="rejected_as_missed">拒接來電視為未接</string>
+    <string name="rejected_as_missed_sum">在通話記錄中將拒接來電標示為 \'未接\' 而非 \'來電\'</string>
 
 </resources>

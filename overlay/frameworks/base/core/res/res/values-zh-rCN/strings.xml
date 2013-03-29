@@ -73,4 +73,30 @@
 
     <string name="app_killed_message">程序已经清除</string>
 
+    <!-- Awesome Action Stuff-->
+    <string name="action_home">主页</string>
+    <string name="action_back">返回</string>
+    <string name="action_recents">最近任务</string>
+    <string name="action_recents_gb">最近任务 (姜饼风格)</string>
+    <string name="action_search">寻找</string>
+    <string name="action_screenshot">截屏</string>
+    <string name="action_menu">菜单</string>
+    <string name="action_ime">切换输入法</string>
+    <string name="action_kill">清除进程</string>
+    <string name="action_lastapp">上一个任务</string>
+    <string name="action_power">电源键</string>
+    <string name="action_notifications">通知</string>
+    <string name="action_assist">寻找 (Google Now)</string>
+    <string name="action_clockoptions">日期及时间</string>
+    <string name="action_voiceassist">语音寻找</string>
+    <string name="action_torch">手电筒</string>
+    <string name="action_silent">铃声/静音</string>
+    <string name="action_vib">铃声/手振</string>
+    <string name="action_silent_vib">铃声/振动/静音</string>
+    <string name="action_event">事件</string>
+    <string name="action_today">本日活动</string>
+    <string name="action_alarm">闹钟</string>
+    <string name="action_null">空白</string>
+    <string name="action_app">自定义</string>
+
 </resources>

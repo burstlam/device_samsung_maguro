@@ -64,8 +64,10 @@
     <string name="pref_extra_settings">其他設定</string>
 
     <!-- Strip unicode -->
-    <string name="pref_title_strip_unicode">剝離Unicode</string>
-    <string name="pref_summary_strip_unicode">替換160個字符中不支持的Unicode碼</string>
+    <string name="pref_title_unicode_stripping">替換Unicode碼</string>
+    <string name="pref_unicode_stripping_leave_intact">保留所有字元</string>
+    <string name="pref_unicode_stripping_non_encodable">替換所有無法編碼字元</string>
+    <string name="pref_unicode_stripping_all">替換所有不支持的Unicode碼字元</string>
 
     <!-- Enable emojis -->
     <string name="pref_title_enable_emojis">表情圖示</string>
@@ -119,8 +121,8 @@
     <!-- Settings item description for boolean full datetime setting -->
     <string name="pref_summary_fulldate">信息中顯示完整日期標戳</string>
 
-    <string name="pref_dark_theme_title">使用深色主題</string>
-    <string name="pref_dark_theme_summary">反勾則使用默認淺色主題</string>
+<!--    <string name="pref_dark_theme_title">使用深色主題</string>
+    <string name="pref_dark_theme_summary">反勾則使用默認淺色主題</string>-->
 
     <!-- Settings item for the soft keyboard picker -->
     <string name="pref_title_input_type">軟體鍵盤種類</string>
@@ -186,10 +188,10 @@
     <!-- MMS THEME SETTINGS -->
     <string name="mms_themes">Mms 主題設定</string>
     <string name="themes_summary">改變信息軟件外觀</string>
-    <string name="themes_conv_list_title">對話視窗風格</string>
-    <string name="themes_conv_list_summary">改變對話視窗風格，設定文字內容顏色.</string>
-    <string name="themes_msg_list_title">信息列風格</string>
-    <string name="themes_msg_list_summary">改變信息列風格，設定文字內容顏色</string>
+    <string name="themes_conv_list_title">信息列風格</string>
+    <string name="themes_conv_list_summary">改變信息列風格，設定文字內容顏色</string>
+    <string name="themes_msg_list_title">對話視窗風格</string>
+    <string name="themes_msg_list_summary">改變對話視窗風格，設定文字內容顏色</string>
     <string name="themes_widget_title">小工具主題</string>
     <string name="themes_widget_summary">桌面小工具套用深／淺色風格, 設定文字內容顏色</string>
     <string name="background_colors">背景</string>
@@ -301,7 +303,10 @@
     <string name="pref_summary_quick_smiley_btn">輸入欄旁邊新增表情圖示輸入鍵</string>
 
     <string name="font_size_default">16dp (默認)</string>
-
     <string name="menu_mark_all_read">全部標示為已讀取</string>
+
+    <!-- Avatar -->
+    <string name="hide_avatar">隱藏頭像</string>
+    <string name="hide_avatar_summary">對話頁面隱藏聯絡人頭像</string>
 
 </resources>

@@ -104,4 +104,7 @@
     <string name="running_processes_item_description_p_p"><xliff:g id="numprocess">%1$d</xliff:g>
         等進程及 <xliff:g id="numservices">%2$d</xliff:g> 服務</string>
 
+    <string name="permdesc_screenshot">屏幕截圖</string>
+    <string name="permlab_screenshot">允許其他程序屏幕截圖，這項指令由系統UI權限保護.</string>
+
 </resources>

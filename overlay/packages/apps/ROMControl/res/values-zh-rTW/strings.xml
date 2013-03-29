@@ -12,7 +12,7 @@
     <string name="header_navbar">虛擬鍵</string>
     <string name="toggles_layout">快捷開關</string>
     <string name="general_ui">常規設置</string>
-    <string name="clock">日期及時鐘</string>
+    <string name="clock">日期及時間</string>
     <string name="battery">電量</string>
     <string name="signal">信號</string>
     <string name="nav_bar">虛擬鍵</string>
@@ -61,6 +61,9 @@
     <string name="title_show_navbar_hide">顯示導航欄控制台開關</string>
     <string name="power_menu_expanded_desktop">全屏模式開關</string>
 	<string name="title_show_reboot_keyguard">鎖屏中顯示重啟開關</string>
+    <string name="summary_off_show_reboot_keyguard">鎖屏中不會顯示重啟菜單</string>
+    <string name="summary_on_show_reboot_keyguard">鎖屏中顯示重啟菜單</string>
+    <string name="title_show_volume_state_toggle">顯示音效面板</string>
 
     <!-- Power Saving -->
     <string name="title_pref_powersaving_pref_mode">啟用省電模式</string>
@@ -203,8 +206,36 @@
     <string name="toggle_dialog_add_toggles">選擇新增開關</string>
     <string name="toggle_style_tile">磁貼式</string>
     <string name="toggle_style_traditional">傳統</string>
+    <string name="toggle_style_scrollable">傳統(橫向捲動)</string>
     <string name="toggle_swap_handle_side">使用右側拖動處理</string>
     <string name="add_toggles">變更開關</string>
+
+    <string name="toggle_action_title">%1$s &amp; 動作圖示</string>
+    <string name="toggle_action_title_alt">長按 %1$s &amp; 動作圖示</string>
+    <string name="toggle_longpress_title">長按動作： %1$s</string>
+    <string name="custom_toggle_cat">自定義開關</string>
+    <string name="custom_button_cat">自定義開關動作</string>
+    <string name="dclick_action_title">雙擊動作</string>
+    <string name="dclick_action_summary">雙擊切換下一個開關</string>
+    <string name="boot_action_title">開機後自動套用</string>
+    <string name="boot_action_summary">開機會自動套用第1個按鍵設定</string>
+    <string name="match_icon_action_title">系統圖示</string>
+    <string name="match_icon_action_summary">使用內置圖示準確反映設定動作</string>
+    <string name="advanced_toggle_title">進階開關動作設定</string>
+    <string name="advanced_toggle_summary">設定點擊或長按動作</string>
+    <string name="action_toggle_title">開關</string>
+    <string name="action_toggle_summary">排序右左至右</string>
+    <string name="no_dclick">沒有行動</string>
+    <string name="back_one_dclick">返回</string>
+    <string name="state_one_dclick">執行</string>
+    <string name="skip_back_dclick">切換到上一個按鍵 (不執行動作)</string>
+    <string name="skip_up_dclick">切換到下一個按鍵(不執行動作)</string>
+    <string name="collapse_bar_title">自動關閉狀態欄</string>
+    <string name="collapse_bar_summary">執行動作後自動關閉狀態欄</string>
+    <string name="no_collapse">沒有動作</string>
+    <string name="click_collapse">點擊</string>
+    <string name="long_collapse">長按</string>
+    <string name="both_collapse">不論點擊或長按</string>
 
     <!-- Statusbar | Clock -->
     <string name="clock_title_enable">時鐘樣式</string>
@@ -214,7 +245,7 @@
     <string name="colors">顏色</string>
     <string name="clock_color_title">時鐘顏色</string>
     <string name="alarm">提醒</string>
-    <string name="clock_options">時鐘設定選項</string>
+    <string name="clock_options">時間設定選項</string>
     <string name="nothing">不設置任何動作</string>
     <string name="today">顯示本日日程</string>
     <string name="event">新增日程事件</string>
@@ -300,6 +331,7 @@
     <!-- Navigation Bar -->
     <string name="navigation_bar">虛擬鍵</string>
     <string name="navbar_button_cat">虛擬鍵佈局</string>
+    <string name="navbar_color_cat">顏色與透明度</string> 
     <string name="title_pref_menu_display">功能表鍵位置</string>
     <string name="summary_pref_menu_display">使用大功能表鍵時請務必選取移除功能表鍵</string>
     <string name="title_pref_navigation_menu_display">功能表鍵可見性</string>
@@ -312,7 +344,7 @@
     <string name="navbar_width_help_summary">100 是螢幕高度的 70\%% 。5 是螢幕高度的 30\%% 。0 預設是按鈕高度。</string>
     <string name="width_port_title">平板模式虛擬鍵(直屏)縮放大小</string>
     <string name="width_land_title">平板模式虛擬鍵(橫屏)縮放大小</string>
-    <string name="navbar_longpress_title">按鍵 %1$s 長按時的行為</string>
+<!--    <string name="navbar_longpress_title">按鍵 %1$s 長按時的行為</string>
     <string name="navbar_action_home">主螢幕</string>
     <string name="navbar_action_back">返回</string>
     <string name="navbar_action_recents">最近任務</string>
@@ -324,7 +356,7 @@
     <string name="navbar_action_kill">結束程式</string>
     <string name="navbar_action_power">電源</string>
     <string name="navbar_action_notifications">通知欄</string>
-    <string name="navbar_action_none">空</string>
+    <string name="navbar_action_none">空</string>-->
     <string name="navbar_widgets">虛擬鍵小工具</string>
     <string name="navbar_enable_bar">啟用虛擬鍵</string>
     <string name="navigation_bar_height_title">虛擬鍵高度（豎屏）</string>
@@ -357,6 +389,13 @@
     <string name="navbar_widgets_shiftLeft">左移</string>
     <string name="navbar_widgets_shiftRight">右移</string>
     <string name="navbar_widgets_delete">刪除小工具</string>
+
+    <string name="navbar_buttons_instructions">點擊圖示選擇動作或自定義捷徑</string>
+    <string name="navbar_title_menu">按鍵選項</string>
+    <string name="navbar_actiontitle_menu">執行: %1$s</string>
+    <string name="navbar_longpress_menu">長按: %1$s</string>
+    <string name="navbar_icon_menu">自定義圖示</string>
+    <string name="navbar_delete_menu">刪除按鍵</string>
 
     <!-- Nav Ring Targets -->
     <string name="navbar_ring_cat">導航欄捷徑環</string>
@@ -1247,7 +1286,7 @@
     <string name="pie_lastapp_title">顯示最近任務按鍵</string>
     <string name="pie_lastapp_summary">在PIE上新增啟用最近任務按鍵</string>
 
-    <string name="navbar_action_lastapp">上一個打開程序</string>
+<!--    <string name="navbar_action_lastapp">上一個打開程序</string>-->
     <string name="lastapp">上一個打開程序</string>
 
     <!-- DPI Per APP-->

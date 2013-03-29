@@ -398,4 +398,23 @@
     <string name="key_rotation_timeout_20s">20 秒</string>
     <string name="key_rotation_timeout_30s">30 秒</string>
     <string name="key_rotation_timeout_60s">60 秒</string>
+
+    <!-- Swap volume buttons when the screen is rotated -->
+    <string name="swap_volume_buttons_title">音量鍵互換</string>
+    <string name="swap_volume_buttons_summary">屏幕橫向時互換音量鍵功能</string>
+
+    <!-- Whether to display IME switcher notifcation -->
+    <string name="ime_switcher_notify">輸入法圖示</string>
+    <string name="ime_switcher_notify_summary">於狀態欄顯示輪入法圖示</string> 
+
+    <!-- Lock volume keys -->
+    <string name="sound_lock_volume_keys_title">鎖定音量鍵</string>
+    <string name="sound_lock_volume_keys_summary">防止音量鍵意外解除靜音模式</string>
+
+    <string name="wifi_ibss_freq_title">頻道/頻率</string>
+    <string name="wifi_channel">頻道</string>
+
+    <!-- Sound settings screen, setting check box label -->
+    <string name="camera_sounds_title">相機快門音效</string>
+    <string name="camera_sounds_summary">警告: 關閉快門音可能會抵觸某些國家的法律!</string>
 </resources>

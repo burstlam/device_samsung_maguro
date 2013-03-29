@@ -64,8 +64,10 @@
     <string name="pref_extra_settings">其他设定</string>
 
     <!-- Strip unicode -->
-    <string name="pref_title_strip_unicode">剥离Unicode</string>
-    <string name="pref_summary_strip_unicode">替换160个字符中不支持的Unicode码</string>
+    <string name="pref_title_unicode_stripping">替换Unicode码</string>
+    <string name="pref_unicode_stripping_leave_intact">保留所有字符</string>
+    <string name="pref_unicode_stripping_non_encodable">替换所有不能编码字符</string>
+    <string name="pref_unicode_stripping_all">替换所有不支持的Unicode码字符</string>
 
     <!-- Full timestamps -->
     <string name="pref_title_mms_full_timestamp">完整时间戳</string>
@@ -115,8 +117,8 @@
     <!-- Settings item description for boolean full datetime setting -->
     <string name="pref_summary_fulldate">信息中显示完整日期标戳</string>
 
-    <string name="pref_dark_theme_title">使用深色主题</string>
-    <string name="pref_dark_theme_summary">反勾则使用默认浅色主题</string>
+<!--    <string name="pref_dark_theme_title">使用深色主题</string>
+    <string name="pref_dark_theme_summary">反勾则使用默认浅色主题</string>-->
 
     <!-- Settings item for the soft keyboard picker -->
     <string name="pref_title_input_type">软体键盘种类</string>
@@ -182,12 +184,12 @@
     <!-- MMS THEME SETTINGS -->
     <string name="mms_themes">Mms 主题设定</string>
     <string name="themes_summary">改变信息软件外观</string>
-    <string name="themes_conv_list_title">对话视窗风格</string>
-    <string name="themes_conv_list_summary">改变对话视窗风格，设定文字内容颜色.</string>
-    <string name="themes_msg_list_title">信息列风格</string>
-    <string name="themes_msg_list_summary">改变信息列风格，设定文字内容颜色</string>
-    <string name="themes_widget_title">小部件主题</string>
-    <string name="themes_widget_summary">桌面小部件套用深／浅色风格, 设定文字内容颜色</string>
+    <string name="themes_conv_list_title">信息列风格</string>
+    <string name="themes_conv_list_summary">改变信息列风格，设定文字内容颜色</string>
+    <string name="themes_msg_list_title">对话视窗风格</string>
+    <string name="themes_msg_list_summary">改变对话视窗风格，设定文字内容颜色</string>
+    <string name="themes_widget_title">小工具主题</string>
+    <string name="themes_widget_summary">桌面小工具套用深／浅色风格, 设定文字内容颜色</string>
     <string name="background_colors">背景</string>
     <string name="restore_defaults">还原系统默认设定</string>
     <string name="delete_custom_image">删除背景图片</string>
@@ -297,6 +299,9 @@
     <string name="pref_summary_quick_smiley_btn">输入栏旁边新增表情图示输入键</string>
 
     <string name="font_size_default">16dp (默认)</string>
-
     <string name="menu_mark_all_read">全部标示为已读取</string>
+
+    <!-- Avatar -->
+    <string name="hide_avatar">隐藏联络人头像</string>
+    <string name="hide_avatar_summary">对话页面隐藏联络人头像</string>
 </resources>

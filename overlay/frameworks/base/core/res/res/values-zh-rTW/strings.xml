@@ -71,5 +71,31 @@
     <string name="global_action_choose_profile">情景模式</string>
 
     <string name="app_killed_message">程序已經清除</string>
-    <string name="trash">清除</string> 
+    <string name="trash">清除</string>
+
+    <!-- Awesome Action Stuff-->
+    <string name="action_home">主頁</string>
+    <string name="action_back">返回</string>
+    <string name="action_recents">最近任務</string>
+    <string name="action_recents_gb">最近任務 (薑餅風格)</string>
+    <string name="action_search">搜尋</string>
+    <string name="action_screenshot">截屏</string>
+    <string name="action_menu">菜單</string>
+    <string name="action_ime">切換輸入法</string>
+    <string name="action_kill">清除進程</string>
+    <string name="action_lastapp">上一個任務</string>
+    <string name="action_power">電源鍵</string>
+    <string name="action_notifications">通知</string>
+    <string name="action_assist">搜尋 (Google Now)</string>
+    <string name="action_clockoptions">日期及時間</string>
+    <string name="action_voiceassist">語音搜尋</string>
+    <string name="action_torch">手電筒</string>
+    <string name="action_silent">鈴聲/靜音</string>
+    <string name="action_vib">鈴聲/手振</string>
+    <string name="action_silent_vib">鈴聲/振動/靜音</string>
+    <string name="action_event">事件</string>
+    <string name="action_today">本日活動</string>
+    <string name="action_alarm">鬧鐘</string>
+    <string name="action_null">空白</string>
+    <string name="action_app">自定義</string>
 </resources>
