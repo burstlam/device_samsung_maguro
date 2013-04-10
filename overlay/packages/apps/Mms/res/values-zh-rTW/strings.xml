@@ -70,8 +70,14 @@
     <string name="pref_unicode_stripping_all">替換所有不支持的Unicode碼字元</string>
 
     <!-- Enable emojis -->
-    <string name="pref_title_enable_emojis">表情圖示</string>
-    <string name="pref_summary_enable_emojis">套用Unicode表情圖示</string>
+    <string name="pref_title_enable_emojis">表情符號</string>
+    <string name="pref_summary_enable_emojis">套用Unicode文字表情符號</string>
+    <string name="menu_insert_emoji">插入Emoji表情符號</string>
+
+    <!-- Soft Keyboard Type -->
+    <string name="pref_keyboard_emoji">Emoji表情符號</string>
+    <string name="pref_keyboard_send">Enter鍵送出</string>
+    <string name="pref_keyboard_new_line">不支援，請重新選擇</string>
 
     <!-- Full timestamps -->
     <string name="pref_title_mms_full_timestamp">完整時間戳</string>
@@ -121,19 +127,12 @@
     <!-- Settings item description for boolean full datetime setting -->
     <string name="pref_summary_fulldate">信息中顯示完整日期標戳</string>
 
-<!--    <string name="pref_dark_theme_title">使用深色主題</string>
-    <string name="pref_dark_theme_summary">反勾則使用默認淺色主題</string>-->
+    <string name="pref_dark_theme_title">使用深色主題</string>
+    <string name="pref_dark_theme_summary">反勾則使用默認淺色主題</string>
 
     <!-- Settings item for the soft keyboard picker -->
     <string name="pref_title_input_type">軟體鍵盤種類</string>
     <string name="pref_summary_input_type">選擇撰寫信息時鍵盤種類</string>
-
-    <string name="menu_insert_emoji">插入Emoji圖示</string>
-
-    <!-- Soft Keyboard Type -->
-    <string name="pref_keyboard_emoji">Emoji表情圖示</string>
-    <string name="pref_keyboard_send">Enter鍵送出</string>
-    <string name="pref_keyboard_new_line">不支援，請重新選擇</string>
 
     <string name="slideshow_options">幻燈片模式</string>
     <string name="pref_title_mms_group_mms">群組短信</string>
@@ -228,7 +227,7 @@
     <string name="unread_count">未讀取信息計數</string>
     <string name="unread_smiley">未讀取表情圖示</string>
     <string name="read_bg">已讀取背景</string>
-    <string name="read_contact">已未讀取聯絡人</string>
+    <string name="read_contact">已讀取聯絡人</string>
     <string name="read_subject">已讀取主題</string>
     <string name="read_date">已讀取日期</string>
     <string name="read_count">已讀取信息計數</string>

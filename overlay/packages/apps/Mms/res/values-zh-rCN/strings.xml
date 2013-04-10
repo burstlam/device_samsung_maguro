@@ -117,8 +117,8 @@
     <!-- Settings item description for boolean full datetime setting -->
     <string name="pref_summary_fulldate">信息中显示完整日期标戳</string>
 
-<!--    <string name="pref_dark_theme_title">使用深色主题</string>
-    <string name="pref_dark_theme_summary">反勾则使用默认浅色主题</string>-->
+    <string name="pref_dark_theme_title">使用深色主题</string>
+    <string name="pref_dark_theme_summary">反勾则使用默认浅色主题</string>
 
     <!-- Settings item for the soft keyboard picker -->
     <string name="pref_title_input_type">软体键盘种类</string>
@@ -127,7 +127,7 @@
     <string name="menu_insert_emoji">插入Emoji图示</string>
 
     <!-- Soft Keyboard Type -->
-    <string name="pref_keyboard_emoji">Emoji表情图示</string>
+    <string name="pref_keyboard_emoji">Emoji表情符号</string>
     <string name="pref_keyboard_send">Enter键送出</string>
     <string name="pref_keyboard_new_line">不支援，请重新选择</string>
 
@@ -222,13 +222,13 @@
     <string name="unread_subject">未读取主题</string>
     <string name="unread_date">未读取日期</string>
     <string name="unread_count">未读取信息计数</string>
-    <string name="unread_smiley">未读取表情图示</string>
+    <string name="unread_smiley">未读取表情符号</string>
     <string name="read_bg">已读取背景</string>
-    <string name="read_contact">已未读取联络人</string>
+    <string name="read_contact">已读取联络人</string>
     <string name="read_subject">已读取主题</string>
     <string name="read_date">已读取日期</string>
     <string name="read_count">已读取信息计数</string>
-    <string name="read_smiley">已读取表情图示</string>
+    <string name="read_smiley">已读取表情符号</string>
     <!-- bubbles -->
     <string name="text_bubble_title">设定气泡样式</string>
     <string name="bubble_fill_parent_title">气泡填满屏幕宽度</string>
@@ -243,13 +243,13 @@
     <string name="show_contact_name">显示联络人名称</string>
     <!-- Sent colors -->
     <string name="sent_textcolor">送出文字</string>
-    <string name="sent_smiley">送出表情图示</string>
+    <string name="sent_smiley">送出表情符号</string>
     <string name="sent_datecolor">送出日期</string>
     <string name="sent_contact_color">送出联络人</string>
     <string name="sent_text_bg">送出背景</string>
     <!-- Recv colors -->
     <string name="recv_textcolor">接收文字</string>
-    <string name="recv_smiley">接收表情图示</string>
+    <string name="recv_smiley">接收表情符号</string>
     <string name="recv_datecolor">接收日期</string>
     <string name="recv_contact_color">接收联络人</string>
     <string name="recv_text_bg">接收背景</string>
@@ -291,12 +291,13 @@
     <string name="pref_title_save_location_summary">指定储存附件的文件夹</string>
 
     <!-- Enable emojis -->
-    <string name="pref_title_enable_emojis">表情图示支援</string>
-    <string name="pref_summary_enable_emojis">启用表情图示支援（包含471个表情图示）</string>
+    <string name="pref_title_enable_emojis">表情符号支援</string>
+    <string name="pref_summary_enable_emojis">启用表情符号支援（包含471个表情符号）</string>
+
     <!-- Quick smiley title -->
-    <string name="quick_smiley_title">选择表情图示</string> 
-    <string name="pref_title_quick_smiley_btn">表情图示快捷输入键</string>
-    <string name="pref_summary_quick_smiley_btn">输入栏旁边新增表情图示输入键</string>
+    <string name="quick_smiley_title">选择表情符号</string> 
+    <string name="pref_title_quick_smiley_btn">表情符号快捷输入键</string>
+    <string name="pref_summary_quick_smiley_btn">输入栏旁边新增表情符号输入键</string>
 
     <string name="font_size_default">16dp (默认)</string>
     <string name="menu_mark_all_read">全部标示为已读取</string>

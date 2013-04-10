@@ -85,4 +85,6 @@
 
     <string name="direct_call_title">感應器撥號</string>
     <string name="direct_call_summary">輸入號碼後把電話放在耳邊即進行撥打動作</string>
+
+    <string name="menu_add_to_blacklist">加入來電拒接名單</string>
 </resources>

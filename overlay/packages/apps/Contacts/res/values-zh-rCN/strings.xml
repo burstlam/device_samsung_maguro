@@ -83,4 +83,6 @@
 
     <string name="direct_call_title">传感器拨号</string>
     <string name="direct_call_summary">输入号码后把电话放在耳边即进行拨打动作</string>
+
+    <string name="menu_add_to_blacklist">新增至来电黑名单</string>
 </resources>

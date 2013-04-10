@@ -107,4 +107,27 @@
 
     <string name="rejected_as_missed">拒接来电视为未接</string>
     <string name="rejected_as_missed_sum">在通话记录中将拒接来电标示为 \'未接\' 而非 \'来电\'</string>
+
+    <!-- Blacklist feature -->
+    <string name="blacklist_title">来电黑名单</string>
+    <string name="enable_blacklist_title">启用来电黑名单</string>
+    <string name="blacklist_summary_disabled">关闭</string>
+    <string name="blacklist_summary">自动挂断所有来自黑名单的来电</string>
+    <string name="blacklist_notify">显示通知栏提示</string>
+    <string name="blacklist_regex_title">使用通配符号</string>
+    <string name="blacklist_regex_summary">使用 "." 号作为通配符号, "*" 号则标记重复. 例如 "123.*" 阻挡所有以 123 开始号码, 使用 ".*123.*" 则挂断所有包含"123"的号码</string>
+
+    <!-- Blacklist management -->
+    <string name="add_blacklist_number">新增号码</string>
+    <string name="add_to_blacklist">新增到黑名单</string>
+    <string name="add_to_blacklist_message">所有来自 %s 来电将会被拒绝</string>
+    <string name="remove_blacklist_number_title">删除号码</string>
+    <string name="remove_blacklist_number">是否确认将 %s 从黑名单中删除?</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_notification">已拒接%s的来电</string>
+    <string name="unblock_number">从黑名单中删除</string>
+
+    <!-- Text for the onscreen "Blacklist" button -->
+    <string name="onscreenBlacklistText">黑名单号码</string>
 </resources>

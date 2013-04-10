@@ -12,12 +12,12 @@
     <string name="header_navbar">导航栏</string>
     <string name="toggles_layout">开关</string>
     <string name="general_ui">常规界面</string>
-    <string name="clock">日期及时钟</string>
+    <string name="clock">日期及时间</string>
     <string name="battery">电量</string>
     <string name="signal">信号</string>
     <string name="nav_bar">导航栏</string>
     <string name="power_menu">电源键菜单</string>
-    <string name="led_options">LED 选项</string>
+    <string name="led_options">LED</string>
     <string name="header_system">系统</string>
     <string name="sound">声音</string>
     <string name="lockscreen_options">锁屏选项</string>
@@ -28,13 +28,14 @@
     <!-- Activity titles defined in AndroidManifest.xml Activity标题 -->
     <string name="title_about">关于 AOKP</string>
     <string name="title_ui">常规界面设置</string>
-    <string name="title_statusbar_clock">状态栏时钟</string>
-    <string name="title_statusbar_toggles">状态栏开关</string>
-    <string name="title_statusbar_battery">状态栏电量</string>
+    <string name="title_statusbar_clock">日期及时间</string>
+    <string name="title_statusbar_toggles">开关</string>
+    <string name="title_statusbar_battery">电量</string>
+    <string name="title_statusbar_signal">讯号</string>
     <string name="title_navbar">导航栏</string>
     <string name="title_power_menu">电源键菜单</string>
-    <string name="title_led">LED 控制</string>
-    <string name="title_lockscreens">锁屏选项</string>
+    <string name="title_led">LED</string>
+    <string name="title_lockscreens">锁屏</string>
     <string name="title_lockscreens_targets">锁屏目标</string>
     <string name="title_navring">导航栏捷径环</string>
     <string name="title_sound">声音设置</string>
@@ -110,7 +111,9 @@
     <string name="bootani_cat">开机动画</string>
     <string name="navbar_cat">导航栏</string>
     <string name="notification_cat">通知栏</string>
-    <string name="tabletUI_cat">平屏模式用户界面</string>
+    <string name="recents_cat">最近任务</string>
+    <string name="tabletUI_cat">使用者界面</string>
+    <string name="tabletUI_cat">使用者界面</string>
     <string name="enable_volume_options">启用音量面板</string>
     <string name="status_bar_notif_count_title">显示通知数量</string>
     <string name="status_bar_notif_count_summary">在状态栏显示未查看的通知数量</string>
@@ -223,6 +226,7 @@
     <string name="toggle_swap_handle_side">使用右侧拖动处理</string>
     <string name="add_toggles">更改开关</string>
 
+    <!-- Custom Toggle-->
     <string name="toggle_action_title">%1$s &amp; 动作图示</string>
     <string name="toggle_action_title_alt">长按 %1$s &amp; 动作图示</string>
     <string name="toggle_longpress_title">长按动作： %1$s</string>
@@ -234,8 +238,9 @@
     <string name="boot_action_summary">开机会自动套用第1个按键设定</string>
     <string name="match_icon_action_title">系统图示</string>
     <string name="match_icon_action_summary">使用内置图示准确反映设定动作</string>
-    <string name="advanced_toggle_title">进阶开关动作设定</string>
-    <string name="advanced_toggle_summary">设定点击或长按动作</string>
+    <string name="advanced_toggle_title">操作模式</string>
+    <string name="advanced_toggle_summaryon">进阶（点击或长按动作）</string>
+    <string name="advanced_toggle_summaryoff">基本 (只设定长按动作)</string>
     <string name="action_toggle_title">开关</string>
     <string name="action_toggle_summary">排序右左至右</string>
     <string name="no_dclick">没有行动</string>
@@ -250,7 +255,12 @@
     <string name="long_collapse">长按</string>
     <string name="both_collapse">不论点击或长按</string>
 
+    <string name="custom_toggle_action">如何操作</string>
+    <string name="custom_toggle_desc">进阶模式中，使用双击动作切换按键，按键可设定单击及长按的动作内容，方便那些希望结合程序及电源键操作的用家. 基本模式中, 单击按键将会切换按键，长按则会执行按键动作. 这种设定比较适合自定义程序.</string>
+    <string name="custom_toggle_okay">退出</string>
+
     <!-- Statusbar | Clock 状态栏|时钟 -->
+    <string name="notification_shade_clock">通知栏时钟</string>
     <string name="clock_title_enable">时钟风格</string>
     <string name="title_clock_ampm_entries">上午/下午 风格</string>
     <string name="enable_clock_weekday">星期计数</string>
@@ -1296,18 +1306,35 @@
 <!--    <string name="navbar_action_lastapp">上一个打开程序</string> -->
     <string name="lastapp">上一个打开程序</string>
 
-    <!-- DPI Per APP-->
-    <!--
-    <string name="dpi_settings_title">调整LCD屏幕解像度</string>
-    <string name="system_dpi_title">系统LCD屏幕解像度</string>
-    <string name="system_dpi_summary">当前LCD屏幕解像度:</string>
-    <string name="system_dpi_standar_title">标准解像度</string>
-    <string name="system_dpi_standar_summary">从列表选择合适解像度</string>
+    <!-- Hybrid Settings-->
+    <string name="hybrid_settings_title">解析度及布局</string>
+    <string name="uimode_phone">手机</string>
+    <string name="uimode_phablet">平板手机</string>
+    <string name="uimode_tablet">平板</string>
+<!--
+    <string name="dpi_settings_title">调整屏幕解析度</string>
+    <string name="system_dpi_title">系统解析度</string>
+    <string name="system_dpi_summary">目前解析度:</string>
+    <string name="system_dpi_standar_title">系统全局解析度</string>
+    <string name="system_dpi_standar_summary">从列表选择合适解析度</string>
     <string name="system_dpi_custom_title">自设数值</string>
     <string name="system_dpi_custom_hint">由120至480</string>
-    <string name="system_dpi_custom_summary">设置自定屏幕解像度</string>
-    <string name="uimode_title">UI模式</string>-->
+    <string name="system_dpi_custom_summary">自定解析度</string>
+-->
 
+    <!-- Per Apps UI Mode-->
+    <string name="appsuimode_title">全局UI设定</string>
+    <string name="apps_dpi_title">全局DPI解像度设定</string>
+    <string name="apps_dpi_summary">目前:</string>
+    <string name="apps_dpi_custom_title">指定:</string>
+    <string name="apps_dpi_custom_hint">120 至 480</string>
+    <string name="apps_dpi_custom_summary">自定义数值(120至480中间)</string>
+    <string name="per_app_layout_title">程序布局</string>
+    <string name="per_app_layout_summary">指定个别程序运行布局风格,但受限于程序本身是否已自带其他布局</string>
+    <string name="per_app_layout_list_title">程序列表</string>
+    <string name="per_app_layout_alert_title">选定布局</string>
+
+    <!-- DPI Per APP-->
     <string name="dpi_groups_title">自定义DPI分组</string>
     <string name="dpi_groups_summary">为程序自定义DPI组合</string>
     <string name="dpi_group_title">DPI 群组</string>
@@ -1334,6 +1361,15 @@
     <string name="customdpigroup_summary">新增DPI群组</string>
     <string name="custom_dpi">目前 DPI值:</string>
     <string name="customdpigroup_group_exists">错误!选择的群组已存在!</string>
+
+    <!-- Widgets DPI -->
+    <string name="widgets_title">添加小工具DPI支持</string>
+    <string name="widgets_summary">设置小工具清单</string>
+    <string name="add_widget">新增小工具</string>
+    <string name="widget_list">小工具清单</string>
+    <string name="widget_alert_remove_widget">删除小工具</string>
+    <string name="widget_remove_widget">将 %s 从清单中删除?</string>
+    <string name="widget_add_title">选择小工具</string>
 
     <string name="toggle_navbar_hide">隐藏式导航栏</string>
     <string name="navbar_ui">一般设定</string>
@@ -1537,11 +1573,19 @@
     <string name="uppercase">大楷</string>
     <string name="custom_java_format">自定义Java字串</string>
 
-    <!-- ScreenShot Timeout
-    <string name="toggle_screenshot_timeout_title">截屏键超时设置</string>
-    <string name="toggle_screenshot_timeout_summary">退出通知栏后多久为屏幕截图.(推荐-稍长)</string>
-    <string name="timeout_fast">快</string>
-    <string name="timeout_normal">一般</string>
-    <string name="timeout_slow">稍长</string>
-    <string name="timeout_eslow">最长</string> -->
+    <!-- ScreenShot Timeout-->
+    <string name="screenshot_delay_title">截屏键逾时设定</string>
+    <string name="screenshot_delay_summary">设定离按键多久以后执行屏幕截图.</string>
+    <string name="screenshot_2_seconds">2 秒</string>
+    <string name="screenshot_3_seconds">3 秒</string>
+    <string name="screenshot_4_seconds">4 秒</string>
+    <string name="screenshot_5_seconds">5 秒</string>
+    <string name="screenshot_6_seconds">6 秒</string>
+    <string name="screenshot_7_seconds">7 秒</string>
+    <string name="screenshot_8_seconds">8 秒</string>
+
+    <!-- show network speed -->
+    <string name="show_network_speed_title">显示当前网速</string>
+    <string name="show_network_speed_summary">在状态栏显示当前网速</string>
+    <string name="status_bar_traffic_color_title">自定义网速显示颜色</string>
 </resources>

@@ -17,10 +17,10 @@
     <string name="signal">信號</string>
     <string name="nav_bar">虛擬鍵</string>
     <string name="power_menu">電源鍵菜單</string>
-    <string name="led_options">LED 選項</string>
+    <string name="led_options">LED</string>
     <string name="header_system">系統</string>
     <string name="sound">聲音</string>
-    <string name="lockscreen_options">鎖屏選項</string>
+    <string name="lockscreen_options">鎖屏</string>
     <string name="weather">天氣</string>
     <string name="tools">工具</string>
     <string name="performance">性能</string>
@@ -28,9 +28,10 @@
     <!-- Activity titles defined in AndroidManifest.xml -->
     <string name="title_about">關於 AOKP</string>
     <string name="title_ui">常規介面設置</string>
-    <string name="title_statusbar_clock">狀態欄時鐘</string>
-    <string name="title_statusbar_toggles">狀態欄開關</string>
-    <string name="title_statusbar_battery">狀態欄電量</string>
+    <string name="title_statusbar_clock">日期及時間</string>
+    <string name="title_statusbar_toggles">開關</string>
+    <string name="title_statusbar_battery">電量</string>
+    <string name="title_statusbar_signal">訊號</string>
     <string name="title_navbar">虛擬鍵</string>
     <string name="title_power_menu">電源鍵菜單</string>
     <string name="title_led">LED 控制</string>
@@ -96,7 +97,9 @@
     <string name="bootani_cat">開機動畫</string>
     <string name="navbar_cat">導航欄</string>
     <string name="notification_cat">通知欄</string>
-    <string name="tabletUI_cat">平屏模式使用者界面</string>
+    <string name="display_cat">顯示</string>
+    <string name="recents_cat">最近任務</string>
+    <string name="tabletUI_cat">使用者界面</string>
     <string name="enable_volume_options">啟用音量面板</string>
     <string name="status_bar_notif_count_title">顯示通知數量</string>
     <string name="status_bar_notif_count_summary">在狀態欄中顯示等待查看的通知數量</string>
@@ -210,6 +213,7 @@
     <string name="toggle_swap_handle_side">使用右側拖動處理</string>
     <string name="add_toggles">變更開關</string>
 
+    <!-- Custom Toggle-->
     <string name="toggle_action_title">%1$s &amp; 動作圖示</string>
     <string name="toggle_action_title_alt">長按 %1$s &amp; 動作圖示</string>
     <string name="toggle_longpress_title">長按動作： %1$s</string>
@@ -221,8 +225,9 @@
     <string name="boot_action_summary">開機會自動套用第1個按鍵設定</string>
     <string name="match_icon_action_title">系統圖示</string>
     <string name="match_icon_action_summary">使用內置圖示準確反映設定動作</string>
-    <string name="advanced_toggle_title">進階開關動作設定</string>
-    <string name="advanced_toggle_summary">設定點擊或長按動作</string>
+    <string name="advanced_toggle_title">操作模式</string>
+    <string name="advanced_toggle_summaryon">進階（點擊或長按動作）</string>
+    <string name="advanced_toggle_summaryoff">基本 (只設定長按動作)</string>
     <string name="action_toggle_title">開關</string>
     <string name="action_toggle_summary">排序右左至右</string>
     <string name="no_dclick">沒有行動</string>
@@ -237,7 +242,12 @@
     <string name="long_collapse">長按</string>
     <string name="both_collapse">不論點擊或長按</string>
 
+    <string name="custom_toggle_action">如何操作</string>
+    <string name="custom_toggle_desc">進階模式中，使用雙擊動作切換按鍵，按鍵可設定單擊及長按的動作內容，方便那些希望結合程序及電源鍵操作的用家. 基本模式中, 單擊按鍵將會切換按鍵，長按則會執行按鍵動作. 這種設定比較適合自定義程序.</string>
+    <string name="custom_toggle_okay">退出</string>
+
     <!-- Statusbar | Clock -->
+    <string name="notification_shade_clock">通知欄時鐘</string>
     <string name="clock_title_enable">時鐘樣式</string>
     <string name="title_clock_ampm_entries">上午/下午樣式</string>
     <string name="enable_clock_weekday">日子顯示</string>
@@ -330,7 +340,7 @@
 
     <!-- Navigation Bar -->
     <string name="navigation_bar">虛擬鍵</string>
-    <string name="navbar_button_cat">虛擬鍵佈局</string>
+    <string name="navbar_button_cat">虛擬鍵布局</string>
     <string name="navbar_color_cat">顏色與透明度</string> 
     <string name="title_pref_menu_display">功能表鍵位置</string>
     <string name="summary_pref_menu_display">使用大功能表鍵時請務必選取移除功能表鍵</string>
@@ -504,7 +514,7 @@
 
     <!-- Lockscreen -->
     <string name="lockscreen_security_cat">安全性設置</string>
-    <string name="lockscreen_layout_cat">佈局</string>
+    <string name="lockscreen_layout_cat">布局</string>
     <string name="lockscreen_music_cat">音樂</string>
     <string name="lockscreen_weather_cat">天氣資訊</string>
     <string name="lockscreen_calendar_cat">顯示日曆</string>
@@ -1233,8 +1243,8 @@
 <!--    <string name="pie_gravity_both">左右兩側</string>-->
     <string name="pie_gravity_left">左</string>
     <string name="pie_gravity_right">右</string>
-    <string name="pie_mode_title">PIE佈局及動畫</string>
-    <string name="pie_mode_summary">設定動畫速度及顯示佈局</string>
+    <string name="pie_mode_title">PIE布局及動畫</string>
+    <string name="pie_mode_summary">設定動畫速度及顯示布局</string>
     <string name="pie_mode_bare">簡約:只顯示按鍵</string>
     <string name="pie_mode_quick">快速:全部內容但不顯示動畫</string>
     <string name="pie_mode_default">默認</string>
@@ -1289,19 +1299,36 @@
 <!--    <string name="navbar_action_lastapp">上一個打開程序</string>-->
     <string name="lastapp">上一個打開程序</string>
 
-    <!-- DPI Per APP-->
-<!--    
-    <string name="dpi_settings_title">調整LCD屏幕解像度</string>
-    <string name="system_dpi_title">系統LCD屏幕解像度</string>
-    <string name="system_dpi_summary">目前LCD屏幕解像度:</string>
-    <string name="system_dpi_standar_title">標準解像度</string>
+    <!-- Hybrid Settings-->
+    <string name="hybrid_settings_title">解像度及布局</string>
+    <string name="uimode_phone">手機</string>
+    <string name="uimode_phablet">平板手機</string>
+    <string name="uimode_tablet">平板</string>
+
+<!--
+    <string name="dpi_settings_title">調整屏幕解像度</string>
+    <string name="system_dpi_title">系統解像度</string>
+    <string name="system_dpi_summary">目前解像度:</string>
+    <string name="system_dpi_standar_title">系統全局解像度</string>
     <string name="system_dpi_standar_summary">從列表選擇合適解像度</string>
     <string name="system_dpi_custom_title">自設數值</string>
     <string name="system_dpi_custom_hint">由120至480</string>
-    <string name="system_dpi_custom_summary">設定自定屏幕解像度</string>
-    
-    <string name="uimode_title">UI模式</string>-->
+    <string name="system_dpi_custom_summary">自定解像度</string>
+-->
 
+    <!-- Per Apps UI Mode-->
+    <string name="appsuimode_title">全局UI設定</string>
+    <string name="apps_dpi_title">全局DPI解像度設定</string>
+    <string name="apps_dpi_summary">目前:</string>
+    <string name="apps_dpi_custom_title">指定:</string>
+    <string name="apps_dpi_custom_hint">120 至 480</string>
+    <string name="apps_dpi_custom_summary">自定義數值(120至480中間)</string>
+    <string name="per_app_layout_title">程序布局</string>
+    <string name="per_app_layout_summary">指定個別程序運行布局風格,但受限於程序本身是否已自帶其他布局</string>
+    <string name="per_app_layout_list_title">程序列表</string>
+    <string name="per_app_layout_alert_title">選定布局</string>
+
+    <!-- DPI Per APP-->
     <string name="dpi_groups_title">自定義DPI分組</string>
     <string name="dpi_groups_summary">為程序自定義DPI組合</string>
     <string name="dpi_group_title">DPI 群組</string>
@@ -1328,6 +1355,15 @@
     <string name="customdpigroup_summary">新增DPI群組</string>
     <string name="custom_dpi">目前 DPI值:</string>
     <string name="customdpigroup_group_exists">錯誤!選擇的群組已存在!</string>
+
+    <!-- Widgets DPI -->
+    <string name="widgets_title">添加小工具DPI支援</string>
+    <string name="widgets_summary">設定小工具清單</string>
+    <string name="add_widget">新增小工具</string>
+    <string name="widget_list">小工具清單</string>
+    <string name="widget_alert_remove_widget">移除小工具</string>
+    <string name="widget_remove_widget">將 %s 從清單中移除?</string>
+    <string name="widget_add_title">選擇小工具</string>
 
     <string name="toggle_navbar_hide">隱藏式導航欄</string>
     <string name="navbar_ui">一般設定</string>
@@ -1533,12 +1569,24 @@
     <string name="uppercase">大楷</string>
     <string name="custom_java_format">自定義Java字串</string>
 
-    <!-- ScreenShot Timeout
-    <string name="toggle_screenshot_timeout_title">截屏鍵逾時設定</string>
-    <string name="toggle_screenshot_timeout_summary">退出通知欄後多久為屏幕截圖.(推荐-稍長)</string>
-    <string name="timeout_fast">快</string>
-    <string name="timeout_normal">一般</string>
-    <string name="timeout_slow">稍長</string>
-    <string name="timeout_eslow">最長</string> -->
+    <!-- ScreenShot Timeout-->
+    <string name="screenshot_delay_title">截屏鍵逾時設定</string>
+    <string name="screenshot_delay_summary">設定離按鍵多久以後執行屏幕截圖.</string>
+    <string name="screenshot_2_seconds">2 秒</string>
+    <string name="screenshot_3_seconds">3 秒</string>
+    <string name="screenshot_4_seconds">4 秒</string>
+    <string name="screenshot_5_seconds">5 秒</string>
+    <string name="screenshot_6_seconds">6 秒</string>
+    <string name="screenshot_7_seconds">7 秒</string>
+    <string name="screenshot_8_seconds">8 秒</string>
 
+    <string name="system_bar_height_title">平板模式導航欄高度(竪屏)</string>
+    <string name="system_bar_height_summary">導航欄高度</string>
+    <string name="system_bar_height_landscape_title">平板模式導航欄高度(橫屏)</string>
+    <string name="system_bar_height_landscape_summary">導航欄高度</string>
+
+    <!-- show network speed -->
+    <string name="show_network_speed_title">顯示目前網速</string>
+    <string name="show_network_speed_summary">在狀態欄察看目前網速</string>
+    <string name="status_bar_traffic_color_title">自定義網速顯示顏色</string>    <string name="status_bar_traffic_color_title">自定義網速顯示顏色</string>
 </resources>

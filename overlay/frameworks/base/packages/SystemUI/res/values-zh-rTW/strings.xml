@@ -106,5 +106,8 @@
 
     <string name="permdesc_screenshot">屏幕截圖</string>
     <string name="permlab_screenshot">允許其他程序屏幕截圖，這項指令由系統UI權限保護.</string>
+    <string name="screenshot_toast">系統會在 %1$d 秒後執行屏幕截圖</string>
+
+    <string name="pie_date_format">yyyy MMM dd日, ccc</string>
 
 </resources>
