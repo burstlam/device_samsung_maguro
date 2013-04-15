@@ -62,8 +62,9 @@
     <string name="title_show_navbar_hide">顯示導航欄控制台開關</string>
     <string name="power_menu_expanded_desktop">全屏模式開關</string>
 	<string name="title_show_reboot_keyguard">鎖屏中顯示重啟開關</string>
-    <string name="summary_off_show_reboot_keyguard">鎖屏中不會顯示重啟菜單</string>
-    <string name="summary_on_show_reboot_keyguard">鎖屏中顯示重啟菜單</string>
+    <string name="summary_show_reboot_keyguard">鎖屏中顯示重啟菜單</string>
+<!--    <string name="summary_off_show_reboot_keyguard">鎖屏中不會顯示重啟菜單</string>
+    <string name="summary_on_show_reboot_keyguard">鎖屏中顯示重啟菜單</string>-->
     <string name="title_show_volume_state_toggle">顯示音效面板</string>
 
     <!-- Power Saving -->
@@ -151,13 +152,13 @@
     <string name="notification_show_wifi_ssid_summary">顯示目前使用中的WIFI網路名稱</string>
 
     <!-- LCD Density -->
-    <string name="lcd_density_title">調整 LCD 屏幕解析度</string>
-    <string name="lcd_density_summary">未知</string>
+    <string name="lcd_density_title">變更系統UI解析度</string>
+    <string name="lcd_density_summary">設定鎖屏/狀態欄/啟動菜單等系系統使用者介面的解析度</string>
     <string name="current_lcd_density">"目前 LCD 屏幕解析度: "</string>
     <string name="lcd_density_wizard">設定精靈</string>
     <string name="follow_through_title">指南!</string>
     <string name="follow_through_summary">小心按照下列步驟進行.</string>
-    <string name="stock_density_title">1. 還原默認解柝度</string>
+    <string name="stock_density_title">1. 還原默認解析度</string>
     <string name="stock_density_summary">平板或舊款手機數值為160. 大部份手機使用 240. Galaxy Nexus 使用 320 為默認值.</string>
     <string name="stock_density_changed_summary">"解析度設定為: "</string>
     <string name="reboot_title">2. 重啟!</string>
@@ -169,7 +170,7 @@
     <string name="open_market_summary">完成後返回此頁.</string>
     <string name="open_market_summary_could_not_open">"無法打開 GOOGLE PLAY 程式，請確認已安裝程式後手動點擊進入程式."</string>
     <string name="custom_density_title">5. 設定您喜愛的解析度!</string>
-    <string name="custom_density_summary">若遇上 GOOGLE PLAY 兼容問題，請返回此頁重新設定.</string>
+    <string name="custom_density_summary">需要更改程序UI解析度的用家請不要立即重啟,先接續利用設定全局DPI設定選項,完成後重啟機器方能完全套用新的DPI解析度. 若遇上 GOOGLE PLAY 兼容問題，請返回此頁重新設定.</string>
     <string name="custom_density_summary_invalid">"解析度無效!"</string>
     <string name="custom_density">自定義</string>
     <string name="set_custom_density_title">設定自定義解析度</string>
@@ -1317,7 +1318,8 @@
 -->
 
     <!-- Per Apps UI Mode-->
-    <string name="appsuimode_title">全局UI設定</string>
+    <string name="appsuimode_title">全局UI布局模式</string>
+    <string name="appsuimode_summary">全局套用變更所有程序UI布局,可切換成:手機,平板手機及平板任何一種模式</string>
     <string name="apps_dpi_title">全局DPI解像度設定</string>
     <string name="apps_dpi_summary">目前:</string>
     <string name="apps_dpi_custom_title">指定:</string>

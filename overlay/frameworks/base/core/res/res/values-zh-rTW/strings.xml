@@ -98,4 +98,6 @@
     <string name="action_alarm">鬧鐘</string>
     <string name="action_null">空白</string>
     <string name="action_app">自定義</string>
+    <string name="action_unlock">解鎖</string>
+    <string name="action_camera">相機</string>
 </resources>

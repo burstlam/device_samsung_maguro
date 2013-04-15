@@ -130,4 +130,6 @@
 
     <!-- Text for the onscreen "Blacklist" button -->
     <string name="onscreenBlacklistText">黑名单号码</string>
+    <string name="blacklist_private_numbers">拒接没有来电显示号码</string>
+    <string name="blacklist_notification_private_number">已拒接没有来电显示的号码</string>
 </resources>

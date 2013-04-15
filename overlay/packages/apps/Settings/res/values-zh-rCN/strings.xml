@@ -404,7 +404,7 @@
     <string name="swap_volume_buttons_title">音量键互换</string>
     <string name="swap_volume_buttons_summary">屏幕横向时互换音量键功能</string>
 
-    <!-- Whether to display IME switcher notifcation -->
+    <!-- Whether to display IME switcher notifcation-->
     <string name="ime_switcher_notify">输入法图示</string>
     <string name="ime_switcher_notify_summary">于状态栏显示轮入法图示</string>
 
@@ -418,4 +418,14 @@
     <!-- Sound settings screen, setting check box label -->
     <string name="camera_sounds_title">相机快门音效</string>
     <string name="camera_sounds_summary">警告: 关闭快门音可能会抵触某些国家的法律!</string>
+
+    <!-- Category title for power sound notification specific Settings.
+         [CHAR LIMIT=40] -->
+    <string name="power_notifications_category_title">电源连接提示音</string>
+    <!-- Sound settings, power notifications enable/disable, setting check box label -->
+    <string name="power_notifications_enable_title">使用电源连接提示音</string>
+    <!-- Sound settings, power notifications ringtone selection, preference label -->
+    <string name="power_notifications_ringtone_title">通知音</string>
+    <!-- Sound settings, power notifications label for ringtone == none -->
+    <string name="power_notifications_ringtone_silent">静音</string>
 </resources>

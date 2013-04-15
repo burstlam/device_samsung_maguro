@@ -38,6 +38,8 @@
         <item>反轉</item>
         <item>堆疊</item>
         <item>手風琴</item>
+        <item>左旋</item>
+        <item>右旋</item>
     </string-array>
     <string-array name="preferences_interface_drawer_scrolling_transition_effect_entries">
         <item>標準</item>
@@ -54,9 +56,15 @@
         <item>反轉</item>
         <item>堆疊</item>
         <item>手風琴</item>
+        <item>左旋</item>
+        <item>右旋</item>
     </string-array>
     <string-array name="preferences_interface_drawer_orientation_entries">
         <item>橫向</item>
         <item>垂直</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_indicator_position_entries">
+        <item>上/左</item>
+        <item>下/右</item>
     </string-array>
 </resources>

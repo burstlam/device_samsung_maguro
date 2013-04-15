@@ -76,8 +76,9 @@
     <string name="title_show_navbar_hide">显示导航栏控制台开关</string>
     <string name="power_menu_expanded_desktop">全屏模式开关</string>
 	<string name="title_show_reboot_keyguard">锁屏中显示重启开关</string>
-    <string name="summary_off_show_reboot_keyguard">锁屏中不会显示重启菜单</string>
-    <string name="summary_on_show_reboot_keyguard">锁屏中显示重启菜单</string>
+    <string name="summary_show_reboot_keyguard">锁屏中显示重启菜单</string>
+    <!--<string name="summary_off_show_reboot_keyguard">锁屏中不会显示重启菜单</string>
+    <string name="summary_on_show_reboot_keyguard">锁屏中显示重启菜单</string>-->
     <string name="title_show_volume_state_toggle">显示音效面板</string>
 
     <!-- Power Saving -->
@@ -162,16 +163,15 @@
     <string name="notification_show_wifi_ssid_title">显示WIFI网路名称</string>
     <string name="notification_show_wifi_ssid_summary">显示目前使用中的WIFI网路名称</string>
 
-
     <!-- LCD Density -->
-    <string name="lcd_density_title">调整 LCD 屏幕分辨率</string>
-    <string name="lcd_density_summary">未知</string>
+    <string name="lcd_density_title">更改系统UI分辨率</string>
+    <string name="lcd_density_summary">设置锁屏/状态栏/引导菜单等系系统用户界面的分辨率</string>
     <string name="current_lcd_density">"当前 LCD 屏幕分辨率: "</string>
     <string name="lcd_density_wizard">设置向导</string>
     <string name="follow_through_title">指南!</string>
     <string name="follow_through_summary">小心按照下列步骤进行.</string>
     <string name="stock_density_title">1. 撤消默认解柝度</string>
-    <string name="stock_density_summary">平板或旧款手机数值为160. 大部份手机使用 240. Galaxy Nexus 使用 320 为默认值.</string>
+    <string name="stock_density_summary">平板或旧款手机分辨率为160. 大部份手机使用 240. Galaxy Nexus 使用 320 为默认值.</string>
     <string name="stock_density_changed_summary">"分辨率设置为: "</string>
     <string name="reboot_title">2. 重启!</string>
     <string name="reboot_summary">再进入此设置页继续下一步!</string>
@@ -181,8 +181,8 @@
     <string name="open_market_title">4. 打开 GOOGLE PLAY 程序并按接受</string>
     <string name="open_market_summary">完成后返回此页.</string>
     <string name="open_market_summary_could_not_open">"不能打开 GOOGLE PLAY 程序，请确认已安装程序后手动点击进入程序."</string>
-    <string name="custom_density_title">5. 设置你喜爱的分辨率!</string>
-    <string name="custom_density_summary">若遇上 GOOGLE PLAY 兼容问题，请返回此页重新设置.</string>
+    <string name="custom_density_title">5. 设置您喜爱的分辨率!</string>
+    <string name="custom_density_summary">需要更改程序UI分辨率的用家请不要立即重启,先接续利用设置全局DPI设置选项,完成后重启机器方能完全套用新的DPI分辨率. 若遇上 GOOGLE PLAY 兼容问题，请返回此页重新设置.</string>
     <string name="custom_density_summary_invalid">"分辨率无效!"</string>
     <string name="custom_density">自定义</string>
     <string name="set_custom_density_title">设置自定义分辨率</string>
@@ -1323,7 +1323,8 @@
 -->
 
     <!-- Per Apps UI Mode-->
-    <string name="appsuimode_title">全局UI设定</string>
+    <string name="appsuimode_title">全局UI布局模式</string>
+    <string name="appsuimode_summary">全局套用更改所有程序UI布局,可切换成:手机,平板手机及平板任何一种模式</string>
     <string name="apps_dpi_title">全局DPI解像度设定</string>
     <string name="apps_dpi_summary">目前:</string>
     <string name="apps_dpi_custom_title">指定:</string>
