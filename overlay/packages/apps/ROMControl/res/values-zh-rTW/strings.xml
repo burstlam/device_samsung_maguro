@@ -169,14 +169,15 @@
     <string name="open_market_title">4. 打開 GOOGLE PLAY 程式並按接受</string>
     <string name="open_market_summary">完成後返回此頁.</string>
     <string name="open_market_summary_could_not_open">"無法打開 GOOGLE PLAY 程式，請確認已安裝程式後手動點擊進入程式."</string>
-    <string name="custom_density_title">5. 設定您喜愛的解析度!</string>
-    <string name="custom_density_summary">需要更改程序UI解析度的用家請不要立即重啟,先接續利用設定全局DPI設定選項,完成後重啟機器方能完全套用新的DPI解析度. 若遇上 GOOGLE PLAY 兼容問題，請返回此頁重新設定.</string>
+    <string name="apps_dpi_title2">5.設定全局程序解析度</string>
+    <string name="custom_density_title">6. 設定您喜愛的系統UI解析度!</string>
+    <string name="custom_density_summary">若遇上 GOOGLE PLAY 兼容問題，可使用DPI分組功能把GOOGLE PLAY加入原來系統解析度.</string>
     <string name="custom_density_summary_invalid">"解析度無效!"</string>
     <string name="custom_density">自定義</string>
     <string name="set_custom_density_title">設定自定義解析度</string>
     <string name="set_custom_density_set">應用</string>
     <string name="custom_density_dialog_title">"警告!"</string>
-    <string name="custom_density_dialog_summary">"更改解析度可能引起無法預見的問題，若遇上此情況，請重新進入此頁重新由步驟1執行"</string>
+    <string name="custom_density_dialog_summary">"請注意!系統UI解析度不等於全局程序使用的解析度.\n另外,更改解析度可能引起無法預見的問題，若遇上此情況，請利用DPI分組功能把不協調的程序加入原生系統的解析度組別"</string>
     <string name="custom_density_dialog_button_got">明白!</string>
     <string name="custom_density_dialog_button_reboot">立即重啟</string>
 

@@ -29,7 +29,8 @@ PRODUCT_PACKAGES += \
     AppWidgetPicker \
     Trebuchet \
     CMFileManager \
-	BurstItOutWallpapers
+	BurstItOutWallpapers \
+#    Droidwall
 
 # init.d and sysctl
 PRODUCT_COPY_FILES += \

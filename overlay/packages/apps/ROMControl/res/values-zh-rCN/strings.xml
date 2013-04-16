@@ -181,14 +181,15 @@
     <string name="open_market_title">4. 打开 GOOGLE PLAY 程序并按接受</string>
     <string name="open_market_summary">完成后返回此页.</string>
     <string name="open_market_summary_could_not_open">"不能打开 GOOGLE PLAY 程序，请确认已安装程序后手动点击进入程序."</string>
-    <string name="custom_density_title">5. 设置您喜爱的分辨率!</string>
-    <string name="custom_density_summary">需要更改程序UI分辨率的用家请不要立即重启,先接续利用设置全局DPI设置选项,完成后重启机器方能完全套用新的DPI分辨率. 若遇上 GOOGLE PLAY 兼容问题，请返回此页重新设置.</string>
+    <string name="apps_dpi_title2">5.设置全局程序分辨率</string>
+    <string name="custom_density_title">6. 设置您喜爱的系统UI分辨率!</string>
+    <string name="custom_density_summary">若遇上 GOOGLE PLAY 兼容问题，可使用DPI分组功能把GOOGLE PLAY加入原来系统分辨率.</string>
     <string name="custom_density_summary_invalid">"分辨率无效!"</string>
     <string name="custom_density">自定义</string>
     <string name="set_custom_density_title">设置自定义分辨率</string>
     <string name="set_custom_density_set">应用</string>
     <string name="custom_density_dialog_title">"警告!"</string>
-    <string name="custom_density_dialog_summary">"更改分辨率可能引起不能预见的问题，若遇上此情况，请重新进入此页重新由步骤1执行"</string>
+    <string name="custom_density_dialog_summary">"请注意!系统UI分辨率不等于全局程序使用的分辨率.\n另外,更改分辨率可能引起不能预见的问题，若遇上此情况，请利用DPI分组功能把不协调的程序加入原生系统的分辨率组别"</string>
     <string name="custom_density_dialog_button_got">明白!</string>
     <string name="custom_density_dialog_button_reboot">立即重启</string>
 

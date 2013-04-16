@@ -426,6 +426,7 @@
     <string name="power_notifications_enable_title">使用电源连接提示音</string>
     <!-- Sound settings, power notifications ringtone selection, preference label -->
     <string name="power_notifications_ringtone_title">通知音</string>
+    <string name="power_notifications_vibrate_title">振动</string>
     <!-- Sound settings, power notifications label for ringtone == none -->
     <string name="power_notifications_ringtone_silent">静音</string>
 </resources>
