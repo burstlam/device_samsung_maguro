@@ -1235,14 +1235,13 @@
     <string name="choose_app">選擇程序</string>
     <string name="profile_applist_title">程式</string>
 
-    <!-- Pie controls -->
+    <!-- Pie controls
     <string name="pie_controls_title">PIE 面版</string>
     <string name="pie_controls_summary">提供虛擬鍵及信息面版(推荐在全屏模式使用)</string>
     <string name="pie_gravity_title">Pie 觸發側 </string>
     <string name="pie_gravity_summary">選擇PIE面版出現位置</string>
     <string name="pie_gravity_top">上</string>
     <string name="pie_gravity_bottom">下</string>
-<!--    <string name="pie_gravity_both">左右兩側</string>-->
     <string name="pie_gravity_left">左</string>
     <string name="pie_gravity_right">右</string>
     <string name="pie_mode_title">PIE布局及動畫</string>
@@ -1262,9 +1261,9 @@
     <string name="pie_stick_title">禁用自動旋轉</string>
     <string name="pie_stick_summary">不管屏幕如何旋轉,PIE面板觸發側及出現位置均不會改變</string>
     <string name="pie_restart_launcher_title">重新載入啟動器</string>
-    <string name="pie_restart_launcher_summary">啟動全屏模式時候桌面重新載入啟動器. </string>
+    <string name="pie_restart_launcher_summary">啟動全屏模式時候桌面重新載入啟動器. </string> -->
 
-    <!-- Pie Color Settings -->
+    <!-- Pie Color Settings
     <string name="pie_color_title">PIE面版自定義顏色</string>
     <string name="pie_color_style_title">選擇PIE配色風格</string>
     <string name="pie_background_title">背景顏色</string>
@@ -1276,9 +1275,9 @@
     <string name="pie_chevron_right_title">右外環顏色</string>
     <string name="all_color">自設定顏色</string>
     <string name="stock_color">系統默認配色</string>
-    <string name="pie_juice_title">電量顏色</string>
+    <string name="pie_juice_title">電量顏色</string> -->
 
-    <!-- Pie Gap-->
+    <!-- Pie Gap
     <string name="pie_gap_title">PIE 間隔</string>
     <string name="pie_gap_summary">調校各按鍵之間距離</string>
     <string name="pie_gap_closed">關閉</string>
@@ -1296,7 +1295,7 @@
     <string name="pie_search_title">顯示搜尋鍵</string>
     <string name="pie_search_summary">通過PIE面板接通Google Now</string>
     <string name="pie_lastapp_title">顯示最近任務按鍵</string>
-    <string name="pie_lastapp_summary">在PIE上新增啟用最近任務按鍵</string>
+    <string name="pie_lastapp_summary">在PIE上新增啟用最近任務按鍵</string> -->
 
 <!--    <string name="navbar_action_lastapp">上一個打開程序</string>-->
     <string name="lastapp">上一個打開程序</string>
@@ -1374,11 +1373,15 @@
     <!--Expanded Desktop Enhancement: Status Bar Switch -->
     <string name="expanded_desktop_status_bar_state">全屏模式狀態欄調校</string>
     <string name="summary_expanded_desktop">%1$s</string>
-    <string name="expanded_desktop_summary_status_bar">顯示狀態欄</string>
+    <string name="expanded_desktop_summary">變更全屏模式模式</string>
+    <string name="expanded_desktop_disabled">關閉</string>
+    <string name="expanded_desktop_only_nav_bar">隱藏導航欄</string>
+    <string name="expanded_desktop_only_status_bar">隱藏狀態欄</string>
+    <string name="expanded_desktop_both_hidden">全部隱藏</string>
+<!--    <string name="expanded_desktop_summary_status_bar">顯示狀態欄</string>
     <string name="expanded_desktop_summary_no_status_bar">隱藏狀態欄</string>
-    <!-- <string name="expanded_desktop_disabled">關閉</string> -->
     <string name="expanded_desktop_staus_bar">顯示狀態欄</string>
-    <string name="expanded_desktop_no_staus_bar">隱藏狀態欄</string>
+    <string name="expanded_desktop_no_staus_bar">隱藏狀態欄</string>-->
 
    <!-- CRT_ANIMATION-->
     <string name="system_power_crt_screen_off_title">CRT 關屏動畫</string>
@@ -1591,5 +1594,84 @@
     <!-- show network speed -->
     <string name="show_network_speed_title">顯示目前網速</string>
     <string name="show_network_speed_summary">在狀態欄察看目前網速</string>
-    <string name="status_bar_traffic_color_title">自定義網速顯示顏色</string>    <string name="status_bar_traffic_color_title">自定義網速顯示顏色</string>
+    <string name="status_bar_traffic_color_title">自定義網速顯示顏色</string>    
+    <string name="status_bar_traffic_color_title">自定義網速顯示顏色</string>
+
+    <!-- Quick/Pie Control -->
+    <string name="pie_control_title">PIE面版</string>
+    <string name="pie_control_dialog_title">PIE虛擬鍵</string>
+    <string name="pie_control_always">永遠顯示</string>
+    <string name="pie_control_expanded">只於全屏模式時啟用</string>
+    <string name="pie_control_disabled">關閉</string>
+    <string name="pie_control_size">面板大小</string>
+    <string name="pie_control_trigger_positions">觸發側設定</string>
+    <string name="pie_control_trigger_left">屏幕左側邊框</string>
+    <string name="pie_control_trigger_bottom">屏幕底部邊框</string>
+    <string name="pie_control_trigger_right">屏幕右側邊框</string>
+    <string name="pie_control_trigger_top">屏幕頂部邊框</string>
+    <string name="pie_control_trigger_top_summary">頂部只會顯示虛擬鍵,不會顯示信息面板</string>
+    <string name="pie_button_style">按鍵樣式</string>
+    <string name="pie_button_color_title">按鍵顏色</string>
+    <string name="pie_button_alpha_title">按鍵透明度</string>
+    <string name="pie_button_outline_color_title">按鍵框線顏色</string>
+    <string name="pie_button_pressed_color_title">按下按鍵顏色</string>
+    <string name="pie_button_long_pressed_color_title">長按按鍵顏色</string>
+    <string name="pie_button_pressed_alpha_title">按下按鍵顏色透明度</string>
+    <string name="pie_icon_style">按鍵圖示風格</string>
+    <string name="pie_icon_color_title">按鍵圖示顏色</string>
+    <string name="pie_icon_color_mode_title">按鍵色彩模式</string>
+    <string name="pie_icon_color_mode_dialog_title">彩色化</string>
+    <string name="pie_icon_color_mode_summary">改變按鍵顏色</string>
+    <string name="pie_icon_color_mode_all_icons">全部圖示</string>
+    <string name="pie_icon_color_mode_system_icons">系統圖示</string>
+    <string name="pie_icon_color_mode_system_custom_icons">所有系統及自定圖示</string>
+    <string name="pie_trigger_size_title">觸發側</string>
+    <string name="pie_trigger">觸發側設定</string>
+    <string name="pie_trigger_note_title">注意事項</string>
+    <string name="pie_trigger_note_summary">為避色跟狀態欄及導航欄互相干擾, 觸發側會根據重叠的邊緣範圍自動調整</string>
+    <string name="pie_disable_ime_triggers_title">使用鍵盤時關閉或調節觸發側</string>
+    <string name="pie_disable_ime_triggers_summary">使用軟鍵盤時,自動關閉或調節鍵盤位置的觸發側</string>
+    <string name="pie_background_color_title">背景顏色</string>
+    <string name="pie_snap_color_title">捕捉點顏色</string>
+    <string name="pie_text_color_title">文字顏色</string>
+    <string name="pie_background_alpha_title">背景透明度</string>
+    <string name="pie_style">樣式和尺寸</string>
+    <string name="pie_style_title">樣式</string>
+    <string name="pie_dimens_title">尺寸</string>
+    <string name="pie_default">默認</string>
+    <string name="pie_additional_options">其他選項</string>
+    <string name="pie_show_snap_title">顯示捕捉點</string>
+    <string name="pie_show_snap_summary">顯示捕捉點以便自由轉換</string>
+    <string name="pie_show_text_title">顯示狀態信息面板</string>
+    <string name="pie_show_text_summary">顯示訊號,日期及時間狀態</string>
+    <string name="pie_disable_statusbar_info_title">隱藏狀態信息面板</string>
+    <string name="pie_disable_statusbar_info_summary">隱藏冗餘的狀態欄信息</string>
+    <string name="pie_show_background_title">顯示背景</string>
+    <string name="pie_show_background_summary">顯示PIE按鍵背景</string>
+    <string name="menu_pie_style_reset">重置樣式</string>
+    <string name="menu_pie_button_style_reset">重置按鍵樣式</string>
+    <string name="menu_pie_button_reset">重置按鍵</string>
+    <string name="pie_qty_title">按鍵數目</string>
+    <string name="pie_qty_summary">改變此項將重置所有按鍵設定</string>
+    <string name="pie_action_title">%1$s 按鍵動作 &amp; 圖示</string>
+    <string name="pie_longpress_title"> %1$s 按鍵長按動作</string>
+    <string name="pie_enable_long">啟用按鍵長按設定</string>
+    <string name="pie_button">按鍵</string>
+    <string name="pie_button_cat">按鍵</string>
+    <string name="pie_action_custom_app">自定程式</string>
+    <string name="pie_action_home">主頁</string>
+    <string name="pie_action_back">返回</string>
+    <string name="pie_action_recents">最近任務</string>
+    <string name="pie_action_lastapp">上一個任務</string>
+    <string name="pie_action_search">搜尋</string>
+    <string name="pie_action_screenshot">截屏</string>
+    <string name="pie_action_menu">菜單</string>
+    <string name="pie_action_ime">切換輸入法</string>
+    <string name="pie_action_kill">清除任務</string>
+<!--    <string name="pie_action_widgets">Widgets viewpager</string> -->
+    <string name="pie_action_power">關閉屏幕</string>
+    <string name="pie_action_notifications">通知欄</string>
+    <string name="pie_action_none">空</string>
+    <string name="color_default">默認</string>
+
 </resources>

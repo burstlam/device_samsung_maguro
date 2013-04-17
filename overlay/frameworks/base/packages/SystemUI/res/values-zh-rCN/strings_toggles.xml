@@ -48,7 +48,7 @@
     <string name="toggle_STATUSBAR">隐藏状态栏</string>
     <string name="toggle_QUIETHOURS">免打扰模式</string>
     <string name="toggle_SLEEP">一键关屏</string>
-    <string name="toggle_PIE">PIE</string>
+<!--    <string name="toggle_PIE">PIE</string>-->
     <string name="toggle_REBOOT">重启</string>
     <string name="toggle_SCREENSHOT">截屏</string>
     <string name="toggle_CUSTOM">自定义</string>
