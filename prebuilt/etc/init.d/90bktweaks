@@ -37,9 +37,9 @@ tTemp=75000
 
 
 # OMAP CPU SmartReflex 數值
-srMpu=830000
-srIva=830000
-srCore=830000
+srMpu=750000
+srIva=750000
+srCore=750000
 
 # UNDERVOLT CPU 降壓(0為關閉 1為開啟)
 doUv=0
