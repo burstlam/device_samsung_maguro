@@ -1247,68 +1247,8 @@
     <string name="lockscreen_shortcuts_icon_picker_twitter">Twitter推特</string>
     <string name="lockscreen_shortcuts_icon_picker_unlock">解锁</string> -->
 
-    <!-- Pie controls -->
-    <string name="pie_controls_title">PIE 面版</string>
-    <string name="pie_controls_summary">提供虚拟键及信息面版(推荐在全屏模式使用)</string>
-    <string name="pie_gravity_title">Pie 触发侧 </string>
-    <string name="pie_gravity_summary">选择PIE面版出现位置</string>
-    <string name="pie_gravity_top">上</string>
-    <string name="pie_gravity_bottom">下</string>
-    <string name="pie_gravity_left">左</string>
-    <string name="pie_gravity_right">右</string>
-    <string name="pie_mode_title">PIE布局及动画</string>
-    <string name="pie_mode_summary">设置动画速度及显示布局</string>
-    <string name="pie_mode_bare">简约:只显示按键</string>
-    <string name="pie_mode_quick">快速:全部内容但不显示动画</string>
-    <string name="pie_mode_default">默认</string>
-    <string name="pie_mode_slow">全部内容及动画细节</string>
-    <string name="pie_size_title">PIE面版尺寸</string>
-    <string name="pie_size_summary">设置控制面板尺寸</string>
-    <string name="pie_size_small">小</string>
-    <string name="pie_size_default">@string/pie_mode_default</string>
-    <string name="pie_size_large">大</string>
-    <string name="pie_size_gigantic">最大</string>
-    <string name="pie_center_title">置中显示</string>
-    <string name="pie_center_summary">反勾此选项,PIE面板可以在触发侧任意处出现</string>
-    <string name="pie_stick_title">禁用自动旋转</string>
-    <string name="pie_stick_summary">不管屏幕如何旋转,PIE面板触发侧及出现位置均不会改变</string>
     <string name="pie_restart_launcher_title">重新装入引导器</string>
     <string name="pie_restart_launcher_summary">引导全屏模式时候桌面重新装入引导器. </string>
-
-    <!-- Pie Color Settings -->
-    <string name="pie_color_title">PIE面版自定义颜色</string>
-    <string name="pie_color_style_title">选择PIE配色风格</string>
-    <string name="pie_background_title">背景颜色</string>
-    <string name="pie_select_title">选择颜色</string>
-    <string name="pie_outlines_title">框线颜色</string>
-    <string name="pie_status_clock_title">时钟颜色</string>
-    <string name="pie_status_title">状态栏颜色</string>
-    <string name="pie_chevron_left_title">左外环颜色</string>
-    <string name="pie_chevron_right_title">右外环颜色</string>
-    <string name="all_color">自设置颜色</string>
-    <string name="stock_color">系统默认配色</string>
-    <string name="pie_juice_title">电量颜色</string>
-    <!--<string name="pie_button_color_title">按键颜色</string>-->
-
-    <!-- Pie Gap -->
-    <string name="pie_gap_title">PIE 按键间距</string>
-    <string name="pie_gap_summary">调校各按键之间距离</string>
-    <string name="pie_gap_closed">关闭</string>
-    <string name="pie_gap_small">小 (默认)</string>
-    <string name="pie_gap_big">中</string>
-    <string name="pie_gap_huge">大</string>
-    <string name="pie_trigger_title">设定触发启动范围</string>
-    <string name="pie_trigger_summary">决定触发PIE面板的屏幕边缘宽度</string>
-    <string name="pie_trigger_small">小</string>
-    <string name="pie_trigger_normal">一般 (默认)</string>
-    <string name="pie_trigger_big">中</string>
-    <string name="pie_trigger_huge">大</string>
-    <string name="pie_menu_title">永远显示菜单键</string>
-    <string name="pie_menu_summary">选择非使用时候是否显示菜单键</string>
-    <string name="pie_search_title">显示寻找键</string>
-    <string name="pie_search_summary">通过PIE面板接通Google Now</string>
-    <string name="pie_lastapp_title">显示最近任务按键</string>
-    <string name="pie_lastapp_summary">在PIE上新增最近任务按键</string>
 
 <!--    <string name="navbar_action_lastapp">上一个打开程序</string> -->
     <string name="lastapp">上一个打开程序</string>
@@ -1601,7 +1541,7 @@
     <string name="show_network_speed_summary">在状态栏显示当前网速</string>
     <string name="status_bar_traffic_color_title">自定义网速显示颜色</string>
 
-    <!-- Quick/Pie Control
+    <!-- Quick/Pie Control -->
     <string name="pie_control_title">PIE面版</string>
     <string name="pie_control_dialog_title">PIE虚拟键</string>
     <string name="pie_control_always">不设限制启用</string>
@@ -1629,7 +1569,17 @@
     <string name="pie_icon_color_mode_all_icons">全部图示</string>
     <string name="pie_icon_color_mode_system_icons">系统图示</string>
     <string name="pie_icon_color_mode_system_custom_icons">所有系统及自定图示</string>
-    <string name="pie_trigger_size_title">触发本地宽度</string>
+
+    <string name="pie_trigger_dimens_options">触发区尺寸设置</string>
+    <string name="pie_trigger_thickness_title">触发区高度</string>
+    <string name="pie_trigger_height_title">左右侧触发区高度</string>
+    <string name="pie_trigger_gravity_left_right_title">触发区重心</string>
+    <string name="pie_trigger_gravity_left_right_dialog_title">设定左右方触发区重心</string>
+    <string name="pie_trigger_gravity_left_right_bottom">下方</string>
+    <string name="pie_trigger_gravity_left_right_center">置中</string>
+    <string name="pie_trigger_gravity_left_right_top">上方</string>
+    <string name="menu_pie_trigger_settings_reset">重置触发区设定</string>
+
     <string name="pie_trigger">触发本地设置</string>
     <string name="pie_trigger_note_title">注意事项</string>
     <string name="pie_trigger_note_summary">为避色跟状态栏及导航栏互相干扰, 触发本地会根据重叠的边缘范围自动调整</string>
@@ -1675,7 +1625,7 @@
     <string name="pie_action_power">关闭屏幕</string>
     <string name="pie_action_notifications">通知栏</string>
     <string name="pie_action_none">空</string>
-    <string name="color_default">默认</string> -->
+    <string name="color_default">默认</string>
 
 
     <!-- AOKP Lockscreen-->
