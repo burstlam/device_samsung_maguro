@@ -109,4 +109,18 @@
     <string name="action_camera">相機</string>
     <string name="action_widgets">導航欄工具</string>
     <string name="action_ribbon">AOKP彩帶</string>
+
+    <!-- Title of an application permission that lets an application view/edit revoked permissions. -->
+    <string name="permlab_revokePermissions">允許查看及編輯授權權限,一般程序不予使用.</string>
+    <!-- Description of an application permission that lets lets an application view/edit revoked permissions. -->
+    <string name="permdesc_revokePermissions">允許注銷讀寫權限,一般程序不予使用.</string>
+
+    <string name="aerr_revoked_application">程序名稱:<xliff:g id="application">%1$s</xliff:g>
+        (進程: <xliff:g id="process">%2$s</xliff:g>) 在非預警情況下關閉.\n警告!\n此軟件其中一個或若干權限被注銷而引起操作不正常,請重新授權有關權限重試.</string>
+    <!-- Text of the alert that is displayed when an application has crashed. -->
+    <string name="aerr_revoked_process">進程:<xliff:g id="process">%1$s</xliff:g> 在非預警情況下關閉.\n警告!\n此軟件其中一個或若干權限被注銷而引起操作不正常,請重新授權有關權限重試.</string>
+    <!-- Title of the alert when an application is not responding. -->
+
+    <!-- Button allowing the user reset the revoked permissions for application which has encountered an error. -->
+    <string name="reset_perms">重置授權資訊</string>
 </resources>

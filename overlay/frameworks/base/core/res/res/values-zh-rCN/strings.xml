@@ -110,4 +110,18 @@
 
     <string name="action_widgets">导航栏工具</string>
     <string name="action_ribbon">AOKP彩带</string>
+
+    <!-- Title of an application permission that lets an application view/edit revoked permissions. -->
+    <string name="permlab_revokePermissions">允许查看及编辑授权权限,一般程序不予使用.</string>
+    <!-- Description of an application permission that lets lets an application view/edit revoked permissions. -->
+    <string name="permdesc_revokePermissions">允许注销读写权限,一般程序不予使用.</string>
+
+    <string name="aerr_revoked_application">程序名称:<xliff:g id="application">%1$s</xliff:g>
+        (进程: <xliff:g id="process">%2$s</xliff:g>) 在非预警情况下关闭.\n警告!\n此软件其中一个或若干权限被注销而引起操作不正常,请重新授权有关权限重试.</string>
+    <!-- Text of the alert that is displayed when an application has crashed. -->
+    <string name="aerr_revoked_process">进程:<xliff:g id="process">%1$s</xliff:g> 在非预警情况下关闭.\n警告!\n此软件其中一个或若干权限被注销而引起操作不正常,请重新授权有关权限重试.</string>
+    <!-- Title of the alert when an application is not responding. -->
+
+    <!-- Button allowing the user reset the revoked permissions for application which has encountered an error. -->
+    <string name="reset_perms">重置授权资讯</string>
 </resources>

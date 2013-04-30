@@ -25,6 +25,8 @@
     <string name="pref_camera_focustime_summary">选择触屏对焦持续时间</string>
 
     <!-- Settings screen, Timer mode entries -->
+    <string name="pref_camera_focusmode_entry_continuouspicture">连续拍照</string>
+    <string name="pref_camera_focusmode_entry_continuousvideo">拍摄短片</string>
     <string name="pref_camera_focustime_entry_10">10秒</string>
     <string name="pref_camera_focustime_entry_15">15秒</string>
     <string name="pref_camera_focustime_entry_20">20秒</string>
@@ -112,4 +114,22 @@
     <string name="pref_camera_scenemode_entry_candlelight">蠋光</string>
     <string name="pref_camera_scenemode_entry_flowers">花卉</string>
     <string name="pref_camera_scenemode_entry_ar">AR</string> -->
+
+    <!-- Settings screen, Timer mode title-->
+    <string name="pref_camera_timer_title">自拍模式</string>
+    <string name="pref_camera_timer_entry_0">关闭</string>
+    <string name="pref_camera_timer_entry_10">10秒</string>
+    <string name="pref_camera_timer_entry_20">20秒</string>
+    <string name="pref_camera_timer_entry_30">30秒</string>
+    <string name="pref_camera_timer_entry_40">40秒</string>
+    <string name="pref_camera_timer_entry_50">50秒</string>
+    <string name="pref_camera_timer_entry_60">60秒</string>
+
+    <string name="pref_camera_nohands_title">语音快门</string>
+    <string name="voice_hint">通过说出关键词进行远程拍照 (关键词包括 \"Cid\", \"威士忌\", 和 \"茄子\"!)</string>
+    <string name="pref_nohands_persistent_title">持续性语音快门</string>
+
+    <!-- More Settings screen, storage title -->
+    <string name="pref_camera_storage_title">存储装置</string>
+
 </resources>

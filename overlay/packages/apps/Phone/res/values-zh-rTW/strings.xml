@@ -111,8 +111,12 @@
     <string name="blacklist_title">拒接來電</string>
     <string name="enable_blacklist_title">啟用拒接來電名單</string>
     <string name="blacklist_summary_disabled">關閉</string>
-    <string name="blacklist_summary">自動掛斷所有來自拒接號碼的來電</string>
+    <string name="blacklist_summary">自動掛斷所有來自拒接名單上的號碼</string>
     <string name="blacklist_notify">顯示通知欄提示</string>
+    <string name="blacklist_private_numbers_title">私人號碼</string>
+    <string name="blacklist_private_numbers_summary">自動掛斷所有私人號碼</string>
+    <string name="blacklist_unknown_numbers_title">沒有來電顯示號碼</string>
+    <string name="blacklist_unknown_numbers_summary">自動掛斷所有沒有來電顯示號碼</string>
     <string name="blacklist_regex_title">使用通配符號</string>
     <string name="blacklist_regex_summary">使用 "." 號作為通配符號, "*" 號則標記重複. 例如 "123.*" 阻擋所有以 123 開始號碼, 使用 ".*123.*" 則掛斷所有包含"123"的號碼</string>
 
@@ -125,13 +129,14 @@
 
     <!-- Blacklist notifications -->
     <string name="blacklist_notification">已拒接%s的來電</string>
+    <string name="blacklist_notification_private_number">拒接了一個私人號碼</string>
+    <string name="blacklist_notification_list_private">私人號碼</string>
+    <string name="blacklist_notification_unknown_number">拒接沒有來電顯示號碼 %s</string>
+    <string name="blacklist_notification_multiple">已拒接<xliff:g id="count">%d</xliff:g>個沒有來電顯示號碼</string>
+
     <string name="unblock_number">從拒接名單中移除</string>
 
     <!-- Text for the onscreen "Blacklist" button -->
     <string name="onscreenBlacklistText">拒接號碼</string>
-
-    <string name="blacklist_private_numbers">拒接沒有來電顯示號碼</string>
-    <string name="blacklist_notification_private_number">已拒接沒有來電顯示的號碼</string>
-
 
 </resources>

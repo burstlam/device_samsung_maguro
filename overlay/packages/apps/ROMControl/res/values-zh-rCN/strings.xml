@@ -111,6 +111,7 @@
     <!-- General UI 常规界面 -->
     <string name="bootani_cat">开机动画</string>
     <string name="navbar_cat">导航栏</string>
+    <string name="display_cat">显示</string>
     <string name="notification_cat">通知栏</string>
     <string name="recents_cat">最近任务</string>
     <string name="tabletUI_cat">使用者界面</string>
@@ -256,7 +257,8 @@
     <string name="long_collapse">长按</string>
     <string name="both_collapse">不论点击或长按</string>
 
-    <string name="custom_toggle_action">如何操作</string>
+    <string name="custom_help_title">如何操作</string>
+    <string name="custom_help_summary">点击说明</string>
     <string name="custom_toggle_desc">进阶模式中，使用双击动作切换按键，按键可设定单击及长按的动作内容，方便那些希望结合程序及电源键操作的用家. 基本模式中, 单击按键将会切换按键，长按则会执行按键动作. 这种设定比较适合自定义程序.</string>
     <string name="custom_toggle_okay">退出</string>
 
@@ -1718,7 +1720,9 @@
     <string name="ribbon_lockscreen">锁屏捷径</string>
     <string name="ribbon_notifications">通知栏捷径</string>
     <string name="ribbon_quicksettings">快捷开关(磁贴模式)捷径</string>
-    <string name="ribbon_swipe">隐藏式滑动捷径</string>
+    <string name="ribbon_swipe_left">左侧隐藏式滑动捷径</string>
+    <string name="ribbon_swipe_right">右侧隐藏式滑动捷径</string>
+    <string name="ribbon_swipe_bottom">下方隐藏式滑动捷径</string>
     <string name="clone_title">选定将要复制捷径</string>
     <string name="icon_size_normal">正常</string>
     <string name="icon_size_20">中等</string>
@@ -1726,8 +1730,9 @@
     <string name="ribbon_left_enable_title">左侧滑动</string>
     <string name="ribbon_right_enable_title">右侧滑动</string>
     <string name="ribbon_bottom_enable_title">下方滑动</string>
-    <string name="ribbon_bottom_warning_title">使用导航栏无法使用下方滑动.</string>
-    <string name="ribbon_color_title">滑动捷径着色</string>
+    <string name="ribbon_bottom_warning_title">使用导航栏无法使用下方划出捷径.</string>
+    <string name="ribbon_button_colorize_title">图示依照文字颜色渲染</string>
+    <string name="ribbon_color_title">捷径背景颜色</string>
     <string name="text_color_title">捷径文字颜色</string>
     <string name="ribbon_opacity_title">隐藏式滑动捷径颜色填满度</string>
     <string name="timeout_spinner_title">隐藏式滑动捷径逾时值</string>
@@ -1745,5 +1750,34 @@
     <string name="ribbon_icon_vibrate_title">点击触动回馈</string>
     <string name="ribbon_icon_space_title">横向图示间距</string>
     <string name="ribbon_icon_space_vertical_title">垂直图示间距</string>
+    <string name="ribbon_button_colorize_title">按键/捷径着色匹配</string>
 
+    <!-- Installer -->
+    <string name="installer">参数复原</string>
+    <string name="title_installer">参数复原设定</string>
+    <string name="persist_options">复原设定参数</string>
+    <string name="persist_enable">启用参数复原</string>
+    <string name="persist_enable_summary">刷ROM后依然保留设定数据</string>
+    <string name="persist_prop_density">保留LCD解析度</string>
+    <string name="persist_prop_density_summary">@null</string>
+    <string name="persist_file_hosts">保留Hosts名单</string>
+    <string name="persist_file_hosts_summary">@null</string>
+    <string name="persist_dpi_conf">保留DPI群组数据</string>
+    <string name="persist_dpi_conf_summary">保存DPI群组/程序设定参数</string>
+
+    <!-- Statusbar font size-->
+    <string name="statusbar_fontsize">状态栏文字大小</string>
+    <string name="statusbar_fontsize_summary">改变状态栏文字内容的显示大小\n将刷新重启使用者介面!</string>
+    <string name="font_16dp">16 dp (默认)</string>
+
+    <!-- Hidden Statusbar Pulldown -->
+    <!-- <string name="statusbar_hide_title">隐藏状态栏</string>
+    <string name="statusbar_hide_summary">容许完全隐藏状态栏显示</string> -->
+    <string name="statusbar_auto_expand_hidden_title">隐藏式状态栏</string>
+    <string name="statusbar_auto_expand_hidden_summary">收到通知事项会自动弹出状态栏</string>
+    <string name="statusbar_swipe_for_fullscreen_title">全屏下拉动作模式</string>
+    <string name="statusbar_swipe_for_fullscreen_summary">程序在全屏模式下运行时可用下拉动作唤出隐藏状态栏</string>
+
+<!--    <string name="hidden_statusbar_pulldown_title">允许隐藏状态栏下拉唤出</string>
+    <string name="hidden_statusbar_pulldown_summary">使用下拉动作唤出隐藏状态栏</string>-->
 </resources>
