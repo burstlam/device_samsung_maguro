@@ -1730,4 +1730,11 @@
 
 <!--    <string name="hidden_statusbar_pulldown_title">允许隐藏状态栏下拉唤出</string>
     <string name="hidden_statusbar_pulldown_summary">使用下拉动作唤出隐藏状态栏</string>-->
+
+    <string name="hidden_statusbar_pulldown_timeout_title">下拉显示状态栏逾时值</string>
+    <string name="hidden_statusbar_pulldown_timeout_summary">设定唤出隐藏状态栏显示时间</string>
+    <string name="pulldown_timeout_1">2.5 秒</string>
+    <string name="pulldown_timeout_2">5 秒</string>
+    <string name="pulldown_timeout_3">7.5 秒</string>
+    <string name="pulldown_timeout_4">10 秒</string>
 </resources>
