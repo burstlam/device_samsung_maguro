@@ -1617,6 +1617,11 @@
     <string name="pie_enable_long">啟用按鍵長按設定</string>
     <string name="pie_button">按鍵布局設定</string>
     <string name="pie_button_cat">按鍵布局設定</string>
+    <string name="pie_buttons_options">按鍵設定</string>
+    <string name="pie_second_layer_title">啟用第二行按鍵</string>
+    <string name="pie_second_layer_summary">啟用或關閉第二行按鍵</string>
+    <string name="pie_button_second_layer">第二行按鍵</string>
+    <string name="pie_button_second_layer_cat">第二行按鍵</string>
     <string name="pie_action_custom_app">自定程式</string>
     <string name="pie_action_home">主頁</string>
     <string name="pie_action_back">返回</string>
