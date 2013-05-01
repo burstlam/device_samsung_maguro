@@ -23,42 +23,6 @@
         <item>主頁上方</item>
         <item>主頁底部</item>
     </string-array>
-    <string-array name="preferences_interface_homescreen_scrolling_transition_effect_entries">
-        <item>標準</item>
-        <item>平板</item>
-        <item>放大</item>
-        <item>縮小</item>
-        <item>上旋</item>
-        <item>下旋</item>
-        <item>圓柱內旋</item>
-        <item>圓柱外旋</item>
-        <item>立體內旋</item>
-        <item>立體外旋</item>
-        <item>旋轉</item>
-        <item>反轉</item>
-        <item>堆疊</item>
-        <item>手風琴</item>
-        <item>左旋</item>
-        <item>右旋</item>
-    </string-array>
-    <string-array name="preferences_interface_drawer_scrolling_transition_effect_entries">
-        <item>標準</item>
-        <item>平板</item>
-        <item>放大</item>
-        <item>縮小</item>
-        <item>上旋</item>
-        <item>下旋</item>
-        <item>圓柱內旋</item>
-        <item>圓柱外旋</item>
-        <item>立體內旋</item>
-        <item>立體外旋</item>
-        <item>旋轉</item>
-        <item>反轉</item>
-        <item>堆疊</item>
-        <item>手風琴</item>
-        <item>左旋</item>
-        <item>右旋</item>
-    </string-array>
     <string-array name="preferences_interface_drawer_orientation_entries">
         <item>橫向</item>
         <item>垂直</item>
