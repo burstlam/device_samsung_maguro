@@ -1379,6 +1379,15 @@
     <string name="widget_remove_widget">将 %s 从清单中删除?</string>
     <string name="widget_add_title">选择小工具</string>
 
+    <!-- Per Apps UI Mode-->
+    <string name="expanded_title">自动扩展桌面群组</string>
+    <string name="expanded_summary">指定什么程序使用扩展桌面模式</string>
+    <string name="add_expand">新增程序</string>
+    <string name="expand_list">启用自动扩展桌面</string>
+    <string name="expand_add_title">选择程序</string>
+    <string name="expand_alert_remove_application">移除程序</string>
+    <string name="expand_remove_application">是否确定将 %s 从自动扩展桌面群组中移除?</string>
+
     <string name="toggle_navbar_hide">隐藏式导航栏</string>
     <string name="navbar_ui">一般设定</string>
 
@@ -1703,7 +1712,7 @@
     <string name="lockscreen_target_edit_msg">选择及更改自定义程序或活动并联系引导图示</string>
 
     <!-- AOKP Ribbon-->
-    <string name="title_ribbon">彩带捷径</string> 
+    <string name="title_ribbon">彩带捷径</string>
     <string name="ribbon_settings_title">彩带捷径选项</string>
     <string name="menu_ribbon_reset">重置</string>
     <string name="aokp_ribbon">隐藏式捷径</string>

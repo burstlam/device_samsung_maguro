@@ -1374,6 +1374,15 @@
     <string name="widget_remove_widget">將 %s 從清單中移除?</string>
     <string name="widget_add_title">選擇小工具</string>
 
+    <!-- Per Apps UI Mode-->
+    <string name="expanded_title">自動擴展桌面群組</string>
+    <string name="expanded_summary">指定什麼程序使用擴展桌面模式</string>
+    <string name="add_expand">新增程序</string>
+    <string name="expand_list">啟用自動擴展桌面</string>
+    <string name="expand_add_title">選擇程序</string>
+    <string name="expand_alert_remove_application">移除程序</string>
+    <string name="expand_remove_application">是否確定將 %s 從自動擴展桌面群組中移除?</string>
+
     <string name="toggle_navbar_hide">隱藏式導航欄</string>
     <string name="navbar_ui">一般設定</string>
 
