@@ -1589,6 +1589,8 @@
     <string name="pie_snap_color_title">捕捉点颜色</string>
     <string name="pie_text_color_title">文字颜色</string>
     <string name="pie_background_alpha_title">后台透明度</string>
+    <string name="pie_mirror_right_title">镜像复制</string>
+    <string name="pie_mirror_right_summary">将左侧的PIE配置自动复制到右侧</string>
     <string name="pie_style">式样和尺寸</string>
     <string name="pie_style_title">式样</string>
     <string name="pie_dimens_title">尺寸</string>
@@ -1596,10 +1598,10 @@
     <string name="pie_additional_options">其它选项</string>
     <string name="pie_show_snap_title">显示捕捉点</string>
     <string name="pie_show_snap_summary">显示捕捉点以便自由拖动转换</string>
-    <string name="pie_show_text_title">显示状态信息面板</string>
+    <string name="pie_show_text_title">PIE显示状态信息面板</string>
     <string name="pie_show_text_summary">显示信号,日期及时间状态</string>
-    <string name="pie_disable_statusbar_info_title">隐藏状态信息面板</string>
-    <string name="pie_disable_statusbar_info_summary">隐藏重复的状态栏信息</string>
+    <string name="pie_disable_statusbar_info_title">隐藏状态重复信息</string>
+    <string name="pie_disable_statusbar_info_summary">隐藏重复的状态栏信息:时间,电量</string>
     <string name="pie_show_background_title">显示后台</string>
     <string name="pie_show_background_summary">显示PIE按键后台</string>
     <string name="menu_pie_style_reset">重置式样</string>
