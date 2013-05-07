@@ -1762,6 +1762,11 @@
     <string name="ribbon_icon_vibrate_title">點擊觸動回饋</string>
     <string name="ribbon_icon_space_title">圖示間距</string>
     <string name="ribbon_button_colorize_title">按鍵/捷徑著色匹配</string>
+    <string name="app_window">軟件視窗列</string>
+    <string name="window_text_color_title">視窗文字顏色</string>
+    <string name="window_color_title">視窗顏色</string>
+    <string name="window_opacity_title">視窗背景填滿度</string>
+    <string name="window_columns_title">視窗列</string>
 
     <!-- Installer -->
     <string name="installer">參數復原</string>

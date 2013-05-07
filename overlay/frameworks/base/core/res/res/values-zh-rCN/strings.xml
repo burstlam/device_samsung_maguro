@@ -107,8 +107,8 @@
     <string name="action_app">自定义</string>
     <string name="action_unlock">解锁</string>
     <string name="action_camera">相机</string>
-
     <string name="action_widgets">导航栏工具</string>
+    <string name="action_app_window">软件视窗列</string>
     <string name="action_ribbon">AOKP彩带</string>
 
     <!-- Title of an application permission that lets an application view/edit revoked permissions. -->
