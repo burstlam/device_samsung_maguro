@@ -305,4 +305,48 @@
     <!-- Avatar -->
     <string name="hide_avatar">隐藏联络人头像</string>
     <string name="hide_avatar_summary">对话页面隐藏联络人头像</string>
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">黑名单</string>
+    <string name="enable_blacklist_title">启用黑名单</string>
+    <string name="blacklist_summary_disabled">停用</string>
+    <string name="blacklist_summary">从黑名单传来的信息会自动阻断</string>
+    <string name="blacklist_notify">显示通知栏提示</string>
+    <string name="blacklist_regex_title">使用通配符号</string>
+    <string name="blacklist_regex_summary">使用 "." 号作为通配符号, "*" 号则标记重复. 例如 "123.*" 阻挡所有以 123 开始号码, 使用 ".*123.*" 则挂断所有包含"123"的号码</string>
+
+    <!-- Blacklist management -->
+    <string name="add_blacklist_number">新增号码</string>
+    <string name="add_to_blacklist">新增来电拒接号码</string>
+    <string name="add_to_blacklist_message">所有来自 %s 来电将会被拒绝</string>
+    <string name="remove_blacklist_number_title">移除号码</string>
+    <string name="remove_blacklist_number">是否确认将 %s 从拒接号码中移除?</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_notification">已阻断来自 %s的信息</string>
+    <string name="unblock_number">解除封锁</string>
+
+    <!-- Text for the onscreen "Blacklist" button -->
+    <string name="onscreenBlacklistText">黑名单</string>
+
+    <!-- Button label which indicates the user wants to update a stored
+phone number; used in several settings-related dialogs -->
+    <string name="change_num">更新号码</string>
+
+    <!-- Button label used in several settings-related dialogs -->
+    <string name="enable">启用</string>
+    <!-- Button label used in several settings-related dialogs -->
+    <string name="disable">关闭</string>
+
+    <!-- Label for "cancel" button on the MMI dialog -->
+    <string name="cancel">取消</string>
+
+    <!-- Positive button label ("OK") used in several dialogs in the phone UI [CHAR LIMIT=10] -->
+    <string name="ok">OK</string>
+
+    <string name="selectContact">选择联络人</string>
+
+    <!-- Text area -->
+    <string name="pref_text_area_size_title">输入区大小</string>
+    <string name="pref_text_area_size_summary">设置输入区为 <xliff:g id="lines">%1$s</xliff:g> 行</string>
 </resources>
