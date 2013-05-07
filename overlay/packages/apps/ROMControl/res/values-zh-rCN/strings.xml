@@ -1718,6 +1718,12 @@
     <string name="ribbon_icon_space_vertical_title">垂直图示间距</string>
     <string name="ribbon_button_colorize_title">按键/捷径着色匹配</string>
 
+    <string name="app_window">软件视窗列</string>
+    <string name="window_text_color_title">视窗文字颜色</string>
+    <string name="window_color_title">视窗颜色</string>
+    <string name="window_opacity_title">视窗背景填满度</string>
+    <string name="window_columns_title">视窗列</string>
+
     <!-- Installer -->
     <string name="installer">参数复原</string>
     <string name="title_installer">参数复原设定</string>
@@ -1737,8 +1743,8 @@
     <string name="font_16dp">16 dp (默认)</string>
 
     <!-- Hidden Statusbar Pulldown -->
-    <!-- <string name="statusbar_hide_title">隐藏状态栏</string>
-    <string name="statusbar_hide_summary">容许完全隐藏状态栏显示</string> -->
+    <string name="statusbar_hide_title">隐藏状态栏</string>
+    <string name="statusbar_hide_summary">容许完全隐藏状态栏显示</string>
     <string name="statusbar_auto_expand_hidden_title">隐藏式状态栏</string>
     <string name="statusbar_auto_expand_hidden_summary">收到通知事项会自动弹出状态栏</string>
     <string name="statusbar_swipe_for_fullscreen_title">全屏下拉动作模式</string>

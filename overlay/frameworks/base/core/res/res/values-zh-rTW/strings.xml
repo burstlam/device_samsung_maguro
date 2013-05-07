@@ -108,6 +108,7 @@
     <string name="action_unlock">解鎖</string>
     <string name="action_camera">相機</string>
     <string name="action_widgets">導航欄工具</string>
+    <string name="action_app_window">軟件視窗列</string>
     <string name="action_ribbon">AOKP彩帶</string>
 
     <!-- Title of an application permission that lets an application view/edit revoked permissions. -->
