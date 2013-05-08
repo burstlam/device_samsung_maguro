@@ -20,6 +20,12 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- App window Strings -->
+    <string name="close">关闭</string>
+    <string name="app_window">程序列</string>
+    <string name="toggles">快捷开关</string>
+    <string name="ribbon">彩带捷径</string>
+
     <!--  AOKP Strings can go here... -->
 
     <!--  Target/Action Strings -->
@@ -89,6 +95,8 @@
     <string name="quick_settings_volume">音量</string>
     <string name="quick_settings_stayawake_on">屏幕常亮</string>
     <string name="quick_settings_stayawake_off">屏幕常亮OFF</string>
+    <string name="quick_settings_dark_on_label">酷黑主题</string>
+    <string name="quick_settings_dark_off_label">酷黑主题 Off</string>
 
     <!--  RamBar -->
     <string name="memory">内存</string>
