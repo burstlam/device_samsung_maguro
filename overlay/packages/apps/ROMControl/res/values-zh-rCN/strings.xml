@@ -1717,7 +1717,9 @@
     <string name="menu_ribbon_reset">重置</string>
     <string name="aokp_ribbon">隐藏式捷径</string>
     <string name="nav_widgets">导航栏小工具</string>
-    
+    <string name="menu_ribbon_toggles">设置快捷开关</string>
+    <string name="menu_ribbon_toggles_error">快捷开关只在左右侧捷径条中生效.</string>
+
    <!-- Ribbon -->
     <string name="ribbon_instructions">点击图示新增或删除动作</string>
     <string name="ribbon_targets_cat">彩带捷径条设定</string>
