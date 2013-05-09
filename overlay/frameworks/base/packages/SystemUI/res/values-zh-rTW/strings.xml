@@ -37,9 +37,16 @@
     <string name="action_ime">選擇輸入法</string>
     <string name="action_kill">清除程序</string>
     <string name="action_power">電源鍵</string>
-    <string name="action_notifications">通知</string>
+    <string name="action_notifications">通知欄</string>
     <string name="action_none">空</string>
-
+    <string name="action_search">搜尋</string>
+    <string name="action_lastapp">上一個程序</string>
+    <string name="shortcut_label">AOKP 動作</string>
+    <string name="widgets">小工具</string>
+    <string name="toggle_navbar">導航欄 - 開關</string>
+    <string name="toggle_statusbar">狀態欄 - 開關</string>
+    <string name="toggle_widgets">小工具 - 開關</string>
+    <string name="screenshot_toast">幾 %1$d 秒後截屏</string>
     <string name="toggle_ring_vib">鈴聲/振動</string>
     <string name="toggle_ring_silent">鈴聲/靜音</string>
     <string name="toggle_ring_vib_silent">鈴聲/振動/靜音</string>
