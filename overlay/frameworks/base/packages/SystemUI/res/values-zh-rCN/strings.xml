@@ -39,7 +39,14 @@
     <string name="action_power">电源键</string>
     <string name="action_notifications">通知</string>
     <string name="action_none">空</string>
-
+    <string name="action_search">搜寻</string>
+    <string name="action_lastapp">上一个程序</string>
+    <string name="shortcut_label">AOKP 动作</string>
+    <string name="widgets">小工具</string>
+    <string name="toggle_navbar">导航栏 - 开关</string>
+    <string name="toggle_statusbar">状态栏 - 开关</string>
+    <string name="toggle_widgets">小工具 - 开关</string>
+    <string name="screenshot_toast">几 %1$d 秒后截屏</string>
     <string name="toggle_ring_vib">铃声/振动</string>
     <string name="toggle_ring_silent">铃声/静音</string>
     <string name="toggle_ring_vib_silent">铃声/振动/静音</string>
