@@ -54,4 +54,5 @@
     <string name="toggle_CUSTOM">自定义</string>
     <string name="toggle_STAYAWAKE">屏幕常亮</string>
     <string name="toggle_DARK">酷黑主题</string>
+    <string name="toggle_WIRELESSADB">无线ADB连线</string> 
 </resources>

@@ -1765,4 +1765,8 @@
     <string name="pulldown_timeout_3">7.5 秒</string>
     <string name="pulldown_timeout_4">10 秒</string>
 
+    <string name="navbar_action_quicksettings">磁貼/捷徑開關</string>
+    <string name="quicksettings">磁貼/捷徑開關</string>
+    <string name="pie_action_quicksettings">磁貼/捷徑開關</string>
+
 </resources>
