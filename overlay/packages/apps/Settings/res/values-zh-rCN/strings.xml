@@ -423,7 +423,7 @@
 
     <!-- Whether to display IME switcher notifcation-->
     <string name="ime_switcher_notify">输入法图示</string>
-    <string name="ime_switcher_notify_summary">于状态栏显示轮入法图示</string>
+    <string name="ime_switcher_notify_summary">于状态栏显示输入法图示</string>
 
     <!-- Lock volume keys -->
     <string name="sound_lock_volume_keys_title">锁定音量键</string>
