@@ -425,6 +425,10 @@
     <string name="ime_switcher_notify">输入法图示</string>
     <string name="ime_switcher_notify_summary">于状态栏显示输入法图示</string>
 
+    <!-- Force to show Enter with Keyboard -->
+    <string name="show_enter_key_title">强制显示回车键</string>
+    <string name="show_enter_key_summary">强制显示回车键而非表情图示键</string>
+
     <!-- Lock volume keys -->
     <string name="sound_lock_volume_keys_title">锁定音量键</string>
     <string name="sound_lock_volume_keys_summary">防止音量键意外解除静音模式</string>
