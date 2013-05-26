@@ -450,6 +450,8 @@
     <!-- Sound settings, power notifications label for ringtone == none -->
     <string name="power_notifications_ringtone_silent">靜音</string>
 
+    <string name="volume_keys_control_ring_stream">全局音量鍵控制來電鈴聲</string>
+
     <!-- MediaScanner behavior on boot -->
     <string name="media_scanner_on_boot_title">開機媒體掃描</string>
     <string name="media_scanner_on_boot_enabled">執行掃描</string>

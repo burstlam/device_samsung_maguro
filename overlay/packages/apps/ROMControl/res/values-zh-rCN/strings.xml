@@ -1823,4 +1823,36 @@
     <string name="pulldown_timeout_2">5 秒</string>
     <string name="pulldown_timeout_3">7.5 秒</string>
     <string name="pulldown_timeout_4">10 秒</string>
+
+    <!-- Gesture Navigation -->
+    <string name="edge_swipe_title">屏幕边缘手势</string>
+    <string name="edge_swipe_right_title">右侧动作</string>
+    <string name="edge_swipe_left_title">左侧动作</string>
+    <string name="edge_swipe_top_title">上方动作</string>
+    <string name="edge_swipe_bottom_title">下方动作</string>
+    <string name="edge_swipe_move_title">截取滑动动作有效区域</string>
+    <string name="edge_swipe_move_summary">禁止动作区域内事件触发当前程序动作</string>
+    <string name="edge_swipe_none">没有动作</string>
+    <string name="edge_swipe_expand">展开通知栏</string>
+    <string name="edge_swipe_hide">展开状态栏</string>
+    <string name="edge_swipe_recents">打开最近任务视窗</string>
+    <string name="edge_swipe_expand_qs">展开快捷开关</string>
+    <string name="edge_swipe_back">返回键</string>
+    <string name="edge_swipe_app_switch">软件快捷键</string>
+    <string name="edge_swipe_home">主页键</string>
+    <string name="edge_swipe_menu">菜单键</string>
+    <string name="edge_swipe_app">启动应用程序中 ...</string>
+    <string name="edge_swipe_blacklist_title">禁用手势软件名单</string>
+    <string name="gesture_area_too_large">错误！手势区设置范围过大，当前操作不会存储下来.</string>
+    <string name="gesture_tap">单击</string>
+    <string name="gesture_long_press">长按</string>
+    <string name="gesture_swipe">滑出有效范围</string>
+    <string name="gesture_swipe_distance">滑动距离</string>
+
+    <!-- Section title for list of downloaded apps [CHAR LIMIT=30] -->
+    <string name="user_market_apps_heading">已安装程序</string>
+
+    <string name="lockscreen_glow_torch_text">解锁区手电筒</string>
+    <string name="lockscreen_glow_torch_summary">长按解锁区（圆形内范围）发光区触发手电筒</string>
+
 </resources>
