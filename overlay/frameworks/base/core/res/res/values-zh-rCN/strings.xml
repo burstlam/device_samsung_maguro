@@ -125,4 +125,21 @@
 
     <!-- Button allowing the user reset the revoked permissions for application which has encountered an error. -->
     <string name="reset_perms">重置授权资讯</string>
+
+
+    <!-- Animation Strings -->
+    <string name="animation_fade">淡入淡出</string>
+    <string name="animation_slide_right">右侧滑动</string>
+    <string name="animation_slide_left">左侧滑动</string>
+    <string name="animation_slide_right_no_fade">右侧滑动 (没有动画)</string>
+    <string name="animation_slide_left_no_fade">左侧滑动 (没有动画)</string>
+    <string name="animation_slide_up">下方滑动</string>
+    <string name="animation_slide_down">上方滑动</string>
+    <string name="animation_default">默认</string>
+    <string name="animation_translucent">半透明</string>
+    <string name="animation_grow_shrink">上方渐进</string>
+    <string name="animation_grow_shrink_center">置中渐进</string>
+    <string name="animation_grow_shrink_bottom">下方渐进</string>
+    <string name="animation_grow_shrink_left">左方渐进</string>
+    <string name="animation_grow_shrink_right">右方渐进</string>
 </resources>
