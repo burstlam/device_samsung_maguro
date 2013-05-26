@@ -424,6 +424,10 @@
     <string name="ime_switcher_notify">輸入法圖示</string>
     <string name="ime_switcher_notify_summary">於狀態欄顯示輸入法圖示</string>
 
+    <!-- Force to show Enter with Keyboard -->
+    <string name="show_enter_key_title">強制顯示ENTER鍵</string>
+    <string name="show_enter_key_summary">強制顯示ENTER鍵而非表情圖示鍵</string>
+
     <!-- Lock volume keys -->
     <string name="sound_lock_volume_keys_title">鎖定音量鍵</string>
     <string name="sound_lock_volume_keys_summary">防止音量鍵意外解除靜音模式</string>
