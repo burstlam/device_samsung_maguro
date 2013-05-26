@@ -451,6 +451,8 @@
     <!-- Sound settings, power notifications label for ringtone == none -->
     <string name="power_notifications_ringtone_silent">静音</string>
 
+    <string name="volume_keys_control_ring_stream">全局音量键控制来电铃声</string>
+
     <!-- MediaScanner behavior on boot -->
     <string name="media_scanner_on_boot_title">开机媒体扫描</string>
     <string name="media_scanner_on_boot_enabled">执行扫描</string>
