@@ -41,6 +41,9 @@ ro.kernel.android.checkjni=0
 ro.kernel.checkjni=0
 ro.HOME_APP_ADJ=1
 
+# LockScreen Acceleration
+ro.hwaccel.lockscreen=1
+
 #3G tweaks
 net.dns1=8.8.8.8
 net.dns2=8.8.4.4
