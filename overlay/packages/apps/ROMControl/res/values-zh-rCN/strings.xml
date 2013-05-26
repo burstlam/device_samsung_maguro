@@ -1702,8 +1702,8 @@
     <string name="ribbon_button_colorize_title">图示依照文字颜色渲染</string>
     <string name="ribbon_color_title">捷径背景颜色</string>
     <string name="text_color_title">捷径文字颜色</string>
-    <string name="ribbon_opacity_title">隐藏式滑动捷径颜色填满度</string>
-    <string name="timeout_spinner_title">隐藏式滑动捷径逾时值</string>
+    <string name="ribbon_opacity_title">背景颜色填满度</string>
+    <string name="timeout_spinner_title">滑动捷径逾时值</string>
     <string name="ribbon_drag_handle_width_title">手势触发区宽度</string>
     <string name="ribbon_drag_handle_height_title">手势触发区高度</string>
     <string name="ribbon_insert">新增按键</string>
@@ -1725,6 +1725,25 @@
     <string name="window_color_title">视窗颜色</string>
     <string name="window_opacity_title">视窗背景填满度</string>
     <string name="window_columns_title">视窗列</string>
+
+    <string name="menu_ribbon_apps">重置软件</string>
+    <string name="menu_ribbon_hide">隐藏软件</string>
+    <string name="menu_ribbon_na">不适用</string>
+    <string name="ribbon_chooser_instructions">选择捷径位置.</string>
+    <string name="ribbon_instructions">点击图示新增或删除.\n点击菜单键显示其他选项.</string>
+    <string name="app_window_space_title">垂直图示间距</string>
+    <string name="ribbon_dismiss_title">退出动作设定</string>
+    <string name="ribbon_animation_duration_title">动画长度</string>
+    <string name="ribbon_long_swipe_title">滑动作区长滑动动作</string>
+    <string name="ribbon_long_press_title">滑动作区长按动作</string>
+    <string name="window_app_hide_title">选择隐藏软件</string>
+    <string name="never">永不</string>
+    <string name="always">永远</string>
+    <string name="not_bar">非导航栏动作</string>
+    <string name="multi_select_title">选择新增目标</string>
+    <string name="ribbon_animation_type_title">动画风格</string>
+    <string name="ribbon_toggles_button_title">下方开关键</string>
+    <string name="ribbon_hide_ime_title">隐藏软键盘滑动作区.</string>
 
     <!-- Installer -->
     <string name="installer">参数复原</string>
