@@ -1786,25 +1786,26 @@
     <string name="pie_action_quicksettings">磁贴/捷径开关</string>
 
     <!-- Gesture Navigation -->
-    <string name="edge_swipe_title">屏幕边缘手势</string>
-    <string name="edge_swipe_left_title">左侧动作</string>
+    <string name="edge_swipe_title">屏幕边框手势</string>
+    <string name="edge_swipe_left_title">左侧手势动作</string>
     <string name="edge_swipe_left_size_title">左侧动作区（白色区域）</string>
     <string name="edge_swipe_size_summary">起始及结束点以屏幕大小百份比数值设定</string>
     <string name="edge_swipe_left_type_title">动作类型</string>
-    <string name="edge_swipe_top_title">顶部动作</string>
+    <string name="edge_swipe_top_title">顶部手势动作</string>
     <string name="edge_swipe_top_size_title">顶部动作区（红色区域）</string>
     <string name="edge_swipe_top_type_title">动作类型</string>
-    <string name="edge_swipe_right_title">右侧动作</string>
+    <string name="edge_swipe_right_title">右侧手势动作</string>
     <string name="edge_swipe_right_size_title">左侧动作区（白色区域）</string>
     <string name="edge_swipe_right_type_title">动作类型</string>
-    <string name="edge_swipe_bottom_title">底部动作</string>
+    <string name="edge_swipe_bottom_title">底部手势动作</string>
     <string name="edge_swipe_bottom_size_title">左侧动作区（蓝色区域）</string>
     <string name="edge_swipe_bottom_type_title">动作类型</string>
-    <string name="picker_x_start">X轴 起点</string>
-    <string name="picker_x_end">X轴 终点</string>
-    <string name="picker_y_start">Y 起点</string>
-    <string name="picker_y_end">Y 终点</string>
-    <string name="edge_swipe_move_title">设定滑动动作有效区域</string>
+    <string name="picker_x_start">X轴起点</string>
+    <string name="picker_x_end">X轴终点</string>
+    <string name="picker_y_start">Y轴起点</string>
+    <string name="picker_y_end">Y轴终点</string>
+    <string name="edge_swipe_move_title">动作区域隔离</string>
+    <string name="edge_swipe_move_summary">设定动作区域后禁止该跟当前程序有任何互动</string>
     <string name="edge_swipe_none">没有动作</string>
     <string name="edge_swipe_expand">展开通知栏</string>
     <string name="edge_swipe_hide">展开状态栏</string>
