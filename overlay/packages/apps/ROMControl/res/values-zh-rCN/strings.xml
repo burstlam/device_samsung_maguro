@@ -1795,7 +1795,7 @@
     <string name="edge_swipe_top_size_title">顶部动作区（红色区域）</string>
     <string name="edge_swipe_top_type_title">动作类型</string>
     <string name="edge_swipe_right_title">右侧手势动作</string>
-    <string name="edge_swipe_right_size_title">左侧动作区（白色区域）</string>
+    <string name="edge_swipe_right_size_title">右侧动作区（绿色区域）</string>
     <string name="edge_swipe_right_type_title">动作类型</string>
     <string name="edge_swipe_bottom_title">底部手势动作</string>
     <string name="edge_swipe_bottom_size_title">左侧动作区（蓝色区域）</string>
@@ -1826,7 +1826,7 @@
     <!-- Section title for list of downloaded apps [CHAR LIMIT=30] -->
     <string name="user_market_apps_heading">已安装程序</string>
 
-<!--    <string name="lockscreen_glow_torch_text">解锁区手电筒</string>
-    <string name="lockscreen_glow_torch_summary">长按解锁区（圆形内范围）发光区触发手电筒</string>-->
+    <string name="lockscreen_glow_torch_text">解锁区手电筒</string>
+    <string name="lockscreen_glow_torch_summary">长按解锁区（圆形内范围）发光区触发手电筒</string>
 
 </resources>
