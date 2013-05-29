@@ -175,4 +175,7 @@
     <!-- Smart Capture -->
     <string name="pref_smart_capture_title">前鏡感應快門</string>
 
+    <!-- True View -->
+    <string name="pref_true_view_title">完整預覽</string>
+
 </resources>

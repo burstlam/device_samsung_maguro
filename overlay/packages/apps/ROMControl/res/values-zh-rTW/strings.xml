@@ -1185,6 +1185,8 @@
     <string name="fast_toggle_right">右</string>
     <string name="fast_toggle_always">自動顯示開關</string>
     <string name="fast_toggle_always_summary">沒有任何通知的時候永遠顯示快捷開關</string>
+    <string name="toggle_collapse_generic_title">自動收起下拉通知欄</string>
+    <string name="toggle_collapse_generic_summary">改變開關狀態即自動收起下拉頁面</string>
 
     <!--LockScreen-->
 	<string name="lock_widgets_short">鎖屏小工具</string>
@@ -1218,10 +1220,10 @@
     <string name="lockscreen_background_custom_image">自定義圖片</string>
     <string name="lockscreen_background_default_wallpaper">默認壁紙</string>
     <string name="lockscreen_wallpaper_alpha_title">自定義鎖屏背景透明度</string>
-<!-- <string name="lockscreen_background_full_transparent">完全透明</string>-->
-
+    <string name="transparency_dialog_lockscreen">鎖屏透明值</string>
     <string name="pref_lockscreen_transparent">鎖屏透明</string>
-    <!--    <string name="lockscreen_seethrough">鎖屏透明</string> -->
+<!--    <string name="lockscreen_background_full_transparent">完全透明</string>
+    <string name="lockscreen_seethrough">鎖屏透明</string> -->
 
     <!-- ParanoidAndroid: Lockscreen Shortcuts
     <string name="ls_shortcuts_title">鎖屏捷徑</string>
