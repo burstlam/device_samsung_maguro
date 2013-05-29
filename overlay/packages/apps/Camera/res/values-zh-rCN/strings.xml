@@ -135,4 +135,7 @@
     <!-- Smart Capture -->
     <string name="pref_smart_capture_title">前镜感应器拍摄</string>
 
+    <!-- True View -->
+    <string name="pref_true_view_title">完整预览</string>
+
 </resources>
