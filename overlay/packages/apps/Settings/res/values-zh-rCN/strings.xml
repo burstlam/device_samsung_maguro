@@ -461,4 +461,11 @@
 
     <!-- Permissions Management -->
     <string name="permissions_settings_title">授权管理</string>
+
+    <string name="auto_brightness_sensitivity_title">对准敏感值</string>
+    <string name="auto_brightness_sensitivity_verylow">非常低</string>
+    <string name="auto_brightness_sensitivity_low">低</string>
+    <string name="auto_brightness_sensitivity_medium">中等</string>
+    <string name="auto_brightness_sensitivity_high">高</string>
+    <string name="auto_brightness_sensitivity_veryhigh">非常高</string>
 </resources>
