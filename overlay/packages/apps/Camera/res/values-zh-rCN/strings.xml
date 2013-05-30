@@ -125,9 +125,10 @@
     <string name="pref_camera_timer_entry_50">50秒</string>
     <string name="pref_camera_timer_entry_60">60秒</string>
 
+    <!-- handsfree mode -->    
     <string name="pref_camera_nohands_title">语音快门</string>
-    <string name="voice_hint">通过说出关键词进行远程拍照 (关键词包括 \"Cid\", \"威士忌\", 和 \"茄子\"!)</string>
-    <string name="pref_nohands_persistent_title">持续语音快门</string>
+    <string name="voice_hint">注意！此功能需要安装及启用Google语音服务，并确定wi-fi或数据服务正常。通过说出关键词进行远程拍照 (关键词包括 \"Cid\", \"威士忌\", 和 \"茄子\"!)</string>
+    <string name="pref_nohands_persistent_title">持续使用语音快门</string>
 
     <!-- More Settings screen, storage title -->
     <string name="pref_camera_storage_title">存储装置</string>
@@ -136,6 +137,6 @@
     <string name="pref_smart_capture_title">前镜感应器快门</string>
 
     <!-- True View -->
-    <string name="pref_true_view_title">完整预览</string>
+    <string name="pref_true_view_title">仿真取景器</string>
 
 </resources>
