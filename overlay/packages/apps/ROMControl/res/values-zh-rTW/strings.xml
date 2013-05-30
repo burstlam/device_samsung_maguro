@@ -1264,6 +1264,14 @@
     <string name="pie_size_default">@string/pie_mode_default</string>
     <string name="pie_size_large">大</string>
     <string name="pie_size_gigantic">最大</string>
+
+    <string name="pie_angle_title">Pie傾斜度</string>
+    <string name="pie_angle_summary">調整從附著點對齊角度</string>
+    <string name="pie_angle_none">水平 - 0度(原有)</string>
+    <string name="pie_angle_small">小 - 6度</string>
+    <string name="pie_angle_big">大 - 12度(默認)</string>
+    <string name="pie_angle_huge">最大 - 18度</string>
+
     <string name="pie_center_title">置中顯示</string>
     <string name="pie_center_summary">反勾此選項,PIE面板可以在觸發側任意處出現</string>
     <string name="pie_stick_title">禁用自動旋轉</string>
