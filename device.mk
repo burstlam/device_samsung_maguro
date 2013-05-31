@@ -53,6 +53,10 @@ PRODUCT_COPY_FILES += \
     device/samsung/maguro/prebuilt/app/Term.apk:system/app/Term.apk \
     device/samsung/maguro/prebuilt/lib/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
 
+# Prebuilt Latin
+PRODUCT_COPY_FILES += \
+    device/samsung/maguro/prebuilt/app/LatinIME.apk:system/app/LatinIME.apk
+
 # Modules
 # PRODUCT_COPY_FILES += \
 #    device/samsung/maguro/prebuilt/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
