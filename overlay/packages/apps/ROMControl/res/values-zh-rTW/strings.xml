@@ -1876,7 +1876,7 @@
     <!-- Section title for list of downloaded apps [CHAR LIMIT=30] -->
     <string name="user_market_apps_heading">已安裝程序</string>
 
-<!--    <string name="lockscreen_glow_torch_text">解鎖區手電筒</string>
-    <string name="lockscreen_glow_torch_summary">長按解鎖區（圓形內範圍）發光區觸發手電筒</string>-->
+    <string name="lockscreen_glow_torch_text">解鎖區手電筒</string>
+    <string name="lockscreen_glow_torch_summary">長按解鎖區（圓形內範圍）發光區觸發手電筒</string>
 
 </resources>
