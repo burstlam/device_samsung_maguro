@@ -1319,6 +1319,8 @@
     <string name="pie_search_summary">通过PIE面板接通Google Now</string>
     <string name="pie_lastapp_title">显示最近任务按键</string>
     <string name="pie_lastapp_summary">在PIE上新增最近任务按键</string>
+    <string name="pie_power_title">电源键</string>
+    <string name="pie_power_summary">显示电源键按钮</string>
 
 <!--    <string name="navbar_action_lastapp">上一个打开程序</string> -->
     <string name="lastapp">上一个打开程序</string>

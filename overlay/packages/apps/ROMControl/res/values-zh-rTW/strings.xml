@@ -1313,6 +1313,8 @@
     <string name="pie_search_summary">通過PIE面板接通Google Now</string>
     <string name="pie_lastapp_title">顯示最近任務按鍵</string>
     <string name="pie_lastapp_summary">在PIE上新增啟用最近任務按鍵</string>
+    <string name="pie_power_title">Power button</string>
+    <string name="pie_power_summary">Enable power button on pie controls</string>
 
 <!--    <string name="navbar_action_lastapp">上一個打開程序</string>-->
     <string name="lastapp">上一個打開程序</string>
