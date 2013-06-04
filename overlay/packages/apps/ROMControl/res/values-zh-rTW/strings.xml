@@ -1160,6 +1160,10 @@
     <string name="navbarhide_15_second">15 秒</string>
     <string name="navbarhide_30_second">30 秒</string>
 
+    <string name="systembar_hide_enable_title">隱藏合併狀態欄</string>
+    <string name="title_systembar_timeout">隱藏逾時值</string>
+    <string name="summary_systembar_timeout">設定合併狀態欄的隱藏逾時值</string>
+
     <!-- Navigation bar background style
     <string name="nav_bar_transparency_title">導航欄透明</string>
     <string name="nav_bar_color_title">導航欄顏色</string>
