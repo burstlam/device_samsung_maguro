@@ -1067,8 +1067,8 @@
     <string name="status_bar_icon_opacity_summary">設定狀態欄通知圖示的通透值</string> 
     <string name="sb_icon_opacity_default">55%(默認)</string>
 
-    <string name="statusbar_fontsize">狀態欄字體大小</string>
-    <string name="statusbar_fontsize_summary">改變狀態欄上字體大小，注意這會改變狀態欄高度及重啟系統UI!</string>
+<!--    <string name="statusbar_fontsize">狀態欄字體大小</string>
+    <string name="statusbar_fontsize_summary">改變狀態欄上字體大小，注意這會改變狀態欄高度及重啟系統UI!</string>-->
 
     <!-- UI Interface -->
 	<string name="user_mode_ui">UI 模式</string>
