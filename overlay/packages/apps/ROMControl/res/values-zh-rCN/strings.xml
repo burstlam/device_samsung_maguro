@@ -1832,7 +1832,11 @@
     <!-- Section title for list of downloaded apps [CHAR LIMIT=30] -->
     <string name="user_market_apps_heading">已安装程序</string>
 
-    <string name="lockscreen_glow_torch_text">解锁区手电筒</string>
-    <string name="lockscreen_glow_torch_summary">长按解锁区（圆形内范围）发光区触发手电筒</string>
+    <!-- Glowpad Torch] -->
+    <string name="lockscreen_glow_torch_text">解锁区/导航环手电筒</string>
+    <string name="lockscreen_glow_torch_summary">长按解锁区或导航环中间会亮起手电筒,松手后则自动关闭.</string>
+    <string name="lockscreen_torch_off">关闭</string>
+    <string name="lockscreen_torch_lockcircle">解锁区</string>
+    <string name="lockscreen_torch_navring">导航环</string>
 
 </resources>
