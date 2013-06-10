@@ -139,4 +139,7 @@
     <string name="pie_phone_status_airplane_mode">飞行模式</string>
     <string name="pie_phone_status_emergency_only">只可调用紧急号码</string>
 
+    <!-- Content description of the halo button in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_halo">在下拉通知栏新增HALO按键.</string>
+
 </resources>
