@@ -468,4 +468,18 @@
     <string name="auto_brightness_sensitivity_medium">中等</string>
     <string name="auto_brightness_sensitivity_high">高</string>
     <string name="auto_brightness_sensitivity_veryhigh">非常高</string>
+
+    <!-- HALO -->
+    <string name="app_halo_label_black">禁用HALO提示</string>
+    <string name="app_halo_label_white">允许HALO提示</string>
+
+    <string name="halo_settings_title">HALO</string>
+    <string name="halo_hide_title">自动隐藏HALO活动</string>
+    <string name="halo_hide_summary">HALO会在提示及手势活动后显示一下</string>
+    <string name="halo_reversed_title">反方向HALO手势</string>
+    <string name="halo_reversed_summary"> 双击轻扫手势适用于任务或拖动</string>
+    <string name="halo_state_title">HALO 设置</string>
+    <string name="halo_state_summary">设置HALO提示黑／白名单</string>
+    <string name="halo_state_black">黑名单</string>
+    <string name="halo_state_white">白名单</string>
 </resources>
