@@ -1026,8 +1026,8 @@
     <string name="status_bar_icon_opacity_summary">设置状态栏通知图示的通透值</string> 
     <string name="sb_icon_opacity_default">55%(默认)</string>
 
-    <string name="statusbar_fontsize">状态栏字体尺寸</string>
-    <string name="statusbar_fontsize_summary">改变状态栏上字体尺寸，注意这会改变状态栏高度及重启系统UI!</string>
+<!--    <string name="statusbar_fontsize">状态栏字体尺寸</string>
+    <string name="statusbar_fontsize_summary">改变状态栏上字体尺寸，注意这会改变状态栏高度及重启系统UI!</string>-->
 
     <!-- Low Battery Warning -->
     <string name="pref_low_battery_warning_policy_title">电量不足提示</string>
