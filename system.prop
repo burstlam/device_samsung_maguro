@@ -20,6 +20,7 @@ ro.zram.default=18
 #Surface Dithering
 persist.sys.use_dithering=2
 
+# ADB Service
 #persist.service.adb.enable=1
 
 #Power Saving
@@ -35,11 +36,20 @@ pm.sleep_mode=1
 #pm.sleep_mode=4 -> wait for interrupt (no change in cpu clock or voltage)
 
 # Dalviks and Memory Tweaks
+
+# Dalvik
 dalvik.vm.checkjni=0
-dalvik.vm.verify_bytecode=false
+dalvik.vm.dexopt-data-only=1
+dalvik.vm.dexopt-flags=v=a,o=v,m=y,u=y
+dalvik.vm.execution-mode=int:jit
 ro.kernel.android.checkjni=0
 ro.kernel.checkjni=0
+persist.sys.purgeable_assets=1
+sys.mem.max_hidden_apps=10
 ro.HOME_APP_ADJ=1
+
+# Don't set /proc/sys/vm/dirty_ratio to 0 when USB mounting
+ro.vold.umsdirtyratio=20
 
 # LockScreen Acceleration
 ro.hwaccel.lockscreen=1
@@ -56,6 +66,8 @@ net.tcp.buffersize.umts=6144,87380,110208,6144,16384,110208
 net.tcp.buffersize.hspa=6144,87380,262144,6144,16384,262144
 net.tcp.buffersize.gprs=6144,8760,11680,6144,8760,11680
 net.tcp.buffersize.edge=6144,26280,35040,6144,16384,35040
+
+# LED
 persist.sys.enable-charging-led=0
 
 # hardware info
