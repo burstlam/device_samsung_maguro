@@ -1313,8 +1313,8 @@
     <string name="pie_search_summary">通過PIE面板接通Google Now</string>
     <string name="pie_lastapp_title">顯示最近任務按鍵</string>
     <string name="pie_lastapp_summary">在PIE上新增啟用最近任務按鍵</string>
-    <string name="pie_power_title">Power button</string>
-    <string name="pie_power_summary">Enable power button on pie controls</string>
+    <string name="pie_power_title">顯示電源鍵</string>
+    <string name="pie_power_summary">在PIE上新增啟用電源鍵</string>
 
 <!--    <string name="navbar_action_lastapp">上一個打開程序</string>-->
     <string name="lastapp">上一個打開程序</string>
@@ -1884,5 +1884,8 @@
     <string name="lockscreen_torch_off">關閉</string>
     <string name="lockscreen_torch_lockcircle">解鎖區</string>
     <string name="lockscreen_torch_navring">導航環</string>
+
+    <!--HALO-->
+    <string name="halo_settings_title">HALO懸浮提示</string>
 
 </resources>

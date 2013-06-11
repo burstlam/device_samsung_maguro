@@ -1884,4 +1884,7 @@
     <string name="lockscreen_torch_lockcircle">解锁区</string>
     <string name="lockscreen_torch_navring">导航环</string>
 
+    <!--HALO-->
+    <string name="halo_settings_title">HALO悬浮提示</string>
+
 </resources>
