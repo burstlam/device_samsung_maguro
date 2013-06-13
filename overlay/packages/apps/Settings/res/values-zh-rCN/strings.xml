@@ -482,4 +482,6 @@
     <string name="halo_state_summary">HALO依据黑／白名单执行或禁用提示功能</string>
     <string name="halo_state_black">黑名单</string>
     <string name="halo_state_white">白名单</string>
+    <string name="halo_pause_title">HALO 后台保护</string>
+    <string name="halo_pause_summary">当使用HALO平台打开一个应用程序，在后台的应用将暂停 (640MB系统内存机器默认启用)</string>
 </resources>
