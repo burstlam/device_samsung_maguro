@@ -483,4 +483,8 @@
     <string name="halo_state_white">白名單</string>
     <string name="halo_pause_title">HALO 後台保護</string>
     <string name="halo_pause_summary">當使用HALO平台打開一個應用程序，在後台的應用將暫停 (640MB系統內存機器默認啟用)</string>
+
+    <!-- Proximity work-around -->
+    <string name="is_inaccurate_proximity_title">精確距離</string>
+    <string name="is_inaccurate_proximity_summary">強制在通話結束后開啟螢幕，解決距離感應器不准確問題。</string>
 </resources>
