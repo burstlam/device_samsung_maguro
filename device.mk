@@ -32,48 +32,9 @@ PRODUCT_PACKAGES += \
 	BurstItOutWallpapers \
 #    Droidwall
 
-# init.d and sysctl
+# Prebuilt
 PRODUCT_COPY_FILES += \
-    device/samsung/maguro/prebuilt/bin/zipalign:system/bin/zipalign \
-    device/samsung/maguro/prebuilt/etc/init.d/02efs:system/etc/init.d/02efs \
-    device/samsung/maguro/prebuilt/etc/init.d/03sqlitetweaks:system/etc/init.d/03sqlitetweaks \
-    device/samsung/maguro/prebuilt/etc/init.d/04cleaning:system/etc/init.d/04cleaning \
-    device/samsung/maguro/prebuilt/etc/init.d/88zipalign:system/etc/init.d/88zipalign \
-    device/samsung/maguro/prebuilt/etc/init.d/90bktweaks:system/etc/init.d/90bktweaks \
-    device/samsung/maguro/prebuilt/etc/init.d/98VMtweaks:system/etc/init.d/98VMtweaks \
-    device/samsung/maguro/prebuilt/etc/init.d/97cleaning2:system/etc/init.d/97cleaning
-   
-# GPS conf
-PRODUCT_COPY_FILES += \
-    device/samsung/maguro/prebuilt/etc/gps.conf:system/etc/gps.conf \
-    device/samsung/maguro/prebuilt/etc/spn-conf.xml:system/etc/spn-conf.xml
-
-# Terminal
-PRODUCT_COPY_FILES += \
-    device/samsung/maguro/prebuilt/app/Term.apk:system/app/Term.apk \
-    device/samsung/maguro/prebuilt/lib/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
-
-# Prebuilt Latin
-PRODUCT_COPY_FILES += \
-    device/samsung/maguro/prebuilt/app/LatinIME.apk:system/app/LatinIME.apk
-
-# Modules
-# PRODUCT_COPY_FILES += \
-#    device/samsung/maguro/prebuilt/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
-#    device/samsung/maguro/prebuilt/lib/modules/rpmsg_client_sample.ko:system/lib/modules/rpmsg_client_sample.ko \
-#    device/samsung/maguro/prebuilt/lib/modules/rpmsg_server_sample.ko:system/lib/modules/rpmsg_server_sample.ko \
-#    device/samsung/maguro/prebuilt/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko
-
-# PowerPen
-PRODUCT_COPY_FILES += \
-        device/samsung/maguro/prebuilt/app/PowerPen.apk:system/app/PowerPen.apk \
-        device/samsung/maguro/prebuilt/lib/libCangjie.so:system/lib/libCangjie.so \
-        device/samsung/maguro/prebuilt/lib/libppaswsdk.so:system/lib/libppaswsdk.so \
-        device/samsung/maguro/prebuilt/lib/libppdatabase.so:system/lib/libppdatabase.so \
-        device/samsung/maguro/prebuilt/lib/libpphomophone.so:system/lib/libpphomophone.so \
-        device/samsung/maguro/prebuilt/lib/libpphwrsdk.so:system/lib/libpphwrsdk.so \
-        device/samsung/maguro/prebuilt/lib/libpppinyin.so:system/lib/libpppinyin.so \
-        device/samsung/maguro/prebuilt/lib/libppzhuyin.so:system/lib/libppzhuyin.so
+    $(call find-copy-subdir-files,*,device/samsung/maguro/prebuilt/system,system)
 
 $(call inherit-product, device/samsung/tuna/device.mk)
 $(call inherit-product-if-exists, vendor/samsung/maguro/device-vendor.mk)
