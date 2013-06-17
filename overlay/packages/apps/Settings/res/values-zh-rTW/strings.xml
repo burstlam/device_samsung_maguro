@@ -472,7 +472,8 @@
     <string name="app_halo_label_black">加入HALO黑名單</string>
     <string name="app_halo_label_white">加入HALO白名單</string>
 
-    <string name="halo_title">HALO 懸浮提示</string>
+    <string name="halo_title">HALO 懸浮視窗</string>
+    <string name="halo_enabled_title">HALO總開關</string>
     <string name="halo_hide_title">自動隱藏HALO活動</string>
     <string name="halo_hide_summary">HALO會在提示及手勢活動後顯示一下</string>
     <string name="halo_reversed_title">反方向HALO手勢</string>
