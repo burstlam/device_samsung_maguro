@@ -474,6 +474,7 @@
     <string name="app_halo_label_white">加入HALO白名单</string>
 
     <string name="halo_title">HALO 悬浮提示</string>
+    <string name="halo_enabled_title">HALO总开关</string>
     <string name="halo_hide_title">自动隐藏HALO活动</string>
     <string name="halo_hide_summary">HALO会在提示及手势活动后显示一下</string>
     <string name="halo_reversed_title">反方向HALO手势</string>
