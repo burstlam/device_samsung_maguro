@@ -66,6 +66,10 @@
 <!--    <string name="summary_off_show_reboot_keyguard">鎖屏中不會顯示重啟菜單</string>
     <string name="summary_on_show_reboot_keyguard">鎖屏中顯示重啟菜單</string>-->
     <string name="title_show_volume_state_toggle">顯示音效面板</string>
+    <string name="power_menu_profiles_title">顯示情景模式開關</string>
+    <string name="power_menu_profiles_disabled">關閉</string>
+    <string name="power_menu_profiles_lock">顯示鎖屏中禁用</string>
+    <string name="power_menu_profiles_all">永遠顯示（已設置保安狀態鎖屏除外）</string>
 
     <!-- Power Saving -->
     <string name="title_pref_powersaving_pref_mode">啟用省電模式</string>
