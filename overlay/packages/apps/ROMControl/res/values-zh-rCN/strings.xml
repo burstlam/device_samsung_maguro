@@ -1827,8 +1827,8 @@
     <string name="statusbar_hide_summary">容许完全隐藏状态栏显示</string>
     <string name="statusbar_auto_expand_hidden_title">隐藏式状态栏</string>
     <string name="statusbar_auto_expand_hidden_summary">收到通知事项会自动弹出状态栏</string>
-    <string name="statusbar_swipe_for_fullscreen_title">全屏下拉动作模式</string>
-    <string name="statusbar_swipe_for_fullscreen_summary">程序在全屏模式下运行时可用下拉动作唤出隐藏状态栏</string>
+    <string name="statusbar_swipe_enable_title">全屏下拉动作模式</string>
+    <string name="statusbar_swipe_enable_summary">程序在全屏模式下运行时可用下拉动作唤出隐藏状态栏</string>
 
 <!--    <string name="hidden_statusbar_pulldown_title">允许隐藏状态栏下拉唤出</string>
     <string name="hidden_statusbar_pulldown_summary">使用下拉动作唤出隐藏状态栏</string>-->
