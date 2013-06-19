@@ -496,4 +496,7 @@
     <!-- Proximity work-around -->
     <string name="is_inaccurate_proximity_title">精确距离</string>
     <string name="is_inaccurate_proximity_summary">强制在通话结束后打开屏幕，解决距离感应器不准确问题。</string>
+
+    <!-- Delete apn confirmation dialog message -->
+    <string name="confirm_delete_apn">这个APN设置将被删除.</string>
 </resources>
