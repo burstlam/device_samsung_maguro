@@ -142,8 +142,8 @@
     <string name="lefty_mode_summary">横屏时将虚拟键移至左方 (需重启使用者介面)</string>
     <string name="rotate_180_title">容许画面180度旋转</string>
     <string name="rotate_180_summary">容许显示上下倒置!</string>
-    <string name="recent_kill_all">一键清除任务</string>
-    <string name="recent_kill_all_summary">在最近任务窗口新增按键,一键清除全部程序(需要重启用户界面)</string>
+    <!--<string name="recent_kill_all">一键清除任务</string>
+    <string name="recent_kill_all_summary">在最近任务窗口新增按键,一键清除全部程序(需要重启用户界面)</string>-->
     <string name="ram_bar">內存栏(RAM)</string>
     <string name="ram_bar_summary">在近期任务显示 RAM 使用情况</string>
     <string name="kill_app_longpress_back">长按返回键清除任务</string>
@@ -1850,5 +1850,14 @@
 
     <!--HALO-->
     <string name="halo_settings_title">HALO悬浮提示</string>
+
+    <!-- Recents -->
+    <string name="recent_kill_all">一键清除任务</string>
+    <string name="recent_kill_all_summary">启用一键清除及设置按键位置</string>
+    <string name="recents_disable">关闭</string>
+    <string name="recents_bottom_right">右下方</string>
+    <string name="recents_bottom_left">左下方</string>
+    <string name="recents_top_right">右上方</string>
+    <string name="recents_top_left">左上方</string>
 
 </resources>
