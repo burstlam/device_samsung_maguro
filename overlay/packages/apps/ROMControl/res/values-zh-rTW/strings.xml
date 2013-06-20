@@ -313,8 +313,13 @@
     <string name="battery_text_only_color">電量數值顏色</string>
     <string name="battery_cm_circle_ring_color">CM環形狀電量顏色</string>
     <string name="battery_cm_circle_ring_color_charge">CM環形狀電量充電顏色</string>
-	<string name="rb_battery">RootBox 環形狀電量</string>
-	<string name="rb_battery_square">RootBox 方形狀電量</string>
+	<string name="rb_battery">RootBox 環形風格</string>
+	<string name="rb_battery_square">RootBox 方形風格</string>
+    <string name="rb_battery_brick">RootBox 方塊風格</string>
+    <string name="rb_battery_gauge">RootBox 油錶風格</string>
+    <string name="rb_battery_planet">RootBox 星球風格</string>
+    <string name="rb_battery_racing">RootBox 賽車風格</string>
+    <string name="rb_battery_slider">RootBox 滑動條風格</string>
     <string name="battery_not_title">在下拉通知欄中顯示電池圖示</string>
     <string name="battery_not_summary">電池圖示將在下拉通知欄中“清除全部通知”圖示原所在位置顯示</string>
     <string name="battery_bar">電量條位置</string>
