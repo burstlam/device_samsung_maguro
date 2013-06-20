@@ -1330,6 +1330,10 @@
     <string name="pie_lastapp_summary">在PIE上新增最近任务按键</string>
     <string name="pie_power_title">电源键</string>
     <string name="pie_power_summary">显示电源键按钮</string>
+    <string name="pie_killtask_title">显示一键清除任务键</string>
+    <string name="pie_killtask_summary">在PIE上新增启用一键清除任务键</string>
+    <string name="pie_appwindow_title">显示程序列表键</string>
+    <string name="pie_appwindow_summary">PIE上新增启用程序列表键(请先Romcontrol彩带捷径中设置)</string>
 
 <!--    <string name="navbar_action_lastapp">上一个打开程序</string> -->
     <string name="lastapp">上一个打开程序</string>
