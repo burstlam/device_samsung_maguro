@@ -161,6 +161,8 @@
     <string name="baseband_version">基带版本</string>
     <string name="kernel_version">内核版本</string>
     <string name="build_number">版本号</string>
+    <string name="show_cpu_info">显示处理器信息</string>
+    <string name="show_cpu_info_summary">显示目前处理器信息</string>
 
     <!-- increasing ring volume-->
     <string name="increasing_ring_title">渐进铃声</string>
@@ -491,7 +493,18 @@
     <string name="halo_state_black">黑名单</string>
     <string name="halo_state_white">白名单</string>
     <string name="halo_pause_title">HALO 后台保护</string>
-    <string name="halo_pause_summary">当使用HALO平台打开一个应用程序，在后台的应用将暂停 (640MB系统内存机器默认启用)</string>
+    <string name="halo_pause_summary">当使用HALO平台打开一个应用程序，在后台的应用将暂停 (系统内存640MB以下机器默认启用)</string>
+
+    <string name="halo_style_title">HALO 风格</string>
+    <string name="halo_style_summary">设置悬浮气泡颜色及风格</string>
+    <string name="halo_blue">蓝色 (默认)</string>
+    <string name="halo_green">绿色</string>
+    <string name="halo_white">白色</string>
+    <string name="halo_purple">紫色</string>
+    <string name="halo_red">红色</string>
+    <string name="halo_pink">粉红色</string>
+    <string name="halo_yellow">黄色</string>
+    <string name="halo_black">黑色</string>
 
     <!-- Proximity work-around -->
     <string name="is_inaccurate_proximity_title">精确距离</string>
@@ -499,4 +512,24 @@
 
     <!-- Delete apn confirmation dialog message -->
     <string name="confirm_delete_apn">这个APN设置将被删除.</string>
+    <string name="wifi_menu_forget_all">清除所有网络内容</string>
+
+    <!-- Hardware keys remap -->
+     <string name="hardware_keys_title">硬体键</string>
+     <string name="hardware_keys_bindings_title">自定义绑定</string>
+     <string name="hardware_keys_enable_custom_title">启用自定义绑定</string>
+     <string name="hardware_keys_home_long_press_title">主页键长按动作</string>
+     <string name="hardware_keys_menu_press_title">菜单键动作</string>
+     <string name="hardware_keys_menu_long_press_title">菜单键长按动作</string>
+     <string name="hardware_keys_assist_press_title">搜寻键动作</string>
+     <string name="hardware_keys_assist_long_press_title">搜寻键长按动作</string>
+     <string name="hardware_keys_app_switch_press_title">任务键动作</string>
+     <string name="hardware_keys_app_switch_long_press_title">任务键长按动作</string>
+     <string name="hardware_keys_action_nothing">没有动作</string>
+     <string name="hardware_keys_action_menu">开启/关闭菜单</string>
+     <string name="hardware_keys_action_app_switch">最近任务切换</string>
+     <string name="hardware_keys_action_search">搜寻</string>
+     <string name="hardware_keys_action_voice_search">语音搜寻</string>
+     <string name="hardware_keys_action_in_app_search">搜寻当前页面</string>
+     <string name="additional_options_title">其他选项</string>
 </resources>

@@ -147,6 +147,9 @@
     <string name="baseband_version">基頻版本</string>
     <string name="kernel_version">內核版本</string>
     <string name="build_number">版本號</string>
+    <string name="show_cpu_info">顯示處理器信息</string>
+    <string name="show_cpu_info_summary">顯示目前處理器信息</string>
+
 
     <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
     <string name="wifi_setting_countrycode_title">Wi-Fi 國家／地區代碼</string>
@@ -490,7 +493,18 @@
     <string name="halo_state_black">黑名單</string>
     <string name="halo_state_white">白名單</string>
     <string name="halo_pause_title">HALO 後台保護</string>
-    <string name="halo_pause_summary">當使用HALO平台打開一個應用程序，在後台的應用將暫停 (640MB系統內存機器默認啟用)</string>
+    <string name="halo_pause_summary">當使用HALO平台打開一個應用程序，在後台的應用將暫停 (系統內存640MB以下機器默認啟用)</string>
+
+    <string name="halo_style_title">HALO 風格</string>
+    <string name="halo_style_summary">設置懸浮氣泡顏色及風格</string>
+    <string name="halo_blue">藍色 (默認)</string>
+    <string name="halo_green">綠色</string>
+    <string name="halo_white">白色</string>
+    <string name="halo_purple">紫色</string>
+    <string name="halo_red">紅色</string>
+    <string name="halo_pink">粉紅色</string>
+    <string name="halo_yellow">黃色</string>
+    <string name="halo_black">黑色</string>
 
     <!-- Proximity work-around -->
     <string name="is_inaccurate_proximity_title">精確距離</string>
@@ -498,4 +512,24 @@
 
     <!-- Delete apn confirmation dialog message -->
     <string name="confirm_delete_apn">這個APN設置將被刪除.</string>
+    <string name="wifi_menu_forget_all">清除所有網絡內容</string>
+
+    <!-- Hardware keys remap -->
+     <string name="hardware_keys_title">硬體鍵</string>
+     <string name="hardware_keys_bindings_title">自定義綁定</string>
+     <string name="hardware_keys_enable_custom_title">啟用自定義綁定</string>
+     <string name="hardware_keys_home_long_press_title">主頁鍵長按動作</string>
+     <string name="hardware_keys_menu_press_title">菜單鍵動作</string>
+     <string name="hardware_keys_menu_long_press_title">菜單鍵長按動作</string>
+     <string name="hardware_keys_assist_press_title">搜尋鍵動作</string>
+     <string name="hardware_keys_assist_long_press_title">搜尋鍵長按動作</string>
+     <string name="hardware_keys_app_switch_press_title">任務鍵動作</string>
+     <string name="hardware_keys_app_switch_long_press_title">任務鍵長按動作</string>
+     <string name="hardware_keys_action_nothing">沒有動作</string>
+     <string name="hardware_keys_action_menu">開啟/關閉菜單</string>
+     <string name="hardware_keys_action_app_switch">最近任務切換</string>
+     <string name="hardware_keys_action_search">搜尋</string>
+     <string name="hardware_keys_action_voice_search">語音搜尋</string>
+     <string name="hardware_keys_action_in_app_search">搜尋當前頁面</string>
+     <string name="additional_options_title">其他選項</string>
 </resources>
