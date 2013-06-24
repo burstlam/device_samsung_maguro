@@ -316,9 +316,11 @@
     <string name="profile_trigger_disconnect">斷開連接</string>
     <string name="profile_trigger_notrigger">不改變開關</string>
 
-    <string name="profile_trigger_title_wifi">設置<xliff:g id="profile">%s</xliff:g>模式Wi-Fi 開關</string>
     <string name="profile_trigger_configure">設置開關</string>
-    <string name="profile_trigger_wifi">Wi-Fi 開關</string>
+    <string name="profile_triggers">開關</string>
+    <string name="profile_trigger_filter_all">所有開關</string>
+    <string name="profile_trigger_filter_wifi">Wi-Fi 開關</string>
+    <string name="profile_trigger_filter_bluetooth">藍芽開關</string>
 
     <!-- Profile Settings sound modes labels -->
     <string name="sound_mode">提醒模式</string>

@@ -320,6 +320,7 @@
     <string name="rb_battery_planet">RootBox 星球風格</string>
     <string name="rb_battery_racing">RootBox 賽車風格</string>
     <string name="rb_battery_slider">RootBox 滑動條風格</string>
+    <string name="rb_battery_rush">RootBox 疾衝風格</string>
     <string name="battery_not_title">在下拉通知欄中顯示電池圖示</string>
     <string name="battery_not_summary">電池圖示將在下拉通知欄中“清除全部通知”圖示原所在位置顯示</string>
     <string name="battery_bar">電量條位置</string>
@@ -1902,6 +1903,9 @@
     <string name="halo_settings_title">HALO懸浮提示</string>
 
     <!-- Recents -->
+    <string name="recents_style">最近任務視窗風格</string>
+    <string name="recents_stock">系統默認</string>
+    <string name="recents_rootbox">RootBox風格</string>
     <string name="recent_kill_all">一鍵清除任務</string>
     <string name="recent_kill_all_summary">啟用一鍵清除及設置按鍵位置</string>
     <string name="recents_disable">關閉</string>
