@@ -1905,7 +1905,7 @@
     <string name="recents_style">最近任务窗口风格</string>
     <string name="recents_stock">系统默认</string>
     <string name="recents_rootbox">RootBox风格</string>
-    <string name="recent_kill_all">一键清除任务</string>
+    <string name="recents_kill_all">一键清除任务</string>
     <string name="recent_kill_all_summary">启用一键清除及设置按键位置</string>
     <string name="recents_disable">关闭</string>
     <string name="recents_bottom_right">右下方</string>
@@ -1913,4 +1913,8 @@
     <string name="recents_top_right">右上方</string>
     <string name="recents_top_left">左上方</string>
 
+    <!-- Quick Tile Background -->
+    <string name="menu_tile_background_reset">重置磁贴开关背景</string>
+    <string name="quick_tiles_bg_color_title">磁贴开关背景颜色</string>
+    <string name="quick_tiles_bg_pressed_color_title">按下磁贴开关背景颜色</string>
 </resources>
