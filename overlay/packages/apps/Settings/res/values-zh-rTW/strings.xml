@@ -534,4 +534,12 @@
      <string name="hardware_keys_action_voice_search">語音搜尋</string>
      <string name="hardware_keys_action_in_app_search">搜尋當前頁面</string>
      <string name="additional_options_title">其他選項</string>
+
+    <!-- Privacy Guard -->
+    <string name="privacy_guard_switch_label">屏蔽私隱信息</string>
+    <string name="privacy_guard_dlg_title">是否啟用私隱信息屏蔽功能?</string>
+    <string name="privacy_guard_dlg_text">啟用私隱屏蔽防護, 應用程式將無法取得聯絡人，短信及通誕記錄等個人信息紀錄.</string>
+    <string name="privacy_guard_default_title">默認使用私隱屏蔽防護</string>
+    <string name="privacy_guard_default_summary">為所有新安裝使用程式啟用私隱防護功能</string>
+ 
 </resources>
