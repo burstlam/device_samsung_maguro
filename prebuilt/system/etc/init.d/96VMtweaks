@@ -3,6 +3,8 @@
 # PrimeDirective, Sonicxml, DHO, Nuclearmistake
 # With inspiration from DroidTh3ory
 
+busybox=/system/xbin/busybox
+
 sync
 sysrw
 
@@ -10,9 +12,6 @@ sysrw
 # Enable Sysctl Tweaks
 #
 sysctl -p /system/etc/sysctl.conf
-
-#RQ_Affinity
-for b in /sys/block/*; do echo 1 > $b/queue/rq_affinity; done
 
 #
 #
@@ -36,13 +35,38 @@ busybox sysctl -w kernel.threads-max=525810
 echo "1" > /proc/sys/vm/laptop_mode
 rm /dev/log/main
 
+# cpu, sched and cache tweaks
+$busybox echo 2 > /sys/devices/system/cpu/sched_mc_power_savings
+$busybox echo 4 > /proc/cpu/alignment
+$busybox echo 15000000 > /proc/sys/kernel/sched_latency_ns
+$busybox echo 2000000 > /proc/sys/kernel/sched_min_granularity_ns
+$busybox echo 3000000 > /proc/sys/kernel/sched_wakeup_granularity_ns
+$busybox echo 10 > /proc/sys/vm/vfs_cache_pressure
+$busybox echo 92274688 > /proc/sys/vm/dirty_background_bytes
+$busybox echo 104857600 > /proc/sys/vm/dirty_bytes
+
+
+
 # Vibration
-echo "1650" /sys/class/misc/vibratorcontrol/vibrator_strength
+# echo "1650" /sys/class/misc/vibratorcontrol/vibrator_strength
 
 #Deep Sleep
 #
 echo 6 > /sys/devices/system/cpu/cpu0/cpufreq/deepsleep_cpulevel
 echo 2 > /sys/devices/system/cpu/cpu0/cpufreq/deepsleep_buslevel
+
+
+# block tweaks
+for i in /sys/block/*/queue ; do
+  $busybox echo 0 > $i/iostats
+  $busybox echo 512 > $i/nr_requests
+  $busybox echo 256 > $i/read_ahead_kb
+  $busybox echo 0 > $i/rotational
+done
+
+$busybox echo 0 > /sys/block/mmcblk0/queue/add_random
+$busybox echo 128 > /sys/block/mmcblk0/queue/max_sectors_kb
+$busybox echo 2 > /sys/block/mmcblk0/queue/rq_affinity
 
 LOOP=`ls -d /sys/block/loop*`;
 RAM=`ls -d /sys/block/ram*`;
@@ -67,6 +91,24 @@ for m in "/" "/dev" "/proc" "/sys" "/system" "/data" "/data/data" "/cache" "/acc
 done
 
 echo "10" > /proc/sys/fs/lease-break-time
+
+# LMK
+$busybox echo 8084,10114,12144,15692,17722,22264 > /sys/module/lowmemorykiller/parameters/minfree
+
+# low memory killer whitelist for common launchers
+list="com.cyanogenmod.trebuchet com.android.launcher org.adw.launcher org.adwfreak.launcher com.anddoes.launcher com.gau.go.launcherex com.mobint.hololauncher com.mobint.hololauncher.hd com.teslacoilsw.launcher org.zeam com.chrislacy.actionlauncher.pro com.android.lmt com.tsf.shell"
+
+for class in $list ; do
+if [ $($busybox pgrep $class) ] ; then
+pid=$($busybox pgrep $class)
+    until [ -e /proc/$pid ] ; do
+      $busybox sleep 1
+    done
+    $busybox echo -17 > /proc/$pid/oom_adj
+    $busybox chmod 100 /proc/$pid/oom_adj
+    break
+fi
+done
 
 sync
 sysro
