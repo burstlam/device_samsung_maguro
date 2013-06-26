@@ -497,16 +497,23 @@
     <string name="halo_pause_title">HALO 后台保护</string>
     <string name="halo_pause_summary">当使用HALO平台打开一个应用程序，在后台的应用将暂停 (系统内存640MB以下机器默认启用)</string>
 
-    <string name="halo_style_title">HALO 风格</string>
-    <string name="halo_style_summary">设置悬浮气泡颜色及风格</string>
-    <string name="halo_blue">蓝色 (默认)</string>
-    <string name="halo_green">绿色</string>
-    <string name="halo_white">白色</string>
-    <string name="halo_purple">紫色</string>
-    <string name="halo_red">红色</string>
-    <string name="halo_pink">粉红色</string>
-    <string name="halo_yellow">黄色</string>
-    <string name="halo_black">黑色</string>
+    <string name="halo_colors_title">自定义颜色</string>
+    <string name="halo_colors_summary">HALO套用自定义颜色</string>
+    <string name="halo_circle_color_title">HALO环颜色</string>
+    <string name="halo_bubble_color_title">信息气泡颜色</string>
+    <string name="halo_bubble_text_color_title">信息气泡文字颜色</string>
+    <string name="halo_effect_color_title">动画效果颜色</string>
+    <string name="halo_effect_color_summary">需要重启系统UI</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">调色板</string>
+    <string name="press_color_to_apply">点击颜色应用</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#FF000000</string>
+    <string name="set">设置</string>
+    <string name="ics_color">默认(Holo)</string>
 
     <!-- Proximity work-around -->
     <string name="is_inaccurate_proximity_title">精确距离</string>
