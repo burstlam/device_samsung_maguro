@@ -55,4 +55,5 @@
     <string name="toggle_STAYAWAKE">屏幕長亮</string>
     <string name="toggle_DARK">酷黑主題</string>
     <string name="toggle_WIRELESSADB">無線ADB連線</string>
+    <string name="toggle_MUSIC">媒體播放</string>
 </resources>

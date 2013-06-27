@@ -146,4 +146,10 @@
     <string name="permdesc_changePrivacyGuardState">啟用或關閉私隱防護, 應用程式將無法取得聯絡人，短信及通誕記錄等個人信息紀錄.</string>
     <string name="privacy_guard_notification">私隱防護執行中</string>
     <string name="privacy_guard_notification_detail"><xliff:g id="app">%1$s</xliff:g> 將無法獲取任何私隱信息</string>
+
+    <!-- The title of the profile picker dialog. -->
+    <string name="profile_picker_title">情景模式</string>
+
+    <!-- The item label for the no profile selection item. -->
+    <string name="profile_none">未設置</string>
 </resources>
