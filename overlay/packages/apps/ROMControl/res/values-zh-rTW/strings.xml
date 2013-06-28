@@ -1914,11 +1914,29 @@
     <string name="recents_top_right">右上方</string>
     <string name="recents_top_left">左上方</string>
 
-    <!-- Quick Tile Background -->
-    <string name="menu_tile_background_reset">重置磁貼開關背景</string>
-    <string name="quick_tiles_bg_color_title">磁貼開關背景顏色</string>
-    <string name="quick_tiles_bg_pressed_color_title">按下磁貼開關背景顏色</string>
+    <!-- Tile background style and text color -->
+    <string name="custom_toggle_colors">自定義開關風格</string>
+    <string name="tile_background_style_title">磁貼開關風格</string>
+    <string name="tile_background_style_summary">可選任意色彩，實色填充或點認背景</string>
+    <string name="tile_background_color_title">設置磁貼背景</string>
+    <string name="tile_background_pressed_color_title">設置磁貼按鍵顏色</string>
+    <string name="tile_background_random">任意色彩</string>
+    <string name="tile_background_color_fill">實色填充</string>
+    <string name="tile_background_default">默認背景</string>
+    <string name="tile_custom_background_dialog_title">磁貼背景風格</string>
+    <string name="tile_text_color_title">磁貼文字顏色</string>
 
+    <!-- Random colors -->
+    <string name="random_colors">任意色彩</string>
+    <string name="random_colors_title">設置任意色彩</string>
+    <string name="random_colors_summary">可設定任意色彩風格</string>
+    <string name="random_colors_reset_title">重置任意色彩</string>
+    <string name="color_one">顏色 1</string>
+    <string name="color_two">顏色 2</string>
+    <string name="color_three">顏色 3</string>
+    <string name="color_four">顏色 4</string>
+    <string name="color_five">顏色 5</string>
+    <string name="color_six">顏色 6</string>
 
     <!-- ListView animation -->
     <string name="listview_animation_title">列表動畫</string>
