@@ -1920,16 +1920,16 @@
     <string name="tile_background_style_summary">可選任意色彩，實色填充或點認背景</string>
     <string name="tile_background_color_title">設置磁貼背景</string>
     <string name="tile_background_pressed_color_title">設置磁貼按鍵顏色</string>
-    <string name="tile_background_random">任意色彩</string>
+    <string name="tile_background_random">亂入色彩</string>
     <string name="tile_background_color_fill">實色填充</string>
     <string name="tile_background_default">默認背景</string>
     <string name="tile_custom_background_dialog_title">磁貼背景風格</string>
     <string name="tile_text_color_title">磁貼文字顏色</string>
 
     <!-- Random colors -->
-    <string name="random_colors">任意色彩</string>
-    <string name="random_colors_title">設置任意色彩</string>
-    <string name="random_colors_summary">可設定任意色彩風格</string>
+    <string name="random_colors">亂入色彩</string>
+    <string name="random_colors_title">亂入色彩</string>
+    <string name="random_colors_summary">以亂入方式隨機改變磁貼背景色彩</string>
     <string name="random_colors_reset_title">重置任意色彩</string>
     <string name="color_one">顏色 1</string>
     <string name="color_two">顏色 2</string>

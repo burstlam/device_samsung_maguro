@@ -143,7 +143,7 @@
 
     <!-- Privacy Guard -->
     <string name="permlab_changePrivacyGuardState">啟用或關閉私隱防護</string>
-    <string name="permdesc_changePrivacyGuardState">啟用或關閉私隱防護, 應用程式將無法取得聯絡人，短信及通誕記錄等個人信息紀錄.</string>
+    <string name="permdesc_changePrivacyGuardState">啟用或關閉私隱防護, 應用程式將無法取得聯絡人，短信及通訊記錄等個人信息紀錄.</string>
     <string name="privacy_guard_notification">私隱防護執行中</string>
     <string name="privacy_guard_notification_detail"><xliff:g id="app">%1$s</xliff:g> 將無法獲取任何私隱信息</string>
 
