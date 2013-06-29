@@ -107,6 +107,8 @@
     <string name="quick_settings_adb_off">無線ADB連接 Off</string>
     <string name="quick_settings_music_play">播放</string>
     <string name="quick_settings_music_pause">暫停</string>
+    <string name="quick_settings_halo_on_label">HALO</string>
+    <string name="quick_settings_halo_off_label">HALO OFF</string> 
 
     <!--  RamBar -->
     <string name="memory">RAM</string>
