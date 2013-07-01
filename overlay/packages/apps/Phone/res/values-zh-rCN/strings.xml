@@ -140,4 +140,9 @@
     <!-- Text for the onscreen "Blacklist" button -->
     <string name="onscreenBlacklistText">拒接黑名单号码</string>
 
+    <!-- Hang up and dial back from IncallScreen -->
+    <string name="description_target_callback">挂断并立即回拨</string>
+    <string name="callback">挂断并回拨</string>
+    <string name="callback_sum">在来电显示挂断与回拨快捷键</string>
+
 </resources>
