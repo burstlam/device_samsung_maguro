@@ -548,5 +548,45 @@
     <string name="privacy_guard_dlg_text">啟用私隱屏蔽防護, 應用程式將無法取得聯絡人，短信及通聯記錄等個人信息.</string>
     <string name="privacy_guard_default_title">默認使用私隱屏蔽防護</string>
     <string name="privacy_guard_default_summary">為所有新安裝使用程式啟用私隱防護功能</string>
+
+    <!-- Title for preference that guides the user through creating an unlock gesture [CHAR LIMIT=22] -->
+    <string name="unlock_set_unlock_gesture_title">手勢圖案解鎖</string>
+    <string name="unlock_set_unlock_gesture_summary">注意：此功能安全性偏低，實驗性質</string>
+    <string name="unlock_set_unlock_mode_gesture">手勢圖案</string>
+    <string name="lockpassword_choose_your_gesture_header">畫出解鎖圖案</string>
+    <string name="lockpassword_confirm_your_gesture_header">確認手勢圖案</string>
+    <string name="lockpassword_gesture_set_toast">手勢圖案已設置</string>
+
+    <!-- Lock Gesture settings -->
+    <!-- Security & location settings screen, setting option name -->
+    <string name="lockgesture_change_lock_pattern_label">更改解鎖手勢圖案</string>
+    <string name="lockgesture_change_lock_pin_label">更改解鎖PIN</string>
+    <string name="lockgesture_need_to_unlock">確認解鎖手勢圖案</string>
+    <!-- Do not translate. -->
+    <string name="lockgesture_need_to_unlock_footer" />
+    <!-- Security & location settings screen, change unlock gesture screen instruction if user draws incorrect pattern -->
+    <string name="lockgesture_need_to_unlock_wrong">失敗，請再試一次:</string>
+    <!-- Do not translate. -->
+    <string name="lockgesture_need_to_unlock_wrong_footer" />
+    <string name="lockgesture_recording_intro_header">畫出你的解鎖圖案:</string>
+    <string name="lockgesture_recording_intro_footer">按下菜單鍵查閱說明.</string>
+    <string name="lockgesture_recording_inprogress">利用手指從鎖屏一氣呵成畫出，動作一旦斷開即視為完成動作.</string>
+    <string name="lockgesture_pattern_entered_header">已錄制手勢圖案</string>
+    <string name="lockgesture_need_to_confirm">再畫一次解鎖圖案確認:</string>
+    <string name="lockgesture_pattern_confirmed_header">你新設的解鎖圖案:</string>
+    <string name="lockgesture_confirm_button_text">確定</string>
+    <string name="lockgesture_restart_button_text">重畫</string>
+    <string name="lockgesture_retry_button_text">重試</string>
+    <string name="lockgesture_continue_button_text">繼續</string>
+    <string name="lockgesture_settings_title">解鎖圖案</string>
+    <string name="lockgesture_settings_enable_title">請提供你的解鎖圖案</string>
+    <string name="lockgesture_settings_enable_summary">必須使用解鎖圖案解除鎖屏狀態</string>
+    <string name="lockgesture_settings_enable_visible_pattern_title">解鎖圖案設定為可見</string>
+    <string name="lockgesture_settings_enable_power_button_instantly_locks">電源鍵立即解鎖</string>
+    <string name="lockgesture_settings_choose_lock_pattern">設定解鎖手勢圖案</string>
+    <string name="lockgesture_settings_change_lock_pattern">改變解鎖手勢圖案</string>
+    <string name="lockgesture_settings_help_how_to_record">如何繪畫解鎖圖案圖案</string>
+    <string name="lockgesture_too_many_failed_confirmation_attempts_header">太多次失敗!</string>
+    <string name="lockgesture_too_many_failed_confirmation_attempts_footer">請在 <xliff:g id="number">%d</xliff:g> 秒後重試.</string>
  
 </resources>
