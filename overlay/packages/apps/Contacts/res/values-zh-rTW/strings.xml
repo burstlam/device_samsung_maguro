@@ -87,4 +87,13 @@
     <string name="direct_call_summary">輸入號碼後把電話放在耳邊即進行撥打動作</string>
 
     <string name="menu_add_to_blacklist">加入來電拒接名單</string>
+
+    <!-- Label of the "list view display mode" contact display option -->
+    <string name="display_options_view_mode">清單顯示模式</string>
+
+    <!-- An allowable value for the "list view display mode" contact display option  -->
+    <string name="display_options_view_mode_standard">標準模式</string>
+
+    <!-- An allowable value for the "list view display mode" contact display option  -->
+    <string name="display_options_view_mode_compact">精簡模式</string>
 </resources>
