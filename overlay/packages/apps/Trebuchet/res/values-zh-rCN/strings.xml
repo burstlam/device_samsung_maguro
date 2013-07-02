@@ -141,6 +141,13 @@
     <string name="hidden_apps_title">隐藏程序</string>
     <string name="preferences_interface_drawer_hidden_apps_title">隐藏程序</string>
     <string name="preferences_interface_drawer_hidden_apps_summary">从程序列表中隐藏选定程序</string>
+    <string name="preferences_interface_drawer_hidden_apps_shortcuts_title">隐藏程序 (捷径)</string>
+    <string name="preferences_interface_drawer_hidden_apps_shortcuts_summary">从程序列表中的程序捷径</string>
+    <string name="preferences_interface_drawer_hidden_apps_widgets_title">隐藏程序 (小工具)</string>
+    <string name="preferences_interface_drawer_hidden_apps_widgets_summary">从程序列表中的程序小工具</string>
+
+    <string name="preferences_interface_general_lock_workspace_title">锁定主页</string>
+    <string name="preferences_interface_general_lock_workspace_summary">锁定页面上的所有捷径及文件夹等位置</string>
 
     <string name="edit_target_label">编辑</string>
 
