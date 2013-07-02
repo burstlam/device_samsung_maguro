@@ -85,4 +85,13 @@
     <string name="direct_call_summary">输入号码后把电话放在耳边即进行拨打动作</string>
 
     <string name="menu_add_to_blacklist">新增至来电黑名单</string>
+
+    <!-- Label of the "list view display mode" contact display option -->
+    <string name="display_options_view_mode">清单显示模式</string>
+
+    <!-- An allowable value for the "list view display mode" contact display option  -->
+    <string name="display_options_view_mode_standard">标准模式</string>
+
+    <!-- An allowable value for the "list view display mode" contact display option  -->
+    <string name="display_options_view_mode_compact">精简模式</string>
 </resources>
