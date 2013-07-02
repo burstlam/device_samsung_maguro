@@ -548,6 +548,14 @@
     <string name="privacy_guard_dlg_text">啟用私隱屏蔽防護, 應用程式將無法取得聯絡人，短信及通聯記錄等個人信息.</string>
     <string name="privacy_guard_default_title">默認使用私隱屏蔽防護</string>
     <string name="privacy_guard_default_summary">為所有新安裝使用程式啟用私隱防護功能</string>
+    <string name="privacy_guard_manager_title">私隱信息管理員</string>
+    <string name="privacy_guard_manager_summary">指定特許程序才可以存取個人私隱信息</string>
+    <string name="privacy_guard_no_user_apps">沒有任何安裝任何程序</string>
+    <string name="privacy_guard_filter_does_not_match">沒有安裝任何\n需要這些權限的程序</string>
+    <string name="privacy_guard_help_title">協助</string>
+    <string name="privacy_guard_help_text">利用管理員工具可以單擊設定哪一個程序獲取私隱信息權限. 長按名單選項則會打開程序信息內容.\n\n如果想改變系統程序設定或只想變更需要這些權限的程序請打開菜單改變過濾方式</string>
+    <string name="privacy_guard_manager_show_system_apps">顯示系統程序</string>
+    <string name="privacy_guard_manager_filter_permissions">只顯示需要私隱權限程序</string>
 
     <!-- Title for preference that guides the user through creating an unlock gesture [CHAR LIMIT=22] -->
     <string name="unlock_set_unlock_gesture_title">手勢圖案解鎖</string>
@@ -588,5 +596,7 @@
     <string name="lockgesture_settings_help_how_to_record">如何繪畫解鎖圖案圖案</string>
     <string name="lockgesture_too_many_failed_confirmation_attempts_header">太多次失敗!</string>
     <string name="lockgesture_too_many_failed_confirmation_attempts_footer">請在 <xliff:g id="number">%d</xliff:g> 秒後重試.</string>
+
+    <string name="uninstall_text">解除安裝</string>
  
 </resources>
