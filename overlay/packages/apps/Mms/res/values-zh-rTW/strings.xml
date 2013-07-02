@@ -351,4 +351,6 @@ phone number; used in several settings-related dialogs -->
     <!-- Text area -->
     <string name="pref_text_area_size_title">輸入區大小</string>
     <string name="pref_text_area_size_summary">設置輸入區為 <xliff:g id="lines">%1$s</xliff:g> 行</string>
+
+    <string name="menu_sms_number_selected">利用SMS與 <xliff:g id="contactEmailOrNumber">%s</xliff:g>　聯繫</string>
 </resources>

@@ -349,4 +349,6 @@ phone number; used in several settings-related dialogs -->
     <!-- Text area -->
     <string name="pref_text_area_size_title">输入区大小</string>
     <string name="pref_text_area_size_summary">设置输入区为 <xliff:g id="lines">%1$s</xliff:g> 行</string>
+
+    <string name="menu_sms_number_selected">利用SMS与 <xliff:g id="contactEmailOrNumber">%s</xliff:g>　联系</string>
 </resources>
