@@ -140,6 +140,10 @@
     <string name="hidden_apps_title">隱藏程序</string>
     <string name="preferences_interface_drawer_hidden_apps_title">隱藏程序</string>
     <string name="preferences_interface_drawer_hidden_apps_summary">從程序列表中隱藏選定程序</string>
+    <string name="preferences_interface_drawer_hidden_apps_shortcuts_title">隱藏程序 (捷徑)</string>
+    <string name="preferences_interface_drawer_hidden_apps_shortcuts_summary">移除頁面上的程序捷徑</string>
+    <string name="preferences_interface_drawer_hidden_apps_widgets_title">隱藏程序 (小工具)</string>
+    <string name="preferences_interface_drawer_hidden_apps_widgets_summary">移除頁面上的程序小工具</string>
 
     <string name="edit_target_label">編輯</string>
 
@@ -160,6 +164,9 @@
 
     <string name="preferences_interface_dock_icon_scale_title">變更圖示比例</string>
     <string name="preferences_interface_dock_icon_scale_summary">改變圖示大小比例 (由 80-100% )</string>
+
+    <string name="preferences_interface_general_lock_workspace_title">鎖定主頁</string>
+    <string name="preferences_interface_general_lock_workspace_summary">鎖定頁面上的所有捷徑及文件夾等位置</string>
 
     <!-- Effects -->
     <string name="effects_standard">標准</string>
