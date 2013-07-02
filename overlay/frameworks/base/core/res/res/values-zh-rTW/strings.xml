@@ -148,6 +148,12 @@
     <string name="privacy_guard_notification">私隱防護執行中</string>
     <string name="privacy_guard_notification_detail"><xliff:g id="app">%1$s</xliff:g> 將無法獲取任何私隱信息</string>
 
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_interceptSmsSent">攔截所有送出的 SMS</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_interceptSmsSent">准許其他APP攔截SMS.
+        可防止一些可疑的軟件隨意送出SMS.</string> 
+
     <!-- The title of the profile picker dialog. -->
     <string name="profile_picker_title">情景模式</string>
 
