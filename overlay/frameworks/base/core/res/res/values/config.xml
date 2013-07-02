@@ -44,4 +44,7 @@
     -->
     <integer name="config_longPressOnPowerBehavior">1</integer>
 
+    <!-- Boolean to enable adb by default on a per-device basis -->
+    <bool name="config_enableAdbByDefault">true</bool>
+
 </resources>
