@@ -4,46 +4,41 @@
 # Zipaligning = Sorting Apks as 4 bytes
 #
 
-busybox=/system/xbin/busybox
-zipalign=/system/bin/zipalign
-
-# zipalign apks
 LOG_FILE=/data/zipalign.log
 ZIPALIGNDB=/data/zipalign.db
 
-if [ -e $LOG_FILE ] ; then
-  $busybox rm $LOG_FILE
-fi
+if [ -e $LOG_FILE ]; then
+	rm $LOG_FILE;
+fi;
 
-if [ ! -f $ZIPALIGNDB ] ; then
-  $busybox touch $ZIPALIGNDB
-fi
+if [ ! -f $ZIPALIGNDB ]; then
+	touch $ZIPALIGNDB;
+fi;
 
-$busybox echo "Starting FV Automatic ZipAlign $( date +"%m-%d-%Y %H:%M:%S" )" | $busybox tee -a $LOG_FILE
+echo "Starting FV Automatic ZipAlign $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG_FILE
 
 for DIR in /system/app /data/app ; do
-cd $DIR
+  cd $DIR
   for APK in *.apk ; do
-if [ $APK -ot $ZIPALIGNDB ] && [ $($busybox grep "$DIR/$APK" $ZIPALIGNDB|$busybox wc -l) -gt 0 ] ; then
-      $busybox echo "Already checked: $DIR/$APK" | $busybox tee -a $LOG_FILE
+    if [ $APK -ot $ZIPALIGNDB ] && [ $(grep "$DIR/$APK" $ZIPALIGNDB|wc -l) -gt 0 ] ; then
+      echo "Already checked: $DIR/$APK" | tee -a $LOG_FILE
     else
-      $zipalign -c 4 $APK
+      zipalign -c 4 $APK
       if [ $? -eq 0 ] ; then
-        $busybox echo "Already aligned: $DIR/$APK" | $busybox tee -a $LOG_FILE
-        $busybox grep "$DIR/$APK" $ZIPALIGNDB > /dev/null || $busybox echo $DIR/$APK >> $ZIPALIGNDB
+        echo "Already aligned: $DIR/$APK" | tee -a $LOG_FILE
+        grep "$DIR/$APK" $ZIPALIGNDB > /dev/null || echo $DIR/$APK >> $ZIPALIGNDB
       else
-        $busybox echo "Now aligning: $DIR/$APK" | $busybox tee -a $LOG_FILE
-        $zipalign -f 4 $APK /cache/$APK
-        $busybox mount -o rw,remount /system
-        $busybox cp -f -p /cache/$APK $APK
-$busybox chmod 644 $APK
-        $busybox rm -f /cache/$APK
-        $busybox grep "$DIR/$APK" $ZIPALIGNDB > /dev/null || $busybox echo $DIR/$APK >> $ZIPALIGNDB
+        echo "Now aligning: $DIR/$APK" | tee -a $LOG_FILE
+        zipalign -f 4 $APK /cache/$APK
+        sysrw
+        cp -f -p /cache/$APK $APK
+        busybox rm -f /cache/$APK
+        grep "$DIR/$APK" $ZIPALIGNDB > /dev/null || echo $DIR/$APK >> $ZIPALIGNDB
       fi
-fi
-done
+    fi
+  done
 done
 
-$busybox mount -o ro,remount /system
-$busybox touch $ZIPALIGNDB
-$busybox echo "Automatic ZipAlign finished at $( date +"%m-%d-%Y %H:%M:%S" )" | $busybox tee -a $LOG_FILE
+sysro
+touch $ZIPALIGNDB
+echo "Automatic ZipAlign finished at $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG_FILE
