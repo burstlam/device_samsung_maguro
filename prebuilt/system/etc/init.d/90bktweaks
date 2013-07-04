@@ -115,7 +115,7 @@ doLog=on
 # TouchWake 功能
 doTouch=on
 
-initPath=/system/etc/init.d/90bktweaks
+initPath=/system/etc/init.d/98bktweaks
 busybox=/system/xbin/busybox
 
 busybox mount -o remount,rw /system
