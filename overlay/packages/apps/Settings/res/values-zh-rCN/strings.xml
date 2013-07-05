@@ -591,7 +591,7 @@
     <string name="lockgesture_settings_enable_title">请提供你的解锁图案</string>
     <string name="lockgesture_settings_enable_summary">必须使用解锁图案解除锁屏状态</string>
     <string name="lockgesture_settings_enable_visible_pattern_title">解锁图案设定为可见</string>
-    <string name="lockgesture_settings_enable_power_button_instantly_locks">电源键立即解锁</string>
+    <string name="lockgesture_settings_enable_power_button_instantly_locks">电源键立即锁屏</string>
     <string name="lockgesture_settings_choose_lock_pattern">设定解锁手势图案</string>
     <string name="lockgesture_settings_change_lock_pattern">改变解锁手势图案</string>
     <string name="lockgesture_settings_help_how_to_record">如何绘画解锁图案图案</string>
