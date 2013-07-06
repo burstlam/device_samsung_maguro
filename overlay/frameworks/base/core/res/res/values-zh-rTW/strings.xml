@@ -159,4 +159,16 @@
 
     <!-- The item label for the no profile selection item. -->
     <string name="profile_none">未設置</string>
+
+    <!-- Gesture Unlock -->
+    <string name="lockscreen_gesture_instructions">請提供手勢解鎖圖案</string>
+    <string name="lockscreen_gesture_correct">正確!</string>
+    <string name="lockscreen_gesture_wrong">錯誤，請重新輸入</string>
+    <string name="keyguard_accessibility_gesture_unlock">手勢解鎖</string>
+    <string name="keyguard_accessibility_gesture_area">手勢輸入區</string>
+    <string name="kg_gesture_instructions">劃出解鎖手勢</string>
+    <string name="kg_too_many_failed_gesture_attempts_dialog_message">
+        你已輸入錯誤圖案 <xliff:g id="number">%d</xliff:g> 次.
+        \n\n請於 <xliff:g id="number">%d</xliff:g> 秒後再重試.
+    </string>
 </resources>
