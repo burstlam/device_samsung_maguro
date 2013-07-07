@@ -168,6 +168,9 @@
     <string name="kg_gesture_instructions">劃出解鎖手勢</string>
     <string name="kg_too_many_failed_gesture_attempts_dialog_message">
         你已輸入錯誤圖案 <xliff:g id="number">%d</xliff:g> 次.
-        \n\n請於 <xliff:g id="number">%d</xliff:g> 秒後再重試.
+        \n\n請於 <xliff:g id="number">%d</xliff:g> 秒後重試.
     </string>
+
+    <string name="permlab_cancelNotifications">取消程序提示通知</string>
+    <string name="permdesc_cancelNotifications">允許指定程序取消其他程序發佈通知及提示.</string>
 </resources>

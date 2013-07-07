@@ -94,4 +94,7 @@
 
     <!-- An allowable value for the "list view display mode" contact display option  -->
     <string name="display_options_view_mode_compact">精简模式</string>
+
+    <!-- Menu item that opens the Options activity for a given contact [CHAR LIMIT=15] -->
+    <string name="menu_set_notification">设定通知音</string>
 </resources>
