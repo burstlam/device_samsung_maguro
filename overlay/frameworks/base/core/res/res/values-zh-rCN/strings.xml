@@ -150,10 +150,9 @@
     <string name="privacy_guard_notification_detail"><xliff:g id="app">%1$s</xliff:g> 将无法获取任何私隐信息</string>
 
     <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permlab_interceptSmsSent">拦截所有送出的 SMS</string>
+    <string name="permlab_interceptSmsSent">拦截所有送出的短信</string>
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_interceptSmsSent">准许其他APP拦截SMS.
-        可防止一些可疑的软件随意送出SMS.</string> 
+    <string name="permdesc_interceptSmsSent">允许程序拦截发送短信，可以防止恶意应用程序发送短信。</string>
 
     <!-- The title of the profile picker dialog. -->
     <string name="profile_picker_title">情景模式</string>
@@ -173,6 +172,6 @@
         \n\n请于 <xliff:g id="number">%d</xliff:g> 秒后重试.
     </string>
 
-    <string name="permlab_cancelNotifications">取消程序提示通知</string>
-    <string name="permdesc_cancelNotifications">允许指定程序取消其他程序发布通知及提示.</string>
+    <string name="permlab_cancelNotifications">取消应用程序通知</string>
+    <string name="permdesc_cancelNotifications">允许应用程序取消由其他应用程序创建的通知。</string> 
 </resources>
