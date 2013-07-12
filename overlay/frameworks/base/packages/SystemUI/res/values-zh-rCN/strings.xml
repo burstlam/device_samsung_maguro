@@ -134,5 +134,7 @@
 
     <!-- Content description of the halo button in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
     <string name="accessibility_halo">在下拉通知栏新增HALO按键.</string>
+    <string name="halo_dismiss">清除通知</string>
+    <string name="halo_hide">隐藏 HALO</string>
 
 </resources>
