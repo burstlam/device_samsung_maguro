@@ -144,6 +144,8 @@
     <string name="pie_phone_status_emergency_only">只可呼叫緊急號碼</string>
 
     <!-- Content description of the halo button in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
-    <string name="accessibility_halo">在下拉通知欄新增HALO按鍵.</string> 
+    <string name="accessibility_halo">在下拉通知欄新增HALO按鍵.</string>
+    <string name="halo_dismiss">清除通知</string>
+    <string name="halo_hide">隱藏 HALO</string>
 
 </resources>
