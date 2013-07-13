@@ -1912,4 +1912,8 @@
     <string name="listview_overshoot_interpolator">快速到达终点超出一小步然后回到终点</string>
     <string name="listview_anticipate_overshoot_interpolator">到达终点产生弹球效果，弹几下回到终点</string>
     <string name="listview_bounce_interpolator">均匀速度</string>
+
+    <!-- LockScreen Music Controls -->
+    <string name="lockscreen_music_controls_title">音乐控制面板</string>
+    <string name="lockscreen_music_controls_summary">在锁屏显示音乐控制面板</string>
 </resources>
