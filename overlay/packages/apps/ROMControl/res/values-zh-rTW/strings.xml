@@ -1961,5 +1961,9 @@
     <string name="listview_anticipate_interpolator">先後退一小步然後向前加速</string>
     <string name="listview_overshoot_interpolator">快速到達終點超出一小步然後回到終點</string>
     <string name="listview_anticipate_overshoot_interpolator">到達終點產生彈球效果，彈幾下回到終點</string>
-    <string name="listview_bounce_interpolator">均速</string>    
+    <string name="listview_bounce_interpolator">均速</string>
+
+    <!-- LockScreen Music Controls -->
+    <string name="lockscreen_music_controls_title">音樂控制面板</string>
+    <string name="lockscreen_music_controls_summary">在鎖屏顯示音樂控制面板</string>
 </resources>

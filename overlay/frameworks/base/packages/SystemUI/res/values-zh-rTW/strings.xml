@@ -136,5 +136,6 @@
     <string name="accessibility_halo">在下拉通知欄新增HALO按鍵.</string>
     <string name="halo_dismiss">清除通知</string>
     <string name="halo_hide">隱藏 HALO</string>
-
+    <string name="halo_clear_all">清除所有通知提示</string>
+    <string name="halo_silence">機器喚醒前隱藏所有通知提示</string>
 </resources>
