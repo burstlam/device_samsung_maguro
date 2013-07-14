@@ -1919,4 +1919,29 @@
     <!-- LockScreen Music Controls -->
     <string name="lockscreen_music_controls_title">音樂控制面板</string>
     <string name="lockscreen_music_controls_summary">在鎖屏顯示音樂控制面板</string>
+
+    <!-- Soft Key -->
+    <string name="softkey_options">虛擬鍵動作設定</string>
+    <string name="title_softkey">虛擬鍵動作設定</string>
+    <string name="inappassist">程式中輔助鍵</string>
+
+    <string name="softkey_home_short_title">主頁鍵單擊動作</string>
+    <string name="softkey_home_long_title">主頁鍵長按動作</string>
+    <string name="softkey_home_double_title">主頁鍵雙擊動作</string>
+    <string name="softkey_menu_short_title">菜單鍵單擊動作</string>
+    <string name="softkey_menu_long_title">菜單鍵長按動作</string>
+    <string name="softkey_menu_double_title">菜單鍵雙擊動作</string>
+    <string name="softkey_back_short_title">返回鍵單擊動作</string>
+    <string name="softkey_back_long_title">返回鍵長按動作</string>
+    <string name="softkey_back_double_title">返回鍵雙擊動作</string>
+    <string name="softkey_search_short_title">搜尋鍵單擊動作</string>
+    <string name="softkey_search_long_title">搜尋鍵長按動作</string>
+    <string name="softkey_search_double_title">搜尋鍵雙擊動作</string>
+    <string name="softkey_recents_short_title">最近任務鍵單擊動作</string>
+    <string name="softkey_recents_long_title">最近任務鍵長按動作</string>
+    <string name="softkey_recents_double_title">最近任務鍵雙擊動作</string>
+    <string name="softkey_enable">啟用虛擬鍵設置</string>
+    <string name="softkey_enable_summary">自定義虛擬鍵動作</string>
+    <string name="softkey_enable_double_click">使用雙擊動作</string>
+    <string name="softkey_enable_double_click_summary">啟用後單擊動作會有若干延時</string>
 </resources>
