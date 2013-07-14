@@ -149,5 +149,5 @@
     <string name="halo_dismiss">清除通知</string>
     <string name="halo_hide">隐藏 HALO</string>
     <string name="halo_clear_all">清除所有通知提示</string>
-    <string name="halo_silence">机器唤醒前隐藏所有通知提示</string>
+    <string name="halo_silence">沉默模式</string>
 </resources>
