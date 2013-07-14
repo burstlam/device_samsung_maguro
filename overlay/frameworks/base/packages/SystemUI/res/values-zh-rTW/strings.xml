@@ -50,6 +50,7 @@
     <string name="toggle_ring_vib">鈴聲/振動</string>
     <string name="toggle_ring_silent">鈴聲/靜音</string>
     <string name="toggle_ring_vib_silent">鈴聲/振動/靜音</string>
+    <string name="toggle_quiethours">免打擾模式 - 開關</string>
     <string name="app_killed_message">進程已清除</string>
     <string name="recents_kill_all_button_text">全部清除</string>
 
