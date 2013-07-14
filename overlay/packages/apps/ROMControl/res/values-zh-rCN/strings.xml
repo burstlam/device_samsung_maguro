@@ -1916,29 +1916,4 @@
     <!-- LockScreen Music Controls -->
     <string name="lockscreen_music_controls_title">音乐控制面板</string>
     <string name="lockscreen_music_controls_summary">在锁屏显示音乐控制面板</string>
-
-    <!-- Soft Key -->
-    <string name="softkey_options">虚拟键动作设定</string>
-    <string name="title_softkey">虚拟键动作设定</string>
-    <string name="inappassist">程式中辅助键</string>
-
-    <string name="softkey_home_short_title">主页键单击动作</string>
-    <string name="softkey_home_long_title">主页键长按动作</string>
-    <string name="softkey_home_double_title">主页键双击动作</string>
-    <string name="softkey_menu_short_title">菜单键单击动作</string>
-    <string name="softkey_menu_long_title">菜单键长按动作</string>
-    <string name="softkey_menu_double_title">菜单键双击动作</string>
-    <string name="softkey_back_short_title">返回键单击动作</string>
-    <string name="softkey_back_long_title">返回键长按动作</string>
-    <string name="softkey_back_double_title">返回键双击动作</string>
-    <string name="softkey_search_short_title">搜寻键单击动作</string>
-    <string name="softkey_search_long_title">搜寻键长按动作</string>
-    <string name="softkey_search_double_title">搜寻键双击动作</string>
-    <string name="softkey_recents_short_title">最近任务键单击动作</string>
-    <string name="softkey_recents_long_title">最近任务键长按动作</string>
-    <string name="softkey_recents_double_title">最近任务键双击动作</string>
-    <string name="softkey_enable">启用虚拟键设置</string>
-    <string name="softkey_enable_summary">自定义虚拟键动作</string>
-    <string name="softkey_enable_double_click">使用双击动作</string>
-    <string name="softkey_enable_double_click_summary">启用后单击动作会有若干延时</string>
 </resources>
