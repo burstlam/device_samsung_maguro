@@ -88,6 +88,17 @@
     <string name="quiet_hours_dim_title">禁用通知燈</string>
     <string name="quiet_hours_active_from">免打擾模式自</string>
     <string name="quiet_hours_active_to">至</string>
+    <string name="quiet_hours_auto_sms_group">系統自動回覆</string>
+    <string name="quiet_hours_auto_sms_title">自動回覆短訊</string>
+    <string name="quiet_hours_auto_sms_summary">免打擾模式執行時電話會發送信息回覆所有來電</string>
+    <string name="quiet_hours_auto_sms_call_title">自動回覆來電</string>
+    <string name="quiet_hours_auto_sms_call_summary">免打擾模式執行時電話將會自動回覆來電</string>
+    <string name="quiet_hours_auto_string_title">編輯信息</string>
+    <string name="quiet_hours_auto_string_explain">免打擾模式執行時將會發送以下信息回覆所有來電/短信</string>
+    <string name="quiet_hours_auto_sms_null">[系統信息] 現在無法回覆，稍後再跟您聯絡.</string>
+    <string name="quiet_hours_auto_disabled">關閉</string>
+    <string name="quiet_hours_auto_enabled">所有號碼</string>
+    <string name="quiet_hours_auto_contacts">僅回覆現有聯絡人</string>
 
     <!-- time range preference -->
     <string name="start_time_title">始於</string>
@@ -166,6 +177,8 @@
     <!-- USB Mass Storage-->
     <string name="usb_mass_storage_title">大容量儲存</string>
     <string name="usb_mass_storage_summary">使用大容量儲存狀置模式</string>
+    <string name="storage_rescan_media">重新掃描多媒體文件</string>
+    <string name="storage_rescan_media_complete">掃描完畢</string>
 
     <!--Increasing Volume -->
     <string name="increasing_ring_title">漸進鈴聲</string>
