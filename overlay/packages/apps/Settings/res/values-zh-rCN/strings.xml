@@ -91,6 +91,17 @@
     <string name="quiet_hours_dim_title">关闭通知灯</string>
     <string name="quiet_hours_active_from">静音时间从</string>
     <string name="quiet_hours_active_to">到</string>
+    <string name="quiet_hours_auto_sms_group">系统自动回复</string>
+    <string name="quiet_hours_auto_sms_title">自动回复短讯</string>
+    <string name="quiet_hours_auto_sms_summary">免打扰模式执行时电话会发送信息回复所有来电</string>
+    <string name="quiet_hours_auto_sms_call_title">自动回复来电</string>
+    <string name="quiet_hours_auto_sms_call_summary">免打扰模式执行时电话将会自动回复来电</string>
+    <string name="quiet_hours_auto_string_title">编辑信息</string>
+    <string name="quiet_hours_auto_string_explain">免打扰模式执行时将会发送以下信息回复所有来电/短信</string>
+    <string name="quiet_hours_auto_sms_null">[系统信息] 现在无法回复，稍后再跟您联络.</string>
+    <string name="quiet_hours_auto_disabled">关闭</string>
+    <string name="quiet_hours_auto_enabled">所有号码</string>
+    <string name="quiet_hours_auto_contacts">仅回复现有联络人</string>
 
     <!-- time range preference -->
     <string name="start_time_title">开始</string>
@@ -146,6 +157,8 @@
     <!-- USB Mass Storage-->
     <string name="usb_mass_storage_title">大容量储存</string>
     <string name="usb_mass_storage_summary">使用大容量储存状置模式</string>
+    <string name="storage_rescan_media">重新扫描多媒体文件</string>
+    <string name="storage_rescan_media_complete">扫描完毕</string>
 
     <!-- Hardware Info -->
     <string name="hardware_info">硬件信息</string>
