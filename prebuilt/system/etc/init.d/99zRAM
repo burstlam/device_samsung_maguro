@@ -1,0 +1,10 @@
+#!/system/bin/sh
+# Activate compcache (using new sysctl method)
+
+sysctl -w vm.swappiness=30
+#insmod /system/lib/modules/zram.ko
+modprobe zram num_devices=1
+echo '1' > /sys/block/zram0/reset
+echo $((60*1024*1024)) > /sys/block/zram0/disksize
+mkswap /dev/zram0
+swapon /dev/zram0
