@@ -510,6 +510,15 @@
     <string name="halo_pause_title">HALO 后台保护</string>
     <string name="halo_pause_summary">当使用HALO平台打开一个应用程序，在后台的应用将暂停 (系统内存640MB以下机器默认启用)</string>
 
+    <string name="halo_size_title">HALO大小</string>
+    <string name="halo_size_summary">设置HALO的大小</string>
+    <string name="halo_size_miniscule">最小</string>
+    <string name="halo_size_small">小</string>
+    <string name="halo_size_default">默认</string>
+    <string name="halo_size_large">大</string>
+    <string name="halo_size_gigantic">稍大</string>
+    <string name="halo_size_monster">最大</string> 
+
     <string name="halo_colors_title">自定义颜色</string>
     <string name="halo_colors_summary">使用主题以外颜色配置</string>
     <string name="halo_circle_color_title">环颜色</string>
