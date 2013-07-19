@@ -110,6 +110,7 @@
     <string name="action_widgets">导航栏工具</string>
     <string name="action_app_window">软件视窗列</string>
     <string name="action_ribbon">AOKP彩带</string>
+    <string name="action_qs">磁贴/捷径开关</string>
 
     <!-- Title of an application permission that lets an application view/edit revoked permissions. -->
     <string name="permlab_revokePermissions">允许查看及编辑授权权限,一般程序不予使用.</string>
@@ -172,5 +173,5 @@
     </string>
 
     <string name="permlab_cancelNotifications">取消应用程序通知</string>
-    <string name="permdesc_cancelNotifications">允许应用程序取消由其他应用程序创建的通知。</string> 
+    <string name="permdesc_cancelNotifications">允许应用程序取消由其他应用程序创建的通知。</string>
 </resources>

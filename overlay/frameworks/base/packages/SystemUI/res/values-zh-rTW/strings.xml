@@ -139,4 +139,15 @@
     <string name="halo_hide">隱藏 HALO</string>
     <string name="halo_clear_all">清除所有通知提示</string>
     <string name="halo_silence">沉默模式</string>
+
+    <!-- PIE - SLIM version -->
+    <!-- Battery status in pie controls -->
+    <string name="pie_battery_status_charging">充電中(<xliff:g id="percent">%d</xliff:g>%%)</string>
+    <string name="pie_battery_status_full">充電完成</string>
+    <string name="pie_battery_status_discharging">剩餘電量<xliff:g id="percent">%d</xliff:g>%% </string>
+
+    <!-- Phone status in pie controls -->
+    <string name="pie_phone_status_no_service">沒有信號</string>
+    <string name="pie_phone_status_airplane_mode">飛行模式</string>
+    <string name="pie_phone_status_emergency_only">只可呼叫緊急號碼</string>
 </resources>

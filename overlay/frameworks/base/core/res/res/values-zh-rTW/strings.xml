@@ -110,6 +110,7 @@
     <string name="action_widgets">導航欄工具</string>
     <string name="action_app_window">軟件視窗列</string>
     <string name="action_ribbon">AOKP彩帶</string>
+    <string name="action_qs">磁貼/捷徑開關</string>
 
     <!-- Title of an application permission that lets an application view/edit revoked permissions. -->
     <string name="permlab_revokePermissions">允許查看及編輯授權權限,一般程序不予使用.</string>
