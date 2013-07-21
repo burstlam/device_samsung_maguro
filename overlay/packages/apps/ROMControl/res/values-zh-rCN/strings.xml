@@ -1986,9 +1986,10 @@ PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按
     <string name="pie_action_screenshot">截屏</string>
     <string name="pie_action_menu">菜单</string>
     <string name="pie_action_ime">切换输入法</string>
-    <string name="pie_action_kill">清除任务</string>
+    <string name="pie_action_kill">一键清除任务</string>
     <string name="pie_action_power">关闭屏幕</string>
     <string name="pie_action_notifications">通知栏</string>
+    <string name="pie_action_quicksettings">磁贴开关</string>
     <string name="pie_action_none">空</string>
     <string name="color_default">默认</string>
 </resources>

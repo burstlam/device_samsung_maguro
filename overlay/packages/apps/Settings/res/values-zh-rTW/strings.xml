@@ -517,7 +517,7 @@
     <string name="halo_size_default">默認</string>
     <string name="halo_size_large">大</string>
     <string name="halo_size_gigantic">稍大</string>
-    <string name="halo_size_monster">最大</string> 
+    <string name="halo_size_monster">最大</string>
 
     <string name="halo_colors_title">自定義顏色</string>
     <string name="halo_colors_summary">使用主題以外顏色配置</string>
