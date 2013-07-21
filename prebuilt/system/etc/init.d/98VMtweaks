@@ -18,23 +18,43 @@ for b in /sys/block/*; do echo 1 > $b/queue/rq_affinity; done
 #
 # Sysctl & VM Tweaks
 #
-busybox sysctl -w vm.page-cluster=3
-busybox sysctl -w vm.drop_caches=3
-busybox sysctl -w vm.dirty_expire_centisecs=1750
-busybox sysctl -w vm.dirty_writeback_centisecs=3200
-busybox sysctl -w kernel.random.write_wakeup_threshold=256
-busybox sysctl -w kernel.random.read_wakeup_threshold=128
-busybox sysctl -w fs.file-max=524288
-busybox sysctl -w fs.inotify.max_queued_events=32000
-busybox sysctl -w kernel.panic=0
-busybox sysctl -w kernel.panic_on_oops=1
-busybox sysctl -w kernel.msgmni=2048
-busybox sysctl -w kernel.msgmax=64000
-busybox sysctl -w kernel.shmmax=268435500
-busybox sysctl -w kernel.sem=500,512000,64,2048
-busybox sysctl -w kernel.threads-max=525810
-echo "1" > /proc/sys/vm/laptop_mode
+busybox sysctl -e -w vm.oom_kill_allocating_task=0;
+busybox sysctl -e -w vm.page-cluster=3
+busybox sysctl -e -w vm.drop_caches=3
+busybox sysctl -e -w vm.dirty_expire_centisecs=1750
+busybox sysctl -e -w vm.dirty_writeback_centisecs=3200
+busybox sysctl -e -w vm.vfs_cache_pressure=10
+busybox sysctl -e -w vm.overcommit_memory=1
+busybox sysctl -e -w vm.swappiness=20
+
+# Kernel tweaks
+busybox sysctl -e -w kernel.random.write_wakeup_threshold=128
+busybox sysctl -e -w kernel.random.read_wakeup_threshold=1376
+busybox sysctl -e -w fs.file-max=524288
+busybox sysctl -e -w fs.inotify.max_queued_events=32000
+busybox sysctl -e -w kernel.panic=0
+busybox sysctl -e -w kernel.panic_on_oops=1
+busybox sysctl -e -w kernel.msgmni=2048
+busybox sysctl -e -w kernel.msgmax=64000
+busybox sysctl -e -w kernel.shmmax=268435500
+busybox sysctl -e -w kernel.sem=500,512000,64,2048
+busybox sysctl -e -w kernel.threads-max=525810
+
+# network tweaks
+busybox sysctl -w net.core.wmem_max=1048576
+busybox sysctl -w net.core.rmem_max=1048576
+busybox sysctl -w net.core.optmem_max=20480
+busybox sysctl -w net.ipv4.tcp_moderate_rcvbuf=1
+busybox sysctl -w net.ipv4.route.flush=1
+busybox sysctl -w net.ipv4.udp_rmem_min=6144
+busybox sysctl -w net.ipv4.udp_wmem_min=6144
+busybox sysctl -w net.ipv4.tcp_rmem='6144 87380 1048576'
+busybox sysctl -w net.ipv4.tcp_wmem='6144 87380 1048576'
+
 rm /dev/log/main
+
+echo "0,3,6,10,12,15" > /sys/module/lowmemorykiller/parameters/adj
+echo "1536,3072,10240,15360,20480,25600" > /sys/module/lowmemorykiller/parameters/minfree
 
 # Vibration
 echo "1650" /sys/class/misc/vibratorcontrol/vibrator_strength

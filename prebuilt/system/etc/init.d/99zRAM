@@ -8,3 +8,6 @@ echo '1' > /sys/block/zram0/reset
 echo $((60*1024*1024)) > /sys/block/zram0/disksize
 mkswap /dev/zram0
 swapon /dev/zram0
+
+mkdir -p /data/cron
+echo "* */$INTERVAL * * * sync; sysctl -w vm.drop_caches=3" > /data/cron/root/system/xbin/crond -b -l 0 -c /data/cron -L /data/cron/cron.log
