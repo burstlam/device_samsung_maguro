@@ -1992,4 +1992,35 @@ PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按
     <string name="pie_action_quicksettings">磁贴开关</string>
     <string name="pie_action_none">空</string>
     <string name="color_default">默认</string>
+
+    <!-- HALO -->
+    <string name="halo_title">HALO 悬浮提示</string>
+    <string name="halo_enabled_title">HALO总开关</string>
+    <string name="halo_hide_title">自动隐藏HALO活动</string>
+    <string name="halo_hide_summary">HALO会在提示及手势活动后显示一下</string>
+    <string name="halo_reversed_title">反方向HALO手势</string>
+    <string name="halo_reversed_summary"> 双击轻扫手势适用于任务或拖动</string>
+    <string name="halo_state_title">HALO 规则</string>
+    <string name="halo_state_summary">HALO依据黑／白名单执行或禁用提示功能</string>
+    <string name="halo_state_black">黑名单</string>
+    <string name="halo_state_white">白名单</string>
+    <string name="halo_pause_title">HALO 后台保护</string>
+    <string name="halo_pause_summary">当使用HALO平台打开一个应用程序，在后台的应用将暂停 (系统内存640MB以下机器默认启用)</string>
+
+    <string name="halo_size_title">HALO大小</string>
+    <string name="halo_size_summary">设置HALO的大小</string>
+    <string name="halo_size_miniscule">最小</string>
+    <string name="halo_size_small">小</string>
+    <string name="halo_size_default">默认</string>
+    <string name="halo_size_large">大</string>
+    <string name="halo_size_gigantic">稍大</string>
+    <string name="halo_size_monster">最大</string>
+
+    <string name="halo_colors_title">自定义颜色</string>
+    <string name="halo_colors_summary">使用主题以外颜色配置</string>
+    <string name="halo_circle_color_title">环颜色</string>
+    <string name="halo_bubble_color_title">对话气泡颜色</string>
+    <string name="halo_bubble_text_color_title">气泡文字颜色</string>
+    <string name="halo_effect_color_title">动画颜色</string>
+    <string name="halo_effect_color_summary">需要重启系统UI</string>
 </resources>

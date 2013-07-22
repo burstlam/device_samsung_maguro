@@ -497,46 +497,6 @@
     <string name="app_halo_label_black">加入HALO黑名單</string>
     <string name="app_halo_label_white">加入HALO白名單</string>
 
-    <string name="halo_title">HALO 懸浮視窗</string>
-    <string name="halo_enabled_title">HALO總開關</string>
-    <string name="halo_hide_title">自動隱藏HALO活動</string>
-    <string name="halo_hide_summary">HALO會在提示及手勢活動後顯示一下</string>
-    <string name="halo_reversed_title">反方向HALO手勢</string>
-    <string name="halo_reversed_summary"> 雙擊輕掃手勢適用於任務或拖動</string>
-    <string name="halo_state_title">HALO 規則</string>
-    <string name="halo_state_summary">HALO依據黑／白名單執行或禁用提示功能</string>
-    <string name="halo_state_black">黑名單</string>
-    <string name="halo_state_white">白名單</string>
-    <string name="halo_pause_title">HALO 後台保護</string>
-    <string name="halo_pause_summary">當使用HALO平台打開一個應用程序，在後台的應用將暫停 (系統內存640MB以下機器默認啟用)</string>
-
-    <string name="halo_size_title">HALO大小</string>
-    <string name="halo_size_summary">設置HALO的大小</string>
-    <string name="halo_size_miniscule">最小</string>
-    <string name="halo_size_small">小</string>
-    <string name="halo_size_default">默認</string>
-    <string name="halo_size_large">大</string>
-    <string name="halo_size_gigantic">稍大</string>
-    <string name="halo_size_monster">最大</string>
-
-    <string name="halo_colors_title">自定義顏色</string>
-    <string name="halo_colors_summary">使用主題以外顏色配置</string>
-    <string name="halo_circle_color_title">環顏色</string>
-    <string name="halo_bubble_color_title">對話氣泡顏色</string>
-    <string name="halo_bubble_text_color_title">氣泡文字顏色</string>
-    <string name="halo_effect_color_title">動畫顏色</string>
-    <string name="halo_effect_color_summary">需要重啟系統UI</string>
-
-    <!-- Color Picker -->
-    <string name="dialog_color_picker">調色盤</string>
-    <string name="press_color_to_apply">點擊顏色套用</string>
-    <string name="arrow_right">→</string>
-    <string name="arrow_down">↓</string>
-    <string name="hex">Hex:</string>
-    <string name="hex_hint">#FF000000</string>
-    <string name="set">設置</string>
-    <string name="ics_color">Holo</string> 
-
     <!-- Proximity work-around -->
     <string name="is_inaccurate_proximity_title">精確距離</string>
     <string name="is_inaccurate_proximity_summary">強制在通話結束后開啟螢幕，解決距離感應器不准確問題。</string>
