@@ -139,4 +139,5 @@
     <!-- True View -->
     <string name="pref_true_view_title">仿真取景器</string>
 
+    <string name="pref_camera_flashmode_entry_redeye">红眼模式</string>
 </resources>

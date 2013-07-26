@@ -1181,9 +1181,6 @@
     <string name="nav_bar_alpha_mode_always">應用於全部場景</string>
     <string name="nav_bar_style_reset">重置</string> -->
 
-    <string name="navigation_bar_colorall_title">自定義圖示著色</string>
-    <string name="navigation_bar_colorall_summary">為導航欄自定義圖示按照按鍵著色設定上色</string>
-
     <!-- Toggles -->
 	<string name="toggle_favorite_contact">常用聯絡人</string>
 	<string name="toggle_favcontact_title">常用聯絡人</string>
