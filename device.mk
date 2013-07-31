@@ -30,6 +30,7 @@ PRODUCT_PACKAGES += \
     Trebuchet \
     CMFileManager \
 	BurstItOutWallpapers \
+    Focal \
 #    Droidwall
 
 # Prebuilt
