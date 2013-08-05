@@ -583,4 +583,11 @@
 
     <string name="uninstall_text">解除安装</string>
 
+    <!-- Sound settings screen -->
+    <string name="volume_overlay_title">音量面板风格</string>
+    <string name="volume_overlay_single">简单</string>
+    <string name="volume_overlay_expandable">可扩展</string>
+    <string name="volume_overlay_expanded">永远展开</string>
+    <string name="volume_overlay_none">关闭</string>
+
 </resources>

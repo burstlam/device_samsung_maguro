@@ -582,5 +582,12 @@
     <string name="lockgesture_too_many_failed_confirmation_attempts_footer">請在 <xliff:g id="number">%d</xliff:g> 秒後重試.</string>
 
     <string name="uninstall_text">解除安裝</string>
+
+    <!-- Sound settings screen -->
+    <string name="volume_overlay_title">音量面板風格</string>
+    <string name="volume_overlay_single">簡單</string>
+    <string name="volume_overlay_expandable">可擴展</string>
+    <string name="volume_overlay_expanded">永遠展開</string>
+    <string name="volume_overlay_none">關閉</string>
  
 </resources>
