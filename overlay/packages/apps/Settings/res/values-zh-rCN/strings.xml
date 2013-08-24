@@ -74,34 +74,52 @@
     <string name="preview_country_title">国家或地区</string>
     <string name="preview_carrier_title">运营商</string>
 
-        <!-- Quiet hours #CM -->
-    <string name="quiet_hours_title">静音时段</string>
-    <string name="quiet_hours_summary">设置手机进入免打扰模式</string>
-    <string name="quiet_hours_enabled_title">启用静音时段</string>
-    <string name="quiet_hours_title">静音时段</string>
-    <string name="quiet_hours_summary">设置设备自动进入静音状态的时间段</string>
-    <string name="quiet_hours_enabled_title">启用静音时段</string>
-    <string name="quiet_hours_start">静音时段开始</string>
-    <string name="quiet_hours_start_summary">设置何时开始进入静音状态</string>
-    <string name="quiet_hours_end">静音时段结束</string>
-    <string name="quiet_hours_end_summary">设置何时退出静音状态</string>
-    <string name="quiet_hours_notifications_title">屏蔽通知音效</string>
-    <string name="quiet_hours_ringer_title">屏蔽来电铃声</string>
-    <string name="quiet_hours_still_title">关闭震动</string>
-    <string name="quiet_hours_dim_title">关闭通知灯</string>
-    <string name="quiet_hours_active_from">静音时间从</string>
-    <string name="quiet_hours_active_to">到</string>
+    <!-- Quiet hours #CM -->
+    <string name="quiet_hours_title">免打扰模式</string>
+    <string name="quiet_hours_summary">设定手机进入免打扰模式</string>
+    <string name="quiet_hours_enabled_title">启用免打扰模式</string>
+    <string name="quiet_hours_start">开始时间</string>
+    <string name="quiet_hours_start_summary">免打扰型态的开始时间</string>
+    <string name="quiet_hours_end">结束时间</string>
+    <string name="quiet_hours_end_summary">免打扰型态的结束时间</string>
+    <string name="quiet_hours_notifications_title">通知声静音</string>
+    <string name="quiet_hours_ringer_title">铃声静音</string>
+    <string name="quiet_hours_still_title">停止振动</string>
+    <string name="quiet_hours_dim_title">禁用通知灯</string>
+    <string name="quiet_hours_active_from">免打扰模式自</string>
+    <string name="quiet_hours_active_to">至</string>
+
     <string name="quiet_hours_auto_sms_group">系统自动回复</string>
     <string name="quiet_hours_auto_sms_title">自动回复短讯</string>
-    <string name="quiet_hours_auto_sms_summary">免打扰模式执行时电话会发送信息回复所有来电</string>
     <string name="quiet_hours_auto_sms_call_title">自动回复来电</string>
-    <string name="quiet_hours_auto_sms_call_summary">免打扰模式执行时电话将会自动回复来电</string>
     <string name="quiet_hours_auto_string_title">编辑信息</string>
     <string name="quiet_hours_auto_string_explain">免打扰模式执行时将会发送以下信息回复所有来电/短信</string>
     <string name="quiet_hours_auto_sms_null">[系统信息] 现在无法回复，稍后再跟您联络.</string>
     <string name="quiet_hours_auto_disabled">关闭</string>
     <string name="quiet_hours_auto_enabled">所有号码</string>
     <string name="quiet_hours_auto_contacts">仅回复现有联络人</string>
+    <string name="quiet_hours_bypass_group">忽略免打扰模式设定</string>
+    <string name="quiet_hours_sms_code_null">[提示音]</string>
+    <string name="quiet_hours_sms_bypass_title">文字信息</string>
+    <string name="quiet_hours_sms_code_title">文字信息提示</string>
+    <string name="quiet_hours_sms_code_explain">接收文字信息会发出提示音</string>
+    <string name="quiet_hours_call_bypass_title">来电数量</string>
+    <string name="quiet_hours_calls_required_title">30分钟内来电数目</string>
+    <string name="quiet_hours_calls_required_summary">" 通来电后将无视免打扰模式"</string>
+    <string name="quiet_hours_bypass_ringtone_title">铃声</string>
+    <string name="quiet_hours_bypass_ringtone_loop_title">循环铃声</string>
+    <string name="quiet_hours_bypass_ringtone_loop_summary_on">铃声一直重复播放直到按下取消键</string>
+    <string name="quiet_hours_bypass_ringtone_loop_summary_off">铃声只播放一次</string>
+    <string name="quiet_hours_alarm_dismiss">关闭提示</string>
+    <string name="quiet_hours_alarm_dialog_title">免打扰模式强制取消</string>
+    <string name="quiet_hours_alarm_message">" 已触发强制取消免打扰模式条件!"</string>
+
+    <!-- Basic Numbers -->
+	<string name="two">二</string>
+    <string name="three">三</string>
+    <string name="four">四</string>
+    <string name="five">五</string>
+    <string name="six">六</string>
 
     <!-- time range preference -->
     <string name="start_time_title">开始</string>

@@ -74,7 +74,7 @@
     <string name="preview_country_title">地區</string>
     <string name="preview_carrier_title">營運商</string>
 
-        <!-- Quiet hours #CM -->
+    <!-- Quiet hours #CM -->
     <string name="quiet_hours_title">免打擾模式</string>
     <string name="quiet_hours_summary">設定手機進入免打擾模式</string>
     <string name="quiet_hours_enabled_title">啟用免打擾模式</string>
@@ -88,17 +88,38 @@
     <string name="quiet_hours_dim_title">禁用通知燈</string>
     <string name="quiet_hours_active_from">免打擾模式自</string>
     <string name="quiet_hours_active_to">至</string>
+
     <string name="quiet_hours_auto_sms_group">系統自動回覆</string>
     <string name="quiet_hours_auto_sms_title">自動回覆短訊</string>
-    <string name="quiet_hours_auto_sms_summary">免打擾模式執行時電話會發送信息回覆所有來電</string>
     <string name="quiet_hours_auto_sms_call_title">自動回覆來電</string>
-    <string name="quiet_hours_auto_sms_call_summary">免打擾模式執行時電話將會自動回覆來電</string>
     <string name="quiet_hours_auto_string_title">編輯信息</string>
     <string name="quiet_hours_auto_string_explain">免打擾模式執行時將會發送以下信息回覆所有來電/短信</string>
     <string name="quiet_hours_auto_sms_null">[系統信息] 現在無法回覆，稍後再跟您聯絡.</string>
     <string name="quiet_hours_auto_disabled">關閉</string>
     <string name="quiet_hours_auto_enabled">所有號碼</string>
     <string name="quiet_hours_auto_contacts">僅回覆現有聯絡人</string>
+    <string name="quiet_hours_bypass_group">忽略免打擾模式設定</string>
+    <string name="quiet_hours_sms_code_null">[提示音]</string>
+    <string name="quiet_hours_sms_bypass_title">文字信息</string>
+    <string name="quiet_hours_sms_code_title">文字信息提示</string>
+    <string name="quiet_hours_sms_code_explain">接收文字信息會發出提示音</string>
+    <string name="quiet_hours_call_bypass_title">來電數量</string>
+    <string name="quiet_hours_calls_required_title">30分鐘內來電數目</string>
+    <string name="quiet_hours_calls_required_summary">" 通來電後將無視免打擾模式"</string>
+    <string name="quiet_hours_bypass_ringtone_title">鈴聲</string>
+    <string name="quiet_hours_bypass_ringtone_loop_title">循環鈴聲</string>
+    <string name="quiet_hours_bypass_ringtone_loop_summary_on">鈴聲一直重覆播放直到按下取消鍵</string>
+    <string name="quiet_hours_bypass_ringtone_loop_summary_off">鈴聲只播放一次</string>
+    <string name="quiet_hours_alarm_dismiss">關閉提示</string>
+    <string name="quiet_hours_alarm_dialog_title">免打擾模式強制取消</string>
+    <string name="quiet_hours_alarm_message">" 已觸發強制取消免打擾模式條件!"</string>
+
+    <!-- Basic Numbers -->
+	<string name="two">二</string>
+    <string name="three">三</string>
+    <string name="four">四</string>
+    <string name="five">五</string>
+    <string name="six">六</string>
 
     <!-- time range preference -->
     <string name="start_time_title">始於</string>
