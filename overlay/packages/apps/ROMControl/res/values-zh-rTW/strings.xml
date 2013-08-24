@@ -1634,7 +1634,8 @@
     <string name="show_network_speed_title">顯示目前網速</string>
     <string name="show_network_speed_summary">在狀態欄察看目前網速</string>
     <string name="status_bar_traffic_color_title">自定義網速顯示顏色</string>    
-    <string name="status_bar_traffic_color_title">自定義網速顯示顏色</string>
+    <string name="hide_network_speed">自動隱藏網速顯示</string>
+    <string name="hide_network_speed_summary">沒有活動時自動隱藏網速顯示</string>
 
     <!-- AOKP Lockscreen-->
     <string name="ls_shortcuts_title">鎖屏捷徑</string>
