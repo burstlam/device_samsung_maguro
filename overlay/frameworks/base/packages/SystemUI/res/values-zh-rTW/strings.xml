@@ -150,4 +150,12 @@
     <string name="pie_phone_status_no_service">沒有信號</string>
     <string name="pie_phone_status_airplane_mode">飛行模式</string>
     <string name="pie_phone_status_emergency_only">只可呼叫緊急號碼</string>
+
+    <!-- App sidebar -->
+    <string name="default_folder_text">文件夾</string>
+    <string name="title_activity_sidebar_configuration">側邊欄設置</string>
+    <string name="action_save">儲存</string>
+    <string name="toast_items_saved">側邊欄內容已儲存.</string>
+    <string name="content_setup_instructions">長按右方圖示選擇目標，然後拖曳到側邊欄上添加新項目.\n\n將新增目標拖放到已存在內容上即能以文件夾方式新增群組.\n\n把程序從程序側邊欄中拖出來即可移除.完成所有變更後按儲存鍵完成</string>
+    <string name="content_setup_dismiss">繼續</string>
 </resources>

@@ -151,4 +151,13 @@
     <string name="pie_phone_status_no_service">没有信号</string>
     <string name="pie_phone_status_airplane_mode">飞行模式</string>
     <string name="pie_phone_status_emergency_only">只可调用紧急号码</string>
+
+    <!-- App sidebar -->
+    <string name="default_folder_text">文件夹</string>
+    <string name="title_activity_sidebar_configuration">侧边栏设置</string>
+    <string name="action_save">储存</string>
+    <string name="toast_items_saved">侧边栏内容已储存.</string>
+    <string name="content_setup_instructions">长按右方图示选择目标，然后拖曳到侧边栏上添加新项目.\n\n将新增目标拖放到已存在内容上即能以文件夹方式新增群组.\n\n把程序从程序侧边栏中拖出来即可移除.完成所有变更后按储存键完成</string>
+    <string name="content_setup_dismiss">继续</string>
+
 </resources>

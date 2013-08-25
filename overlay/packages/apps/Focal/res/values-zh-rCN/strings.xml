@@ -36,7 +36,7 @@
     <string name="enabled">启用</string>
     <string name="no_video_player">找不到播放器，无法播放影片！</string>
     <string name="fullscreen_shutter_info">任意点击屏幕为快门键</string>
-    <string name="please_wait">请稍候&#8230;</string>
+    <string name="please_wait">请稍候\u2026 </string>
 
     <string name="mode_photo">拍照</string>
     <string name="mode_video">影片</string>
@@ -82,28 +82,28 @@
     <string name="pano_file_name_format" translatable="false">"'PANO'_yyyyMMdd_HHmmss"</string>
 
     <string name="pano_panorama_rendering_failed">无法合成全景相片.\n请减光取景长度.</string>
-    <string name="pano_panorama_rendering">全景合成中&#8230;</string>
+    <string name="pano_panorama_rendering">全景合成中\u2026 </string>
 
     <!-- PicSphere status -->
     <string name="picsphere_undo_button">UNDO</string>
     <string name="picsphere_start_hint">按下快门键开始拍摄360全景照片</string>
     <string name="picsphere_already_rendering">合成开始，请等待...</string>
     <string name="picsphere_rendering_progress">合成进度... (%d %%)</string>
-    <string name="picsphere_toast_background_render">合成开始&#8230;</string>
-    <string name="picsphere_notif_title">合成360全景照片&#8230;</string>
+    <string name="picsphere_toast_background_render">合成开始\u2026 </string>
+    <string name="picsphere_notif_title">合成360全景照片\u2026 </string>
     <string name="picsphere_failed">360全景照片合成失败！</string>
     <string name="picsphere_failed_details">请确保取景边缘重叠.</string>
     <string name="picsphere_need_two_pics">最少拍摄２张照片.</string>
-    <string name="picsphere_step_preparing">准备&#8230;中</string>
-    <string name="picsphere_step_autopano">对齐&#8230;照片中</string>
-    <string name="picsphere_step_autooptimiser">优化&#8230;照片中</string>
-    <string name="picsphere_step_ptclean">清理匹配点&#8230;</string>
-    <string name="picsphere_step_panomodify">裁剪空白区域&#8230;</string>
-    <string name="picsphere_step_nona">拼接图片&#8230;</string>
-    <string name="picsphere_step_enblend">混合图片&#8230;</string>
+    <string name="picsphere_step_preparing">准备\u2026 中</string>
+    <string name="picsphere_step_autopano">对齐\u2026 照片中</string>
+    <string name="picsphere_step_autooptimiser">优化\u2026 照片中</string>
+    <string name="picsphere_step_ptclean">清理匹配点\u2026 </string>
+    <string name="picsphere_step_panomodify">裁剪空白区域\u2026 </string>
+    <string name="picsphere_step_nona">拼接图片\u2026 </string>
+    <string name="picsphere_step_enblend">混合图片\u2026 </string>
 
     <!-- Software HDR status -->
-    <string name="software_hdr_notif_title">计算 HDR 照片&#8230;</string>
+    <string name="software_hdr_notif_title">计算 HDR 照片\u2026 </string>
     <string name="software_hdr_failed">HDR合成失败</string>
     <string name="software_hdr_failed_details">仍保留来源素材。</string>
 

@@ -2023,4 +2023,36 @@ PA版本是全屏助手，簡潔美觀的方式在全屏模式中提供基本按
     <string name="halo_bubble_text_color_title">氣泡文字顏色</string>
     <string name="halo_effect_color_title">動畫顏色</string>
     <string name="halo_effect_color_summary">需要重啟系統UI</string>
+
+    <!-- App Sidebar -->
+    <string name="header_control">操作控制</string>
+    <string name="pref_interface_app_sidebar_title">側邊欄</string>
+    <string name="pref_interface_app_sidebar_summary">自定義側邊欄內容</string>
+    <string name="app_sidebar_enable_title">啟用側邊欄</string>
+    <string name="app_sidebar_enable_summaryOn">側邊欄已啟用</string>
+    <string name="app_sidebar_enable_summaryOff">側邊欄已關閉</string>
+    <string name="app_sidebar_setup_items_title">設定側邊欄內容</string>
+    <string name="app_sidebar_setup_items_summary">添加，刪除，或移動側邊欄的項目</string>
+    <string name="app_sidebar_transparency_title">側邊欄透明度</string>
+    <string name="app_sidebar_transparency_summary">設定側邊欄背景透明度</string>
+    <string name="app_sidebar_position_title">側邊欄位置</string>
+    <string name="app_sidebar_position_summary">可設置在屏幕左或右方</string>
+    <string name="app_sidebar_position_left">左</string>
+    <string name="app_sidebar_position_right">右</string>
+    <string name="app_sidebar_hide_labels_title">隱藏圖示說明</string>
+    <string name="app_sidebar_hide_labels_summary">隱藏側邊欄圖示說明</string>
+    <string name="tab_category">可見標簽</string>
+    <string name="use_tab_title">顯示提示標簽</string>
+    <string name="use_tab_summary">側邊欄位置顯示一個提示標簽</string>
+    <string name="tab_position_title">標簽位置</string>
+    <string name="tab_position_summary">在激活區域的頂部，中間，或底部顯示標簽.</string>
+    <string name="tab_size_title">標簽大小</string>
+    <string name="tab_size_summary">修改可見標簽的大小.</string>
+    <string name="trigger_category">觸發區域</string>
+    <string name="trigger_width_title">觸發區域寬度</string>
+    <string name="trigger_width_summary">變更觸發區域寬度</string>
+    <string name="trigger_top_title">觸發區位置</string>
+    <string name="trigger_top_summary">調整觸發區域的垂直位置</string>
+    <string name="trigger_bottom_title">觸發區高度</string>
+    <string name="trigger_bottom_summary">調整觸發區域的高度</string>
 </resources>
