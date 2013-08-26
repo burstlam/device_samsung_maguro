@@ -37,5 +37,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,device/samsung/maguro/prebuilt/system,system)
 
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=yakju BUILD_FINGERPRINT="google/yakju/maguro:4.3/JSS15J/737497:user/release-keys"
+PRIVATE_BUILD_DESC="yakju-user 4.3 JSS15J 737497 release-keys"
+
 $(call inherit-product, device/samsung/tuna/device.mk)
 $(call inherit-product-if-exists, vendor/samsung/maguro/device-vendor.mk)
