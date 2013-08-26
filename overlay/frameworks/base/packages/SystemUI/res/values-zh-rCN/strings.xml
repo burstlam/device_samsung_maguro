@@ -38,6 +38,8 @@
     <string name="action_kill">清除程序</string>
     <string name="action_power">电源键</string>
     <string name="action_notifications">通知</string>
+    <string name="action_qs">磁贴/捷径开关</string>
+    <string name="action_quicksettings">磁贴/捷径开关</string>
     <string name="action_none">空</string>
     <string name="action_search">搜寻</string>
     <string name="action_lastapp">上一个程序</string>

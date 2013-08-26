@@ -92,7 +92,7 @@
     <string name="action_kill">清除进程</string>
     <string name="action_lastapp">上一个任务</string>
     <string name="action_power">电源键</string>
-    <string name="action_notifications">通知</string>
+    <string name="action_notifications">通知栏</string>
     <string name="action_assist">寻找 (Google Now)</string>
     <string name="action_clockoptions">日期及时间</string>
     <string name="action_voiceassist">语音寻找</string>
@@ -111,6 +111,7 @@
     <string name="action_app_window">软件视窗列</string>
     <string name="action_ribbon">AOKP彩带</string>
     <string name="action_qs">磁贴/捷径开关</string>
+    <string name="action_quicksettings">磁贴/捷径开关</string>
 
     <!-- Title of an application permission that lets an application view/edit revoked permissions. -->
     <string name="permlab_revokePermissions">允许查看及编辑授权权限,一般程序不予使用.</string>

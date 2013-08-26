@@ -41,6 +41,8 @@
     <string name="action_none">空</string>
     <string name="action_search">搜尋</string>
     <string name="action_lastapp">上一個程序</string>
+    <string name="action_qs">磁貼/捷徑開關</string>
+    <string name="action_quicksettings">磁貼/捷徑開關</string>
     <string name="shortcut_label">AOKP 動作</string>
     <string name="widgets">小工具</string>
     <string name="toggle_navbar">導航欄 - 開關</string>

@@ -2054,4 +2054,13 @@ PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按
     <string name="trigger_top_summary">调整触发区域的垂直位置</string>
     <string name="trigger_bottom_title">触发区高度</string>
     <string name="trigger_bottom_summary">调整触发区域的高度</string>
+
+    <!-- Performance Settings : Scrolling Cache -->
+    <string name="pref_scrollingcache_title">卷动缓存</string>
+    <string name="pref_scrollingcache_summary">变更卷动缓存大小或有助减少内存使用</string>
+    <string name="pref_scrollingcache_force_enable">强制使用</string>
+    <string name="pref_scrollingcache_default_enable">默认使用</string>
+    <string name="pref_scrollingcache_default_disable">默认关闭</string>
+    <string name="pref_scrollingcache_force_disable">强制关闭</string>
+
 </resources>

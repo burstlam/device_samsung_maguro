@@ -92,7 +92,7 @@
     <string name="action_kill">清除進程</string>
     <string name="action_lastapp">上一個任務</string>
     <string name="action_power">電源鍵</string>
-    <string name="action_notifications">通知</string>
+    <string name="action_notifications">通知欄</string>
     <string name="action_assist">搜尋 (Google Now)</string>
     <string name="action_clockoptions">日期及時間</string>
     <string name="action_voiceassist">語音搜尋</string>
@@ -111,6 +111,7 @@
     <string name="action_app_window">軟件視窗列</string>
     <string name="action_ribbon">AOKP彩帶</string>
     <string name="action_qs">磁貼/捷徑開關</string>
+    <string name="action_quicksettings">磁貼/捷徑開關</string>
 
     <!-- Title of an application permission that lets an application view/edit revoked permissions. -->
     <string name="permlab_revokePermissions">允許查看及編輯授權權限,一般程序不予使用.</string>
