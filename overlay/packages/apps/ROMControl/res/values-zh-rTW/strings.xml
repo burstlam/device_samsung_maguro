@@ -1326,6 +1326,8 @@
     <string name="pie_killtask_summary">在PIE上新增啟用一鍵清除任務鍵</string>
     <string name="pie_appwindow_title">顯示程序列表鍵</string>
     <string name="pie_appwindow_summary">PIE上新增啟用程序列表鍵(請先Romcontrol彩帶捷徑中設置)</string>
+    <string name="pie_screenshot_title">顯示截屏鍵</string>
+    <string name="pie_screenshot_summary">在PIE上新增啟用截屏鍵</string>
 
 <!--    <string name="navbar_action_lastapp">上一個打開程序</string>-->
     <string name="lastapp">上一個打開程序</string>
