@@ -1185,15 +1185,22 @@
 	<string name="toggle_favorite_contact">常用聯絡人</string>
 	<string name="toggle_favcontact_title">常用聯絡人</string>
 	<string name="toggle_favcontact_summary">選擇您的常用聯絡人</string>
-    <string name="toggle_enable_fasttoggle_title">下拉通知欄開關手勢</string>
+    <string name="toggle_enable_fasttoggle_title">下拉通知欄開關手勢觸發位置</string>
     <string name="toggle_enable_fasttoggle_summary">指定由左/右上方開始下拉動作即打開快捷開關</string>
     <string name="fast_toggle_off">關閉（使用原生系統圖示捷徑開關）</string>
     <string name="fast_toggle_left">左</string>
     <string name="fast_toggle_right">右</string>
     <string name="fast_toggle_always">自動顯示開關</string>
     <string name="fast_toggle_always_summary">沒有任何通知的時候永遠顯示快捷開關</string>
+    <string name="title_no_notifications_pulldown">下拉動作直接打開磁貼開關</string>
+    <string name="no_notifications_pulldown_summary_nonperm">沒有常駐通知項目時默認打開磁貼關關頁面</string>
+    <string name="no_notifications_pulldown_summary_all">只在沒有通知項目時默認打開磁貼關關頁面</string>
+    <string name="no_notifications_pulldown_off">關閉</string>
+    <string name="no_notifications_pulldown_nonperm">非常駐通知類別</string>
+    <string name="no_notifications_pulldown_all">任何通知類別</string>
     <string name="toggle_collapse_generic_title">自動收起下拉通知欄</string>
     <string name="toggle_collapse_generic_summary">改變開關狀態即自動收起下拉頁面</string>
+
 
     <!--LockScreen-->
 	<string name="lock_widgets_short">鎖屏小工具</string>
@@ -1691,9 +1698,9 @@
     <string name="icon_size_normal">正常</string>
     <string name="icon_size_20">中等</string>
     <string name="icon_size_15">小</string>
-    <string name="ribbon_left_enable_title">左側滑動</string>
-    <string name="ribbon_right_enable_title">右側滑動</string>
-    <string name="ribbon_bottom_enable_title">下方滑動</string>
+    <string name="ribbon_left_enable_title">開啟左側滑動捷徑</string>
+    <string name="ribbon_right_enable_title">開啟右側滑動捷徑</string>
+    <string name="ribbon_bottom_enable_title">開啟下方滑動捷徑</string>
     <string name="ribbon_bottom_warning_title">使用導航欄無法使用下方劃出動作.</string>
     <string name="ribbon_button_colorize_title">圖示依照文字顏色渲染</string>
     <string name="ribbon_color_title">捷徑背景顏色</string>
@@ -1960,7 +1967,7 @@ PA版本是全屏助手，簡潔美觀的方式在全屏模式中提供基本按
     <string name="pie_show_snap_summary">顯示捕捉點以便自由拖動轉換</string>
     <string name="pie_show_text_title">PIE顯示狀態信息面板</string>
     <string name="pie_show_text_summary">顯示訊號,日期及時間狀態</string>
-    <string name="pie_disable_statusbar_info_title">隱藏狀態重複信息</string>
+    <string name="pie_disable_statusbar_info_title">隱藏狀態欄重複信息內容</string>
     <string name="pie_disable_statusbar_info_summary">隱藏重複的狀態欄信息:時間,電量</string>
     <string name="pie_show_background_title">顯示背景</string>
     <string name="pie_show_background_summary">顯示PIE按鍵背景</string>

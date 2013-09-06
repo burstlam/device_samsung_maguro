@@ -1134,13 +1134,19 @@
 	<string name="toggle_favorite_contact">常用联络人</string>
 	<string name="toggle_favcontact_title">常用联络人</string>
 	<string name="toggle_favcontact_summary">选择您的常用联络人</string>
-    <string name="toggle_enable_fasttoggle_title">下拉通知栏开关手势</string>
+    <string name="toggle_enable_fasttoggle_title">下拉通知栏开关手势触发位置</string>
     <string name="toggle_enable_fasttoggle_summary">指定由左/右上方开始下拉动作即打开快捷开关</string>
     <string name="fast_toggle_off">关闭（使用原生系统图示捷径开关）</string>
     <string name="fast_toggle_left">左</string>
     <string name="fast_toggle_right">右</string>
     <string name="fast_toggle_always">自动显示开关</string>
     <string name="fast_toggle_always_summary">没有任何通知的时候永远显示快捷开关</string>
+    <string name="title_no_notifications_pulldown">下拉动作直接打开磁贴开关</string>
+    <string name="no_notifications_pulldown_summary_nonperm">没有常驻通知项目时默认打开磁贴关关页面</string>
+    <string name="no_notifications_pulldown_summary_all">只在没有通知项目时默认打开磁贴关关页面</string>
+    <string name="no_notifications_pulldown_off">关闭</string>
+    <string name="no_notifications_pulldown_nonperm">非常驻通知类别</string>
+    <string name="no_notifications_pulldown_all">任何通知类别</string>
     <string name="toggle_collapse_generic_title">自动收起下拉通知栏</string>
     <string name="toggle_collapse_generic_summary">改变开关状态即自动收起下拉页面</string>
 
@@ -1688,9 +1694,9 @@
     <string name="icon_size_normal">正常</string>
     <string name="icon_size_20">中等</string>
     <string name="icon_size_15">小</string>
-    <string name="ribbon_left_enable_title">左侧滑动</string>
-    <string name="ribbon_right_enable_title">右侧滑动</string>
-    <string name="ribbon_bottom_enable_title">下方滑动</string>
+    <string name="ribbon_left_enable_title">开启左侧滑动捷径</string>
+    <string name="ribbon_right_enable_title">开启右侧滑动捷径</string>
+    <string name="ribbon_bottom_enable_title">开启下方滑动捷径</string>
     <string name="ribbon_bottom_warning_title">使用导航栏无法使用下方划出捷径.</string>
     <string name="ribbon_button_colorize_title">图示依照文字颜色渲染</string>
     <string name="ribbon_color_title">捷径背景颜色</string>
@@ -1959,7 +1965,7 @@ PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按
     <string name="pie_show_snap_summary">显示捕捉点以便自由拖动转换</string>
     <string name="pie_show_text_title">PIE显示状态信息面板</string>
     <string name="pie_show_text_summary">显示信号,日期及时间状态</string>
-    <string name="pie_disable_statusbar_info_title">隐藏状态重复信息</string>
+    <string name="pie_disable_statusbar_info_title">隐藏状态栏重复信息内容</string>
     <string name="pie_disable_statusbar_info_summary">隐藏重复的状态栏信息:时间,电量</string>
     <string name="pie_show_background_title">显示后台</string>
     <string name="pie_show_background_summary">显示PIE按键后台</string>
