@@ -93,9 +93,11 @@
     <string name="picsphere_notif_title">合成360全景照片\u2026 </string>
     <string name="picsphere_failed">360全景照片合成失败！</string>
     <string name="picsphere_failed_details">请确保取景边缘重叠.</string>
-    <string name="picsphere_need_two_pics">最少拍摄２张照片.</string>
+    <string name="picsphere_need_two_pics">需要拍摄最少２张照片.</string>
     <string name="picsphere_step_preparing">准备\u2026 中</string>
-    <string name="picsphere_step_autopano">对齐\u2026 照片中</string>
+    <string name="picsphere_step_ptogen">生成原始数据\u2026</string>
+    <string name="picsphere_step_ptovar">写入相片的样式\u2026</string>
+    <string name="picsphere_step_cpfind">寻找匹配点\u2026</string>
     <string name="picsphere_step_autooptimiser">优化\u2026 照片中</string>
     <string name="picsphere_step_ptclean">清理匹配点\u2026 </string>
     <string name="picsphere_step_panomodify">裁剪空白区域\u2026 </string>
@@ -116,4 +118,7 @@
     <string name="showcase_panorama_body">点击快门键开始拍摄全景相片,\n然后平移你想捕捉什么.\n完成后再按快门键结束取景.</string>
     <string name="showcase_picsphere_title">360全景模式</string>
     <string name="showcase_picsphere_body">点击快门拍下第一张照片开始校准,\n点击快门键新增其他照片.\n画面上蓝色光点可用作对齐参考指标\n.\n完成后长按快门键结束.</string>
+    <!-- ISO Value Hints -->
+    <string name="iso_hint_auto">自动判定 ISO</string>
+    <string name="iso_hint_hjr">防手震 ISO</string>
 </resources>
