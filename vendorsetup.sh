@@ -1,3 +1,2 @@
-add_lunch_combo losp_maguro-userdebug
 add_lunch_combo slim_maguro-userdebug
 
