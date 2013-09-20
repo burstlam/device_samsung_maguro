@@ -21,12 +21,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.camera.res=5MP
 
 # Release name
-PRODUCT_RELEASE_NAME := maguro
+PRODUCT_RELEASE_NAME := MAGURO
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=yakju BUILD_FINGERPRINT="google/yakju/maguro:4.3/JSS15J/737497:user/release-keys"
 PRIVATE_BUILD_DESC="yakju-user 4.3 JSS15J 737497 release-keys"
 
-PRODUCT_NAME := losp_maguro
+PRODUCT_NAME := slim_maguro
 PRODUCT_DEVICE := maguro
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Galaxy Nexus
