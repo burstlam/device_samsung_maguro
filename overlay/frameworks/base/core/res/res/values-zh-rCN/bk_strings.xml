@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Names of default profiles. -->
+    <string name="profileNameDefault">默认</string>
+    <string name="profileNameWork">工作</string>
+    <string name="profileNameHome">家中</string>
+    <string name="profileNameSilent">静音</string>
+    <string name="profileNameNight">夜间</string>
+    <!-- Names of application groups. -->
+    <string name="profileGroupPhone">电话</string>
+    <string name="profileGroupCalendar">日历</string>
+    <string name="profileGroupGmail">Gmail</string>
+    <string name="profileGroupEmail">电邮</string>
+    <string name="profileGroupSMS">短信</string>
+    <!-- Name of wildcard profile. -->
+    <string name="wildcardProfile">其它</string>
+
+    <string name="reboot_reboot">重启</string>
+    <string name="reboot_recovery">恢复模式</string>
+    <string name="reboot_bootloader">引导程序</string>
+    <string name="reboot_bootmenu">引导菜单</string>
+    <string name="reboot_fastboot">线刷模式</string>
+    <string name="reboot_download">下载模式</string>
+    <string name="reboot_system0">系统一</string>
+    <string name="reboot_system1">系统二</string>
+    <string name="hot_reboot">热重启</string>
+    <string name="reboot_progress">正在重启\u2026</string>
+    <string name="reboot_confirm">你的设备将重启.</string>
+    <string name="reboot_system" product="tablet">重启平板</string>
+    <string name="reboot_system" product="default">重启手机</string>
+    <string name="global_action_screenshot">屏幕截图</string>
+    <string name="global_action_choose_profile">情景模式</string>
+    <string name="global_action_reboot">重启</string>
+    <string name="global_actions_toggle_expanded_desktop_mode">全屏幕式</string>
+    <string name="global_actions_expanded_desktop_mode_on_status">打开</string>
+    <string name="global_actions_expanded_desktop_mode_off_status">关闭</string>
+    <string name="shutdown_confirm_reboot" product="tablet">你的平板将要重启.</string>
+    <string name="shutdown_confirm_reboot" product="default">你的手机将要重启.</string>
+    <string name="shutdown_confirm_reboot_question">你是否确定要重新引导状置?</string>
+    <string name="permlab_preventpower">阻止电源键</string>
+    <string name="permdesc_preventpower">允许应用程序完全掌控电源键</string>
+    <string name="permlab_fm_radio_receiver">控制 FM 接收器</string>
+    <string name="permdesc_fm_radio_receiver">允许应用控制 FM 接收器。</string>
+    <string name="permlab_fm_radio_transmitter">控制 FM 发射器</string>
+    <string name="permdesc_fm_radio_transmitter">允许应用控制 FM 发射器。</string>
+    <string name="lockscreen_discharging">正在放电, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+    <string name="app_killed_message">应用程序已被终止</string>
+    <string name="global_action_reboot">重启</string>
+    <string name="global_action_choose_profile">情景模式</string>
+    <string name="toast_rotation_unlocked">屏幕方向已解锁</string>
+    <string name="toast_rotation_locked">屏幕方向已锁定</string>
+
+    <string name="policylab_enforceSelinux">执行 SELinux</string>
+    <string name="policydesc_enforceSelinux">切换 SELinux 政策执行或许可模式。</string>
+    <string name="policylab_enforceMmac">执行 MMAC</string>
+    <string name="policydesc_enforceMmac">切换 MMAC 政策执行或许可模式。</string>
+
+    <!-- Long-press back kill application -->
+    <string name="app_killed_message">应用程序已清除</string>
+
+    <!-- Notification for Expanded desktop default -->
+    <string name="expanded_mode_default_set">全屏模式只隐藏状态栏，可在电源键菜器更改设置</string>
+    <string name="expanded_mode_default_with_navbar_set">全屏模式已隐藏导航栏及状态栏，可在电源键菜器更改设置</string>
+
+    <!-- label for item that opens the profile choosing dialog -->
+    <string name="global_action_choose_profile">情景模式</string>
+
+    <!-- In WiFi AP notification -->
+    <string name="notify_turn_wifi_ap_off_title">关闭 Wi-Fi AP</string>
+
+    <!-- Hardware Rotation lock string -->
+    <string name="toast_rotation_unlocked">屏模旋转锁定解除</string>
+    <string name="toast_rotation_locked">屏模旋转锁定</string>
+
+    <!-- The title of the profile picker dialog. -->
+    <string name="profile_picker_title">情景模式</string>
+
+    <!-- The item label for the no profile selection item. -->
+    <string name="profile_none">没有</string>
+
+    <!-- Privacy Guard -->
+    <string name="permlab_changePrivacyGuardState">启用或禁用隐私卫士</string>
+    <string name="permdesc_changePrivacyGuardState">允许应用更改是否另一个应用可与隐私卫士执行。当一个应用与隐私卫士执行时，它将不能访问任何个人隐私数据，例如：联系人、通话记录或短信。</string>
+    <string name="privacy_guard_notification">隐私卫士已启用</string>
+    <string name="privacy_guard_notification_detail">“<xliff:g id="app">%1$s</xliff:g>”将不能访问个人隐私数据</string>
+    <string name="profile_picker_title">情景</string>
+    <string name="profile_none">无</string>
+    <string name="permlab_cancelNotifications">取消应用通知</string>
+    <string name="permdesc_cancelNotifications">允许应用取消别的应用创建的通知。</string>
+    <string name="permlab_interceptSmsSent">拦截传出的短信</string>
+    <string name="permdesc_interceptSmsSent">允许应用拦截传出的短信。恶意应用可使用此权限来阻挡传出短信。</string>
+
+
+    <!-- Custom system animations -->
+    <string name="animation_fade">淡出</string>
+    <string name="animation_slide_right">向右滑动</string>
+    <string name="animation_slide_left">向左滑动</string>
+    <string name="animation_slide_right_no_fade">向右滑动 (无淡出效果)</string>
+    <string name="animation_slide_left_no_fade">向左滑动 (无淡出效果)</string>
+    <string name="animation_slide_up">向下滑动</string>
+    <string name="animation_slide_down">向上滑动</string>
+    <string name="animation_default">默认</string>
+    <string name="animation_translucent">半透明</string>
+    <string name="animation_grow_shrink">从顶部展开</string>
+    <string name="animation_grow_shrink_center">从中间展开</string>
+    <string name="animation_grow_shrink_bottom">从底部展开</string>
+    <string name="animation_grow_shrink_left">从左侧展开</string>
+    <string name="animation_grow_shrink_right">从右侧展开</string>
+    <string name="action_null">空</string>
+
+</resources>

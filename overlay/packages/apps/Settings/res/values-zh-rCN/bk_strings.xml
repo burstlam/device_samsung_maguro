@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--Headers-->
+    <!-- Device specific settings -->
+    <string name="advanced_settings_title">设备设置</string>
+    <string name="launcher_settings_title">桌面设置</string>
+
+    <string name="show_cpu_info">显示CPU消息</string>
+    <string name="show_cpu_info_summary">屏幕叠加显示当前CPU信息</string>
+    <string name="gpu_info">GPU</string>
+    <string name="chipset_info">芯片组</string>
+    <string name="device_rear_camera">后置镜头</string>
+    <string name="device_front_camera">前缀镜头</string>
+    <string name="device_screen_resolution">屏模分辨率</string>
+
+    <string name="listview_rotate">旋转</string>
+
+    <!-- TRDS Settings -->
+    <string name="trds_settings_title">酷黑SLIM</string>
+
+    <!-- Animation Controls -->
+    <string name="title_animation_controls">动画控制器</string>
+    <string name="activity_open_title">窗口打开动画</string>
+    <string name="activity_close_title">窗口关闭动画</string>
+    <string name="task_open_title">任务打开动画</string>
+    <string name="task_close_title">任务关闭动画</string>
+    <string name="task_move_to_front_title">前进动画</string>
+    <string name="task_move_to_back_title">后退动画</string>
+    <string name="wallpaper_open_title">壁纸打开动画</string>
+    <string name="wallpaper_close_title">壁纸关闭动画</string>
+    <string name="wallpaper_intra_open_title">壁纸内打开动画</string>
+    <string name="wallpaper_intra_close_title">壁纸内关闭动画</string>
+    <string name="animation_duration_title">动画时间</string>
+    <string name="title_animation_no_override">防止应用程序覆盖</string>
+    <string name="summary_animation_no_override">防止应用程序自带的动画效果替换您的配置。</string>
+    <string name="animation_duration_default">默认</string>
+
+    <string name="title_pref_menu_display">Menu键位置</string>
+    <string name="summary_pref_menu_display">设置Menu键在导航栏上的位置?</string>
+
+    <!--StatusBar Traffics-->
+    <string name="status_bar_traffic_color_title">网速文字自定义色彩</string>
+    <string name="hide_network_speed">自动隐藏网速显示</string>
+    <string name="hide_network_speed_summary">没有活动时自动隐藏网速显示</string>
+
+    <!-- KSM -->
+    <string name="pref_ksm_title">KSM 内核服务自动合并</string>
+    <string name="pref_ksm_summary">KSM 能合并内核中相同的服务如wakelock合并起来，减少占用的内存及运算力</string>
+
+    <!--PROFILE-->
+    <string name="profile_trigger_configure">设置开关</string>
+    <string name="profile_triggers">开关</string>
+    <string name="profile_trigger_filter_all">所有开关</string>
+    <string name="profile_trigger_filter_wifi">Wi-Fi 开关</string>
+    <string name="profile_trigger_filter_bluetooth">蓝芽开关</string>
+    <string name="profile_write_nfc_tag">写到 NFC 标记</string>
+    <string name="profile_write_touch_tag">触摸标记以便写入</string>
+    <string name="profile_write_success">标记写入成功!</string>
+    <string name="profile_write_failed">标记写入失败!</string>
+    <string name="profile_selected">选择的情景: %1$s</string>
+    <string name="profile_nfc_text">将一个情景写入 NFC 标记能够允许您通过触摸标记的行为更改情景. 再次触摸将会返回到您之前选择的情景.</string>
+    <string name="profile_unknown_nfc_tag">未知情景</string>
+    <string name="profile_add_nfc_text">此 NFC 标记是与一个未知的情景相连的. 把此 NFC 标记连接到一个现有的情景将会允许您以后选择这个情景.</string>
+    <string name="profile_select">选择情景模式</string>
+
+    <string name="normal">系统默认</string>
+    <string name="never_expand">永不展开</string>
+    <string name="always_expand">永远展开</string>
+    <string name="old_style">GB模式</string>
+
+    <string name="nav_bar_button_style">导航栏按钮式样设置</string>
+    <string name="nav_bar_button_style_summary">改变导航栏按钮色彩及式样设置</string>
+
+    <string name="nfc_polling_mode_title">NFC 检测模式</string>
+    <string name="nfc_polling_mode_screen_off">屏幕关闭, 锁屏</string>
+    <string name="nfc_polling_mode_screen_locked">屏幕打开，锁屏</string>
+    <string name="nfc_polling_mode_screen_unlocked">屏幕打开，解锁 (默认)</string>
+
+    <string name="chronus_title">锁屏天气时钟</string>
+
+    <!-- Active Display -->
+    <string name="ad_settings_title">动态提示</string>
+    <string name="ad_settings_summary">改变动态提示设置</string>
+    <string name="ad_enable_title">启用</string>
+    <string name="ad_enable_summary_on">动态提示已启用</string>
+    <string name="ad_enable_summary_off">动态提示已关闭</string>
+    <string name="ad_text_title">通知文字</string>
+    <string name="ad_text_summary">围绕圆环显示通知文字.</string>
+    <string name="ad_all_notifications_title">全部通知</string>
+    <string name="ad_all_notifications_summary">显示全部通知内容，包括不能取消系统信息</string>
+    <string name="ad_pocket_mode_title">口袋模式</string>
+    <string name="ad_pocket_mode_summary">利用光线传感器，从口袋拿出时候自动显示信息.</string>
+    <string name="ad_redisplay_title">定时重复显示通知内容</string>
+    <string name="ad_customizations_title">自定义设置</string>
+    <string name="ad_brightness_title">提示屏幕亮度</string>
+    <string name="ad_brightness_summary">没有设置自动屏幕亮度时候显示的亮度</string>
+    <string name="ad_show_date_title">显示日期</string>
+    <string name="ad_show_date_summary">时钟上显示日期</string>
+    <string name="ad_show_ampm_title">显示上下午</string>
+    <string name="ad_show_ampm_summary">12小时时间格式时候套用</string>
+    <string name="ad_redisplay_never">永不</string>
+    <string name="ad_redisplay_1m">1 分钟</string>
+    <string name="ad_redisplay_5m">5 分钟</string>
+    <string name="ad_redisplay_15m">15 分钟</string>
+    <string name="ad_redisplay_30m">30 分钟</string>
+    <string name="ad_redisplay_1h">1 小时</string>
+    <string name="ad_redisplay_2h">2 小时</string>
+    <string name="ad_redisplay_5h">5 小时</string>
+
+    <!-- Glowpad torch -->
+    <string name="lockscreen_glow_torch_title">解锁环手电筒</string>
+    <string name="lockscreen_glow_torch_summary">长按解锁环／导航栏捷径环即打开手电筒，松开即关闭</string>
+    <string name="lockscreen_torch_off">关闭</string>
+    <string name="lockscreen_torch_lockcircle">解锁环</string>
+    <string name="lockscreen_torch_navring">导航环</string>
+</resources>

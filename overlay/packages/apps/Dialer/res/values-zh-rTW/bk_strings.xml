@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Title bar for call stat detail screen -->
+    <string name="callStatsDetailTitle">通話統計詳情</string>
+    <string name="call_stats">通話統計</string>
+    <string name="call_stats_refresh">清除</string>
+    <string name="activity_title_call_stats">通話統計</string>
+
+    <string name="call_stats_nav_all">全部</string>
+    <string name="call_stats_nav_incoming">打入</string>
+    <string name="call_stats_nav_outgoing">撥出</string>
+    <string name="call_stats_nav_missed">未接</string>
+    <string name="call_stats_incoming">打入: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_outgoing">撥出: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_missed">未接</string>
+    <string name="call_stats_missed_percent">未接: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_header_total">全部: <xliff:g id="call_count">%s</xliff:g>, <xliff:g id="duration">%s</xliff:g></string>
+    <string name="call_stats_header_total_callsonly">全部: <xliff:g id="call_count">%s</xliff:g></string>
+    <string name="call_stats_filter_from">開始日期</string>
+    <string name="call_stats_filter_to">結束日期</string>
+    <string name="call_stats_filter_picker_title">過濾規則</string>
+
+    <string name="date_quick_selection">快速選取</string>
+    <string name="date_qs_currentmonth">本月</string>
+    <string name="date_qs_currentquarter">本季度</string>
+    <string name="date_qs_currentyear">本年</string>
+    <string name="date_qs_lastweek">上周</string>
+    <string name="date_qs_lastmonth">上月</string>
+    <string name="date_qs_lastquarter">上季度</string>
+    <string name="date_qs_lastyear">去年</string>
+
+    <string name="call_stats_date_filter">調整時間範圍</string>
+    <string name="call_stats_reset_filter">重置時間範圍</string>
+    <string name="call_stats_sort_by_duration">按通話時長排序</string>
+    <string name="call_stats_sort_by_count">按通話數量排序</string>
+
+    <!-- 0:           sec
+         1:      min
+         2:      min  sec
+         3: hour
+         4: hour      sec
+         5: hour min
+         6: hour min  sec -->
+
+    <string-array name="call_stats_duration">
+        <item><xliff:g id="seconds" example="2 secs">%3$s</xliff:g></item>
+        <item><xliff:g id="minutes" example="2 mins">%2$s</xliff:g></item>
+        <item><xliff:g id="minutes" example="2 mins">%2$s</xliff:g> <xliff:g id="seconds" example="2 secs">%3$s</xliff:g></item>
+        <item><xliff:g id="hours" example="2 hrs">%1$s</xliff:g></item>
+        <item><xliff:g id="hours" example="2 hrs">%1$s</xliff:g> <xliff:g id="seconds" example="2 secs">%3$s</xliff:g></item>
+        <item><xliff:g id="hours" example="2 hrs">%1$s</xliff:g> <xliff:g id="minutes" example="2 mins">%2$s</xliff:g></item>
+         <item><xliff:g id="hours" example="2 hrs">%1$s</xliff:g> <xliff:g id="minutes" example="2 mins">%2$s</xliff:g> <xliff:g id="seconds" example="2 secs">%3$s</xliff:g></item>
+    </string-array>
+
+    <plurals name="hour">
+        <item quantity="one">1 小時</item>
+        <item quantity="other">%d 小時</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="one">1 分鐘</item>
+        <item quantity="other">%d 分鐘</item>
+    </plurals>
+    <plurals name="second">
+        <item quantity="one">1 秒</item>
+        <item quantity="other">%d 秒</item>
+    </plurals>
+
+    <plurals name="call">
+        <item quantity="one">1 次通話</item>
+        <item quantity="other">%d 次通話</item>
+    </plurals>
+
+</resources>

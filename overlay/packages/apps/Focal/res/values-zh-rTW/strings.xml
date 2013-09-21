@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2013 The CyanogenMod Project
+
+    This program is free software; you can redistribute it and/or
+    modify it under the terms of the GNU General Public License
+    as published by the Free Software Foundation; either version 2
+    of the License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+-->
+<resources>
+
+    <string name="app_name">Focal</string>
+    <string name="launch_app">啟動 Focal</string>
+    <string name="shutter_button">快門鍵</string>
+    <string name="cannot_connect_hal">無法連接相機</string>
+    <string name="recording">拍攝中</string>
+    <string name="double_tap_to_snapshot">雙擊拍攝</string>
+    <string name="video_res_1080p">全高清 (1080p)</string>
+    <string name="video_res_720p">高清 (720p)</string>
+    <string name="video_res_480p">標清 (480p)</string>
+    <string name="video_res_mms">彩信 (288p)</string>
+    <string name="ok">OK</string>
+    <string name="no_gles20_support">您的機器不支援 GLES2功能</string>
+    <string name="no_gyroscope">您的機器不支援陀螺儀功能</string>
+    <string name="ps_long_press_to_stop">長按快門鍵結束全景拍攝.</string>
+    <string name="disabled">停用</string>
+    <string name="enabled">啟用</string>
+    <string name="no_video_player">找不到播放器，無法播放影片！</string>
+    <string name="fullscreen_shutter_info">任意點擊屏幕為快門鍵</string>
+    <string name="please_wait">請稍候\u2026</string>
+
+    <string name="mode_photo">拍照</string>
+    <string name="mode_video">影片</string>
+    <string name="mode_picsphere">360全景</string>
+    <string name="mode_panorama">全景</string>
+    <string name="mode_switchcam">面部</string>
+
+    <!-- Widgets hints for non-arrayed widgets -->
+    <string name="widget_burstmode_count_shots">連拍 %d 張</string>
+    <string name="widget_burstmode_off">停用連拍模式</string>
+    <string name="widget_burstmode_infinite">無限制連拍</string>
+
+    <string name="widget_hdr_aebracket">自動包圍曝光</string>
+
+    <string name="widget_settings_choose_widgets">從工具欄選取功能</string>
+    <string name="widget_settings_choose_widgets_button">選擇小工具</string>
+    <string name="widget_settings_picture_size">影像大小</string>
+    <string name="widget_settings_exposure_ring">顯示曝光環</string>
+    <string name="widget_settings_autoenhance">自動增強</string>
+    <string name="widget_settings_ruleofthirds">三分法</string>
+
+
+    <string name="widget_autoexposure">曝光模式</string>
+    <string name="widget_burstmode">連拍模式</string>
+    <string name="widget_effect">彩色效果</string>
+    <string name="widget_enhancements">彩色增強功能</string>
+    <string name="widget_exposure_compensation">曝光補償</string>
+    <string name="widget_flash">閃燈模式</string>
+    <string name="widget_hdr">高動態範圍</string>
+    <string name="widget_iso">ISO 敏感度</string>
+    <string name="widget_scenemode">情景模式</string>
+    <string name="widget_settings">設定</string>
+    <string name="widget_shutter_speed">快門速度</string>
+    <string name="widget_skintone">膚色增強</string>
+    <string name="widget_softwarehdr">高動態範圍</string>
+    <string name="widget_timermode">自拍模式</string>
+    <string name="widget_videofr">視頻幀率</string>
+    <string name="widget_videohdr">高動態範圍(視頻)</string>
+    <string name="widget_whitebalance">白平衡</string>
+
+    <!-- Panorama mode -->
+    <!-- Filename prefix for panorama output. -->
+    <string name="pano_file_name_format" translatable="false">"'PANO'_yyyyMMdd_HHmmss"</string>
+
+    <string name="pano_panorama_rendering_failed">無法合成全景照片.\n請減光取景長度.</string>
+    <string name="pano_panorama_rendering">全景照片合成中\u2026</string>
+
+    <!-- PicSphere status -->
+    <string name="picsphere_undo_button">UNDO</string>
+    <string name="picsphere_start_hint">按下快門鍵開始拍攝360全景照片</string>
+    <string name="picsphere_already_rendering">合成開始，請等待...</string>
+    <string name="picsphere_rendering_progress">合成進度... (%d %%)</string>
+    <string name="picsphere_toast_background_render">合成開始\u2026 </string>
+    <string name="picsphere_notif_title">合成360全景照片\u2026 </string>
+    <string name="picsphere_failed">360全景照片合成失敗！</string>
+    <string name="picsphere_failed_details">請確保取景邊緣重疊.</string>
+    <string name="picsphere_need_two_pics">需要拍攝最少２張照片.</string>
+    <string name="picsphere_step_preparing">準備\u2026 中</string>
+    <string name="picsphere_step_ptogen">生成原始數據\u2026</string>
+    <string name="picsphere_step_ptovar">寫入相片的樣式\u2026</string>
+    <string name="picsphere_step_cpfind">尋找匹配點\u2026</string>
+    <string name="picsphere_step_autooptimiser">優化\u2026 照片中</string>
+    <string name="picsphere_step_ptclean">清理匹配點\u2026 </string>
+    <string name="picsphere_step_panomodify">裁剪空白區域\u2026 </string>
+    <string name="picsphere_step_nona">拼接照片\u2026 </string>
+    <string name="picsphere_step_enblend">混合照片\u2026 </string>
+
+    <!-- Software HDR status -->
+    <string name="software_hdr_notif_title">計算 HDR 照片\u2026 </string>
+    <string name="software_hdr_failed">HDR合成失敗</string>
+    <string name="software_hdr_failed_details">仍保留來源素材。</string>
+
+    <!-- Showcase text -->
+    <string name="showcase_welcome_1_title">歡迎!</string>
+    <string name="showcase_welcome_1_body">選項都在工具欄,\n請用滑動來檢視.</string>
+    <string name="showcase_welcome_2_title">快門鍵</string>
+    <string name="showcase_welcome_2_body">點擊快門鍵拍攝.\n可用滑動選取其他模式.</string>
+    <string name="showcase_panorama_title">全景模式</string>
+    <string name="showcase_panorama_body">點擊快門鍵開始拍攝全景照片,\n然後平移你想捕捉什麼.\n完成後再按快門鍵結束取景.</string>
+    <string name="showcase_picsphere_title">360全景模式</string>
+    <string name="showcase_picsphere_body">點擊快門拍下第一張照片開始校準,\n點擊快門鍵新增其他照片.\n畫面上藍色光點可用作對齊參考指標\n.\n完成後長按快門鍵結束.</string>
+    <!-- ISO Value Hints -->
+    <string name="iso_hint_auto">自動判定 ISO</string>
+    <string name="iso_hint_hjr">防手震 ISO</string>
+</resources>

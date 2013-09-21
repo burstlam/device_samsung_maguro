@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2013 The CyanogenMod Project
+
+    This program is free software; you can redistribute it and/or
+    modify it under the terms of the GNU General Public License
+    as published by the Free Software Foundation; either version 2
+    of the License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+-->
+
+<resources>
+    <!-- Hardware HDR settings keys. If any of these key is present, the software HDR widget is
+         hidden. If you need to force-disable software HDR, see config.xml -->
+
+    <string-array name="widget_flash_hints">
+        <item>自動</item>
+        <item>禁用</item>
+        <item>啟用</item>
+        <item>閃燈</item>
+        <item>消除紅眼</item>
+    </string-array>
+
+    <string-array name="widget_effects_hints">
+        <item>關閉</item>
+        <item>黑白</item>
+        <item>負片</item>
+        <item>過度曝光</item>
+        <item>懷舊</item>
+        <item>海報</item>
+        <item>黑板</item>
+        <item>白板</item>
+        <item>水底</item>
+        <item>浮雕</item>
+        <item>素描</item>
+        <item>霓虹燈</item>
+    </string-array>
+
+    <string-array name="widget_scenemode_hints">
+        <item>自動</item>
+        <item>防止動態模糊</item>
+        <item>增強現實</item>
+        <item>最佳拍攝</item>
+        <item>嬰兒</item>
+        <item>背光</item>
+        <item>人像背光</item>
+        <item>條碼</item>
+        <item>沙灘</item>
+        <item>蠋光</item>
+        <item>黑暗</item>
+        <item>菜餚</item>
+        <item>文件</item>
+        <item>煙花</item>
+        <item>花卉</item>
+        <item>探射燈</item>
+        <item>HDR</item>
+        <item>靈敏</item>
+        <item>風景</item>
+        <item>夜間</item>
+        <item>夜間人像１</item>
+        <item>夜間人像２</item>
+        <item>派對</item>
+        <item>寵物</item>
+        <item>人像</item>
+        <item>雪地</item>
+        <item>美肌</item>
+        <item>運動</item>
+        <item>射燈</item>
+        <item>靜態</item>
+        <item>日落</item>
+        <item>掃描針</item>
+        <item>電影</item>
+    </string-array>
+
+    <string-array name="widget_whitebalance_hints">
+        <item>自動</item>
+        <item>陰天</item>
+        <item>日光燈</item>
+        <item>熒光燈</item>
+        <item>日光</item>
+        <item>陰天日光</item>
+    </string-array>
+
+    <string-array name="widget_autoexposure_hints">
+        <item>全幅平均</item>
+        <item>中央</item>
+        <item>點測光</item>
+    </string-array>
+
+</resources>

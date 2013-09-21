@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- QuickSettings: Profile [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_profile_label">情景模式</string>
+
+    <string name="quick_settings_usb_tether_connected_label">USB共享关闭</string>
+    <string name="quick_settings_usb_tether_on_label">USB共享打开</string>
+    <string name="quick_settings_usb_tether_off_label">未连接</string>
+    <string name="quick_settings_mobile_data_on">移动数据</string>
+    <string name="quick_settings_mobile_data_off">移动数据关闭</string>
+    <string name="quick_settings_power">电源</string>
+    <string name="quick_settings_ringer_on">声音</string>
+    <string name="quick_settings_ringer_off">无声</string>
+    <string name="quick_settings_vibration_on">震动</string>
+    <string name="quick_settings_vibration_off">震动关闭</string>
+    <string name="quick_settings_label_enabled">打开</string>
+    <string name="quick_settings_label_disabled">关闭</string>
+    <string name="quick_settings_reboot">重启系统</string>
+    <string name="quick_settings_reboot_recovery">重启到Recovery</string>
+    <string name="quick_settings_sync">同步</string>
+    <string name="quick_settings_sync_off">同步关闭</string>
+    <string name="quick_settings_torch">手电筒</string>
+    <string name="quick_settings_torch_off">手电筒关闭</string>
+    <string name="quick_settings_nfc">NFC</string>
+    <string name="quick_settings_nfc_off">NFC关闭</string>
+    <string name="quick_settings_fcharge">快速充电</string>
+    <string name="quick_settings_screen_timeout">屏模时延</string>
+    <string name="quick_settings_screen_timeout_summary">%1$d %2$s</string>
+    <string name="quick_settings_usb_tether_off_label">断閧</string>
+    <string name="quick_settings_usb_tether_connected_label">USB分享关闭</string>
+    <string name="quick_settings_usb_tether_on_label">USB分享</string>
+    <string name="quick_settings_wifiap">Wi-Fi AP</string>
+    <string name="quick_settings_wifiap_off">Wi-Fi AP 关闭</string>
+    <string name="quick_settings_lte">LTE</string>
+    <string name="quick_settings_lte_off">LTE 关闭</string>
+    <string name="quick_settings_volume">音量</string>
+
+    <!-- Expanded desktop strings break the rules a bit - the icon identifies the feature, the string indicates current state -->
+    <string name="quick_settings_expanded_desktop">全屏模式</string>
+    <string name="quick_settings_expanded_desktop_off">一般模式</string>
+    <string name="quick_settings_expanded_desktop_disabled">关闭</string>
+
+    <string name="powerwidget_screen_timeout_toast">屏幕时延设置为: %1$d %2$s</string>
+
+    <!-- App sidebar -->
+    <string name="default_folder_text">文件夹</string>
+    <string name="title_activity_sidebar_configuration">侧边栏内容设置</string>
+    <string name="action_save">保存</string>
+    <string name="toast_items_saved">侧边栏项目已保存.</string>
+    <string name="content_setup_instructions">长按右边的项目并拖拽到侧边栏以添加项目.\n\n将项目拖拽到任何已有的项目之上，可以创建文件夹.\n\n要删除，只需简单的将项目拖拽出侧边栏即可.</string>
+    <string name="content_setup_dismiss">继续</string>
+    
+     <!--  General action Strings -->
+    <string name="widgets">小部件</string>
+    <string name="app_killed_message">已强制停止应用程序</string>
+
+    <!-- Label in drop down to identify brightness slider -->
+    <string name="brightness_label">亮度</string>
+
+    <!-- Recents Ram Bar -->
+    <string name="memory">运行内存</string>
+    <!-- [CHAR LIMIT=10] Running services, summary of background processes -->
+    <string name="service_free_mem"><xliff:g id="memory">%1$s</xliff:g> 可用</string>
+    <!-- [CHAR LIMIT=10] Running services, summary of foreground processes -->
+    <string name="service_used_mem"><xliff:g id="memory">%1$s</xliff:g> 已用</string>
+
+    <!-- Quiet hours quicksettings tile -->
+    <string name="quick_settings_quiethours">免打扰模式</string>
+    <string name="quick_settings_quiethours_off">免打扰模式已关闭</string>
+
+    <!-- App Shortcut tile -->
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="empty_tile_title">空</string>
+    <string name="profile_applist_title">程序</string>
+    <string name="picker_activities">活动</string>
+    <string name="select_custom_app_title">自定义程序</string>
+    <string name="select_custom_activity_title">自定义活动</string>
+    <string name="quicksettings_shortcuts_edit_title">编辑捷捷</string>
+    <string name="quicksettings_shortcuts_edit_msg">选择需要的桯序及图示</string>
+    <string name="qs_shortcut_long_press">长按</string>
+    <string name="icon_picker_type">选择图示种类:</string>
+    <string name="icon_picker_choose_icon_title">选择图示</string>
+    <string name="icon_default">默认</string>
+    <string name="icon_presets">系统图示</string>
+    <string name="icon_custom">图库</string>
+    <string name="customshortcut_chooser_title">选择捷径</string>
+    <string name="quicksettings_shortcuts_title">捷径</string>
+    <string name="quicksettings_shortcuts_icon_picker_alarm">闹钟</string>
+    <string name="quicksettings_shortcuts_icon_picker_andy">机器人</string>
+    <string name="quicksettings_shortcuts_icon_picker_battery">电池</string>
+    <string name="quicksettings_shortcuts_icon_picker_browser">浏览器</string>
+    <string name="quicksettings_shortcuts_icon_picker_calendar">日历</string>
+    <string name="quicksettings_shortcuts_icon_picker_camera">相机</string>
+    <string name="quicksettings_shortcuts_icon_picker_cloud">云碟</string>
+    <string name="quicksettings_shortcuts_icon_picker_contact">联络人</string>
+    <string name="quicksettings_shortcuts_icon_picker_directdial">直拨号码</string>
+    <string name="quicksettings_shortcuts_icon_picker_directmessage">直接短信</string>
+    <string name="quicksettings_shortcuts_icon_picker_drive">硬盘</string>
+    <string name="quicksettings_shortcuts_icon_picker_dropbox">Dropbox</string>
+    <string name="quicksettings_shortcuts_icon_picker_email">电邮</string>
+    <string name="quicksettings_shortcuts_icon_picker_email2">电邮2</string>
+    <string name="quicksettings_shortcuts_icon_picker_evernote">Evernote</string>
+    <string name="quicksettings_shortcuts_icon_picker_facebook">Facebook</string>
+    <string name="quicksettings_shortcuts_icon_picker_favorite">最喜爱的</string>
+    <string name="quicksettings_shortcuts_icon_picker_file_browser">文件管理员</string>
+    <string name="quicksettings_shortcuts_icon_picker_file_browser2">文件管理员2</string>
+    <string name="quicksettings_shortcuts_icon_picker_fitness">健康</string>
+    <string name="quicksettings_shortcuts_icon_picker_gallery">图库</string>
+    <string name="quicksettings_shortcuts_icon_picker_gears">设备</string>
+    <string name="quicksettings_shortcuts_icon_picker_google_small">Google</string>
+    <string name="quicksettings_shortcuts_icon_picker_gplus">Google Plus</string>
+    <string name="quicksettings_shortcuts_icon_picker_gtalk">Hangouts</string>
+    <string name="quicksettings_shortcuts_icon_picker_help">帮助</string>
+    <string name="quicksettings_shortcuts_icon_picker_joystick">摇杆</string>
+    <string name="quicksettings_shortcuts_icon_picker_key">密钥／帐户</string>
+    <string name="quicksettings_shortcuts_icon_picker_laptop">笔记本计算机</string>
+    <string name="quicksettings_shortcuts_icon_picker_notes">笔记</string>
+    <string name="quicksettings_shortcuts_icon_picker_luggage">旅游</string>
+    <string name="quicksettings_shortcuts_icon_picker_maps">地图</string>
+    <string name="quicksettings_shortcuts_icon_picker_market">市场</string>
+    <string name="quicksettings_shortcuts_icon_picker_movie">电影</string>
+    <string name="quicksettings_shortcuts_icon_picker_music">音乐</string>
+    <string name="quicksettings_shortcuts_icon_picker_nav">导航水</string>
+    <string name="quicksettings_shortcuts_icon_picker_phone">电话</string>
+    <string name="quicksettings_shortcuts_icon_picker_package">包裹</string>
+    <string name="quicksettings_shortcuts_icon_picker_pinterest">Pinterest</string>
+    <string name="quicksettings_shortcuts_icon_picker_play">Play</string>
+    <string name="quicksettings_shortcuts_icon_picker_pocket">钱包</string>
+    <string name="quicksettings_shortcuts_icon_picker_podcast">Podcast</string>
+    <string name="quicksettings_shortcuts_icon_picker_quicksettings">磁贴开关</string>
+    <string name="quicksettings_shortcuts_icon_picker_rss">RSS订阅</string>
+    <string name="quicksettings_shortcuts_icon_picker_sdcard">SD卡</string>
+    <string name="quicksettings_shortcuts_icon_picker_search">寻找</string>
+    <string name="quicksettings_shortcuts_icon_picker_sms">信息</string>
+    <string name="quicksettings_shortcuts_icon_picker_tasks">任务</string>
+    <string name="quicksettings_shortcuts_icon_picker_terminal">终端</string>
+    <string name="quicksettings_shortcuts_icon_picker_transit">交通</string>
+    <string name="quicksettings_shortcuts_icon_picker_tv">电视</string>
+    <string name="quicksettings_shortcuts_icon_picker_twitter">Twitter</string>
+    <string name="quicksettings_shortcuts_icon_picker_unlock">解锁</string>
+    
+    <!-- Notification drawer toasts -->
+    <string name="calendar_error_alert">未安装任何日历应用.</string>
+    <string name="clock_error_alert">未安装任何桌面时钟应用.</string>
+    <string name="qs_shortcut_error">请先选择快捷方式目标再更改它的图标!</string>
+    
+    <!-- Battery status in pie controls -->
+    <string name="pie_battery_status_charging">充电中 (<xliff:g id="percent">%d</xliff:g>%%)</string>
+    <string name="pie_battery_status_full">充电完成</string>
+    <string name="pie_battery_status_discharging"><xliff:g id="percent">%d</xliff:g>%%剩下</string>
+
+     <!-- Phone status in pie controls -->
+    <string name="pie_phone_status_no_service">无服务</string>
+    <string name="pie_phone_status_airplane_mode">已进入飞行模式</string>
+    <string name="pie_phone_status_emergency_only">仅可拨打紧急电话</string>
+
+    <!-- HALO -->
+    <string name="accessibility_halo">打开HALO</string>
+    <string name="halo_dismiss">取消通知</string>
+    <string name="halo_hide">隐藏HALO</string>
+    <string name="halo_clear_all">清空通知</string>
+    <string name="halo_silence">隐藏并静音直到唤醒</string>
+    <string name="halo_tutorial1">这是HALO</string>
+    <string name="halo_tutorial2">移动方法：双击并拖拽</string>
+    <string name="halo_tutorial3">浏览任务：横向拖动</string>
+    <string name="halo_battery_plugged">充电</string>
+    <string name="halo_battery_unplugged">剩馀</string>
+    <string name="halo_battery_full">充满</string>
+    <string name="halo_aeroplane1">飞行</string>
+    <string name="halo_aeroplane2">模式</string>
+    <string name="halo_wifi_on">WI-FI 打开</string>
+    <string name="halo_wifi_off">WI-FI 关闭</string>
+    <string name="halo_signal_bars_4">满</string>
+    <string name="halo_signal_bars_3">三格</string>
+    <string name="halo_signal_bars_2">两格</string>
+    <string name="halo_signal_bars_1">一格</string>
+    <string name="halo_signal_bars_none">无</string>
+    
+    <!--ScreenShot Trash-->
+    <string name="trash">放弃</string>
+
+</resources>
