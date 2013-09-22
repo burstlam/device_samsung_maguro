@@ -98,11 +98,11 @@
     <string name="chronus_title">锁屏天气时钟</string>
 
     <!-- Active Display -->
-    <string name="ad_settings_title">动态提示</string>
-    <string name="ad_settings_summary">改变动态提示设置</string>
+    <string name="ad_settings_title">锁屏动态提示</string>
+    <string name="ad_settings_summary">改变锁屏动态提示设置</string>
     <string name="ad_enable_title">启用</string>
-    <string name="ad_enable_summary_on">动态提示已启用</string>
-    <string name="ad_enable_summary_off">动态提示已关闭</string>
+    <string name="ad_enable_summary_on">锁屏动态提示已启用</string>
+    <string name="ad_enable_summary_off">锁屏动态提示已关闭</string>
     <string name="ad_text_title">通知文字</string>
     <string name="ad_text_summary">围绕圆环显示通知文字.</string>
     <string name="ad_all_notifications_title">全部通知</string>

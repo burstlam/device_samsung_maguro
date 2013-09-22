@@ -1888,11 +1888,11 @@
     <string name="nfc_polling_mode_screen_unlocked">屏幕開啟，解鎖 (默認)</string>
 
     <!-- Active Display -->
-    <string name="ad_settings_title">動態提示</string>
-    <string name="ad_settings_summary">改變動態提示設定</string>
+    <string name="ad_settings_title">鎖屏動態提示</string>
+    <string name="ad_settings_summary">改變鎖屏動態提示設定</string>
     <string name="ad_enable_title">啟用</string>
-    <string name="ad_enable_summary_on">動態提示已啟用</string>
-    <string name="ad_enable_summary_off">動態提示已關閉</string>
+    <string name="ad_enable_summary_on">鎖屏動態提示已啟用</string>
+    <string name="ad_enable_summary_off">鎖屏動態提示已關閉</string>
     <string name="ad_text_title">通知文字</string>
     <string name="ad_text_summary">圍繞圓環顯示通知文字.</string>
     <string name="ad_all_notifications_title">全部通知</string>
