@@ -109,6 +109,8 @@
     <string name="ad_all_notifications_summary">显示全部通知内容，包括不能取消系统信息</string>
     <string name="ad_pocket_mode_title">口袋模式</string>
     <string name="ad_pocket_mode_summary">利用光线传感器，从口袋拿出时候自动显示信息.</string>
+    <string name="ad_sunlight_mode_title">日照模式</string>
+    <string name="ad_sunlight_mode_summary">在强烈日照或环境光下改用高亮色彩显示.</string>
     <string name="ad_redisplay_title">定时重复显示通知内容</string>
     <string name="ad_customizations_title">自定义设置</string>
     <string name="ad_brightness_title">提示屏幕亮度</string>
@@ -132,4 +134,7 @@
     <string name="lockscreen_torch_off">关闭</string>
     <string name="lockscreen_torch_lockcircle">解锁环</string>
     <string name="lockscreen_torch_navring">导航环</string>
+
+    <!-- LED FLASH WHEN SCREEN ON -->
+    <string name="title_led_screen_on">亮屏时通知灯依然操作</string> 
 </resources>
