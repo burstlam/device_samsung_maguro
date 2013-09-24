@@ -54,8 +54,11 @@
     <string name="summary_animation_no_override">防止应用程序自带的动画效果替换您的配置。</string>
     <string name="animation_duration_default">默认</string>
 
-    <string name="title_pref_menu_display">Menu键位置</string>
-    <string name="summary_pref_menu_display">设置Menu键在导航栏上的位置?</string>
+    <string name="title_pref_menu_location">Menu键位置</string>
+    <string name="summary_pref_menu_location">设置Menu键在导航栏上的位置?</string>
+    <string name="nav_bar_button_style">导航栏按钮式样设置</string>
+    <string name="nav_bar_button_style_summary">改变导航栏按钮色彩及式样设置</string>
+    <string name="never_show">永不显示</string>
 
     <!--StatusBar Traffics-->
     <string name="status_bar_traffic_color_title">网速文字自定义色彩</string>
@@ -86,9 +89,6 @@
     <string name="never_expand">永不展开</string>
     <string name="always_expand">永远展开</string>
     <string name="old_style">GB模式</string>
-
-    <string name="nav_bar_button_style">导航栏按钮式样设置</string>
-    <string name="nav_bar_button_style_summary">改变导航栏按钮色彩及式样设置</string>
 
     <string name="nfc_polling_mode_title">NFC 检测模式</string>
     <string name="nfc_polling_mode_screen_off">屏幕关闭, 锁屏</string>
@@ -135,6 +135,45 @@
     <string name="lockscreen_torch_lockcircle">解锁环</string>
     <string name="lockscreen_torch_navring">导航环</string>
 
-    <!-- LED FLASH WHEN SCREEN ON -->
-    <string name="title_led_screen_on">亮屏时通知灯依然操作</string> 
+    <!-- LED FLASH WHEN SCREEN ON
+    <string name="title_led_screen_on">亮屏时通知灯依然操作</string>  -->
+
+    <!-- show carrier label -->
+    <string name="show_carrier_label_title">运营商名称</string>
+    <string name="show_carrier_label_summary">在状态栏显示运营商名称</string>
+    <!--<string name="status_bar_carrier_color">运营商名字自定义色彩</string>-->
+
+    <!-- Recents -->
+    <string name="recents_target_assist_title">最近任务下拉页中显示Google Now 快捷键</string>
+    <string name="recents_target_assist_summary">新增Google Now快捷键，长按则引导语音寻找功能.</string>
+
+    <!-- Clear recents -->
+    <string name="clear_recents_position_title">一键结束任务键位置</string>
+    <string name="clear_recents_position_disabled">禁用</string>
+    <string name="clear_recents_position_bottom_right">右下方</string>
+    <string name="clear_recents_position_bottom_left">左下方</string>
+    <string name="clear_recents_position_top_right">右上方</string>
+    <string name="clear_recents_position_top_left">左上方</string>
+
+    <!--Battery bar-->
+    <string name="battery_bar_pos1">隐藏</string>
+    <string name="battery_bar_pos2">状态栏</string>
+    <string name="battery_bar_pos3">导航栏上方</string>
+    <string name="battery_bar_pos4">导航栏下方</string>
+    <string name="battery_bar_style_regular">正常</string>
+    <string name="battery_bar_style_centered">居中</string>
+
+    <string name="lockscreen_music_controls_title">媒体控制面板</string>
+    <string name="lockscreen_music_controls_summary">播放媒体时于锁屏显示面板</string>
+    <string name="power_menu_torch_title">手电筒</string>
+
+    <string name="flash_normal">正常</string>
+    <string name="flash_high">高亮</string>
+
+    <string name="statusbar_clock_style_normal">正常</string>
+    <string name="statusbar_clock_style_small">缩小字体</string>
+    <string name="statusbar_clock_style_none">隐藏</string>
+    <string name="clockdate_style_normal">正常</string>
+    <string name="clockdate_style_lowercase">小楷</string>
+    <string name="clockdate_style_uppercase">大楷</string>
 </resources>

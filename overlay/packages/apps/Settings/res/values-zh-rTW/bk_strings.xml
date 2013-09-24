@@ -966,6 +966,7 @@
     <string name="both">全部</string>
     <string name="default_jb_behavior">無</string>
     <string name="always_show_invincible_icons">總是顯示不可見的圖像</string>
+    <string name="never_show">永不顯示</string>
     <string name="always_show">總是顯示</string>
     <string name="default_jb_with_invincible_icons_when_hidden">JellyBean預設隱藏不可見圖像</string>
     <string name="custom_app_icon_successfully">"'s 圖像設定成功!"</string>
@@ -1025,7 +1026,9 @@
     <string name="title_pref_menu_display">功能表鍵位置</string>
     <string name="summary_pref_menu_display">你想讓功能表鍵在何處顯示?</string>
     <string name="title_pref_navigation_menu_display">功能表鍵可見度</string>
-    <string name="summary_pref_navigation_menu_display">你想讓功能表鍵用什么方式在什么時間顯示?</string>
+    <string name="summary_pref_navigation_menu_display">你想讓功能表鍵用什麼方式在什麼時間顯示?</string>
+    <string name="title_pref_menu_location">Menu鍵位置</string>
+    <string name="summary_pref_menu_location">設定Menu鍵在導航欄上的位置?</string>
     <string name="navbar_qty_title">導航按鍵數量</string>
     <string name="navbar_qty_summary">變更此項將會重置您目前的按鈕設定</string>
     <string name="navbar_action_title">按鍵%1$s 作業 &amp; 圖像</string>
@@ -1741,9 +1744,9 @@
     <string name="status_nav_bar_colormode_summary">只在啟動器和鎖屏把狀態欄著色</string>
 
     <!-- Swipe Back Layout -->
-    <string name="title_swipe_back_layout">滑動傳回手勢</string>
-    <string name="swipe_back_layout_enable_title">啟用滑動傳回手勢</string>
-    <string name="swipe_back_layout_enable_summary">開啟或關閉滑動傳回手勢</string>
+    <string name="title_swipe_back_layout">滑動返回手勢</string>
+    <string name="swipe_back_layout_enable_title">啟用滑動返回手勢</string>
+    <string name="swipe_back_layout_enable_summary">開啟或關閉滑動返回手勢</string>
     <string name="swipe_back_layout_edge_title">監聽邊緣</string>
     <string name="swipe_back_layout_edge_summary">在螢幕哪一個邊緣監聽滑動手勢</string>
     <string name="swipe_back_layout_edge_left">左邊</string>
@@ -1869,9 +1872,6 @@
     <string name="device_front_camera">前置鏡頭</string>
     <string name="device_screen_resolution">屏模解析度</string>
 
-    <string name="title_pref_menu_display">Menu鍵位置</string>
-    <string name="summary_pref_menu_display">設定Menu鍵在導航欄上的位置?</string>
-
     <!--StatusBar Traffics-->
     <string name="status_bar_traffic_color_title">網速文字自定義色彩</string>
     <string name="hide_network_speed">自動隱藏網速顯示</string>
@@ -1927,6 +1927,46 @@
 
     <string name="chronus_title">鎖屏天氣時鐘</string>
 
-    <!-- LED FLASH WHEN SCREEN ON -->
-    <string name="title_led_screen_on">亮屏時通知燈依然操作</string> 
+    <!-- LED FLASH WHEN SCREEN ON
+    <string name="title_led_screen_on">亮屏時通知燈依然操作</string>  -->
+
+    <!-- show carrier label -->
+    <string name="show_carrier_label_title">運營商名稱</string>
+    <string name="show_carrier_label_summary">在狀態欄顯示運營商名稱</string>
+    <!--<string name="status_bar_carrier_color">運營商名字自定義色彩</string>-->
+
+    <!-- Recents -->
+    <string name="recents_target_assist_title">最近任務下拉頁中顯示Google Now 快捷鍵</string>
+    <string name="recents_target_assist_summary">新增Google Now快捷鍵，長按則啟動語音搜尋功能.</string>
+
+    <!-- Clear recents -->
+    <string name="clear_recents_position_title">一鍵結束任務鍵位置</string>
+    <string name="clear_recents_position_disabled">禁用</string>
+    <string name="clear_recents_position_bottom_right">右下方</string>
+    <string name="clear_recents_position_bottom_left">左下方</string>
+    <string name="clear_recents_position_top_right">右上方</string>
+    <string name="clear_recents_position_top_left">左上方</string>
+
+    <!--Battery bar-->
+    <string name="battery_bar_pos1">隱藏</string>
+    <string name="battery_bar_pos2">狀態欄</string>
+    <string name="battery_bar_pos3">導航欄上方</string>
+    <string name="battery_bar_pos4">導航欄下方</string>
+    <string name="battery_bar_style_regular">正常</string>
+    <string name="battery_bar_style_centered">居中</string>
+
+    <string name="lockscreen_music_controls_title">媒體控制面板</string>
+    <string name="lockscreen_music_controls_summary">播放媒體時於鎖屏顯示面板</string>
+    <string name="power_menu_torch_title">手電筒</string>
+
+    <string name="flash_normal">正常</string>
+    <string name="flash_high">高亮</string>
+
+    <string name="statusbar_clock_style_normal">正常</string>
+    <string name="statusbar_clock_style_small">縮小字體</string>
+    <string name="statusbar_clock_style_none">隱藏</string>
+    <string name="clockdate_style_normal">正常</string>
+    <string name="clockdate_style_lowercase">小楷</string>
+    <string name="clockdate_style_uppercase">大楷</string>
+
 </resources>

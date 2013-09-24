@@ -126,4 +126,5 @@
     <string name="animation_grow_shrink_right">从右侧展开</string>
     <string name="action_null">空</string>
 
+    <string name="global_action_torch">手电筒</string>
 </resources>
