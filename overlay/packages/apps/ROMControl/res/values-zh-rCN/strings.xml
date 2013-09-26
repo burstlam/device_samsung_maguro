@@ -2071,4 +2071,8 @@ PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按
     <string name="pref_scrollingcache_default_disable">默认关闭</string>
     <string name="pref_scrollingcache_force_disable">强制关闭</string>
 
+    <!-- show carrier label -->
+    <string name="show_carrier_label_title">运营商名称</string>
+    <string name="show_carrier_label_summary">在状态栏显示运营商名称</string>
+    <string name="status_bar_carrier_color">运营商名称自定义色彩</string>
 </resources>
