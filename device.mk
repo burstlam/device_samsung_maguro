@@ -24,6 +24,10 @@ DEVICE_PACKAGE_OVERLAYS := device/samsung/maguro/overlay
 PRODUCT_COPY_FILES := \
 	frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
+# Prebuilt
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,device/samsung/maguro/prebuilt/system,system)
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
