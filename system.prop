@@ -67,7 +67,7 @@ ro.device.front_cam=1.3 MP
 ro.device.screen_res=720x1280
 
 # Disable GC freed lines
-+dalvik.vm.debug.alloc=0 
+dalvik.vm.debug.alloc=0
 
 # Wifi Display
 # persist.sys.wfd.disablelog=1
