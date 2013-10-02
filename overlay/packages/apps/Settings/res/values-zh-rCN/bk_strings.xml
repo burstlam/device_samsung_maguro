@@ -64,6 +64,9 @@
     <string name="status_bar_traffic_color_title">网速文字自定义色彩</string>
     <string name="hide_network_speed">自动隐藏网速显示</string>
     <string name="hide_network_speed_summary">没有活动时自动隐藏网速显示</string>
+    <string name="statusbar_network_style_title">状态栏营运商及网速风格</string>
+    <string name="statusbar_network_style_reset_title">重置</string>
+    <string name="statusbar_network_style_reset_message">重置状态栏的营运商及网速的风格设定?</string>
 
     <!-- KSM -->
     <string name="pref_ksm_title">KSM 内核服务自动合并</string>
@@ -107,6 +110,8 @@
     <string name="ad_text_summary">围绕圆环显示通知文字.</string>
     <string name="ad_all_notifications_title">全部通知</string>
     <string name="ad_all_notifications_summary">显示全部通知内容，包括不能取消系统信息</string>
+    <string name="ad_hide_low_priority_title">隐藏非重要信息</string>
+    <string name="ad_hide_low_priority_summary">隐藏非重要信息,例如来自Google Now提醒.</string>
     <string name="ad_pocket_mode_title">口袋模式</string>
     <string name="ad_pocket_mode_summary">利用光线传感器，从口袋拿出时候自动显示信息.</string>
     <string name="ad_sunlight_mode_title">日照模式</string>
@@ -141,11 +146,11 @@
     <!-- show carrier label -->
     <string name="show_carrier_label_title">运营商名称</string>
     <string name="show_carrier_label_summary">在状态栏显示运营商名称</string>
-    <!--<string name="status_bar_carrier_color">运营商名字自定义色彩</string>-->
+    <string name="status_bar_carrier_color">运营商名字自定义色彩</string>
 
-    <!-- Recents -->
+    <!-- Recents
     <string name="recents_target_assist_title">最近任务下拉页中显示Google Now 快捷键</string>
-    <string name="recents_target_assist_summary">新增Google Now快捷键，长按则引导语音寻找功能.</string>
+    <string name="recents_target_assist_summary">新增Google Now快捷键，长按则引导语音寻找功能.</string> -->
 
     <!-- Clear recents -->
     <string name="clear_recents_position_title">一键结束任务键位置</string>
@@ -176,4 +181,27 @@
     <string name="clockdate_style_normal">正常</string>
     <string name="clockdate_style_lowercase">小楷</string>
     <string name="clockdate_style_uppercase">大楷</string>
+
+    <string name="font_size_sample">预览</string>
+    <string name="shortcut_action_torch">手电筒</string>
+
+    <string name="profile_connection_enable">启用</string>
+    <string name="profile_connection_disable">关闭</string>
+    <string name="profile_mode_on">启用</string>
+    <string name="profile_mode_off">关闭</string>
+    <string name="profile_mode_no_override">不会复盖原有设定</string>
+
+    <!-- time range preference -->
+    <string name="start_time_title">开始</string>
+    <string name="end_time_title">结束</string>
+
+    <!--Volume Panel State-->
+    <string name="volume_overlay_single">合并</string>
+    <string name="volume_overlay_expandable">可扩展</string>
+    <string name="volume_overlay_expanded">总是扩展</string>
+    <string name="volume_overlay_none">隐藏</string>
+
+    <string name="auto_brightness_setup_title">自动亮度调节</string>
+    <string name="auto_brightness_adjustment_title">亮度调节</string>
+    <string name="auto_brightness_twilight_adjustment">依照日出与日落时间调节</string>
 </resources>

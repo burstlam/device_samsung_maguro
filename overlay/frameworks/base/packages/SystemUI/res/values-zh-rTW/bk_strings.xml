@@ -199,4 +199,5 @@
     <!--ScreenShot Trash-->
     <string name="trash">放棄</string>
 
+    <string name="toggle_quiethours">安靜時段開關</string>
 </resources>
