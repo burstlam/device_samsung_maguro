@@ -1996,4 +1996,27 @@
     <string name="auto_brightness_setup_title">自動亮度調節</string>
     <string name="auto_brightness_adjustment_title">亮度調節</string>
     <string name="auto_brightness_twilight_adjustment">依照日出與日落時間調節</string>
+
+    <!-- screen state service -->
+    <string name="screen_state_toggles_title">關屏動作</string>
+    <string name="screen_state_toggles_enable_title">啟用</string>
+    <string name="screen_state_toggles_enable_summary">關屏後改變系統設定，亮屏後將恢復原有設定.</string>
+    <string name="screen_state_toggles_mobile_title">數據模式</string>
+    <string name="screen_state_toggles_location_title">位置</string>
+    <string name="screen_state_toggles_twog">轉用2G模式</string>
+    <string name="screen_state_toggles_twog_summary">關屏後將轉為2G模式</string>
+    <string name="screen_state_toggles_gps">禁用 GPS</string>
+    <string name="screen_state_toggles_gps_summary">關屏後將停用GPS位置服務</string>
+    <string name="screen_state_toggles_mobile_data">禁用數據</string>
+    <string name="screen_state_toggles_mobile_data_summary">關屏後將會斷開數據連接</string>
+
+    <!-- wakelock blocker -->
+    <string name="wakelock_blocker">Wakelock 管理</string>
+    <string name="wakelock_blocker_title">啟用</string>
+    <string name="wakelock_blocker_summary">啟用Wakelock 管理禁止指定程序執行wakelock</string>
+    <string name="wakelock_blocker_save">儲存</string>
+    <string name="wakelock_list_header">執行中的 Wakelocks</string>
+    <string name="wakelock_blocker_reload">重新載入</string>
+    <string name="wakelock_blocker_warning_title">小心使用</string>
+    <string name="wakelock_blocker_warning">禁用 wakelocks 可能會導致系統不穩定或數據損失等問題.</string>
 </resources>
