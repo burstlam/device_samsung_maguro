@@ -132,6 +132,14 @@
     <string name="ad_redisplay_1h">1 小时</string>
     <string name="ad_redisplay_2h">2 小时</string>
     <string name="ad_redisplay_5h">5 小时</string>
+    <string name="ad_displayactive_title">动态显示逾时设定</string> 
+    <string name="ad_displayactive_1s">1 秒</string>
+    <string name="ad_displayactive_3s">3 秒</string>
+    <string name="ad_displayactive_5s">5 秒</string>
+    <string name="ad_displayactive_10s">10 秒</string>
+    <string name="ad_displayactive_15s">15 秒</string>
+    <string name="ad_displayactive_30s">30 秒</string>
+    <string name="ad_displayactive_1m">1 分钟</string>
 
     <!-- Glowpad torch -->
     <string name="lockscreen_glow_torch_title">解锁环手电筒</string>
@@ -206,7 +214,7 @@
     <string name="auto_brightness_twilight_adjustment">依照日出与日落时间调节</string>
 
     <!-- screen state service -->
-    <string name="screen_state_toggles_title">关屏动作</string>
+    <string name="screen_state_toggles_title">省电模式</string>
     <string name="screen_state_toggles_enable_title">启用</string>
     <string name="screen_state_toggles_enable_summary">关屏后改变系统设定，亮屏后将恢复原有设定.</string>
     <string name="screen_state_toggles_mobile_title">数据模式</string>
@@ -227,4 +235,8 @@
     <string name="wakelock_blocker_reload">重新载入</string>
     <string name="wakelock_blocker_warning_title">小心使用</string>
     <string name="wakelock_blocker_warning">禁用 wakelocks 可能会导致系统不稳定或数据损失等问题.</string>
+
+    <!-- dim screen when plugged in -->
+    <string name="dim_screen_while_plugged">充电时调暗屏幕亮度</string>
+    <string name="dim_screen_while_plugged_summary">选择充电时候屏幕常亮情况下把屏幕亮度调低</string>
 </resources>
