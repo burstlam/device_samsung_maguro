@@ -19,5 +19,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-
+    <string name="show_ssn_label">事件提醒</string>
+    <string name="show_ssn_summary">为通话处理相关的各种网络事件显示一个通知</string>
+    <string name="phone_number_label">本机号码</string>
+    <string name="phone_number_summary">设置这台设备的电话号码</string>
 </resources>

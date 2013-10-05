@@ -104,4 +104,9 @@
     <!-- Incoming call in background -->
     <string name="bg_incall">背景來電</string>
     <string name="bg_incall_summary">螢幕開啟時，將來電界面保留在背景，只察看通知和播放鈴聲</string>
+
+    <string name="show_ssn_label">事件提醒</string>
+    <string name="show_ssn_summary">為通話處理相關的各種網絡事件顯示一個通知</string>
+    <string name="phone_number_label">本機號碼</string>
+    <string name="phone_number_summary">設置這台設備的電話號碼</string>
 </resources>
