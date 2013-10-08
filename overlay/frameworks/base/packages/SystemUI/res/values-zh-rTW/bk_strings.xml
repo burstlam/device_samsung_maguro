@@ -200,4 +200,7 @@
     <string name="trash">放棄</string>
 
     <string name="toggle_quiethours">安靜時段開關</string>
+
+    <string name="quick_settings_screen_timeout_summary_never">永不</string>
+    <string name="powerwidget_screen_timeout_never_toast">屏幕保持點亮</string>
 </resources>
