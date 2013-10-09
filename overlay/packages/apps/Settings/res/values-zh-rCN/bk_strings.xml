@@ -239,4 +239,32 @@
     <!-- dim screen when plugged in -->
     <string name="dim_screen_while_plugged">充电时调暗屏幕亮度</string>
     <string name="dim_screen_while_plugged_summary">选择充电时候屏幕常亮情况下把屏幕亮度调低</string>
+
+    <!-- Gesture Anywhere -->
+    <string name="gesture_anywhere_title">任意手势</string>
+    <string name="gesture_anywhere_enabled_title">任意手势</string>
+    <string name="gesture_anywhere_enabled_summary">启用任意手势功能</string>
+    <string name="gesture_anywhere_position_title">位置</string>
+    <string name="gesture_anywhere_position_left">屏幕左缘</string>
+    <string name="gesture_anywhere_position_right">屏幕右缘</string>
+    <string name="gesture_anywhere_gestures_title">手势</string>
+    <string name="gesture_anywhere_gestures_summary">新增，移除或编辑手势</string>
+    <string name="ga_button_add">新增手势</string>
+    <string name="ga_button_reload">重新载入</string>
+    <string name="ga_button_discard">取消</string>
+    <string name="ga_button_done">完成</string>
+    <string name="ga_prompt_gesture_name">名称</string>
+    <string name="ga_error_missing_name">必须设定手势名称</string>
+    <string name="ga_save_success">手势已储存于 %s</string>
+    <string name="ga_rename_action">确定</string>
+    <string name="ga_cancel_action">取消</string>
+    <string name="ga_gestures_loading">载入手势...</string>
+    <string name="ga_gestures_empty">没有任何手势</string>
+    <string name="ga_gestures_activity">手势名单</string>
+    <string name="ga_gestures_edit">编辑</string>
+    <string name="ga_gestures_delete">删除</string>
+    <string name="ga_gestures_delete_success">手势已删除</string>
+    <string name="ga_gestures_rename_title">重新命名手势</string>
+    <string name="ga_gestures_rename_label">手势名称</string>
+    <string name="ga_gestures_error_loading">无法载入手势 %s. 请确定储存装置操作正常.</string>
 </resources>

@@ -2031,4 +2031,37 @@
     <!-- dim screen when plugged in -->
     <string name="dim_screen_while_plugged">充電時調暗屏幕亮度</string>
     <string name="dim_screen_while_plugged_summary">選擇充電時候屏幕常亮情況下把屏幕亮度調低</string>
+
+    <!-- Lab Settings.  the title for the item to take the user to the ChaOS Lab settings. -->
+    <string name="lab_settings_title">ChaOS Lab</string>
+    <!-- Lab Settings summary.  The summary of the item to take the user to the ChaOS Lab settings. -->
+    <string name="lab_settings_summary">ChameleonOS experimental features for you to play with</string>
+
+    <!-- Gesture Anywhere -->
+    <string name="gesture_anywhere_title">任意手勢</string>
+    <string name="gesture_anywhere_enabled_title">任意手勢</string>
+    <string name="gesture_anywhere_enabled_summary">啟用任意手勢功能</string>
+    <string name="gesture_anywhere_position_title">位置</string>
+    <string name="gesture_anywhere_position_left">屏幕左緣</string>
+    <string name="gesture_anywhere_position_right">屏幕右緣</string>
+    <string name="gesture_anywhere_gestures_title">手勢</string>
+    <string name="gesture_anywhere_gestures_summary">新增，移除或編輯手勢</string>
+    <string name="ga_button_add">新增手勢</string>
+    <string name="ga_button_reload">重新載入</string>
+    <string name="ga_button_discard">取消</string>
+    <string name="ga_button_done">完成</string>
+    <string name="ga_prompt_gesture_name">名稱</string>
+    <string name="ga_error_missing_name">必須設定手勢名稱</string>
+    <string name="ga_save_success">手勢已儲存於 %s</string>
+    <string name="ga_rename_action">確定</string>
+    <string name="ga_cancel_action">取消</string>
+    <string name="ga_gestures_loading">載入手勢...</string>
+    <string name="ga_gestures_empty">沒有任何手勢</string>
+    <string name="ga_gestures_activity">手勢名單</string>
+    <string name="ga_gestures_edit">編輯</string>
+    <string name="ga_gestures_delete">刪除</string>
+    <string name="ga_gestures_delete_success">手勢已刪除</string>
+    <string name="ga_gestures_rename_title">重新命名手勢</string>
+    <string name="ga_gestures_rename_label">手勢名稱</string>
+    <string name="ga_gestures_error_loading">無法載入手勢 %s. 請確定儲存裝置操作正常.</string>
 </resources>
