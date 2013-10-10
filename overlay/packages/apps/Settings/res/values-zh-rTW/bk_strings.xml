@@ -35,11 +35,11 @@
     <string name="power_widget_behavior">快捷工具行為</string>
     <string name="title_expanded_hide_onchange">選取后關閉</string>
     <string name="title_expanded_hide_scrollbar">隱藏捲動軸</string>
-    <string name="title_widget_picker">工具按鈕</string>
-    <string name="summary_widget_picker">瀏覽或修改顯示的按鈕</string>
+    <string name="title_widget_picker">工具按鍵</string>
+    <string name="summary_widget_picker">瀏覽或修改顯示的按鍵</string>
     <string name="title_widget_order">工具排序</string>
     <string name="summary_widget_order">瀏覽或修改工具的排序</string>
-    <string name="title_buttons">按鈕</string>
+    <string name="title_buttons">按鍵</string>
     <string name="title_toggle_wifi">Wi-Fi</string>
     <string name="title_toggle_bluetooth">藍牙</string>
     <string name="title_toggle_gps">GPS</string>
@@ -55,7 +55,7 @@
     <string name="title_toggle_autorotate">旋轉</string>
     <string name="title_toggle_airplane">飛行型態</string>
     <string name="title_toggle_flashlight">手電筒</string>
-    <string name="title_toggle_power">電源按鈕</string>
+    <string name="title_toggle_power">電源按鍵</string>
     <string name="title_toggle_media_play_pause">媒體: 繼續/暫停</string>
     <string name="title_toggle_media_previous">媒體: 后退</string>
     <string name="title_toggle_media_next">媒體: 前進</string>
@@ -63,15 +63,15 @@
     <string name="title_toggle_reboot">重啟</string>
     <string name="title_toggle_fcharge">快速充電</string>
     <string name="title_toggle_wimax">WiMax</string>
-    <string name="title_button_modes">按鈕型態</string>
+    <string name="title_button_modes">按鍵型態</string>
     <string name="pref_brightness_mode_title">亮度型態</string>
-    <string name="pref_brightness_mode_summary">檢視或修改亮度按鈕型態</string>
+    <string name="pref_brightness_mode_summary">檢視或修改亮度按鍵型態</string>
     <string name="cm_brightness_mode_auto">自動</string>
     <string name="cm_brightness_mode_dim">自訂</string>
     <string name="pref_network_mode_title">網路型態</string>
     <string name="pref_screentimeout_mode_title">屏幕逾時型態</string>
     <string name="pref_ring_mode_title">音響型態</string>
-    <string name="pref_ring_mode_summary">檢視或修改音響按鈕型態</string>
+    <string name="pref_ring_mode_summary">檢視或修改音響按鍵型態</string>
     <string name="cm_sound_mode_silent">靜音</string>
     <string name="cm_sound_mode_vibrate">震動</string>
     <string name="cm_sound_mode_sound">正常</string>
@@ -186,7 +186,7 @@
     <string name="vibrator_type_notification">通知</string>
 
     <!-- Connection override toggles (not all are used at this time ) -->
-    <string name="possibleButtons">可選按鈕</string>
+    <string name="possibleButtons">可選按鍵</string>
     <string name="toggleWifi">Wi-Fi</string>
     <string name="toggleWifiAp">Wi-Fi熱點</string>
     <string name="toggleBluetooth">藍牙</string>
@@ -284,12 +284,12 @@
     <string name="increasing_ring_volume_notice">注意:\n如果開始音量大於設定音量，該項將無作用.</string>
     <string name="increasing_ring_interval_title">增加間隔</string>
     <string name="increasing_ring_interval_eachring">每次嗶聲</string>
-    <string name="increasing_ring_interval_half_second">0.5s</string>
-    <string name="increasing_ring_interval_1second">1s</string>
-    <string name="increasing_ring_interval_2seconds">2s</string>
-    <string name="increasing_ring_interval_3seconds">3s</string>
-    <string name="increasing_ring_interval_5seconds">5s</string>
-    <string name="increasing_ring_interval_10seconds">10s</string>
+    <string name="increasing_ring_interval_half_second">0.5 秒</string>
+    <string name="increasing_ring_interval_1second">1 秒</string>
+    <string name="increasing_ring_interval_2seconds">2 秒</string>
+    <string name="increasing_ring_interval_3seconds">3 秒</string>
+    <string name="increasing_ring_interval_5seconds">5 秒</string>
+    <string name="increasing_ring_interval_10seconds">10 秒</string>
 
     <string name="link_volume_ringtones">鏈結鈴聲 &amp; 通知音量</string>
     <string name="link_volume_mutes">靜音型態影響通知</string>
@@ -457,11 +457,11 @@
     <string name="group_applications">應用</string>
 
     <!-- Notification Shortcuts -->
-    <string name="notification_shortcuts_grouptitle">快捷按鈕</string>
-    <string name="notification_shortcuts_settings_title">通知快捷按鈕</string>
-    <string name="notification_shortcuts_color_title">快捷按鈕圖像色彩</string>
-    <string name="notification_shortcuts_color_summary">改變快捷按鈕圖像色彩</string>
-    <string name="notification_shortcuts_settings_summary">在通知面板顯示快捷按鈕</string>
+    <string name="notification_shortcuts_grouptitle">快捷按鍵</string>
+    <string name="notification_shortcuts_settings_title">通知快捷按鍵</string>
+    <string name="notification_shortcuts_color_title">快捷按鍵圖像色彩</string>
+    <string name="notification_shortcuts_color_summary">改變快捷按鍵圖像色彩</string>
+    <string name="notification_shortcuts_settings_summary">在通知面板顯示快捷按鍵</string>
     <string name="notification_shortcuts_color_mode_title">圖像色彩應用方式</string>
 
    <!-- Slim display settings -->
@@ -621,7 +621,7 @@
     <string name="tile_picker_summary">檢視，選取或改變顯示小部件的佈局</string>
     <string name="tile_choose_title">選取一個小部件</string>
 
-    <string name="title_tile_airplane">飛行型態</string>
+    <string name="title_tile_airplane">飛航模式</string>
     <string name="title_tile_battery">電池狀態</string>
     <string name="title_tile_bluetooth">藍牙</string>
     <string name="title_tile_brightness">亮度</string>
@@ -638,7 +638,7 @@
     <string name="title_tile_autorotate">自動旋轉</string>
     <string name="title_tile_settings">設定</string>
     <string name="title_tile_screentimeout">屏幕逾時</string>
-    <string name="title_tile_sound">音響</string>
+    <string name="title_tile_sound">音量</string>
     <string name="title_tile_sync">同步</string>
     <string name="title_tile_wifiap">Wi-Fi熱點</string>
     <string name="title_tile_wifi">Wi-Fi</string>
@@ -740,20 +740,20 @@
     <string name="advanced_settings_title">裝置</string>
 
     <!-- Keyboard and Input ASS methods  -->
-    <string name="title_keyboard_input">鍵槃和輸入法</string>
-    <string name="disable_fullscreen_keyboard_title">禁用全屏鍵槃</string>
-    <string name="disable_fullscreen_keyboard_summary">禁止橫屏鍵槃使用整個屏幕</string>
+    <string name="title_keyboard_input">鍵盤和輸入法</string>
+    <string name="disable_fullscreen_keyboard_title">禁用全屏鍵盤</string>
+    <string name="disable_fullscreen_keyboard_summary">禁止橫屏鍵盤使用整個屏幕</string>
     <string name="volume_key_cursor_control_title">音量鍵控制游標</string>
     <string name="volume_key_cursor_control_off">禁用</string>
     <string name="volume_key_cursor_control_on">音量上/下可使游標左/右移動</string>
     <string name="volume_key_cursor_control_on_reverse">音量上/下可使游標右/左移動</string>
-    <string name="keyboard_rotation_toggle_title">自動鍵槃旋轉</string>
-    <string name="keyboard_rotation_toggle_summary">鍵槃顯示時強制自動旋轉</string>
+    <string name="keyboard_rotation_toggle_title">自動鍵盤旋轉</string>
+    <string name="keyboard_rotation_toggle_summary">鍵盤顯示時強制自動旋轉</string>
     <string name="keyboard_rotation_timeout_title">自動旋轉逾時</string>
-    <string name="keyboard_rotation_timeout_summary">在鍵槃隱藏 <xliff:g id="rotate_timeout">%1$s</xliff:g> 秒后禁用自動旋轉</string>
-    <string name="keyboard_rotation_dialog">注意: 此功能用於在鍵槃顯示時強制開啟自動旋轉.  若自動旋轉本身已開啟，則此功能無效.</string>
+    <string name="keyboard_rotation_timeout_summary">在鍵盤隱藏 <xliff:g id="rotate_timeout">%1$s</xliff:g> 秒后禁用自動旋轉</string>
+    <string name="keyboard_rotation_dialog">注意: 此功能用於在鍵盤顯示時強制開啟自動旋轉.  若自動旋轉本身已開啟，則此功能無效.</string>
     <string name="show_enter_key_title">顯示轉鍵鍵</string>
-    <string name="show_enter_key_summary">強制鍵槃顯示轉鍵而不是表情象徵式鍵</string>
+    <string name="show_enter_key_summary">強制鍵盤顯示轉鍵而不是表情象徵式鍵</string>
 
     <!-- About phone screen,  setting option name-->
     <string name="mod_version">SLIM 版本</string>
@@ -860,10 +860,10 @@
     <string name="choose_app">選取應用</string>
 
     <!-- Lockscreen Shortcuts -->
-    <string name="lockscreen_shortcuts_title">快捷按鈕</string>
-    <string name="lockscreen_shortcuts_summary">檢視或修改鎖屏快捷按鈕</string>
-    <string name="lockscreen_shorcuts_longpress_title">長按快捷按鈕</string>
-    <string name="lockscreen_shorcuts_longpress_summary">長按才能開啟自訂快捷按鈕</string>
+    <string name="lockscreen_shortcuts_title">快捷按鍵</string>
+    <string name="lockscreen_shortcuts_summary">檢視或修改鎖屏快捷按鍵</string>
+    <string name="lockscreen_shorcuts_longpress_title">長按快捷按鍵</string>
+    <string name="lockscreen_shorcuts_longpress_summary">長按才能開啟自訂快捷按鍵</string>
 
     <!-- Lock screen vibrate settings -->
     <string name="lockscreen_vibrate_enabled_title">震動</string>
@@ -899,8 +899,8 @@
     <string name="slide_lock_delay_30m">30 分鐘</string>
 
     <!-- Lock screen buttons -->
-    <string name="lockscreen_buttons_title">按鈕動作</string>
-    <string name="lockscreen_buttons_summary">顯示或修改鎖屏按鈕動作</string>
+    <string name="lockscreen_buttons_title">按鍵動作</string>
+    <string name="lockscreen_buttons_summary">顯示或修改鎖屏按鍵動作</string>
     <string name="lockscreen_long_press_back_title">長按傳回動作</string>
     <string name="lockscreen_long_press_home_title">長按Home動作</string>
     <string name="lockscreen_long_press_menu_title">長按功能表鍵動作</string>
@@ -932,10 +932,10 @@
     <string name="hardware_keys_app_switch_long_press_title">應用切換鍵 (長按)</string>
     <string name="hardware_keys_camera_press_title">相機鍵</string>
     <string name="hardware_keys_camera_long_press_title">相機鍵 (長按)</string>
-    <string name="hardware_keys_show_overflow_title">顯示更多選項功能表按鈕</string>
-    <string name="hardware_keys_show_overflow_summary">在應用內顯示3點式的更多選項功能表按鈕</string>
-    <string name="hardware_keys_show_overflow_toast_enable">更多選項功能表按鈕在應用重啟前可能不會顯示</string>
-    <string name="hardware_keys_show_overflow_toast_disable">更多選項功能表按鈕在應用重啟前可能不會隱藏</string>
+    <string name="hardware_keys_show_overflow_title">顯示更多選項功能表按鍵</string>
+    <string name="hardware_keys_show_overflow_summary">在應用內顯示3點式的更多選項功能表按鍵</string>
+    <string name="hardware_keys_show_overflow_toast_enable">更多選項功能表按鍵在應用重啟前可能不會顯示</string>
+    <string name="hardware_keys_show_overflow_toast_disable">更多選項功能表按鍵在應用重啟前可能不會隱藏</string>
     <string name="hardware_keys_action_nothing">無</string>
     <string name="hardware_keys_action_home">主屏</string>
     <string name="hardware_keys_action_back">傳回</string>
@@ -969,7 +969,7 @@
     <string name="never_show">永不顯示</string>
     <string name="always_show">總是顯示</string>
     <string name="default_jb_with_invincible_icons_when_hidden">JellyBean預設隱藏不可見圖像</string>
-    <string name="custom_app_icon_successfully">"'s 圖像設定成功!"</string>
+    <string name="custom_app_icon_successfully">" 的圖像設定成功!"</string>
     <string name="home">Home</string>
     <string name="back">傳回</string>
     <string name="recents">近期工作</string>
@@ -1017,20 +1017,20 @@
     <string name="size_4_dp">4 dp</string>
     <string name="menu_nav_bar_style_reset">重置導航欄發光色彩</string>
     <string name="menu_nav_bar_dimen_reset">重置導航欄大小</string>
-    <string name="menu_nav_bar_button_reset">重置導航欄按鈕</string>
+    <string name="menu_nav_bar_button_reset">重置導航欄按鍵</string>
     <string name="menu_nav_ring_targets_reset">重置導航目標</string>
 
     <!-- Navigation Bar -->
     <string name="navigation_bar">導航欄</string>
-    <string name="navbar_button_cat">導航欄按鈕</string>
+    <string name="navbar_button_cat">導航欄按鍵</string>
     <string name="title_pref_menu_display">功能表鍵位置</string>
     <string name="summary_pref_menu_display">你想讓功能表鍵在何處顯示?</string>
     <string name="title_pref_navigation_menu_display">功能表鍵可見度</string>
     <string name="summary_pref_navigation_menu_display">你想讓功能表鍵用什麼方式在什麼時間顯示?</string>
     <string name="title_pref_menu_location">Menu鍵位置</string>
     <string name="summary_pref_menu_location">設定Menu鍵在導航欄上的位置?</string>
-    <string name="navbar_qty_title">導航按鍵數量</string>
-    <string name="navbar_qty_summary">變更此項將會重置您目前的按鈕設定</string>
+    <string name="navbar_qty_title">導航欄按鍵數量</string>
+    <string name="navbar_qty_summary">變更此項將會重置您目前的按鍵設定</string>
     <string name="navbar_action_title">按鍵%1$s 作業 &amp; 圖像</string>
     <string name="navbar_longpress_title">按鍵 %1$s 長按作業</string>
     <string name="navbar_action_home">Home</string>
@@ -1064,7 +1064,7 @@
     <string name="navbar_height_dialog_button_later">稍后重啟</string>
     <string name="navbar_height_dialog_button_reboot">現在重啟!</string>
     <string name="navigation_bar_glow_tint_title">導航欄發光色彩</string>
-    <string name="glow_times_title">按鈕發光動畫速度</string>
+    <string name="glow_times_title">按鍵發光動畫速度</string>
     <string name="glow_times_off">關閉</string>
     <string name="glow_times_superquick">非常快</string>
     <string name="glow_times_quick">快</string>
@@ -1073,14 +1073,14 @@
     <string name="navbar_can_move_summary">橫屏時在底部顯示導航條</string>
 
     <!-- Navigation bar button style -->
-    <string name="nav_bar_button_style">導航欄按鈕樣式設定</string>
-    <string name="nav_bar_button_style_summary">改變導航欄按鈕色彩及樣式設定</string>
+    <string name="nav_bar_button_style">導航欄按鍵樣式設定</string>
+    <string name="nav_bar_button_style_summary">改變導航欄按鍵色彩及樣式設定</string>
     <string name="nav_bar_button_style_reset">重置</string>
-    <string name="button_transparency_title">導航欄按鈕透通度</string>
-    <string name="navigation_bar_icon_tint_title">導航欄按鈕色彩</string>
+    <string name="button_transparency_title">導航欄按鍵透通度</string>
+    <string name="navigation_bar_icon_tint_title">導航欄按鍵色彩</string>
     <string name="nav_button_color_mode_title">色彩設定</string>
     <string name="nav_button_color_mode_dialog_title">著色</string>
-    <string name="nav_button_color_mode_summary">改變導航按鈕色彩設定</string>
+    <string name="nav_button_color_mode_summary">改變導航按鍵色彩設定</string>
     <string name="nav_button_color_mode_all_icons">全部圖像</string>
     <string name="nav_button_color_mode_system_icons">系統圖像</string>
     <string name="nav_button_color_mode_system_custom_icons">系統和自訂圖像</string>
@@ -1125,7 +1125,7 @@
     <string name="navring_enable_long">啟用導航環長按</string>
 
     <string name="navbar_style_dimen_title">樣式和大小</string>
-    <string name="navbar_button_title">按鈕</string>
+    <string name="navbar_button_title">按鍵</string>
     <string name="navbar_targets_title">環目標</string>
     <string name="navbar_cat">導航欄</string>
     <string name="navbar_enable_long">啟用導航欄長按</string>
@@ -1134,7 +1134,7 @@
     <string name="navbar_dimen_cat">導航欄大小</string>
 
     <string name="navbar_widgets_note_title">注意</string>
-    <string name="navbar_widgets_note_summary">為了顯示小部件，啟用硬體按鍵、導航欄按鈕或導航環目標.</string>
+    <string name="navbar_widgets_note_summary">為了顯示小部件，啟用硬體按鍵、導航欄按鍵或導航環目標.</string>
     <string name="navbar_widgets_title">小部件</string>
     <string name="navbar_widgets_style_settings_title">小部件風格</string>
     <string name="navbar_widgets_style_settings_summary">修改小部件背景風格</string>
@@ -1156,13 +1156,13 @@
     <string name="chronus_title">cLock</string>
 
     <!-- Touckey Light Timeout -->
-    <string name="touchkey_timeout_title">鍵槃燈時間</string>
+    <string name="touchkey_timeout_title">鍵盤燈時間</string>
     <string name="touchkey_timeout_1s">1 秒</string>
     <string name="touchkey_timeout_2s">2 秒</string>
     <string name="touchkey_timeout_5s">5 秒</string>
     <string name="touchkey_timeout_10s">10 秒</string>
     <string name="touchkey_timeout_alwayson">總是開啟</string>
-    <string name="touchkey_timeout_alwaysoff">關閉鍵槃燈</string>
+    <string name="touchkey_timeout_alwaysoff">關閉鍵盤燈</string>
 
     <!-- Recents Ram Bar -->
     <string name="ram_bar">最近任務界面RAM條</string>
@@ -1268,18 +1268,18 @@
     <string name="pie_control_trigger_right">屏幕右邊</string>
     <string name="pie_control_trigger_top">屏幕頂部</string>
     <string name="pie_control_trigger_top_summary">僅導航會顯示於頂部</string>
-    <string name="pie_button_style">按鈕風格</string>
-    <string name="pie_button_color_title">按鈕色彩</string>
-    <string name="pie_button_alpha_title">按鈕透通度</string>
-    <string name="pie_button_outline_color_title">按鈕外框色彩</string>
-    <string name="pie_button_pressed_color_title">按鈕按下色彩</string>
-    <string name="pie_button_long_pressed_color_title">按鈕長按色彩</string>
-    <string name="pie_button_pressed_alpha_title">按鈕按下透通度</string>
-    <string name="pie_icon_style">按鈕圖像風格</string>
-    <string name="pie_icon_color_title">按鈕圖像色彩</string>
-    <string name="pie_icon_color_mode_title">按鈕圖像色彩設定</string>
+    <string name="pie_button_style">按鍵風格</string>
+    <string name="pie_button_color_title">按鍵色彩</string>
+    <string name="pie_button_alpha_title">按鍵透通度</string>
+    <string name="pie_button_outline_color_title">按鍵外框色彩</string>
+    <string name="pie_button_pressed_color_title">按鍵按下色彩</string>
+    <string name="pie_button_long_pressed_color_title">按鍵長按色彩</string>
+    <string name="pie_button_pressed_alpha_title">按鍵按下透通度</string>
+    <string name="pie_icon_style">按鍵圖像風格</string>
+    <string name="pie_icon_color_title">按鍵圖像色彩</string>
+    <string name="pie_icon_color_mode_title">按鍵圖像色彩設定</string>
     <string name="pie_icon_color_mode_dialog_title">著色</string>
-    <string name="pie_icon_color_mode_summary">修改按鈕圖像色彩設定</string>
+    <string name="pie_icon_color_mode_summary">修改按鍵圖像色彩設定</string>
     <string name="pie_icon_color_mode_all_icons">全部圖像</string>
     <string name="pie_icon_color_mode_system_icons">系統圖像</string>
     <string name="pie_icon_color_mode_system_custom_icons">系統和自訂圖像</string>
@@ -1295,7 +1295,7 @@
     <string name="pie_trigger">觸發選項</string>
     <string name="pie_trigger_note_title">注意</string>
     <string name="pie_trigger_note_summary">為避免與狀態欄和導航欄衝突，這些區域上觸發是禁用的</string>
-    <string name="pie_disable_ime_triggers_title">鍵槃上禁用</string>
+    <string name="pie_disable_ime_triggers_title">鍵盤上禁用</string>
     <string name="pie_disable_ime_triggers_summary">禁用和減數字鍵盤周圍觸發區域</string>
     <string name="pie_background_color_title">背景色彩</string>
     <string name="pie_snap_color_title">控點色彩</string>
@@ -1317,19 +1317,19 @@
     <string name="pie_show_background_summary">啟用PIE屏幕背景</string>
     <string name="menu_pie_style_reset">重置風格</string>
     <string name="menu_pie_button_style_reset">重置圖像風格</string>
-    <string name="menu_pie_button_reset">重置按鈕</string>
-    <string name="pie_qty_title">按鈕數量</string>
-    <string name="pie_qty_summary">變更此項將會重置你目前的按鈕設定</string>
-    <string name="pie_action_title">按鈕%1$s作業&amp;圖像</string>
-    <string name="pie_longpress_title">按鈕%1$s長按作業</string>
-    <string name="pie_enable_long">為PIE按鈕啟用長按</string>
-    <string name="pie_button">按鈕</string>
-    <string name="pie_button_cat">按鈕</string>
-    <string name="pie_buttons_options">按鈕選項</string>
+    <string name="menu_pie_button_reset">重置按鍵</string>
+    <string name="pie_qty_title">按鍵數量</string>
+    <string name="pie_qty_summary">變更此項將會重置你目前的按鍵設定</string>
+    <string name="pie_action_title">按鍵%1$s作業&amp;圖像</string>
+    <string name="pie_longpress_title">按鍵%1$s長按作業</string>
+    <string name="pie_enable_long">為PIE按鍵啟用長按</string>
+    <string name="pie_button">按鍵</string>
+    <string name="pie_button_cat">按鍵</string>
+    <string name="pie_buttons_options">按鍵選項</string>
     <string name="pie_second_layer_title">啟用第二階層式</string>
-    <string name="pie_second_layer_summary">啟用或禁用第二行按鈕</string>
-    <string name="pie_button_second_layer">按鈕第二階層式</string>
-    <string name="pie_button_second_layer_cat">按鈕第二階層式</string>
+    <string name="pie_second_layer_summary">啟用或禁用第二行按鍵</string>
+    <string name="pie_button_second_layer">按鍵第二階層式</string>
+    <string name="pie_button_second_layer_cat">按鍵第二階層式</string>
     <string name="pie_action_custom_app">自訂應用</string>
     <string name="pie_action_home">Home鍵</string>
     <string name="pie_action_back">返回鍵</string>
@@ -1345,8 +1345,8 @@
     <string name="pie_action_notifications">通知</string>
     <string name="pie_action_quicksettings">快速設定面板</string>
     <string name="pie_action_none">無</string>
-    <string name="pie_button_style_summary">變更PIE按鈕風格</string>
-    <string name="pie_button_second_layer_summary">變更第二行PIE按鈕風格</string>
+    <string name="pie_button_style_summary">變更PIE按鍵風格</string>
+    <string name="pie_button_second_layer_summary">變更第二行PIE按鍵風格</string>
 
     <!-- Delete apn confirmation dialog message -->
     <string name="confirm_delete_apn">此APN將會被移除.</string>
@@ -1395,7 +1395,7 @@
     <string name="shortcut_action_longpress">長按:</string>
     <string name="shortcut_action_select_action_longpress">選取長按時作業:</string>
     <string name="shortcut_action_select_action">選取動作:</string>
-    <string name="shortcut_action_select_action_newbutton">選取新按鈕:</string>
+    <string name="shortcut_action_select_action_newbutton">選取新按鍵:</string>
     <string name="shortcut_action_reset">重置</string>
     <string name="shortcut_action_add">添加</string>
     <string name="shortcut_action_reset_message">重置所有項目到預設值?</string>
@@ -1406,10 +1406,10 @@
     <string name="shortcut_image_not_valid">選取的應用未傳回一個可用的圖像或圖像不支援進行截取.請添加其他應用</string>
     <string name="shortcut_duplicate_entry">選取的作業無法添加兩次</string>
 
-    <string name="shortcut_action_help_shortcut">快捷按鈕</string>
-    <string name="shortcut_action_help_button">按鈕</string>
+    <string name="shortcut_action_help_shortcut">快捷按鍵</string>
+    <string name="shortcut_action_help_button">按鍵</string>
     <string name="shortcut_action_help_icon">,點擊應用圖像將可以開啟自訂選項</string>
-    <string name="shortcut_action_help_main">要添加一個%1$s, 點擊"添加( + )"圖像. 當一個%1$s被添加后, 點擊那一行將可以變更快捷按鈕的目標%2$s\n\n要移除一個%1$s,朝左或右邊水平滑動即可完成移除作業.  要在清單中重新排列一個%1$s,請上下拖曳左邊的錨形圖像.\n\n要清除設定或者將設定重置回預設值,請點擊重置圖像.</string>
+    <string name="shortcut_action_help_main">要添加一個%1$s, 點擊"添加( + )"圖像. 當一個%1$s被添加后, 點擊那一行將可以變更快捷按鍵的目標%2$s\n\n要移除一個%1$s,朝左或右邊水平滑動即可完成移除作業.  要在清單中重新排列一個%1$s,請上下拖曳左邊的錨形圖像.\n\n要清除設定或者將設定重置回預設值,請點擊重置圖像.</string>
     <string name="shortcut_action_help_delete_last_entry">移除清單中所有的 %1$s 將會完全禁用該功能.</string>
     <string name="shortcut_action_help">輔助說明</string>
     <string name="shortcut_action_expanded_desktop">全屏模式</string>
@@ -1563,7 +1563,7 @@
     <string name="notification_vibrate_during_calls_summary">通話時，若有通知訊息，將輕微震動</string>
      <!-- additional settings -->
     <string name="notification_behaviour_title">通知行為</string>
-    <string name="notification_settings_btn_title">總是顯示設定按鈕</string>
+    <string name="notification_settings_btn_title">總是顯示設定按鍵</string>
     <string name="wifi_menu_forget_all">取消儲存所有網路</string>
 
     <!-- Halo -->
@@ -1582,7 +1582,7 @@
     <string name="halo_state_black">黑名單</string>
     <string name="halo_state_white">白名單</string>
 
-    <string name="halo_button_show_title">顯示HALO按鈕</string>
+    <string name="halo_button_show_title">顯示HALO按鍵</string>
     <string name="halo_button_show_summary">在通知欄頂部顯示HALO開關</string>
     <string name="halo_size_title">HALO大小</string>
     <string name="halo_size_summary">設定HALO的顯示大小</string>
@@ -1671,7 +1671,7 @@
     <string name="blacklist_edit_dialog_title">編輯黑名單中的項目</string>
     <string name="blacklist_prefs">設定</string>
     <string name="blacklist_button_delete">移除</string>
-    <string name="blacklist_empty_text">您尚未添加任何要加入黑名單的號碼.觸摸添加（+）按鈕添加一個新項目.</string>
+    <string name="blacklist_empty_text">您尚未添加任何要加入黑名單的號碼.觸摸添加（+）按鍵添加一個新項目.</string>
     <string name="blacklist_disabled_empty_text">要對特定號碼設定屏蔽來電或資訊,請啟用黑名單.</string>
     <string name="blacklist_summary_disabled">已禁用</string>
     <string name="blacklist_summary">被添加進黑名單的特定電話號碼的電話和資訊將會被阻止</string>
@@ -1805,7 +1805,7 @@
     <!-- Security & location settings screen, setting check box title. This setting controls whether a visible gesture is drawn as the user moves his finger around while drawing the unlock pattern.  If checked, this line is drawn.  If unchecked, there is nothing drawn so the user does not reveal his pattern while he unlocks the phone.-->
     <string name="lockgesture_settings_enable_visible_pattern_title">顯示手勢</string>
     <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the power button is pressed. [CHAR LIMIT=28]-->
-    <string name="lockgesture_settings_enable_power_button_instantly_locks">電源按鈕即時鎖定</string>
+    <string name="lockgesture_settings_enable_power_button_instantly_locks">電源按鍵即時鎖定</string>
     <!-- Security & location settings screen, setting option name when user has never set an unlock gesture -->
     <string name="lockgesture_settings_choose_lock_pattern">設定解鎖手勢</string>
     <!-- Security & location settings screen, setting option name when user has previously set an unlock gesture and wants to change to a new pattern -->
