@@ -51,7 +51,7 @@ busybox sysctl -w net.ipv4.udp_wmem_min=6144
 busybox sysctl -w net.ipv4.tcp_rmem='6144 87380 1048576'
 busybox sysctl -w net.ipv4.tcp_wmem='6144 87380 1048576'
 
-rm /dev/log/main
+# rm /dev/log/main
 
 echo "0,3,6,10,12,15" > /sys/module/lowmemorykiller/parameters/adj
 echo "1536,3072,10240,15360,20480,25600" > /sys/module/lowmemorykiller/parameters/minfree

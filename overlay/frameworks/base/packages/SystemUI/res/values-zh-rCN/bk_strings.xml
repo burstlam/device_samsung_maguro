@@ -203,4 +203,6 @@
 
     <string name="quick_settings_screen_timeout_summary_never">永不</string>
     <string name="powerwidget_screen_timeout_never_toast">屏幕保持点亮</string>
+
+    <string name="pie_date_format">yyyy MMM dd日, ccc</string>
 </resources>
