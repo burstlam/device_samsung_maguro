@@ -2064,4 +2064,10 @@
     <string name="ga_gestures_rename_title">重新命名手勢</string>
     <string name="ga_gestures_rename_label">手勢名稱</string>
     <string name="ga_gestures_error_loading">無法載入手勢 %s. 請確定儲存裝置操作正常.</string>
+
+    <string name="lock_numpad_random_title">變更PIN鍵盤排序</string>
+    <string name="lock_numpad_random_dialog_title">PIN鍵盤隨意排序</string>
+    <string name="lock_numpad_random_off">關閉</string>
+    <string name="lock_numpad_random_always">永遠改變</string>
+    <string name="lock_numpad_random_on_request">按需要</string>
 </resources>

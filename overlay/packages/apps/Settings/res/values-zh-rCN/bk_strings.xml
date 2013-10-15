@@ -267,4 +267,10 @@
     <string name="ga_gestures_rename_title">重新命名手势</string>
     <string name="ga_gestures_rename_label">手势名称</string>
     <string name="ga_gestures_error_loading">无法载入手势 %s. 请确定储存装置操作正常.</string>
+
+    <string name="lock_numpad_random_title">变更PIN键盘排序</string>
+    <string name="lock_numpad_random_dialog_title">PIN键盘随意排序</string>
+    <string name="lock_numpad_random_off">关闭</string>
+    <string name="lock_numpad_random_always">永远改变</string>
+    <string name="lock_numpad_random_on_request">按需要</string>
 </resources>
