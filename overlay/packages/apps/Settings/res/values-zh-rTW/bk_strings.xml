@@ -1371,6 +1371,12 @@
     <string name="privacy_guard_help_text">在此屏幕中,只要輕點一下,您就可以選取哪些應用應該啟用隱私保護,選取的應用將無法再存取您的個人資料,如聯繫人,資訊或者通話記錄.長按其中一條項目檢視該應用的詳細資訊.\n\n預設情況下內建應用將不會被顯示.如果您要顯示他們或者要過濾出通過對應權限要求存取個人資料的應用,請在功能表中調整其各自的設定.</string>
     <string name="privacy_guard_manager_show_system_apps">顯示內建應用</string>
     <string name="privacy_guard_manager_filter_permissions">權限過濾器</string>
+    <string name="privacy_guard_app_ops_detail_dialog_title">注意</string>
+    <string name="privacy_guard_app_ops_detail_dialog_text">選定的程序本身沒有要求隱私信息，你是否確定需要修改其他權限？</string>
+    <string name="privacy_guard_app_ops_detail_reset_dialog_text">重置所有權限設定?</string>
+    <string name="app_ops_btn_text">修改</string>
+    <string name="app_ops_no_item_text">這個程序沒有任可能可供修改的權限.</string>
+
     
     <!-- Button shorcut actions -->
     <string name="shortcut_action_app">自訂應用</string>
@@ -1754,6 +1760,8 @@
     <string name="swipe_back_layout_edge_right">右邊</string>
     <string name="swipe_back_layout_edge_bottom">底邊</string>
     <string name="swipe_back_layout_edge_all">全部</string>
+
+    <string name="app_swipe_back_label_black">禁用滑動返回手勢</string>
     
     <!-- Title for preference that guides the user through creating an unlock gesture [CHAR LIMIT=22] -->
     <string name="unlock_set_unlock_gesture_title">手勢</string>
@@ -2164,4 +2172,21 @@ PA版本是全屏助手，簡潔美觀的方式在全屏模式中提供基本按
     <string name="pie_trigger_normal">一般 (默認)</string>
     <string name="pie_trigger_big">中</string>
     <string name="pie_trigger_huge">大</string>
+
+    <!-- Clock | Date | SlimsROM -->
+    <string name="clock_date_display">顯示星期</string>
+    <string name="clock_date_display_summary">時鐘前顯示自定格式日期顯示</string>
+    <string name="clock_date_style">外語系統語言日期顯示式樣</string>
+    <string name="clock_date_format">日期格式</string>
+    <string name="clock_date_string_edittext_title">輸入字串(EE=星期? D=日 M=月 Y=年, 外語系統可指定使用大小楷): 例如: MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">輸入格式</string>
+    <string name="dont_show_default">不要顯示 (默認)</string>
+    <string name="normal">正常</string>
+    <string name="small">縮小</string>
+    <string name="none">不要顯示</string>
+    <string name="small_date">縮小</string>
+    <string name="regular_date">正常</string>
+    <string name="lowercase">小楷</string>
+    <string name="uppercase">大楷</string>
+    <string name="custom_java_format">自定義Java字串</string>
 </resources>

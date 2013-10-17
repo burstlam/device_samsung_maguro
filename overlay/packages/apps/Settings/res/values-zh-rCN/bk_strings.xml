@@ -367,4 +367,29 @@ PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按
     <string name="pie_trigger_normal">一般 (默认)</string>
     <string name="pie_trigger_big">中</string>
     <string name="pie_trigger_huge">大</string>
+
+
+    <!-- Clock | Date | SlimsROM -->
+    <string name="clock_date_display">显示星期</string>
+    <string name="clock_date_display_summary">时钟前显示自定格式日期显示</string>
+    <string name="clock_date_style">外语系统语言日期显示式样</string>
+    <string name="clock_date_format">日期格式</string>
+    <string name="clock_date_string_edittext_title">输入符串(EE=星期? D=日 M=月 Y=年, 外语系统可指定使用大小楷): 例如: MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">输入格式</string>
+    <string name="dont_show_default">不要显示 (默认)</string>
+    <string name="normal">正常</string>
+    <string name="small">缩小</string>
+    <string name="none">不要显示</string>
+    <string name="small_date">缩小</string>
+    <string name="regular_date">正常</string>
+    <string name="lowercase">小楷</string>
+    <string name="uppercase">大楷</string>
+    <string name="custom_java_format">自定义Java字串</string>
+
+    <!--Privacy Guardian-->
+    <string name="privacy_guard_app_ops_detail_dialog_title">注意</string>
+    <string name="privacy_guard_app_ops_detail_dialog_text">选定的程序本身没有要求隐私信息，你是否确定需要修改其他权限？</string>
+    <string name="privacy_guard_app_ops_detail_reset_dialog_text">重置所有权限设定?</string>
+    <string name="app_ops_btn_text">修改</string>
+    <string name="app_ops_no_item_text">这个程序没有任可能可供修改的权限.</string>
 </resources>
