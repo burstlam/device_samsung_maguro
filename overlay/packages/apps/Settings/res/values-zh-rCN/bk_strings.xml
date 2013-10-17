@@ -273,4 +273,98 @@
     <string name="lock_numpad_random_off">关闭</string>
     <string name="lock_numpad_random_always">永远改变</string>
     <string name="lock_numpad_random_on_request">按需要</string>
+
+    <!-- Pie controls -->
+    <string name="pie_help_title">帮助</string>
+    <string name="pie_help_text"><b>PA/Xylon跟Slim版本的PIE有什么分别?</b>
+\n\n
+PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按键功能. Slim 版本则具备更多设置且能够完全胜任导航栏的替补.
+\n\n\n </string>
+    <string name="slimpie_title">Slim PIE</string>
+    <string name="slimpie_summary">Slim 版本可作为导航栏用途，含多种自定义设定.</string>
+    <string name="pie_title">Paranoid PIE</string>
+    <string name="pie_summary">全屏助手，简洁美观</string>
+    <string name="general_ui">一般设定</string>
+    <string name="buttons_layout_title">按键布局</string>
+
+    <string name="pa_pie_controls_title">PIE面版</string>
+    <string name="pa_pie_controls_summary">提供虚拟键及信息面版(在全屏模式使用)</string>
+    <string name="pie_gravity_title">Pie 触发侧 </string>
+    <string name="pie_gravity_summary">选择PIE面版出现位置</string>
+    <string name="pie_gravity_top">上</string>
+    <string name="pie_gravity_bottom">下</string>
+    <string name="pie_gravity_left">左</string>
+    <string name="pie_gravity_right">右</string>
+    <string name="pie_mode_title">PIE布局及动画</string>
+    <string name="pie_mode_summary">设定动画速度及显示布局</string>
+    <string name="pie_mode_bare">简约:只显示按键</string>
+    <string name="pie_mode_quick">快速:全部内容但不显示动画</string>
+    <string name="pie_mode_default">默认</string>
+    <string name="pie_mode_slow">全部内容及动画细节</string>
+    <string name="pie_size_title">PIE面版大小</string>
+    <string name="pie_size_summary">设定控制面板大小</string>
+    <string name="pie_size_small">小</string>
+    <string name="pie_size_default">@string/pie_mode_default</string>
+    <string name="pie_size_large">大</string>
+    <string name="pie_size_gigantic">最大</string>
+
+    <string name="pie_angle_title">Pie倾斜度</string>
+    <string name="pie_angle_summary">调整从附著点对齐角度</string>
+    <string name="pie_angle_none">水平 - 0度(原有)</string>
+    <string name="pie_angle_small">小 - 6度</string>
+    <string name="pie_angle_big">大 - 12度(默认)</string>
+    <string name="pie_angle_huge">最大 - 18度</string>
+
+    <string name="pie_menu_title">永远显示菜单键</string>
+    <string name="pie_menu_summary">选择非使用时候是否显示菜单键</string>
+    <string name="pie_search_title">显示搜寻键</string>
+    <string name="pie_search_summary">通过PIE面板接通Google Now</string>
+    <string name="pie_lastapp_title">显示最近任务按键</string>
+    <string name="pie_lastapp_summary">在PIE上新增启用最近任务按键</string>
+    <string name="pie_power_title">显示电源键</string>
+    <string name="pie_power_summary">在PIE上新增启用电源键</string>
+    <string name="pie_killtask_title">显示一键清除任务键</string>
+    <string name="pie_killtask_summary">在PIE上新增启用一键清除任务键</string>
+    <string name="pie_actnotif_title">显示通知栏键</string>
+    <string name="pie_actnotif_summary">在PIE上新增启用通知栏键</string>
+    <string name="pie_actqs_title">显示磁贴快捷栏键</string>
+    <string name="pie_actqs_summary">在PIE上新增磁贴快捷栏键</string>
+    <string name="pie_appwindow_title">显示程序列表键</string>
+    <string name="pie_appwindow_summary">PIE上新增启用程序列表键</string>
+    <string name="pie_screenshot_title">显示截屏键</string>
+    <string name="pie_screenshot_summary">在PIE上新增启用截屏键</string>
+    <string name="pie_center_title">置中显示</string>
+    <string name="pie_center_summary">反勾此选项,PIE面板可以在触发侧任意处出现</string>
+    <string name="pie_stick_title">禁用自动旋转</string>
+    <string name="pie_stick_summary">不管屏幕如何旋转,PIE面板触发侧及出现位置均不会改变</string>
+    <string name="pie_restart_launcher_title">重新载入启动器</string>
+    <string name="pie_restart_launcher_summary">启动全屏模式时候桌面重新载入启动器. </string>
+
+    <!-- Pie Color Settings -->
+    <string name="pie_color_title">PIE面版自定义颜色</string>
+    <string name="pie_color_style_title">选择PIE配色风格</string>
+    <string name="pie_background_title">背景颜色</string>
+    <string name="pie_select_title">选择颜色</string>
+    <string name="pie_outlines_title">框线颜色</string>
+    <string name="pie_status_clock_title">时钟颜色</string>
+    <string name="pie_status_title">状态栏颜色</string>
+    <string name="pie_chevron_left_title">左外环颜色</string>
+    <string name="pie_chevron_right_title">右外环颜色</string>
+    <string name="all_color">自设定颜色</string>
+    <string name="stock_color">系统默认配色</string>
+    <string name="pie_juice_title">电量颜色</string>
+
+    <!-- Pie Gap-->
+    <string name="pie_gap_title">PIE 间隔</string>
+    <string name="pie_gap_summary">调校各按键之间距离</string>
+    <string name="pie_gap_closed">关闭</string>
+    <string name="pie_gap_small">小 (默认)</string>
+    <string name="pie_gap_big">中</string>
+    <string name="pie_gap_huge">大</string>
+    <string name="pie_trigger_title">设定触发启动范围</string>
+    <string name="pie_trigger_summary">决定触发PIE面板的屏幕边缘宽度</string>
+    <string name="pie_trigger_small">小</string>
+    <string name="pie_trigger_normal">一般 (默认)</string>
+    <string name="pie_trigger_big">中</string>
+    <string name="pie_trigger_huge">大</string>
 </resources>
