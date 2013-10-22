@@ -44,7 +44,7 @@ busybox mount -o rw,remount /system
 
 # Nuking run once scripts
 #
-rm /system/etc/init.d/01sqlitetweaks
+rm /system/etc/init.d/03sqlitetweaks
 
 
 busybox mount -o ro,remount /system
