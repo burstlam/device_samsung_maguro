@@ -1917,6 +1917,8 @@
     <string name="ad_sunlight_mode_summary">在強烈日照或環境光下改用反白色彩顯示.</string>
     <string name="ad_redisplay_title">定時重複顯示通知內容</string>
     <string name="ad_customizations_title">自定義設定</string>
+    <string name="ad_excluded_apps_title">設定不需要提示軟件清單</string>
+    <string name="ad_excluded_apps_summary">選擇那些不要顯示軟件的提示.</string>
     <string name="ad_brightness_title">提示屏幕亮度</string>
     <string name="ad_brightness_summary">沒有設定自動屏幕亮度時候顯示的亮度</string>
     <string name="ad_show_date_title">顯示日期</string>
@@ -2073,8 +2075,8 @@
     <string name="ga_gestures_rename_label">手勢名稱</string>
     <string name="ga_gestures_error_loading">無法載入手勢 %s. 請確定儲存裝置操作正常.</string>
 
-    <string name="lock_numpad_random_title">變更PIN鍵盤排序</string>
-    <string name="lock_numpad_random_dialog_title">PIN鍵盤隨意排序</string>
+    <string name="lock_numpad_random_title">PIN鍵盤洗牌排序</string>
+    <string name="lock_numpad_random_dialog_title">PIN鍵盤洗牌亂數方式排序</string>
     <string name="lock_numpad_random_off">關閉</string>
     <string name="lock_numpad_random_always">永遠改變</string>
     <string name="lock_numpad_random_on_request">按需要</string>
@@ -2144,6 +2146,8 @@ PA版本是全屏助手，簡潔美觀的方式在全屏模式中提供基本按
     <string name="pie_stick_summary">不管屏幕如何旋轉,PIE面板觸發側及出現位置均不會改變</string>
     <string name="pie_restart_launcher_title">重新載入啟動器</string>
     <string name="pie_restart_launcher_summary">啟動全屏模式時候桌面重新載入啟動器. </string>
+    <string name="pie_notifications_title">啟用外側滑動手勢目標</string>
+    <string name="pie_notifications_summary">向外滑出動作可觸發下拉通知欄或磁貼快捷欄</string>
 
     <!-- Pie Color Settings -->
     <string name="pie_color_title">PIE面版自定義顏色</string>
@@ -2189,4 +2193,10 @@ PA版本是全屏助手，簡潔美觀的方式在全屏模式中提供基本按
     <string name="lowercase">小楷</string>
     <string name="uppercase">大楷</string>
     <string name="custom_java_format">自定義Java字串</string>
+
+    <string name="smart_cover_category_title">智能感應</string>
+    <string name="smart_cover_wake_title">護套感應</string>
+    <string name="smart_cover_wake_summary">掀開護套自動喚醒屏幕</string>
+
+    <string name="lockscreen_battery_status_alwaysoff">不要顯示</string>
 </resources>

@@ -20,7 +20,7 @@ ro.zram.default=18
 #Surface Dithering
 persist.sys.use_dithering=2
 
-persist.sys.root_access=3
+# persist.sys.root_access=3
 persist.service.adb.enable=1
 
 #Power Saving
