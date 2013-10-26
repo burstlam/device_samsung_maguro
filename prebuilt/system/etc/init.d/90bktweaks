@@ -113,7 +113,7 @@ doBoost=0
 doLog=on
 
 # TouchWake 功能
-doTouch=on
+doTouch=off
 
 initPath=/system/etc/init.d/90bktweaks
 busybox=/system/xbin/busybox
