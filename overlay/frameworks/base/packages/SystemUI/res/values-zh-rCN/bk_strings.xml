@@ -205,4 +205,7 @@
     <string name="powerwidget_screen_timeout_never_toast">屏幕保持点亮</string>
 
     <string name="pie_date_format">yyyy MMM dd日, ccc</string>
+
+    <!-- Title shown in recents popup for adding an application to the split view -->
+	<string name="status_bar_recent_add_to_split_view">新增到新视窗</string>
 </resources>
