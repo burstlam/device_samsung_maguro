@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pref_title_sms_split_counter">分割序号</string>
+    <string name="pref_summary_sms_split_counter">显示分割后的短信序号，例： (1/2)</string>
+
+    <!-- Extra Settings: -->
+    <string name="pref_extra_settings">其它设置</string>
+
+    <!-- Strip unicode -->
+    <string name="pref_title_strip_unicode">过滤 unicode</string>
+    <string name="pref_summary_strip_unicode">在160字母的短信中用普通字符替换不支持的字符。</string>
+
+    <!-- Enable emojis -->
+    <string name="pref_title_enable_emojis">启用 emoji 表情</string>
+    <string name="pref_summary_enable_emojis">启用支持日本软银的emoji表情(unicode)，共 471 个</string>
+    <string name="pref_title_pref_key_emojis_quick">快捷 emoji 表情按钮</string>
+    <string name="pref_summary_pref_key_emojis_quick">在信息文本输入框左边显示快捷按钮</string>
+
+    <!-- Enable SoftBank emoji encoding -->
+    <string name="pref_title_enable_softbank_encoding">SoftBank emoji 表情</string>
+    <string name="pref_summary_enable_softbank_encoding">使用 SoftBank emoji 表情编码</string>
+
+
+    <!-- Quick Reply -->
+    <string name="quick_call_back">回拨电话</string>
+    <string name="quick_call_back_short">回拨</string>
+    <string name="quick_reply_sms">快捷回复</string>
+    <string name="quick_reply_sms_short">回复</string>
+    <string name="quick_reply_delete">删除信息</string>
+    <string name="quick_reply_delete_short">删除</string>
+    <string name="quick_reply_mark_read">标记已读</string>
+    <string name="quick_reply_mark_read_short">已读</string>
+    <string name="quick_reply_sending">发送快捷回复到</string>
+    <string name="qr_alert_title">未发送任何内容</string>
+    <string name="qr_alert_message">你确定要取消这条信息？</string>
+    <string name="qr_alert_yes">是</string>
+    <string name="qr_alert_no">否</string>
+    <string name="qr_alert_read">标记已读</string>
+    <string name="qr_mark_read">标记已读 &amp; 关闭</string>
+    <string name="qr_mark_open">打开</string>
+    <string name="qr_pick_smiley">插入表情</string>
+    <string name="qr_pick_emoji">插入 emoji 表情</string>
+    <string name="qr_close_popup">关闭</string>
+    <string name="qr_multi_ask">你想回复给谁？</string>
+    <string name="quick_reply_hint">键入信息</string>
+    <string name="only_three_please">一次只能选择三项</string>
+    <string name="pref_title_quick_reply">快捷回复</string>
+    <string name="pref_category_quick_reply_extra">其他设定</string>
+
+   <!-- Breathing Notifications -->
+   <string name="sms_breath">呼吸效果短信提醒</string>
+   <string name="sms_breath_summary">为状态栏的短信通知提供呼吸效果</string>
+
+   <!-- Soft Keyboard Type -->
+   <string name="pref_soft_keyboard_title">键盘</string>
+   <string name="pref_title_input_type">软键盘类型</string>
+   <string name="pref_summary_input_type">选择编辑信息时软键盘如何使用</string>
+   <string name="pref_keyboard_emoji">Emoji 表情</string>
+   <string name="pref_keyboard_send">回车键发送</string>
+   <string name="pref_keyboard_new_line">回车键换行</string>
+
+    <!-- Custom user-agent -->
+    <string name="pref_mms_ua_default_android">默认Android</string>
+    <string name="pref_mms_ua_custom_option">自定义…</string>
+    <string name="pref_title_mms_user_agent">自定义用户代理</string>
+    <string name="pref_summary_mms_user_agent">发送信息时将手机伪装成不同的设备</string>
+    <string name="pref_mms_user_agent_custom_set">自定义用户代理设置为：\n</string>
+
+    <!-- Multi recipients -->
+    <string name="select_recipients">选取联络人</string>
+    <string name="groups_header">群组</string>
+    <string name="no_recipients">找不到任何取络人</string>
+    <string name="no_recipients_mobile_only">找不到任何匹配纪录 请尝试反勾只显示手机号码过滤</string>
+    <string name="menu_done">完成</string>
+    <string name="menu_mobile">只显示手机号码</string>
+    <string name="menu_groups">显示群组</string>
+</resources>
