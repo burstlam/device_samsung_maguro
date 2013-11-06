@@ -402,4 +402,13 @@ PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按
     <string name="smart_cover_wake_summary">掀开护套自动唤醒屏幕</string>
 
     <string name="lockscreen_battery_status_alwaysoff">不要显示</string>
+
+    <!-- BLUETOOTH -->
+    <string name="bluetooth_enter_pin_msg_hs">\n输入 PIN 配对 \u0022<xliff:g id="device_name">%1$s</xliff:g>\u0022. [较高安全设定: 需要16位字元] </string>
+    <string name="bluetooth_profile_sap">SIM 访问权限</string>
+    <string name="bluetooth_profile_dun">网路连接权限</string>
+    <string name="bluetooth_sap_profile_summary_connected">已连接SIM 访问伺服器</string>
+    <string name="bluetooth_dun_profile_summary_connected">已连接DUN 伺服弹器</string>
+    <string name="bluetooth_sap_profile_summary_use_for">获取SIM使用</string>
+    <string name="bluetooth_dun_profile_summary_use_for">获取网路连接</string>
 </resources>

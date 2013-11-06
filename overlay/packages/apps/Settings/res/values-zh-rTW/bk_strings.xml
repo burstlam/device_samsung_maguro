@@ -23,6 +23,7 @@
     <!-- Settings main menu category heading. Rom (Launcher, Themes, System). [CHAR LIMIT=40] -->
     <string name="header_category_rom_settings">進階設定</string>
     <string name="header_category_rom_system_settings">進階系統設定</string>
+
     <string name="ok">確認</string>
     <!-- Interface settings  and general strings-->
     <string name="interface_settings_title">界面</string>
@@ -752,8 +753,8 @@
     <string name="keyboard_rotation_timeout_title">自動旋轉逾時</string>
     <string name="keyboard_rotation_timeout_summary">在鍵盤隱藏 <xliff:g id="rotate_timeout">%1$s</xliff:g> 秒后禁用自動旋轉</string>
     <string name="keyboard_rotation_dialog">注意: 此功能用於在鍵盤顯示時強制開啟自動旋轉.  若自動旋轉本身已開啟，則此功能無效.</string>
-    <string name="show_enter_key_title">顯示轉鍵鍵</string>
-    <string name="show_enter_key_summary">強制鍵盤顯示轉鍵而不是表情象徵式鍵</string>
+    <string name="show_enter_key_title">顯示輸入鍵</string>
+    <string name="show_enter_key_summary">強制鍵盤顯示輸入鍵而不是表情符號鍵</string>
 
     <!-- About phone screen,  setting option name-->
     <string name="mod_version">SLIM 版本</string>
@@ -2199,4 +2200,14 @@ PA版本是全屏助手，簡潔美觀的方式在全屏模式中提供基本按
     <string name="smart_cover_wake_summary">掀開護套自動喚醒屏幕</string>
 
     <string name="lockscreen_battery_status_alwaysoff">不要顯示</string>
+
+    <!-- BLUETOOTH -->
+    <string name="bluetooth_enter_pin_msg_hs">\n輸入 PIN 配對 \u0022<xliff:g id="device_name">%1$s</xliff:g>\u0022. [較高安全設定: 需要16位字元] </string>
+    <string name="bluetooth_profile_sap">SIM 訪問權限</string>
+    <string name="bluetooth_profile_dun">網路連接權限</string>
+    <string name="bluetooth_sap_profile_summary_connected">已連接SIM 訪問伺服器</string>
+    <string name="bluetooth_dun_profile_summary_connected">已連接DUN 伺服彈器</string>
+    <string name="bluetooth_sap_profile_summary_use_for">獲取SIM使用</string>
+    <string name="bluetooth_dun_profile_summary_use_for">獲取網路連接</string>
+
 </resources>
