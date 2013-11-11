@@ -59,6 +59,9 @@ echo "1536,3072,10240,15360,20480,25600" > /sys/module/lowmemorykiller/parameter
 # Vibration
 echo "1650" /sys/class/misc/vibratorcontrol/vibrator_strength
 
+# Enable Dynamic Sync
+echo "1" /sys/kernel/Dyb_fsync_active
+
 LOOP=`ls -d /sys/block/loop*`;
 RAM=`ls -d /sys/block/ram*`;
 MMC=`ls -d /sys/block/mmc*`;

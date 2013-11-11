@@ -21,9 +21,10 @@ ro.device.screen_res=720x1280
 ro.bq.gpu_to_cpu_unsupported=1
 
 #ZRAM
-#ro.compcache.default=1
+ro.compcache.default=1
 persist.service.zram=1
 ro.zram.default=18
+persist.sys.purgeable_assets=1
 
 #Surface Dithering
 persist.sys.use_dithering=2
