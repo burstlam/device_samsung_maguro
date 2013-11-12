@@ -1501,7 +1501,10 @@
     <string name="quiet_hours_mute">靜音通知</string>
     <string name="quiet_hours_mute_on">沒有音響會被播放</string>
     <string name="quiet_hours_mute_off">音響將正常播放</string>
-    <string name="quiet_hours_still">禁用震動</string>
+    <string name="quiet_hours_system">系統音效</string>
+    <string name="quiet_hours_system_on">系統音效會被播放</string>
+    <string name="quiet_hours_system_off">系統音效將不會播放</string>
+    <string name="quiet_hours_still">禁用震動(包括觸摸回饋)</string>
     <string name="quiet_hours_still_on">裝置將不會震動</string>
     <string name="quiet_hours_still_off">裝置將照常震動</string>
     <string name="quiet_hours_dim">禁用通知燈</string>
@@ -1552,6 +1555,7 @@
     <string name="power_menu_profiles_lock">鎖屏時禁用</string>
     <string name="power_menu_profiles_all">總是顯示</string>
     <string name="power_menu_airplane_title">飛行型態</string>
+    <string name="power_menu_sysbar_title">狀態欄導航欄控制台</string>
     <string name="power_menu_sound_title">音響面板</string>
     <string name="summary_expanded_desktop">%1$s</string>
     <string name="expanded_desktop_summary">顯示和改變全屏模式型態</string>

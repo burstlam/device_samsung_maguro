@@ -18,6 +18,9 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- label for item that toggles NavBar Hide -->
+    <string name="global_actions_toggle_navbar_hide">導航欄狀態欄控制台</string>
+
     <!-- Names of default profiles. -->
     <string name="profileNameDefault">默認</string>
     <string name="profileNameWork">工作</string>

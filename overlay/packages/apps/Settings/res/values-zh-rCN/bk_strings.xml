@@ -411,4 +411,13 @@ PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按
     <string name="bluetooth_dun_profile_summary_connected">已连接DUN 伺服弹器</string>
     <string name="bluetooth_sap_profile_summary_use_for">获取SIM使用</string>
     <string name="bluetooth_dun_profile_summary_use_for">获取网路连接</string>
+
+    <string name="power_menu_sysbar_title">状态栏导航栏控制台</string>
+
+    <string name="quiet_hours_system">系统音效</string>
+    <string name="quiet_hours_system_on">系统音效会被播放</string>
+    <string name="quiet_hours_system_off">系统音效将不会播放</string>
+    <string name="quiet_hours_still">禁用震动(包括触摸回馈)</string>
+    <string name="quiet_hours_still_on">装置将不会震动</string>
+    <string name="quiet_hours_still_off">装置将照常震动</string>
 </resources>
