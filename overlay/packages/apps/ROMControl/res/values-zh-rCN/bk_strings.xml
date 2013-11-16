@@ -49,6 +49,7 @@
     <!-- Activity titles defined in AndroidManifest.xml -->
     <string name="title_about">关于 AOKP</string>
     <string name="title_ui">常规介面设置</string>
+    <string name="title_statusbar_notifications">通知/状态栏</string>
     <string name="title_statusbar_clock">日期及时间</string>
     <string name="title_statusbar_toggles">开关</string>
     <string name="title_statusbar_battery">电量</string>
@@ -130,10 +131,10 @@
     <string name="expanded_desktop_both_hidden">全部隐藏</string>
     <string name="title_show_reboot_keyguard">锁屏中显示重启开关</string>
     <string name="title_show_volume_state_toggle">显示音效面板</string>
-    <!--<string name="power_menu_profiles_title">显示情景模式开关</string>
+    <string name="power_menu_profiles_title">显示情景模式开关</string>
     <string name="power_menu_profiles_disabled">关闭</string>
     <string name="power_menu_profiles_lock">显示锁屏中禁用</string>
-    <string name="power_menu_profiles_all">永远显示（已设置保安状态锁屏除外）</string>-->
+    <string name="power_menu_profiles_all">永远显示（已设置保安状态锁屏除外）</string>
 
     <!-- S Pen -->
     <string name="spen_left_title">向左滑动动作</string>
@@ -157,8 +158,11 @@
     <string name="persist_prop_density_summary">@null</string>
     <string name="persist_file_hosts">保留Hosts名单</string>
     <string name="persist_file_hosts_summary">@null</string>
-    <!--<string name="persist_dpi_conf">保留DPI群组数据</string>
-    <string name="persist_dpi_conf_summary">保存DPI群组/程序设定参数</string>-->
+    <string name="persist_dpi_conf">保留DPI群组数据</string>
+    <string name="persist_dpi_conf_summary">保存DPI群组/程序设定参数</string>
+    <string name="persist_file_xposed">保留Xposed 框架参数</string>
+    <string name="persist_file_xposed_summary">保留Xposed 框架工具参数</string>
+    <string name="persist_file_xposed_notinstalled">没有找到Xposed安装器，请先重新安装</string>
 
     <!-- Power Saving -->
     <string name="title_pref_powersaving_pref_mode">启用省电模式</string>
@@ -193,6 +197,8 @@
     <string name="bootani_cat">开机动画</string>
     <string name="navbar_cat">导航栏</string>
     <string name="notification_cat">通知栏</string>
+    <string name="statusbar_cat">状态栏</string>
+    <string name="statusbar_notifications">通知/状态栏</string>
     <string name="display_cat">显示</string>
     <string name="recents_cat">最近任务</string>
     <string name="tabletUI_cat">使用者界面</string>
@@ -359,7 +365,7 @@
     <string name="toggle_action_title">%1$s &amp; 动作图标</string>
     <string name="toggle_action_title_alt">%1$s &amp; 长按动作图标</string>
     <string name="toggle_longpress_title">%1$s 长按动作</string>
-    <string name="custom_toggle_desc">每次点击将切换到下一个动作。如果点击动作为空并且无图标，将显示长按动作的图标。适用于用户希望通过简单的点击可以循环动作并执行。</string>
+    <string name="custom_toggle_desc">每次点击将切换到下一个动作.如果点击动作为空并且无图标，将显示长按动作的图标.适用于用户希望通过简单的点击可以循环动作并执行.</string>
     <string name="custom_help_title">使用指导</string>
     <string name="custom_help_summary">点击查看更多信息</string>
     <string name="custom_toggle_okay">取消</string>
@@ -445,7 +451,7 @@
     <string name="battery_bar_style_title">电量条样式</string>
     <string name="battery_bar_thickness_title">电量条厚度</string>
     <string name="battery_bar_animate_title">充电动画效果</string>
-    <string name="battery_bar_animate_summary">充电动画效果可能会影响使用体验。请酌情使用该选项。</string>
+    <string name="battery_bar_animate_summary">充电动画效果可能会影响使用体验.请酌情使用该选项.</string>
 
     <!-- Statusbar | Signal -->
     <string name="signal_style">信号显示风格</string>
@@ -471,6 +477,7 @@
 
     <!-- Navigation Bar -->
     <string name="navigation_bar">虚拟键</string>
+    <string name="navbar_hide">隐藏导航栏设定</string>
     <string name="navbar_button_cat">虚拟键布局</string>
     <string name="navbar_color_cat">颜色与透明度</string>
     <string name="title_pref_menu_display">功能表键位置</string>
@@ -482,7 +489,7 @@
     <string name="navbar_action_title">按键 %1$s 的行为与图像</string>
     <string name="button_transparency_title">虚拟键按键透通度</string>
     <string name="navbar_width_help_title">平板模式导航栏组合高度辅助说明</string>
-    <string name="navbar_width_help_summary">100 是萤幕高度的 70\%% 。5 是萤幕高度的 30\%% 。0 预设是按钮高度。</string>
+    <string name="navbar_width_help_summary">100 是萤幕高度的 70\%% .5 是萤幕高度的 30\%% .0 预设是按钮高度.</string>
     <string name="width_port_title">平板模式虚拟键(直屏)缩放大小</string>
     <string name="width_land_title">平板模式虚拟键(横屏)缩放大小</string>
     <string name="navbar_widgets">虚拟键小工具</string>
@@ -508,7 +515,7 @@
     <string name="navigation_bar_color_title">导航水栏颜色</string>
     <string name="navigation_bar_tint_title">虚拟键按键色彩</string>
     <string name="navigation_bar_glow_tint_title">虚拟键按键按下发光色彩</string>
-    <string name="navigation_bar_glow_tint_summary">当您按下一个按键时，它的背景会发光。使用该选项来改变发光的色彩。</string>
+    <string name="navigation_bar_glow_tint_summary">当您按下一个按键时，它的背景会发光.使用该选项来改变发光的色彩.</string>
     <string name="glow_times_title">按键发光动画</string>
     <string name="glow_times_off">关闭</string>
     <string name="glow_times_superquick">超快</string>
@@ -650,7 +657,7 @@
     <string name="led_custom_message">"您想要变更应用程式: "</string>
     <string name="led_test_notification">测试 LED</string>
     <string name="led_test_notification_message_now">"现在测试应用程式： "</string>
-    <string name="led_test_notification_message_note">". 请关闭萤幕后观察 LED 灯操作是否正常。在您观察完毕之前不要点击确定按钮。"</string>
+    <string name="led_test_notification_message_note">". 请关闭萤幕后观察 LED 灯操作是否正常.在您观察完毕之前不要点击确定按钮."</string>
     <string name="led_test_ok">确定</string>
     <string name="title_charging_led_on">充电时启用LED</string>
     <string name="led_change_brightness">更改LED亮度</string>
@@ -687,10 +694,10 @@
     <string name="summary_down_sec">判定手机为朝下所需的时间</string>
     <string name="flip_action_positive">确定</string>
     <string name="flip_dialog_title">功能说明</string>
-    <string name="flip_dialog_msg">您的电话将会在您将它翻面后自动进入您所设定的震动或静音模式。
-        默认在翻面1.5秒后进入所选模式。
-                默认在进入所选模式后15秒以后，关闭翻面模式。
-        备注：**若要返回正常模式，您需要在进入翻面模式后，将屏幕点亮超过所设定的“屏幕超时时间”。</string>
+    <string name="flip_dialog_msg">您的电话将会在您将它翻面后自动进入您所设定的震动或静音模式.
+        默认在翻面1.5秒后进入所选模式.
+                默认在进入所选模式后15秒以后，关闭翻面模式.
+        备注：**若要返回正常模式，您需要在进入翻面模式后，将屏幕点亮超过所设定的“屏幕超时时间”.</string>
     <string name="summary_phone_flip_mode">来电响铃时翻面以进入静音状态</string>
     <string name="title_phone_flip_mode">来电响铃静音</string>
     <string name="vibrations_category">振动</string>
@@ -699,7 +706,7 @@
 
     <!-- Lockscreen -->
     <string name="lock_widgets_short">锁屏小工具</string>
-    <string name="lockscreen_security_cat">安全性</string>
+    <string name="lockscreen_security_cat">安全設置</string>
     <string name="lockscreen_layout_cat">布局</string>
     <string name="lockscreen_music_cat">音乐</string>
     <string name="lockscreen_weather_cat">天气</string>
@@ -721,6 +728,11 @@
     <string name="lockscreen_longpress_challenge_summary">锁屏小工具最大化时,长按解锁图案可直接解锁.</string>
     <string name="lockscreen_use_widget_container_carousel_title">使用旋转动画</string>
     <string name="lockscreen_use_widget_container_carousel_summary">替换小工具页面时使用旋转动画.</string>
+    <string name="lockscreen_minimize_challenge_title">最小化解锁区</string>
+    <string name="lockscreen_minimize_challenge_summary">当屏幕开启时最小化解锁区（环形，图形，PIN）.
+    </string>
+    <string name="lockscreen_camera_widget_title">相机小工具</string>
+    <string name="lockscreen_camera_widget_summary">可以选择关闭在锁屏的相机小工具</string>
     <string name="volume_rocker_wake_title">音量键唤醒</string>
     <string name="volume_rocker_wake_summary">使用音量键唤醒设备</string>
     <string name="volume_music_controls_title">播放器音量键跳轨功能</string>
@@ -729,6 +741,7 @@
     <string name="lockscreen_stock_music_layout_summary">播放音乐时，使用原生系统操作界面.</string>
     <string name="lockscreen_wallpaper_title">选择锁屏壁纸</string>
     <string name="lockscreen_wallpaper_summary">您可以通过本页的菜单将锁屏壁纸移除</string>
+    <string name="lockscreen_wallpaper_pick">刷新锁屏壁纸</string>
     <string name="lockscreen_wallpaper_remove">移除锁屏壁纸</string>
     <string name="lockscreen_text_color_title">锁屏文字颜色</string>
     <string name="lockscreen_text_color_summary">设定锁屏文字颜色</string>
@@ -762,6 +775,8 @@
     <string name="circles_lock_halo_alpha_title">Halo环 alpha值</string>
     <string name="circles_lock_wave_color_title">波纹 颜色</string>
     <string name="circles_lock_wave_alpha_title">波纹 alpha值</string>
+    <string name="ls_shortcuts_title">设置锁屏目标</string>
+    <string name="lock_clock_title">锁屏天气时钟</string>
 
     <!-- Lockscreen Targets-->
     <string name="lockscreen_targets_title">锁屏目标</string>
@@ -797,21 +812,21 @@
     <string name="weather_use_custom_location">使用自订位置</string>
     <string name="weather_use_custom_location_summary">使用自订的位置可节省一些电量；否则使用网路定位确定您的位置</string>
     <string name="weather_custom_location_dialog_title">设定您的位置</string>
-    <string name="weather_custom_location_dialog_message">"务必遵循规则！设定一个无效的位置您将无法获得天气更新，并可能导致意外的行为。\n\n举例: New York，NY // New York， NY // 10033 // London， England"</string>
+    <string name="weather_custom_location_dialog_message">"务必遵循规则！设定一个无效的位置您将无法获得天气更新，并可能导致意外的行为.\n\n举例: New York，NY // New York， NY // 10033 // London， England"</string>
     <string name="weather_custom_location_title">自订位置</string>
     <string name="weather_show_location_title">显示所在位置</string>
     <string name="weather_show_location_summary">显示您的位置</string>
     <string name="weather_refresh_interval">更新间隔</string>
     <string name="weather_refresh_interval_minutes">" 分钟"</string>
     <string name="weather_use_celcius">公制单位（摄氏）</string>
-    <string name="weather_use_celcius_summary">启用该选项将会使天气温度以摄氏度表示，风速以 km/h 表示。</string>
+    <string name="weather_use_celcius_summary">启用该选项将会使天气温度以摄氏度表示，风速以 km/h 表示.</string>
     <string name="weather_statusbar_style">状态栏天气风格</string>
     <string name="title_weather_longclick">长按天气栏动作</string>
     <string name="title_weather_shortclick">点击天气栏动作</string>
     <string name="update">刷新天气栏</string>
     <string name="weather_refreshing">正在取得天气资讯更新！</string>
     <string name="weather_loc_warning_title">无法获得地理位置资讯！</string>
-    <string name="weather_loc_warning_msg">"通过网路获得地理位置功能目前已禁用。无法从网路获得您目前的位置和天气资讯。请设定自订位置或启用从网路获得所在位置的功能。"</string>
+    <string name="weather_loc_warning_msg">"通过网路获得地理位置功能目前已禁用.无法从网路获得您目前的位置和天气资讯.请设定自订位置或启用从网路获得所在位置的功能."</string>
     <string name="weather_loc_warning_positive">"开启网路位置"</string>
     <string name="weather_loc_warning_negative">"不使用网路位置"</string>
     <string name="menu_weather_get_weather">同步天气资讯</string>
@@ -948,6 +963,7 @@
     <!-- Battery styles -->
     <string name="icon_with_text">带文字的图标</string>
     <string name="icon_with_centered_text">带置中文字的图标</string>
+    <string name="icon_with_big_text">字体较大的文字及图标</string>
     <string name="circlemod">环形电量图标</string>
     <string name="circle">环形</string>
     <string name="circle_percent">环形带文字</string>
@@ -1130,7 +1146,7 @@
     <string name="wallpaper_intra_close_title">壁纸内关闭动画</string>
     <string name="animation_duration_title">动画时间</string>
     <string name="title_animation_no_override">防止应用程式复写</string>
-    <string name="summary_animation_no_override">防止应用程式自带的动画效果替代您的配置。</string>
+    <string name="summary_animation_no_override">防止应用程式自带的动画效果替代您的配置.</string>
     <string name="animation_duration_default">预设</string>
 
     <!-- Active Display -->
@@ -1165,6 +1181,9 @@
     <string name="ad_redisplay_1h">1 小时</string>
     <string name="ad_redisplay_2h">2 小时</string>
     <string name="ad_redisplay_5h">5 小时</string>
+    <string name="ad_pocket_mode_off">关闭</string>
+    <string name="ad_pocket_mode_notifications">只显示通知</string>
+    <string name="ad_pocket_mode_always">永远显示</string>
 
     <!-- Hardware keys -->
     <string name="hardware_keys_enable_custom_title">启用自订作业</string>
@@ -1575,4 +1594,225 @@
     <!-- Statusbar Quick Peek -->
     <string name="statusbar_quick_peek_title">全屏下拉</string>
     <string name="statusbar_quick_peek_summary">全屏时从屏幕顶端下拉可呼出状态栏</string>
+
+    <!-- Recents -->
+    <string name="recents_style">最近任务视窗风格</string>
+    <string name="recents_stock">系统默认</string>
+    <string name="recents_rootbox">RootBox风格</string>
+    <string name="recents_kill_all">一键清除任务</string>
+    <string name="recent_kill_all_summary">启用一键清除及设置按键位置</string>
+    <string name="recents_disable">关闭</string>
+    <string name="recents_bottom_right">右下方</string>
+    <string name="recents_bottom_left">左下方</string>
+    <string name="recents_top_right">右上方</string>
+    <string name="recents_top_left">左上方</string>
+
+    <!-- Quick/Pie Control-->
+    <string name="pie_preference">PIE控制台</string>
+    <string name="pie_help_title">帮助</string>
+    <string name="pie_help_text"><b>PA/Xylon跟Slim版本的PIE有什么分别?</b>
+\n\n
+PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按键功能. Slim 版本则具备更多设置且能够完全胜任导航栏的替补.
+\n\n\n </string>
+    <string name="quick_launch_shortcuts_title">Slim PIE</string>
+    <string name="quick_launch_shortcuts_summary">Slim 版本可作为导航栏用途，含多种自定义设定.</string>
+    <string name="pie_title">Xylon/PA PIE</string>
+    <string name="pie_summary">全屏助手，简洁美观</string>
+
+    <string name="pie_control_title">PIE面版</string>
+    <string name="pie_control_dialog_title">PIE虚拟键</string>
+    <string name="pie_control_always">不设限制启用</string>
+    <string name="pie_control_expanded">只有全屏模式时自动启用</string>
+    <string name="pie_control_disabled">关闭</string>
+    <string name="pie_control_size">面板大小</string>
+    <string name="pie_control_trigger_positions">触发侧设定</string>
+    <string name="pie_control_trigger_left">屏幕左侧边框</string>
+    <string name="pie_control_trigger_bottom">屏幕底部边框</string>
+    <string name="pie_control_trigger_right">屏幕右侧边框</string>
+    <string name="pie_control_trigger_top">屏幕顶部边框</string>
+    <string name="pie_control_trigger_top_summary">顶部只会显示虚拟键,不会显示信息面板</string>
+    <string name="pie_button_style">按键样式</string>
+    <string name="pie_button_color_title">按键颜色</string>
+    <string name="pie_button_alpha_title">按键透明度</string>
+    <string name="pie_button_outline_color_title">按键框线颜色</string>
+    <string name="pie_button_pressed_color_title">按下按键颜色</string>
+    <string name="pie_button_long_pressed_color_title">长按按键颜色</string>
+    <string name="pie_button_pressed_alpha_title">按下按键颜色透明度</string>
+    <string name="pie_icon_style">按键图示风格</string>
+    <string name="pie_icon_color_title">按键图示颜色</string>
+    <string name="pie_icon_color_mode_title">按键色彩模式</string>
+    <string name="pie_icon_color_mode_dialog_title">彩色化</string>
+    <string name="pie_icon_color_mode_summary">改变按键著色</string>
+    <string name="pie_icon_color_mode_all_icons">全部图示</string>
+    <string name="pie_icon_color_mode_system_icons">系统图示</string>
+    <string name="pie_icon_color_mode_system_custom_icons">所有系统及自定图示</string>
+
+    <string name="pie_trigger_dimens_options">触发区尺寸设置</string>
+    <string name="pie_trigger_thickness_title">触发区宽度</string>
+    <string name="pie_trigger_height_title">左右侧触发区高度</string>
+    <string name="pie_trigger_gravity_left_right_title">触发区重心</string>
+    <string name="pie_trigger_gravity_left_right_dialog_title">设定左右方触发区重心</string>
+    <string name="pie_trigger_gravity_left_right_bottom">下方</string>
+    <string name="pie_trigger_gravity_left_right_center">置中</string>
+    <string name="pie_trigger_gravity_left_right_top">上方</string>
+    <string name="menu_pie_trigger_settings_reset">重置触发区设定</string>
+
+    <string name="pie_trigger">触发区域设定</string>
+    <string name="pie_trigger_note_title">注意事项</string>
+    <string name="pie_trigger_note_summary">为避色跟状态栏及导航栏互相干扰, 触发区域会根据重叠的边缘范围自动调整</string>
+    <string name="pie_disable_ime_triggers_title">使用键盘时关闭或调节触发区域</string>
+    <string name="pie_disable_ime_triggers_summary">使用软键盘时,自动关闭或调节键盘位置的触发区域</string>
+    <string name="pie_background_color_title">背景颜色</string>
+    <string name="pie_snap_color_title">捕捉点颜色</string>
+    <string name="pie_text_color_title">文字颜色</string>
+    <string name="pie_background_alpha_title">背景透明度</string>
+    <string name="pie_mirror_right_title">镜像复制</string>
+    <string name="pie_mirror_right_summary">将左侧的PIE配置自动复制到右侧</string>
+    <string name="pie_style">样式和尺寸</string>
+    <string name="pie_style_title">样式</string>
+    <string name="pie_dimens_title">尺寸</string>
+    <string name="pie_default">默认</string>
+    <string name="pie_additional_options">其他选项</string>
+    <string name="pie_show_snap_title">显示捕捉点</string>
+    <string name="pie_show_snap_summary">显示捕捉点以便自由拖动转换</string>
+    <string name="pie_show_text_title">PIE显示状态信息面板</string>
+    <string name="pie_show_text_summary">显示讯号,日期及时间状态</string>
+    <string name="pie_disable_statusbar_info_title">隐藏状态栏重复信息内容</string>
+    <string name="pie_disable_statusbar_info_summary">隐藏重复的状态栏信息:时间,电量</string>
+    <string name="pie_show_background_title">显示背景</string>
+    <string name="pie_show_background_summary">显示PIE按键背景</string>
+    <string name="menu_pie_style_reset">重置样式</string>
+    <string name="menu_pie_button_style_reset">重置按键样式</string>
+    <string name="menu_pie_button_reset">重置按键</string>
+    <string name="pie_qty_title">按键数目</string>
+    <string name="pie_qty_summary">改变此项将重置所有按键设定</string>
+    <string name="pie_action_title">%1$s 按键动作 &amp; 图示</string>
+    <string name="pie_longpress_title"> %1$s 按键长按动作</string>
+    <string name="pie_enable_long">启用按键长按设定</string>
+    <string name="pie_button">按键布局设定</string>
+    <string name="pie_button_cat">按键布局设定</string>
+    <string name="pie_buttons_options">按键设定</string>
+    <string name="pie_second_layer_title">启用第二行按键</string>
+    <string name="pie_second_layer_summary">启用或关闭第二行按键</string>
+    <string name="pie_button_second_layer">第二行按键</string>
+    <string name="pie_button_second_layer_cat">第二行按键</string>
+    <string name="pie_action_custom_app">自定程式</string>
+    <string name="pie_action_home">主页</string>
+    <string name="pie_action_back">返回</string>
+    <string name="pie_action_recents">最近任务</string>
+    <string name="pie_action_lastapp">上一个任务</string>
+    <string name="pie_action_search">搜寻</string>
+    <string name="pie_action_screenshot">截屏</string>
+    <string name="pie_action_menu">菜单</string>
+    <string name="pie_action_ime">切换输入法</string>
+    <string name="pie_action_kill">一键清除任务</string>
+    <string name="pie_action_power">关闭屏幕</string>
+    <string name="pie_action_notifications">通知栏</string>
+    <string name="pie_action_quicksettings">磁贴开关</string>
+    <string name="pie_action_widgets">小工具视窗</string>
+    <string name="pie_action_expanded">全屏开关</string>
+    <string name="pie_action_none">空</string>
+    <string name="color_default">默认</string>
+
+    <!-- Hybrid Mode -->
+    <string name="hybridsettings">分辨率及布局</string>
+    <string name="title_hybridsettings">分辨率及布局</string>
+    <string name="perapp_settings_title">APP单独UI设置</string>
+    <string name="navbarUI_cat">导航栏UI及布局</string>
+    <string name="uimode_title">UI布局</string>
+
+    <string name="hybrid_settings_title">分辨率及布局</string>
+    <string name="uimode_phone">手机</string>
+    <string name="uimode_phablet">平板手机</string>
+    <string name="uimode_tablet">平板</string>
+
+    <string name="dpi_settings_title">调整屏幕分辨率</string>
+    <string name="system_dpi_title">系统分辨率</string>
+    <string name="system_dpi_summary">目前分辨率:</string>
+    <string name="system_dpi_standar_title">系统全局分辨率</string>
+    <string name="system_dpi_standar_summary">从列表选择合适分辨率</string>
+    <string name="system_dpi_custom_title">自设数值</string>
+    <string name="system_dpi_custom_hint">由120至480</string>
+    <string name="system_dpi_custom_summary">自定分辨率</string>
+
+    <!-- Per Apps UI Mode-->
+    <string name="appsuimode_title">全局APP UI布局</string>
+    <string name="apps_dpi_title">全局APP DPI分辨率</string>
+    <string name="apps_dpi_summary">目前数值:</string>
+    <string name="apps_dpi_custom_title">指定数值:</string>
+    <string name="apps_dpi_custom_hint">120 至 480</string>
+    <string name="apps_dpi_custom_summary">自定义数值(120至480中间)</string>
+
+    <!-- DPI GROUPS-->
+    <string name="dpi_groups_title">自定义DPI分组</string>
+    <string name="dpi_groups_summary">为程序自定义DPI组合</string>
+    <string name="dpi_group_title">DPI 群组</string>
+    <string name="dpi_groups_apps">程序</string>
+    <string name="dpi_group_add_app">增加程序</string>
+    <string name="dpi_group_app_list">程序列表</string>
+    <string name="dpi_group_alert_add_app_title">选择程序</string>
+    <string name="dpi_groups_alert_remove_app">移除程序</string>
+    <string name="dpi_groups_remove_app">是否将 %s 从群组中移除?</string>
+    <string name="dpi_groups_backuprestore_title">备份及还原</string>
+    <string name="dpi_groups_auto_backup">自动备份</string>
+    <string name="dpi_groups_auto_backup_summary">每次更改配置后自动备份</string>
+    <string name="dpi_groups_backup_title">备份</string>
+    <string name="dpi_groups_backup_summary">为您的群组设定作备份</string>
+    <string name="dpi_groups_restore_title">还原</string>
+    <string name="dpi_groups_restore_summary">还原您的群组备份</string>
+    <string name="dpi_groups_backup_done">配置备份已经完成</string>
+    <string name="dpi_groups_restore_done">已用备份档案还原</string>
+    <string name="dpi_groups_restore_default_title">恢复默认配置备份</string>
+    <string name="dpi_groups_restore_default_summary">移除自定义配置使用系统默认设定</string>
+    <string name="dpi_groups_delete_title">删除DPI群组</string>
+    <string name="dpi_groups_delete_summary">您是否确认删除此群组?</string>
+    <string name="customdpigroup">新增群组</string>
+    <string name="customdpigroup_summary">新增DPI群组</string>
+    <string name="custom_dpi">目前 DPI值:</string>
+    <string name="customdpigroup_group_exists">错误!选择的群组已存在!</string>
+    <string name="per_app_layout_title">程序布局</string>
+    <string name="per_app_layout_summary">指定个别程序运行布局风格,但受限于程序本身是否已自带其他布局</string>
+    <string name="per_app_layout_list_title">程序列表</string>
+    <string name="per_app_layout_alert_title">选定布局</string>
+    <string name="navbar_height_title">导航栏高度比例</string>
+    <string name="alert_reboot">需要重启您的手机</string>
+    <string name="alert_reboot_message">套用新设定需要重启才能生效，请问是否确定要继续?</string>
+
+    <!-- Widgets DPI -->
+    <string name="widgets_title">添加小工具DPI支援</string>
+    <string name="widgets_summary">设定小工具清单</string>
+    <string name="add_widget">新增小工具</string>
+    <string name="widget_list">小工具清单</string>
+    <string name="widget_alert_remove_widget">移除小工具</string>
+    <string name="widget_remove_widget">将 %s 从清单中移除?</string>
+    <string name="widget_add_title">选择小工具</string>
+
+    <!-- Tile background style and text color -->
+    <string name="custom_toggle_colors">自定义开关风格</string>
+    <string name="tile_background_style_title">磁贴开关风格</string>
+    <string name="tile_background_style_summary">可选任意色彩，实色填充或点认背景</string>
+    <string name="tile_background_color_title">设置磁贴背景</string>
+    <string name="tile_background_pressed_color_title">设置磁贴按键颜色</string>
+    <string name="tile_background_random">乱入色彩</string>
+    <string name="tile_background_color_fill">实色填充</string>
+    <string name="tile_background_default">默认背景</string>
+    <string name="tile_custom_background_dialog_title">磁贴背景风格</string>
+    <string name="tile_text_color_title">磁贴文字颜色</string>
+
+    <!-- Random colors -->
+    <string name="random_colors">乱入色彩</string>
+    <string name="random_colors_title">乱入色彩</string>
+    <string name="random_colors_summary">以乱入方式随机改变磁贴背景色彩</string>
+    <string name="random_colors_reset_title">重置任意色彩</string>
+    <string name="color_one">颜色 1</string>
+    <string name="color_two">颜色 2</string>
+    <string name="color_three">颜色 3</string>
+    <string name="color_four">颜色 4</string>
+    <string name="color_five">颜色 5</string>
+    <string name="color_six">颜色 6</string>
+
+    <string name="title_bln">BLN 按键背灯</string>
+
+    <!-- Hosts File Manager -->
+    <string name="hosts_title">Hosts 管理员</string>
 </resources>

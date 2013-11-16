@@ -31,6 +31,8 @@
 
     <string name="uninstall_text">卸载</string>
 
+    <string name="font_size_sample">预览</string>
+
     <string name="lockpattern_settings_enable_error_path_title">显示图案错误</string>
     <string name="lockpattern_settings_enable_dots_title">显示点阵图案</string>
 
@@ -71,6 +73,7 @@
     <string name="quiet_hours_notifications_title">通知声静音</string>
     <string name="quiet_hours_ringer_title">铃声静音</string>
     <string name="quiet_hours_still_title">停止振动</string>
+    <string name="quiet_hours_system_title">关闭系统音效</string>
     <string name="quiet_hours_dim_title">禁用通知灯</string>
     <string name="quiet_hours_active_from">免打扰模式自</string>
     <string name="quiet_hours_active_to">至</string>
@@ -284,6 +287,7 @@
     <string name="vibrate_mode">震动</string>
     <string name="choose_soundtone">选取通知音</string>
     <string name="choose_ringtone">选取铃声</string>
+    <string name="silent_mode_title">静音模式</string>
 
     <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
     <string name="soundtone_title">通知音</string>
@@ -445,5 +449,9 @@
     <string name="build_number">版本号</string>
     <string name="show_cpu_info">显示处理器信息</string>
     <string name="show_cpu_info_summary">显示目前处理器信息</string>
+
+    <!-- Application Quick Install -->
+    <string name="quick_mode_title">快速安装</string>
+    <string name="quick_mode_summary">显示更小的安装/卸载窗口，安装过程将会被隐藏以便快速安装更多的应用程序</string>
 
 </resources>
