@@ -539,6 +539,7 @@
     <string name="drag_handle_opacity_title">手势触发区域图示填满值</string>
     <string name="drag_handle_width_title">设置手势触发区域宽度</string>
     <string name="title_navbar_timeout">逾时设置</string>
+    <string name="title_systembar_timeout">逾时设置</string>
     <string name="summary_navbar_timeout">自动隐藏导航栏逾时值</string>
     <string name="summary_systembar_timeout">自动隐藏式组合状态栏逾时值</string>
     <string name="hide_navbar_timeout_never">关闭</string>
@@ -1467,6 +1468,8 @@
     <string name="pie_menu_summary">选择非使用时候是否显示菜单键</string>
     <string name="pie_search_title">显示搜寻键</string>
     <string name="pie_search_summary">通过PIE面板接通Google Now</string>
+    <string name="pie_power_title">显示电源键</string>
+    <string name="pie_power_summary">PIE上新增电源键</string>
     <string name="pie_lastapp_title">显示最近任务按键</string>
     <string name="pie_lastapp_summary">在PIE上新增启用最近任务按键</string>
     <string name="pie_killtask_title">显示一键清除任务键</string>
@@ -1778,6 +1781,15 @@ PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按
     <string name="alert_reboot">需要重启您的手机</string>
     <string name="alert_reboot_message">套用新设定需要重启才能生效，请问是否确定要继续?</string>
 
+    <!-- Per Apps UI Mode-->
+    <string name="expanded_title">自动全屏模式群组</string>
+    <string name="expanded_summary">指定什么程序使用全屏模式</string>
+    <string name="add_expand">新增程序</string>
+    <string name="expand_list">启用自动全屏模式</string>
+    <string name="expand_add_title">选择程序</string>
+    <string name="expand_alert_remove_application">删除程序</string>
+    <string name="expand_remove_application">是否确定将 %s 从自动全屏模式群组中删除?</string>
+
     <!-- Widgets DPI -->
     <string name="widgets_title">添加小工具DPI支援</string>
     <string name="widgets_summary">设定小工具清单</string>
@@ -1815,4 +1827,8 @@ PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按
 
     <!-- Hosts File Manager -->
     <string name="hosts_title">Hosts 管理员</string>
+
+    <!-- Hide All Signal-->
+    <string name="hide_all_signal_title">隐藏所有信号图示</string>
+    <string name="hide_all_signal_summary">关闭状态栏手机及WiFi信号显示</string>
 </resources>
