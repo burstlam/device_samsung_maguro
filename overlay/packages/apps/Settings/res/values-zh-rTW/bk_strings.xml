@@ -2214,4 +2214,86 @@ PA版本是全屏助手，簡潔美觀的方式在全屏模式中提供基本按
     <string name="bluetooth_sap_profile_summary_use_for">獲取SIM使用</string>
     <string name="bluetooth_dun_profile_summary_use_for">獲取網路連接</string>
 
+    <!-- Hybrid Mode -->
+    <string name="hybridsettings">解析度及布局</string>
+    <string name="title_hybridsettings">解析度及布局</string>
+    <string name="perapp_settings_title">APP單獨UI設置</string>
+    <string name="navbarUI_cat">導航欄UI及布局</string>
+    <string name="uimode_title">UI布局</string>
+
+    <string name="hybrid_settings_title">解析度及布局</string>
+    <string name="uimode_phone">手機</string>
+    <string name="uimode_phablet">平板手機</string>
+    <string name="uimode_tablet">平板</string>
+
+    <string name="dpi_settings_title">調整屏幕解析度</string>
+    <string name="system_dpi_title">系統解析度</string>
+    <string name="system_dpi_summary">目前解析度:</string>
+    <string name="system_dpi_standar_title">系統全局解析度</string>
+    <string name="system_dpi_standar_summary">從列表選擇合適解析度</string>
+    <string name="system_dpi_custom_title">自設數值</string>
+    <string name="system_dpi_custom_hint">由120至480</string>
+    <string name="system_dpi_custom_summary">自定解析度</string>
+
+    <!-- Per Apps UI Mode-->
+    <string name="appsuimode_title">全局APP UI布局</string>
+    <string name="apps_dpi_title">全局APP DPI解析度</string>
+    <string name="apps_dpi_summary">目前數值:</string>
+    <string name="apps_dpi_custom_title">指定數值:</string>
+    <string name="apps_dpi_custom_hint">120 至 480</string>
+    <string name="apps_dpi_custom_summary">自定義數值(120至480中間)</string>
+
+    <!-- DPI GROUPS-->
+    <string name="dpi_groups_title">自定義DPI分組</string>
+    <string name="dpi_groups_summary">為程序自定義DPI組合</string>
+    <string name="dpi_group_title">DPI 群組</string>
+    <string name="dpi_groups_apps">程序</string>
+    <string name="dpi_group_add_app">增加程序</string>
+    <string name="dpi_group_app_list">程序列表</string>
+    <string name="dpi_group_alert_add_app_title">選擇程序</string>
+    <string name="dpi_groups_alert_remove_app">移除程序</string>
+    <string name="dpi_groups_remove_app">是否將 %s 從群組中移除?</string>
+    <string name="dpi_groups_backuprestore_title">備份及還原</string>
+    <string name="dpi_groups_auto_backup">自動備份</string>
+    <string name="dpi_groups_auto_backup_summary">每次更改配置後自動備份</string>
+    <string name="dpi_groups_backup_title">備份</string>
+    <string name="dpi_groups_backup_summary">為您的群組設定作備份</string>
+    <string name="dpi_groups_restore_title">還原</string>
+    <string name="dpi_groups_restore_summary">還原您的群組備份</string>
+    <string name="dpi_groups_backup_done">配置備份已經完成</string>
+    <string name="dpi_groups_restore_done">已用備份檔案還原</string>
+    <string name="dpi_groups_restore_default_title">恢復默認配置備份</string>
+    <string name="dpi_groups_restore_default_summary">移除自定義配置使用系統默認設定</string>
+    <string name="dpi_groups_delete_title">刪除DPI群組</string>
+    <string name="dpi_groups_delete_summary">您是否確認刪除此群組?</string>
+    <string name="customdpigroup">新增群組</string>
+    <string name="customdpigroup_summary">新增DPI群組</string>
+    <string name="custom_dpi">目前 DPI值:</string>
+    <string name="customdpigroup_group_exists">錯誤!選擇的群組已存在!</string>
+    <string name="per_app_layout_title">程序布局</string>
+    <string name="per_app_layout_summary">指定個別程序運行布局風格,但受限於程序本身是否已自帶其他布局</string>
+    <string name="per_app_layout_list_title">程序列表</string>
+    <string name="per_app_layout_alert_title">選定布局</string>
+    <string name="navbar_height_title">導航欄高度比例</string>
+    <string name="alert_reboot">需要重啟您的手機</string>
+    <string name="alert_reboot_message">套用新設定需要重啟才能生效，請問是否確定要繼續?</string>
+
+    <!-- Per Apps UI Mode-->
+    <string name="expanded_title">自動全屏模式群組</string>
+    <string name="expanded_summary">指定什麼程序使用全屏模式</string>
+    <string name="add_expand">新增程序</string>
+    <string name="expand_list">啟用自動全屏模式</string>
+    <string name="expand_add_title">選擇程序</string>
+    <string name="expand_alert_remove_application">移除程序</string>
+    <string name="expand_remove_application">是否確定將 %s 從自動全屏模式群組中移除?</string>
+
+    <!-- Widgets DPI -->
+    <string name="widgets_title">添加小工具DPI支援</string>
+    <string name="widgets_summary">設定小工具清單</string>
+    <string name="add_widget">新增小工具</string>
+    <string name="widget_list">小工具清單</string>
+    <string name="widget_alert_remove_widget">移除小工具</string>
+    <string name="widget_remove_widget">將 %s 從清單中移除?</string>
+    <string name="widget_add_title">選擇小工具</string>
+
 </resources>
