@@ -17,3 +17,11 @@ ro.zygote.disable_gl_preload=true
 
 # configure PRISM
 persist.tegra.didim.video = 5
+
+# hardware info
+ro.device.chipset=TI OMAP 4460
+ro.device.cpu=1.2GHz dual-core Cortex-A9
+ro.device.gpu=PowerVR SGX SGX540
+ro.device.rear_cam=5 MP
+ro.device.front_cam=1.3 MP
+ro.device.screen_res=720x1280
