@@ -503,4 +503,22 @@ PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按
     <string name="widget_remove_widget">将 %s 从清单中移除?</string>
     <string name="widget_add_title">选择小工具</string>
 
+    <!-- Recents Ram Bar -->
+    <string name="ram_bar">最近任务界面RAM条</string>
+    <string name="ram_bar_note_title">注意</string>
+    <string name="ram_bar_note_summary">此RAM条显示确切的android内存(RAM)使用情况.请注意使用缓冲区应用能帮助您的设备更快地打开应用.要查看更多关于android内存管理机制的工作方式的解释内容,请查看帮助菜单.</string>
+    <string name="ram_bar_mode_title">RAM条模式</string>
+    <string name="ram_bar_mode_dialog_title">RAM条显示的数据</string>
+    <string name="ram_bar_none">无</string>
+    <string name="ram_bar_apps">应用程序</string>
+    <string name="ram_bar_cache">应用程序和缓冲区</string>
+    <string name="ram_bar_other">应用程序, 缓冲区及其它</string>
+    <string name="ram_bar_style_cat">RAM条风格</string>
+    <string name="ram_bar_color_app_mem_color">应用程序部分RAM条色彩</string>
+    <string name="ram_bar_color_cache_mem_color">缓冲区部分RAM条色彩</string>
+    <string name="ram_bar_color_total_mem_color">其它部分RAM条色彩</string>
+    <string name="ram_bar_color_enabled">启用</string>
+    <string name="ram_bar_color_disabled">禁用</string>
+    <string name="ram_bar_button_help">帮助</string>
+    <string name="ram_bar_button_reset">重置色彩</string>
 </resources>
