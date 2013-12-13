@@ -4,7 +4,7 @@ mount -o remount,rw /cache
 
 if [ ! -e /cache/swap.img ]
 then 
-dd if=/dev/zero of=/cache/swap.img bs=1024 count=200000
+dd if=/dev/zero of=/cache/swap.img bs=1024 count=120000
 fi 
 
 busybox losetup /dev/block/loop7 /cache/swap.img
