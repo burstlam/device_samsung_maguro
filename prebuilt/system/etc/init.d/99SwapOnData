@@ -1,0 +1,12 @@
+#!/system/bin/sh
+
+mount -o remount,rw /data
+
+if [ ! -e /data/swap.img ]
+then 
+dd if=/dev/zero of=/data/swap.img bs=1024 count=200000
+fi 
+
+busybox losetup /dev/block/loop7 /data/swap.img
+busybox mkswap /dev/block/loop7
+busybox swapon /dev/block/loop7
