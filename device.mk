@@ -29,4 +29,4 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,device/samsung/maguro/prebuilt/system,system)
 
 $(call inherit-product, device/samsung/tuna/device.mk)
-$(call inherit-product-if-exists, vendor/samsung/maguro/device-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/maguro/maguro-vendor.mk)
